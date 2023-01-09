@@ -1,0 +1,49 @@
+{
+  "text1": "Najlepsza paczka z modami do Genshin Impact z niestandardowymi ustawieniami graficznymi oraz FPS Unlockerem.",
+  "text2": "Dołącz na nasz {url}serwer Discord{/url}, aby uzyskać informacje o najnowszych aktualizacjach oraz aktualnościach.",
+  "text3": "Jeśli masz jakieś pytania lub potrzebujesz pomocy, kliknij {0}.",
+  "here": "tutaj",
+
+  "download": "Pobierz",
+  "gallery": "Galeria",
+  "tutorial": "Poradnik",
+  "watchVideo": "Obejrzyj film",
+  "feedback": "Wystaw opinie",
+  "mainPage": "Strona główna",
+
+  "pleaseSupportMe": "Please, support my work",
+  "supportMe": "Wesprzyj moją pracę",
+
+  "downloadCount": "Liczba pobrań",
+  "version": "Wersja",
+  "from": "z",
+
+  "notification": "Powiadomienie",
+  "thankYou": "Dziękuję Ci za pobranie. Życzę miłego dnia!",
+  "supportMeOnKofi": "Wesprzyj mnie na Ko-fi",
+  "allDownloadsNow": "Łączna liczba pobrań teraz",
+  "noProblem": "Żaden problem \uD83D\uDE3B",
+
+
+  "highQuality": "Zdjęcia są dostępne w wysokiej jakości. Załadowanie ich może chwilę potrwać.",
+  "back": "Wróć",
+  "nextPage": "Następne",
+
+  "withMod": "Z modem",
+  "withoutMod": "Bez moda",
+
+
+  "leaveYourFeedback": "Zostaw swoją opinię",
+
+
+  "questions": "Pytania? Potrzebujesz pomocy?",
+  "myDiscord": "Moja nazwa użytkownika na Discordzie: Sefinek#0001",
+  "discordServer": "Serwer Discord",
+  "myLanguages": "Moje języki: Polski (główny) oraz Angielski",
+
+
+  "badRequest": "Błąd 400: Zła prośba",
+  "invalidURL": "Wsteczny adres URL jest nieprawidłowy.",
+  "referrerURL": "Twój adres URL strony odsyłającej",
+  "correctRefURL": "Poprawny adres URL strony odsyłającej"
+}

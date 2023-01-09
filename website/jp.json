@@ -1,0 +1,49 @@
+{
+  "text1": "カスタムグラフィック設定とFPSアンロッカーを搭載した最高の原神 ReShade MODパック",
+  "text2": "私たちの{url}Discordサーバー{/url}に参加して、最新のアップデートや新機能、ニュースを入手しよう。",
+  "text3": "質問やサポートが必要な場合は{0}をクリック",
+  "here": "ここ",
+
+  "download": "ダウンロード",
+  "gallery": "ギャラリー",
+  "tutorial": "チュートリアル",
+  "watchVideo": "動画を見る",
+  "feedback": "フィードバック",
+  "mainPage": "メインページ",
+
+  "pleaseSupportMe": "私の活動を支援してください",
+  "supportMe": "支援",
+
+  "downloadCount": "ダウンロード数",
+  "version": "バージョン",
+  "from": " - ",
+
+  "notification": "通知",
+  "thankYou": "ダウンロードありがとうございます。良いテイワットライフを!",
+  "supportMeOnKofi": "Ko-Fiで支援",
+  "allDownloadsNow": "現在のダウンロード総数",
+  "noProblem": "閉じる",
+
+
+  "highQuality": "高画質な画像が利用可能です。読み込むまで時間がかかることがあります。",
+  "back": "前",
+  "nextPage": "次",
+
+  "withMod": "MODあり",
+  "withoutMod": "MODなし",
+
+
+  "leaveYourFeedback": "フィードバックを残す",
+
+
+  "questions": "助けが必要ですか?",
+  "myDiscord": "DiscordユーザーID: Sefinek#0001",
+  "discordServer": "Discordサーバー",
+  "myLanguages": "私の言語: ポーランド語(メイン)・英語",
+
+
+  "badRequest": "Error 400: 不正なリクエストです",
+  "invalidURL": "URLが不正です",
+  "referrerURL": "あなたのリファラURL",
+  "correctRefURL": "正しいURL"
+}

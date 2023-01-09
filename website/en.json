@@ -1,0 +1,49 @@
+{
+  "text1": "The best Genshin Impact ReShade mod pack with custom graphics presets and FPS Unlocker.",
+  "text2": "Join our {url}Discord server{/url} for get latest updates, features and news.",
+  "text3": "If you have any questions or need help, please click {0}.",
+  "here": "here",
+
+  "download": "Download",
+  "gallery": "Gallery",
+  "tutorial": "Tutorial",
+  "watchVideo": "Watch video",
+  "feedback": "Feedback",
+  "mainPage": "Main page",
+
+  "pleaseSupportMe": "Please, support my work",
+  "supportMe": "Support my work",
+
+  "downloadCount": "Download count",
+  "version": "Version",
+  "from": "from",
+
+  "notification": "Notification",
+  "thankYou": "Thank you for downloading. Have a nice day!",
+  "supportMeOnKofi": "Support me on Ko-fi",
+  "allDownloadsNow": "Total number of downloads now",
+  "noProblem": "No problem \uD83D\uDE3B",
+
+
+  "highQuality": "Photos are available in high quality. It may take a while to load them.",
+  "back": "Back",
+  "nextPage": "Next",
+
+  "withMod": "With mod",
+  "withoutMod": "Without mod",
+
+
+  "leaveYourFeedback": "Leave your feedback",
+
+
+  "questions": "Questions? You need help?",
+  "myDiscord": "Discord username: Sefinek#0001",
+  "discordServer": "Discord server",
+  "myLanguages": "My languages: Polish (main) and English",
+
+
+  "badRequest": "Error 400: Bad Request",
+  "invalidURL": "The return URL is invalid.",
+  "referrerURL": "Your referrer URL",
+  "correctRefURL": "Correct URL"
+}

@@ -1,0 +1,49 @@
+{
+  "text1": "El mejor pack de Reshades y perfiles gráficos modificados junto con un desbloqueo del límite máximo de FPS para Genshin Impact.",
+  "text2": "Únete a nuestro Discord para estar al día con las actualizaciones, funciones y noticias {url}Discord server{/url}.",
+  "text3": "Si tienes alguna pregunta, o necesitas ayuda, por favor haz clic {0}.",
+  "here": "aquí",
+
+  "download": "Descargar",
+  "gallery": "Galería",
+  "tutorial": "Tutorial",
+  "watchVideo": "Mirar Video",
+  "feedback": "Feedback",
+  "mainPage": "Página Principal",
+
+  "pleaseSupportMe": "Por favor, apoya mi trabajo ¡Gracias!",
+  "supportMe": "Apoya mi trabajo",
+
+  "downloadCount": "Número de descargas",
+  "version": "Versión",
+  "from": "De",
+
+  "notification": "Notificación",
+  "thankYou": "Gracias por descargar el pack. ¡Ten un buen día!",
+  "supportMeOnKofi": "Apoyame en Ko-fi",
+  "allDownloadsNow": "Número total de descargas en este momento",
+  "noProblem": "No ha habido problemas \uD83D\uDE3B",
+
+
+  "highQuality": "Las fotos están en alta resolución. Puede que tarden un poco en cargar.",
+  "back": "Atrás",
+  "nextPage": "Siguiente",
+
+  "withMod": "Con mods",
+  "withoutMod": "Sin mods",
+
+
+  "leaveYourFeedback": "Deja tu comentario",
+
+
+  "questions": "¿Preguntas? ¿Necesitas ayuda?",
+  "myDiscord": "Usuario de Discord: Sefinek#0001",
+  "discordServer": "Servidor de Discord",
+  "myLanguages": "Mis idiomas son: Polaco (Nativo) y Inglés",
+
+
+  "badRequest": "Error 400: Petición Errónea",
+  "invalidURL": "La URL recibida de vuelta es inválida",
+  "referrerURL": "Tú URL de referencia",
+  "correctRefURL": "URL correcta"
+}
