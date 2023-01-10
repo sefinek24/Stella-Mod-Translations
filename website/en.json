@@ -1,8 +1,12 @@
 {
+  "FileVersion": "1.0.0",
+  "LastUpdate": "09.01.2023",
+  "Author": "Sefinek#0001",
+
+
   "text1": "The best Genshin Impact ReShade mod pack with custom graphics presets and FPS Unlocker.",
-  "text2": "Join our {url}Discord server{/url} for get latest updates, features and news.",
-  "text3": "If you have any questions or need help, please click {0}.",
-  "here": "here",
+  "text2": "Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Discord server - Genshin Impact ReShade Mod Pack\">Discord server</a> for get latest updates, features and news.",
+  "text3": "If you have any questions or need help, please click <a href=\"/genshin-impact-reshade/support\" title=\"Support - Genshin Impact ReShade Mod Pack\">here</a>.",
 
   "download": "\uD83D\uDCE5 Download",
   "gallery": "\uD83D\uDE3B Gallery",

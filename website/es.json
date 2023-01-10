@@ -1,8 +1,12 @@
 {
+  "FileVersion": "1.0.0",
+  "LastUpdate": "09.01.2023",
+  "Author": "Rukenu#6603",
+
+
   "text1": "El mejor pack de Reshades y perfiles gráficos modificados junto con un desbloqueo del límite máximo de FPS para Genshin Impact.",
-  "text2": "Únete a nuestro Discord para estar al día con las actualizaciones, funciones y noticias {url}Discord server{/url}.",
-  "text3": "Si tienes alguna pregunta, o necesitas ayuda, por favor haz clic {0}.",
-  "here": "aquí",
+  "text2": "Únete a nuestro Discord para estar al día con las actualizaciones, funciones y noticias <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Discord server - Genshin Impact ReShade Mod Pack\">Discord server</a>.",
+  "text3": "Si tienes alguna pregunta, o necesitas ayuda, por favor haz clic <a href=\"/genshin-impact-reshade/support\" title=\"Support - Genshin Impact ReShade Mod Pack\">aquí</a>.",
 
   "download": "\uD83D\uDCE5 Descargar",
   "gallery": "\uD83D\uDE3B Galería",

@@ -1,8 +1,12 @@
 {
+  "FileVersion": "1.0.0",
+  "LastUpdate": "09.01.2023",
+  "Author": "atarakima1#0111",
+
+
   "text1": "カスタムグラフィック設定とFPSアンロッカーを搭載した最高の原神 ReShade MODパック",
-  "text2": "私たちの{url}Discordサーバー{/url}に参加して、最新のアップデートや新機能、ニュースを入手しよう。",
-  "text3": "質問やサポートが必要な場合は{0}をクリック",
-  "here": "ここ",
+  "text2": "私たちの<a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Discord server - Genshin Impact ReShade Mod Pack\">Discordサーバー</a>に参加して、最新のアップデートや新機能、ニュースを入手しよう。",
+  "text3": "質問やサポートが必要な場合は<a href=\"/genshin-impact-reshade/support\" title=\"Support - Genshin Impact ReShade Mod Pack\">ここ</a>をクリック",
 
   "download": "\uD83D\uDCE5 ダウンロード",
   "gallery": "\uD83D\uDE3B ギャラリー",
