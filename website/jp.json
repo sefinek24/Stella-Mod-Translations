@@ -26,8 +26,8 @@
 
 
   "highQuality": "高画質な画像が利用可能です。読み込むまで時間がかかることがあります。",
-  "back": "前",
-  "nextPage": "次",
+  "back": "« 前",
+  "nextPage": "次 »",
 
   "withMod": "MODあり",
   "withoutMod": "MODなし",
