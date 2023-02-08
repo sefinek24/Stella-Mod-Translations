@@ -1,22 +1,27 @@
 {
-  "FileVersion": "1.0.0",
-  "LastUpdate": "09.01.2023",
-  "Author": "Sefinek#0001",
+  "FileVersion": "1.1.0",
+  "LastUpdate": "09.02.2023",
+  "Authors": [{
+    "Sefinek": {
+      "Discord": "Sefinek#0001",
+      "Website": "https://sefinek.net"
+    }
+  }],
 
 
-  "text1": "The best Genshin Impact ReShade mod pack with custom graphics presets and FPS Unlocker.",
-  "text2": "Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Our Discord server\">Discord server</a> for get latest updates, features and news.",
-  "text3": "If you have any questions or need help, please click <a href=\"/genshin-impact-reshade/support\" title=\"Support - Genshin Impact ReShade Mod Pack\">here</a>.",
+  "theBestGIRSModPack": "The best Genshin Impact ReShade mod with custom graphics presets, own launcher and FPS Unlocker.",
+  "JoinOurDiscordServer": "Join to our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Our Discord server\">Discord server</a> for get latest updates, features and news.",
 
   "download": "\uD83D\uDCE5 Download",
   "gallery": "\uD83D\uDE3B Gallery",
   "tutorial": "\uD83E\uDD14 Tutorial",
-  "watchVideo": "\uD83C\uDFA5 Watch video",
+  "watchVideos": "\uD83C\uDFA5 Watch videos",
   "feedback": "\uD83D\uDC99 Feedback",
+  "support": "\uD83E\uDD1D Support",
   "mainPage": "« Main page",
 
   "pleaseSupportMe": "Please, support my work",
-  "supportMe": "Support my work",
+  "supportMyWork": "Support my work",
 
   "downloadCount": "Download count",
   "version": "Version",
@@ -25,25 +30,51 @@
   "notification": "Notification",
   "thankYou": "Thank you for downloading. Have a nice day!",
   "supportMeOnKofi": "Support me on Ko-fi",
-  "allDownloadsNow": "Total number of downloads now",
+  "totalNumberOfDownloadsNow": "Total number of downloads now",
   "noProblem": "No problem \uD83D\uDE3B",
 
 
-  "highQuality": "Photos are available in high quality. It may take a while to load them.",
+
+
+  "galleryPageOne": "\uD83D\uDE3B Gallery - Page number 1",
+  "galleryPageTwo": "\uD83D\uDE3B Gallery - Page number 2",
+  "galleryPageThr": "\uD83D\uDE3B Gallery - Page number 3",
+  "galleryCompareReleases": "\uD83D\uDE3B Gallery - Compare releases",
+  "screenshotsAreAvailableInHighQuality": "Screenshots are available in high quality. It may take a while to load them.",
+  "websiteIsNotSupportedOnMobileDevices": "This website is not supported on mobile devices.",
   "back": "« Back",
-  "nextPage": "Next »",
+  "next": "Next »",
+  "seeComparesFromTheNewVersions": "See compares from the new versions",
+  "youAreViewingCompare": "You are viewing compare from version v3.1.0 to v4.0.0.",
+  "oldVersion": "Old version",
+  "newVersion": "New version",
 
   "withMod": "With mod",
   "withoutMod": "Without mod",
 
 
+
+
   "leaveYourFeedback": "Leave your feedback \uD83D\uDD16",
 
 
-  "questions": "Questions? You need help?",
+
+
+  "questions": "Questions? You need help? \uD83E\uDD1D",
   "myDiscord": "Discord username: Sefinek#0001",
   "discordServer": "Discord server",
   "myLanguages": "My languages: Polish (main) and English",
+
+
+
+
+  "watchVideosOnYT": "Watch videos on YouTube \uD83C\uDFA5",
+  "someVideosCanBeOutdated": "Some videos can be outdated. Sorry, I don't have time to create new.",
+  "ifYouWantToRecordNewVideo": "If you want to record video and upload to YouTube, please send me message. I can put link here.",
+  "firstModRelease": "First mod release",
+  "version310": "Version v3.1.0",
+
+
 
 
   "badRequest": "Error 400: Bad Request",

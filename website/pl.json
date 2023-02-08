@@ -1,22 +1,27 @@
 {
-  "FileVersion": "1.0.0",
-  "LastUpdate": "09.01.2023",
-  "Author": "Sefinek#0001",
+  "FileVersion": "1.1.0",
+  "LastUpdate": "09.02.2023",
+  "Authors": [{
+    "Sefinek": {
+      "Discord": "Sefinek#0001",
+      "Website": "https://sefinek.net"
+    }
+  }],
 
 
-  "text1": "Najlepsza paczka z modami do Genshin Impact z niestandardowymi ustawieniami graficznymi oraz FPS Unlockerem.",
-  "text2": "Dołącz na nasz <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Our Discord server\">serwer Discord</a>, aby uzyskać informacje o najnowszych aktualizacjach oraz aktualnościach.",
-  "text3": "Jeśli masz jakieś pytania lub potrzebujesz pomocy, kliknij <a href=\"/genshin-impact-reshade/support\" title=\"Support - Genshin Impact ReShade Mod Pack\">tutaj</a>.",
+  "theBestGIRSModPack": "Najlepsza mod ReShade do Genshin Impact z niestandardowymi ustawieniami graficznymi, własnym launcherem oraz FPS unlockere.",
+  "JoinOurDiscordServer": "Dołącz na nasz <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Nasz serwer na Discordzie\">serwer Discord</a> aby uzyskać najnowsze aktualizacje, funkcje i wiadomości.",
 
   "download": "\uD83D\uDCE5 Pobierz",
   "gallery": "\uD83D\uDE3B Galeria",
   "tutorial": "\uD83E\uDD14 Poradnik",
-  "watchVideo": "\uD83C\uDFA5 Obejrzyj film",
-  "feedback": "\uD83D\uDC99 Wystaw opinie",
+  "watchVideos": "\uD83C\uDFA5 Obejrzyj widea",
+  "feedback": "\uD83D\uDC99 Opinia",
+  "support": "\uD83E\uDD1D Pomoc",
   "mainPage": "« Strona główna",
 
   "pleaseSupportMe": "Please, support my work",
-  "supportMe": "Wesprzyj moją pracę",
+  "supportMyWork": "Wesprzyj moją pracę",
 
   "downloadCount": "Liczba pobrań",
   "version": "Wersja",
@@ -25,25 +30,51 @@
   "notification": "Powiadomienie",
   "thankYou": "Dziękuję Ci za pobranie. Życzę miłego dnia!",
   "supportMeOnKofi": "Wesprzyj mnie na Ko-fi",
-  "allDownloadsNow": "Łączna liczba pobrań teraz",
+  "totalNumberOfDownloadsNow": "Łączna liczba pobrań teraz",
   "noProblem": "Żaden problem \uD83D\uDE3B",
 
 
-  "highQuality": "Zdjęcia są dostępne w wysokiej jakości. Załadowanie ich może chwilę potrwać.",
-  "back": "« Wróć",
-  "nextPage": "Następne »",
+
+
+  "galleryPageOne": "\uD83D\uDE3B Galeria - Numer strony 1",
+  "galleryPageTwo": "\uD83D\uDE3B Galeria - Numer strony 2",
+  "galleryPageThr": "\uD83D\uDE3B Galeria - Numer strony 3",
+  "galleryCompareReleases": "\uD83D\uDE3B Galeria - Porównaj wydania",
+  "screenshotsAreAvailableInHighQuality": "Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.",
+  "websiteIsNotSupportedOnMobileDevices": "Ta witryna nie jest obsługiwana na urządzeniach mobilnych.",
+  "back": "« Wstecz",
+  "next": "Dalej »",
+  "seeComparesFromTheNewVersions": "Zobacz porównania z nowymi wersjami",
+  "youAreViewingCompare": "Oglądasz porównanie z wersji v3.1.0 do v4.0.0.",
+  "oldVersion": "Stara wersja",
+  "newVersion": "Nowa wersja",
 
   "withMod": "Z modem",
   "withoutMod": "Bez moda",
 
 
+
+
   "leaveYourFeedback": "Zostaw swoją opinię \uD83D\uDD16",
+
+
 
 
   "questions": "Pytania? Potrzebujesz pomocy?",
   "myDiscord": "Moja nazwa użytkownika na Discordzie: Sefinek#0001",
   "discordServer": "Serwer Discord",
   "myLanguages": "Moje języki: Polski (główny) oraz Angielski",
+
+
+
+
+  "watchVideosOnYT": "Obejrzyj filmy na YouTube \uD83C\uDFA5",
+  "someVideosCanBeOutdated": "Niektóre filmy mogą być nieaktualne. Przepraszam, nie mam czasu na tworzenie nowych.",
+  "ifYouWantToRecordNewVideo": "Jeśli chcesz nagrać film i przesłać go na YouTube, wyślij mi wiadomość. Umieszczę tutaj link.",
+  "firstModRelease": "Pierwsza wersja moda",
+  "version310": "Wersja v3.1.0",
+
+
 
 
   "badRequest": "Błąd 400: Zła prośba",
