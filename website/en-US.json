@@ -82,7 +82,7 @@
 
 
 
-  "BadRequest": "Error 400: Bad Request",
+  "BadRequest": "❎ Error 400: Bad Request",
   "InvalidURL": "The return URL is invalid.",
   "ReferrerURL": "Your referrer URL",
   "CorrectRefURL": "Correct URL"
