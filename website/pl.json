@@ -82,7 +82,7 @@
 
 
 
-  "BadRequest": "Błąd 400: Zła prośba",
+  "BadRequest": "❎ Błąd 400: Zła prośba",
   "InvalidURL": "Wsteczny adres URL jest nieprawidłowy.",
   "ReferrerURL": "Twój adres URL strony odsyłającej",
   "CorrectRefURL": "Poprawny adres URL strony odsyłającej"
