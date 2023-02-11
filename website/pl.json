@@ -1,6 +1,6 @@
 {
   "FileVersion": "1.1.0",
-  "LastUpdate": "09.02.2023",
+  "LastUpdate": "11.02.2023",
   "Authors": [{
     "Sefinek": {
       "Discord": "Sefinek#0001",
@@ -9,76 +9,81 @@
   }],
 
 
-  "theBestGIRSModPack": "Najlepszy mod ReShade do Genshin Impact z niestandardowymi ustawieniami graficznymi, własnym launcherem oraz FPS unlockere.",
+  "TheBestGIRSModPack": "Najlepszy mod ReShade do Genshin Impact z niestandardowymi ustawieniami graficznymi, własnym launcherem oraz FPS unlockere.",
   "JoinOurDiscordServer": "Dołącz na nasz <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" title=\"Nasz serwer na Discordzie\">serwer Discord</a> aby uzyskać najnowsze aktualizacje, funkcje i wiadomości.",
 
-  "download": "\uD83D\uDCE5 Pobierz",
-  "gallery": "\uD83D\uDE3B Galeria",
-  "tutorial": "\uD83E\uDD14 Poradnik",
-  "watchVideos": "\uD83C\uDFA5 Obejrzyj widea",
-  "feedback": "\uD83D\uDC99 Opinia",
-  "support": "\uD83E\uDD1D Pomoc",
-  "mainPage": "« Strona główna",
+  "Download": "\uD83D\uDCE5 Pobierz",
+  "Gallery": "\uD83D\uDE3B Galeria",
+  "Tutorial": "\uD83E\uDD14 Poradnik",
+  "WatchVideos": "\uD83C\uDFA5 Obejrzyj widea",
+  "Feedback": "\uD83D\uDC99 Opinia",
+  "Support": "\uD83E\uDD1D Pomoc",
+  "MainPage": "« Strona główna",
 
-  "pleaseSupportMe": "Please, support my work",
-  "supportMyWork": "Wesprzyj moją pracę",
+  "PleaseSupportMe": "Please, support my work",
+  "SupportMyWork": "Wesprzyj moją pracę",
 
-  "downloadCount": "Liczba pobrań",
-  "version": "Wersja",
-  "from": "z",
+  "DownloadCount": "Liczba pobrań",
+  "Version": "Wersja",
+  "From": "z",
 
-  "notification": "Powiadomienie",
-  "thankYou": "Dziękuję Ci za pobranie. Życzę miłego dnia!",
-  "supportMeOnKofi": "Wesprzyj mnie na Ko-fi",
-  "totalNumberOfDownloadsNow": "Łączna liczba pobrań teraz",
-  "noProblem": "Żaden problem \uD83D\uDE3B",
-
-
-
-
-  "galleryPageOne": "\uD83D\uDE3B Galeria - Numer strony 1",
-  "galleryPageTwo": "\uD83D\uDE3B Galeria - Numer strony 2",
-  "galleryPageThr": "\uD83D\uDE3B Galeria - Numer strony 3",
-  "galleryCompareReleases": "\uD83D\uDE3B Galeria - Porównaj wydania",
-  "screenshotsAreAvailableInHighQuality": "Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.",
-  "websiteIsNotSupportedOnMobileDevices": "Ta witryna nie jest obsługiwana na urządzeniach mobilnych.",
-  "back": "« Wstecz",
-  "next": "Dalej »",
-  "seeComparesFromTheNewVersions": "Zobacz porównania z nowymi wersjami",
-  "youAreViewingCompare": "Oglądasz porównanie z wersji v3.1.0 do v4.0.0.",
-  "oldVersion": "Stara wersja",
-  "newVersion": "Nowa wersja",
-
-  "withMod": "Z modem",
-  "withoutMod": "Bez moda",
+  "Notification": "Powiadomienie",
+  "ThankYou": "Dziękuję Ci za pobranie. Życzę miłego dnia!",
+  "SupportMeOnKofi": "Wesprzyj mnie na Ko-fi",
+  "TotalNumberOfDownloadsNow": "Łączna liczba pobrań teraz",
+  "NoProblem": "Żaden problem \uD83D\uDE3B",
 
 
 
 
-  "leaveYourFeedback": "Zostaw swoją opinię \uD83D\uDD16",
+  "GalleryPageOne": "\uD83D\uDE3B Galeria - Numer strony 1",
+  "GalleryPageTwo": "\uD83D\uDE3B Galeria - Numer strony 2",
+  "GalleryPageThr": "\uD83D\uDE3B Galeria - Numer strony 3",
+  "GalleryCompareReleases": "\uD83D\uDE3B Galeria - Porównaj wydania",
+  "ScreenshotsAreAvailableInHighQuality": "Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.",
+  "WebsiteIsNotSupportedOnMobileDevices": "Ta witryna nie jest obsługiwana na urządzeniach mobilnych.",
+  "Back": "« Wstecz",
+  "Next": "Dalej »",
+  "SeeComparesFromTheNewVersions": "Zobacz porównania z nowymi wersjami",
+  "YouAreViewingCompare": "Oglądasz porównanie z wersji v3.1.0 do v4.0.0.",
+  "OldVersion": "Stara wersja",
+  "NewVersion": "Nowa wersja",
+
+  "WithMod": "Z modem",
+  "WithoutMod": "Bez moda",
 
 
 
 
-  "questions": "Pytania? Potrzebujesz pomocy?",
-  "myDiscord": "Moja nazwa użytkownika na Discordzie: Sefinek#0001",
-  "discordServer": "Serwer Discord",
-  "myLanguages": "Moje języki: Polski (główny) oraz Angielski",
+  "LeaveYourFeedback": "Zostaw swoją opinię \uD83D\uDD16",
 
 
 
 
-  "watchVideosOnYT": "Obejrzyj filmy na YouTube \uD83C\uDFA5",
-  "someVideosCanBeOutdated": "Niektóre filmy mogą być nieaktualne. Przepraszam, nie mam czasu na tworzenie nowych.",
-  "ifYouWantToRecordNewVideo": "Jeśli chcesz nagrać film i przesłać go na YouTube, wyślij mi wiadomość. Umieszczę tutaj link.",
-  "firstModRelease": "Pierwsza wersja moda",
-  "version310": "Wersja v3.1.0",
+  "Questions": "Pytania? Potrzebujesz pomocy?",
+  "MyDiscord": "Moja nazwa użytkownika na Discordzie",
+  "DiscordServer": "Serwer Discord",
+  "MyLanguages": "Moje języki: Polski (główny) oraz Angielski",
 
 
 
 
-  "badRequest": "Błąd 400: Zła prośba",
-  "invalidURL": "Wsteczny adres URL jest nieprawidłowy.",
-  "referrerURL": "Twój adres URL strony odsyłającej",
-  "correctRefURL": "Poprawny adres URL strony odsyłającej"
+  "WatchVideosOnYT": "Obejrzyj filmy na YouTube \uD83C\uDFA5",
+  "SomeVideosCanBeOutdated": "Niektóre filmy mogą być nieaktualne. Przepraszam, nie mam czasu na tworzenie nowych.",
+  "IfYouWantToRecordNewVideo": "Jeśli chcesz nagrać film i przesłać go na YouTube, wyślij mi wiadomość. Umieszczę tutaj link.",
+  "FirstModRelease": "Pierwsza wersja moda",
+  "Version310": "Wersja v3.1.0",
+
+
+
+
+  "AllReposOnGithub": "\uD83D\uDC08 Wszystkie repozytoria na GitHubie",
+
+
+
+
+  "BadRequest": "Błąd 400: Zła prośba",
+  "InvalidURL": "Wsteczny adres URL jest nieprawidłowy.",
+  "ReferrerURL": "Twój adres URL strony odsyłającej",
+  "CorrectRefURL": "Poprawny adres URL strony odsyłającej"
 }
