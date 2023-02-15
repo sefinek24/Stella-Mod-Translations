@@ -9,6 +9,7 @@
   }],
 
 
+
   "TheBestGIRSModPack": "The best Genshin Impact mod pack with ReShade, custom graphics presets, FPS Unlocker, own launcher and more!",
   "JoinOurDiscordServer": "Join to our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> for get latest updates, features and news.",
 
@@ -36,7 +37,6 @@
 
 
 
-
   "GalleryPageOne": "\uD83D\uDE3B Gallery - Page number 1",
   "GalleryPageTwo": "\uD83D\uDE3B Gallery - Page number 2",
   "GalleryPageThr": "\uD83D\uDE3B Gallery - Page number 3",
@@ -55,10 +55,8 @@
 
 
 
-
   "LeaveYourFeedback": "Leave your feedback \uD83D\uDD16",
   "IfYouLikeThisProjectSupportMe": "If you like this project, <a href=\"https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1\" target=\"_blank\">subscribe my channel</a> on YouTube, <a href=\"https://github.com/sefinek24/Genshin-Impact-ReShade\" target=\"_blank\">give a star</a> on GitHub or <a href=\"/support-me\">support me</a>.",
-
 
 
 
@@ -71,13 +69,11 @@
 
 
 
-
   "WatchVideosOnYT": "Watch videos on YouTube \uD83C\uDFA5",
   "SomeVideosCanBeOutdated": "Some videos can be outdated. Sorry, I don't have time to create new.",
   "IfYouWantToRecordNewVideo": "If you want to record video and upload to YouTube, please send me message. I can put link here.",
   "FirstModRelease": "First mod release",
   "Version310": "Version v3.1.0",
-
 
 
 
@@ -89,10 +85,8 @@
 
 
 
-
   "AllReposOnGithub": "\uD83D\uDC08 All repositories on GitHub",
   "IfYouWantToBecomeContributor": "If you want to become contributor, just create a new Pull Request. Thank you very much and happy coding!",
-
 
 
 
@@ -103,11 +97,9 @@
 
 
 
-
   "DeviceIsNotSupported": "❎ Device is not supported",
   "SorryYourDeviceIsNotSupported": "Sorry. Your device is not supported.",
   "ViewSupportedOperatingSystems": "View supported operating systems.",
-
 
 
 
