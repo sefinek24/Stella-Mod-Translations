@@ -90,7 +90,14 @@
 
 
 
+
   "DeviceIsNotSupported": "❎ Device is not supported",
   "SorryYourDeviceIsNotSupported": "Sorry. Your device is not supported.",
-  "ViewSupportedOperatingSystems": "View supported operating systems."
+  "ViewSupportedOperatingSystems": "View supported operating systems.",
+
+
+
+
+  "WeCannotFindZipFileOnTheServer": "We cannot find zip file on the server",
+  "NewUpdateIsComing": "New update is coming? \uD83E\uDD14 Probaby...<br>Anyways, please try again later."
 }

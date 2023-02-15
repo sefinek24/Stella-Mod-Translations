@@ -92,5 +92,11 @@
 
   "DeviceIsNotSupported": "❎ Urządzenie nie jest obsługiwane",
   "SorryYourDeviceIsNotSupported": "Przepraszamy. Twoje urządzenie nie jest wspierane.",
-  "ViewSupportedOperatingSystems": "Wyświetl obsługiwane systemy operacyjne."
+  "ViewSupportedOperatingSystems": "Wyświetl obsługiwane systemy operacyjne.",
+
+
+
+
+  "WeCannotFindZipFileOnTheServer": "Nie możemy znaleźć pliku ZIP na serwerze",
+  "NewUpdateIsComing": "Nadchodzi nowa aktualizacja? \uD83E\uDD14 Możliwe...<br>Tak czy inaczej, spróbuj ponownie później."
 }
