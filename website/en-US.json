@@ -86,5 +86,11 @@
   "BadRequest": "❎ Error 400: Bad Request",
   "InvalidURL": "The return URL is invalid.",
   "ReferrerURL": "Your referrer URL",
-  "CorrectRefURL": "Correct URL"
+  "CorrectRefURL": "Correct URL",
+
+
+
+  "DeviceIsNotSupported": "❎ Device is not supported",
+  "SorryYourDeviceIsNotSupported": "Sorry. Your device is not supported.",
+  "ViewSupportedOperatingSystems": "View supported operating systems"
 }
