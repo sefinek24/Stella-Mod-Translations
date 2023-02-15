@@ -78,6 +78,15 @@
 
 
 
+  "ReadMoreInformation": "Read more information \uD83D\uDE3A",
+  "WhatDoesThisModContain": "What does this mod contain?",
+  "OSRequirements": "Check system requirements",
+  "TestedGameVersions": "Tested game versions",
+  "RecommendedSettingsForGame": "Recommended settings for game",
+
+
+
+
   "AllReposOnGithub": "\uD83D\uDC08 All repositories on GitHub",
   "IfYouWantToBecomeContributor": "If you want to become contributor, just create a new Pull Request. Thank you very much and happy coding!",
 
