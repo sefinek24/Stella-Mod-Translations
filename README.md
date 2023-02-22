@@ -1,7 +1,8 @@
 <h1 align="center">
     ✨ Translations for the mod project
 </h1>
-This repository contains translations for my application and website. The translations are provided by community members, and are constantly updated to reflect changes and additions to the original content.
+
+This repository contains translations for my ~~application and~~ website. The translations are provided by community members, and are constantly updated to reflect changes and additions to the original content.
 
 ## 📁 How to contribute
 If you'd like to help with the translation effort, you can follow these steps:
