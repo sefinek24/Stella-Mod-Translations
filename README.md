@@ -1,5 +1,5 @@
 <h1 align="center">
-    ✨ Translations for the mod project
+    ✨ Translations for the Mod Project
 </h1>
 
 This repository contains translations for my [~~launcher~~](launcher) and [website](website). The translations are provided by community members and are constantly updated to reflect changes and additions to the original content.
@@ -15,7 +15,7 @@ To contribute to the translation effort, please follow these steps:
 6. Submit a pull request to this repository with your changes.
 
 ## ⚠️ Important
-Please note that translations should only be contributed for languages you are proficient in and that machine translations should be avoided to ensure high quality translations that are usable for the launcher and website. Additionally, please respect the original meaning and tone of the content, use gender-neutral language where possible, and be mindful of formatting and placeholders.
+Please note that translations should only be contributed for languages you are proficient in and machine translations should be avoided to ensure high-quality translations that are usable for the launcher and website. Additionally, please respect the original meaning and tone of the content, use gender-neutral language where possible, and be mindful of formatting and placeholders.
 
 ## 💙 Acknowledgments
 Thank you to all the contributors who have helped translate our launcher and website into various languages. Your contributions are invaluable and greatly appreciated.
