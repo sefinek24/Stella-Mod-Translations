@@ -6,7 +6,6 @@ This repository contains translations for my [~~launcher~~](launcher) and [websi
 
 ## 📁 How to contribute
 To contribute to the translation effort, please follow these steps:
-
 1. Fork this repository to your own GitHub account.
 2. Clone the repository to your local machine.
 3. Create a new branch for your translations: `git checkout -b new-translations`.
