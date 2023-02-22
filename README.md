@@ -1,8 +1,8 @@
 <h1 align="center">
-    ✨ Translations for the Mod Project
+    ✨ Translations for Genshin Stella Mod
 </h1>
 
-This repository contains translations for my [~~launcher~~](launcher) and [website](website). The translations are provided by community members and are constantly updated to reflect changes and additions to the original content.
+This repository contains translations for a mod project's [~~launcher~~](launcher) and [website](website).. Community members can contribute translations by following the guidelines in the README file. By providing high-quality translations, you can help make the launcher and website accessible to a wider audience.
 
 ## 📁 How to contribute
 To contribute to the translation effort, please follow these steps:
