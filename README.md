@@ -2,10 +2,10 @@
     ✨ Translations for the mod project
 </h1>
 
-This repository contains translations for my [~~application~~](launcher) and [website](website). The translations are provided by community members, and are constantly updated to reflect changes and additions to the original content.
+This repository contains translations for my [~~launcher~~](launcher) and [website](website). The translations are provided by community members and are constantly updated to reflect changes and additions to the original content.
 
 ## 📁 How to contribute
-If you'd like to help with the translation effort, you can follow these steps:
+To contribute to the translation effort, please follow these steps:
 
 1. Fork this repository to your own GitHub account.
 2. Clone the repository to your local machine.
@@ -14,15 +14,11 @@ If you'd like to help with the translation effort, you can follow these steps:
 5. Commit your changes and push them to your forked repository.
 6. Submit a pull request to this repository with your changes.
 
-## 📝 Guidelines
-- Only contribute translations for languages you are proficient in.
-- Avoid machine translations. The quality of the translations is crucial for the usability of the application and website.
-- Respect the original meaning and tone of the content.
-- Use gender-neutral language where possible.
-- Be mindful of formatting and placeholders.
+## ⚠️ Important
+Please note that translations should only be contributed for languages you are proficient in and that machine translations should be avoided to ensure high quality translations that are usable for the launcher and website. Additionally, please respect the original meaning and tone of the content, use gender-neutral language where possible, and be mindful of formatting and placeholders.
 
 ## 💙 Acknowledgments
-We would like to thank all the contributors who have helped translate our application and website into various languages. Your contributions are invaluable and greatly appreciated.
+Thank you to all the contributors who have helped translate our launcher and website into various languages. Your contributions are invaluable and greatly appreciated.
 
 ## 🔑 License
-All translations in this repository are licensed under the MIT License. By contributing to this repository, you agree to license your contributions under the same license.
+All translations in this repository are licensed under the [MIT License](LICENSE). By contributing to this repository, you agree to license your contributions under the same license.
