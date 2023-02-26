@@ -78,10 +78,14 @@
 
 
   "ReadMoreInformation": "Read more information \uD83D\uDE3A",
-  "WhatDoesThisModContain": "\uD83D\uDCE6 What does this mod contain?",
-  "PCRequirements": "\uD83D\uDCBB Check system requirements",
-  "TestedGameVersions": "\uD83D\uDEE0️ Tested game versions",
-  "RecommendedSettingsForGame": "⚙️ Recommended settings for game",
+  "ViewChangelog": "\uD83D\uDCE5 View changelog",
+  "SeeContents": "\uD83D\uDCE6 See contents",
+  "GameCompatibility": "\uD83D\uDEE0️ Game compatibility",
+
+  "RecommendedGameSettings": "⚙️ Recommended game settings",
+
+  "PCRequirements": "\uD83D\uDCBB PC requirements",
+  "SupportedOperatingSystems": "\uD83D\uDD27 Supported systems",
 
 
 
