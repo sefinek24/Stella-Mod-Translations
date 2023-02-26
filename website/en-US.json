@@ -1,12 +1,35 @@
 {
   "FileVersion": "1.1.0",
-  "LastUpdate": "22.02.2023",
-  "Authors": [{
+  "LastUpdate": "26.02.2023",
+  "Contributors": [{
     "Sefinek": {
-      "Discord": "Sefinek#0001",
+      "GitHub": "https://github.com/sefinek24",
       "Website": "https://sefinek.net"
     }
   }],
+
+
+  "And": "and",
+  "From": "from",
+  "Back": "« Back",
+  "Next": "Next »",
+  "DiscordServer": "Discord server",
+
+
+
+
+  "BadRequest": "❎ Error 400: Bad Request",
+  "InvalidURL": "The return URL is invalid.",
+  "ReferrerURL": "Your referrer URL",
+  "CorrectRefURL": "Correct URL",
+
+  "DeviceIsNotSupported": "❎ Device is not supported",
+  "SorryYourDeviceIsNotSupported": "Sorry. Your device is not supported.",
+  "ViewSupportedOperatingSystems": "View supported operating systems.",
+
+  "WeCannotFindZipFileOnTheServer": "We cannot find ZIP file on the server",
+  "NewUpdateIsComing": "New update is coming? \uD83E\uDD14 Probaby...<br>Anyways, please try again later or report this issue on our Discord server.",
+
 
 
 
@@ -28,52 +51,61 @@
 
   "DownloadCount": "Download count",
   "Version": "Version",
-  "From": "from",
 
   "Notification": "\uD83D\uDCC4 Notification",
-  "ThankYouForDownloading": "Thank you very much for downloading. Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> to get information about the latest updates, features and news.<br>Have a nice day or night!",
-  "TotalNumberOfDownloadsNow": "Total number of downloads now",
+  "ThankYouForDownloading": "Thank you for downloading. Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> to receive the latest updates, features, and news.<br>Wishing you a pleasant day or night!",
+  "TheTotalNumberOfDownloadsNowIs": "The total number of downloads now is",
   "NoProblem": "No problem",
+
 
 
 
   "GalleryPageOne": "\uD83D\uDE3B Gallery - Page number 1",
   "GalleryPageTwo": "\uD83D\uDE3B Gallery - Page number 2",
   "GalleryPageThr": "\uD83D\uDE3B Gallery - Page number 3",
-  "GalleryCompareReleases": "\uD83D\uDE3B Gallery - Compare releases",
+  "GalleryCompareReleases": "\uD83D\uDE3B Gallery - Compare releases -",
+  "GalleryCompares": "\uD83D\uDE3B Gallery - Compares",
   "ScreenshotsAreAvailableInHighQuality": "Screenshots are available in high quality. It may take a while to load them.",
   "WebsiteIsNotSupportedOnMobileDevices": "This website is not supported on mobile devices.",
-  "Back": "« Back",
-  "Next": "Next »",
+
   "SeeComparesFromTheNewVersions": "See compares from the new versions",
-  "YouAreViewingCompare": "You are viewing compare from version v3.1.0 to v4.0.0.",
+  "ViewCompareFromTheLatestVersions": "View compare from the latest version",
+  "SeeTheComparisonBetween": "See the comparison between",
+  "ThePageYouAreCurrentlyOnDisplaysAComparison": "The page you are currently on displays a comparison of different versions of releases.",
   "OldVersion": "Old version",
   "NewVersion": "New version",
 
   "WithMod": "With mod",
   "WithoutMod": "Without mod",
 
+  "BonusScreenshot": "\uD83D\uDE40 Bonus screenshot",
+
+
 
 
   "LeaveYourFeedback": "Leave your feedback \uD83D\uDD16",
-  "IfYouLikeThisProjectSupportMe": "If you like this project, <a href=\"https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1\" target=\"_blank\">subscribe my channel</a> on YouTube, <a href=\"https://github.com/sefinek24/Genshin-Impact-ReShade\" target=\"_blank\">give a star</a> on GitHub or <a href=\"/support-me\">support me</a>.",
+  "IfYouLikeThisProjectSupportMe": "If you enjoy this project, please consider subscribing to my <a href=\"https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1\" target=\"_blank\">YouTube channel</a>, giving it a star <a href=\"https://github.com/sefinek24/Genshin-Impact-ReShade\" target=\"_blank\">on GitHub</a> or <a href=\"/support-me\">supporting me</a> in other ways.",
+  "IfYouHaveAnyFeedBackOrSuggestionsUseChat": "Additionally, if you have any feedback or suggestions, please don't hesitate to use chat feature to send them directly to me.",
+
 
 
 
   "SomeQuestions": "Some questions? You need help? \uD83E\uDD1D",
-  "DiscordServer": "Discord server",
+  "HavingTroubleWithTheMod": "Having trouble with the mod? Don't hesitate to use our chat support! Our team is available to help you with any questions or concerns you may have.",
+  "WhetherYouNeedHelpInstallingTheMod": "Whether you need help installing the mod or have questions about its features, we're here to assist you.",
+  "JustClickTheChatIconInTheBottomRightCorner": "Just click the chat icon in the bottom right corner to get started. We look forward to hearing from you!",
   "JoinToDiscordServer": "\uD83D\uDD35 Join to Discord server",
   "CommentMyYTVideo": "\uD83D\uDD34 Comment my video on YouTube",
-  "MyLanguages": "My languages: Polish (main) and English",
-  "MyDiscord": "Discord username",
+
 
 
 
   "WatchVideosOnYT": "Watch videos on YouTube \uD83C\uDFA5",
   "SomeVideosCanBeOutdated": "Some videos can be outdated. Sorry, I don't have time to create new.",
-  "IfYouWantToRecordNewVideo": "If you want to record video and upload to YouTube, please send me message. I can put link here.",
+  "IfYouWantToRecordNewVideo": "If you want to record a video and upload it to YouTube, please send me a message. I can include the link here.",
   "FirstModRelease": "First mod release",
   "Version310": "Version v3.1.0",
+
 
 
 
@@ -89,24 +121,7 @@
 
 
 
+
   "AllReposOnGithub": "\uD83D\uDC08 All repositories on GitHub",
-  "IfYouWantToBecomeContributor": "If you want to become contributor, just create a new Pull Request. Thank you very much and happy coding!",
-
-
-
-  "BadRequest": "❎ Error 400: Bad Request",
-  "InvalidURL": "The return URL is invalid.",
-  "ReferrerURL": "Your referrer URL",
-  "CorrectRefURL": "Correct URL",
-
-
-
-  "DeviceIsNotSupported": "❎ Device is not supported",
-  "SorryYourDeviceIsNotSupported": "Sorry. Your device is not supported.",
-  "ViewSupportedOperatingSystems": "View supported operating systems.",
-
-
-
-  "WeCannotFindZipFileOnTheServer": "We cannot find ZIP file on the server",
-  "NewUpdateIsComing": "New update is coming? \uD83E\uDD14 Probaby...<br>Anyways, please try again later or report this issue on our Discord server."
+  "IfYouWantToBecomeContributor": "If you want to become contributor, just create a new Pull Request. Thank you very much and happy coding!"
 }

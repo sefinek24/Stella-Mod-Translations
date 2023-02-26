@@ -1,12 +1,35 @@
 {
   "FileVersion": "1.1.0",
-  "LastUpdate": "22.02.2023",
-  "Authors": [{
+  "LastUpdate": "26.02.2023",
+  "Contributors": [{
     "Sefinek": {
-      "Discord": "Sefinek#0001",
+      "GitHub": "https://github.com/sefinek24",
       "Website": "https://sefinek.net"
     }
   }],
+
+
+  "And": "i",
+  "From": "z",
+  "Back": "« Wstecz",
+  "Next": "Dalej »",
+  "DiscordServer": "Serwer Discord",
+
+
+
+
+  "BadRequest": "❎ Błąd 400: Zła prośba",
+  "InvalidURL": "Wsteczny adres URL jest nieprawidłowy.",
+  "ReferrerURL": "Twój adres URL strony odsyłającej",
+  "CorrectRefURL": "Poprawny adres URL strony odsyłającej",
+
+  "DeviceIsNotSupported": "❎ Urządzenie nie jest obsługiwane",
+  "SorryYourDeviceIsNotSupported": "Przepraszamy. Twoje urządzenie nie jest wspierane.",
+  "ViewSupportedOperatingSystems": "Wyświetl obsługiwane systemy operacyjne.",
+
+  "WeCannotFindZipFileOnTheServer": "Nie możemy znaleźć pliku ZIP na serwerze",
+  "NewUpdateIsComing": "Nadchodzi nowa aktualizacja? \uD83E\uDD14 Możliwe...<br>W każdym razie spróbuj ponownie później lub zgłoś ten problem na naszym serwerze Discord.",
+
 
 
 
@@ -28,52 +51,60 @@
 
   "DownloadCount": "Liczba pobrań",
   "Version": "Wersja",
-  "From": "z",
 
   "Notification": "\uD83D\uDCC4 Powiadomienie",
-  "ThankYouForDownloading": "Dziękujemy bardzo za pobranie. Dołącz na nasz <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Zaproszenie na nasz serwer Discord.\">serwer Discord</a>, aby uzyskać informacje o najnowszych aktualizacjach, funkcjach i wiadomościach.<br>Życzę Ci miłego dnia lub nocy!",
-  "TotalNumberOfDownloadsNow": "Łączna liczba pobrań teraz",
+  "ThankYouForDownloading": "Dziękujemy bardzo za pobranie. Dołącz do naszego <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Zaproszenie do naszego serwera Discord.\">serwera Discord</a>, aby otrzymać informacje o najnowszych aktualizacjach, funkcjach i nowościach.<br>Życzymy miłego dnia lub nocy!",
+  "TheTotalNumberOfDownloadsNowIs": "Całkowita liczba pobrań wynosi teraz",
   "NoProblem": "Żaden problem",
+
 
 
 
   "GalleryPageOne": "\uD83D\uDE3B Galeria - Numer strony 1",
   "GalleryPageTwo": "\uD83D\uDE3B Galeria - Numer strony 2",
   "GalleryPageThr": "\uD83D\uDE3B Galeria - Numer strony 3",
-  "GalleryCompareReleases": "\uD83D\uDE3B Galeria - Porównaj wydania",
+  "GalleryCompareReleases": "\uD83D\uDE3B Gallery - Porównaj wydania -",
+  "GalleryCompares": "\uD83D\uDE3B Gallery - Porównania",
   "ScreenshotsAreAvailableInHighQuality": "Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.",
   "WebsiteIsNotSupportedOnMobileDevices": "Ta witryna nie jest obsługiwana na urządzeniach mobilnych.",
-  "Back": "« Wstecz",
-  "Next": "Dalej »",
   "SeeComparesFromTheNewVersions": "Zobacz porównania z nowymi wersjami",
-  "YouAreViewingCompare": "Oglądasz porównanie z wersji v3.1.0 do v4.0.0.",
+  "ViewCompareFromTheLatestVersions": "Wyświetl porównania z najnowszą wersją",
+  "SeeTheComparisonBetween": "Zobacz porównanie między",
+  "ThePageYouAreCurrentlyOnDisplaysAComparison": "Strona, na której aktualnie się znajdujesz, wyświetla porównanie różnych wersji wydań.",
   "OldVersion": "Stara wersja",
   "NewVersion": "Nowa wersja",
 
   "WithMod": "Z modem",
   "WithoutMod": "Bez moda",
 
+  "BonusScreenshot": "\uD83D\uDE40 Bonusowy zrzut ekranu",
+
+
 
 
   "LeaveYourFeedback": "Zostaw swoją opinię \uD83D\uDD16",
-  "IfYouLikeThisProjectSupportMe": "Jeśli podoba Ci się ten projekt, <a href=\"https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1\" target=\"_blank\">zasubskrybuj mój kanał</a> na YouTube, <a href=\"https://github.com/sefinek24/Genshin-Impact-ReShade\" target=\"_blank\">daj gwiazdkę</a> na GitHubie lub <a href=\"/support-me\">wesprzyj mnie</a>.",
+  "IfYouLikeThisProjectSupportMe": "Jeśli podoba Ci się ten projekt, rozważ subskrypcję <a href=\"https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1\" target=\"_blank\">mojego kanału na YouTube</a>, dodanie gwiazdki na <a href=\"https://github.com/sefinek24/Genshin-Impact-ReShade\" target=\"_blank\">on GitHubie</a> lub  <a href=\"/support-me\">wsparcie mnie</a> w inny sposób.",
+  "IfYouHaveAnyFeedBackOrSuggestionsUseChat": "Dodatkowo, jeśli masz jakieś uwagi lub sugestie, nie wahaj się skorzystać z funkcji czatu, aby przesłać je bezpośrednio do mnie.",
+
 
 
 
   "SomeQuestions": "Jakieś pytania? Potrzebujesz pomocy? \uD83E\uDD1D",
-  "DiscordServer": "Serwer Discord",
+  "HavingTroubleWithTheMod": "Masz problem z modem? Nie wahaj się skorzystać z naszego wsparcia na czacie! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.",
+  "WhetherYouNeedHelpInstallingTheMod": "Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.",
+  "JustClickTheChatIconInTheBottomRightCorner": "Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć. Oczekujemy na kontakt zwrotny!",
   "JoinToDiscordServer": "\uD83D\uDD35 Dołącz na nasz serwer Discord",
   "CommentMyYTVideo": "\uD83D\uDD34 Skomentuj mój film na YouTube",
-  "MyLanguages": "Moje języki: Polski (główny) oraz Angielski",
-  "MyDiscord": "Moja nazwa użytkownika Discord",
+
 
 
 
   "WatchVideosOnYT": "Obejrzyj filmy na YouTube \uD83C\uDFA5",
-  "SomeVideosCanBeOutdated": "Niektóre filmy mogą być nieaktualne. Przepraszam, nie mam czasu na tworzenie nowych.",
-  "IfYouWantToRecordNewVideo": "Jeśli chcesz nagrać film i przesłać go na YouTube, wyślij mi wiadomość. Umieszczę tutaj link.",
+  "SomeVideosCanBeOutdated": "Niektóre z tych filmów mogą być nieaktualne. Przepraszam, ale nie mam obecnie czasu, aby tworzyć nowe.",
+  "IfYouWantToRecordNewVideo": "Jeśli chcesz nagrać i przesłać film na YouTube, proszę, wyślij mi wiadomość. Mogę umieścić link tutaj.",
   "FirstModRelease": "Pierwsza wersja moda",
   "Version310": "Wersja v3.1.0",
+
 
 
 
@@ -89,24 +120,7 @@
 
 
 
+
   "AllReposOnGithub": "\uD83D\uDC08 Wszystkie repozytoria na GitHubie",
-  "IfYouWantToBecomeContributor": "Jeśli chcesz zostać współtwórcą, po prostu utwórz nowy Pull Request. Dziękuję bardzo i życzę Ci udanego kodowania!",
-
-
-
-  "BadRequest": "❎ Błąd 400: Zła prośba",
-  "InvalidURL": "Wsteczny adres URL jest nieprawidłowy.",
-  "ReferrerURL": "Twój adres URL strony odsyłającej",
-  "CorrectRefURL": "Poprawny adres URL strony odsyłającej",
-
-
-
-  "DeviceIsNotSupported": "❎ Urządzenie nie jest obsługiwane",
-  "SorryYourDeviceIsNotSupported": "Przepraszamy. Twoje urządzenie nie jest wspierane.",
-  "ViewSupportedOperatingSystems": "Wyświetl obsługiwane systemy operacyjne.",
-
-
-
-  "WeCannotFindZipFileOnTheServer": "Nie możemy znaleźć pliku ZIP na serwerze",
-  "NewUpdateIsComing": "Nadchodzi nowa aktualizacja? \uD83E\uDD14 Możliwe...<br>W każdym razie spróbuj ponownie później lub zgłoś ten problem na naszym serwerze Discord."
+  "IfYouWantToBecomeContributor": "Jeśli chcesz zostać współtwórcą, po prostu utwórz nowy Pull Request. Dziękuję bardzo i życzę Ci udanego kodowania!"
 }
