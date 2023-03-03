@@ -49,8 +49,10 @@
   "SupportMyWork": "Wesprzyj moją pracę",
   "SupportMe": "Wesprzyj mnie",
 
-  "DownloadCount": "Liczba pobrań",
+  "DownloadingData": "Pobieranie danych...",
   "Version": "Wersja",
+  "DownloadCount": "Liczba pobrań",
+  "LastDownload": "Ostatnie pobranie",
 
   "Notification": "\uD83D\uDCC4 Powiadomienie",
   "ThankYouForDownloading": "Dziękujemy bardzo za pobranie. Dołącz do naszego <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Zaproszenie do naszego serwera Discord.\">serwera Discord</a>, aby otrzymać informacje o najnowszych aktualizacjach, funkcjach i nowościach.<br>Życzymy miłego dnia lub nocy!",
