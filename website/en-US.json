@@ -62,9 +62,10 @@
 
 
 
-  "GalleryPageOne": "\uD83D\uDE3B Gallery - Page number 1",
-  "GalleryPageTwo": "\uD83D\uDE3B Gallery - Page number 2",
-  "GalleryPageThr": "\uD83D\uDE3B Gallery - Page number 3",
+  "GalleryPage1": "\uD83D\uDE3B Gallery - Page number 1",
+  "GalleryPage2": "\uD83D\uDE3B Gallery - Page number 2",
+  "GalleryPage3": "\uD83D\uDE3B Gallery - Page number 3",
+  "GalleryPage4": "\uD83D\uDE3B Gallery - Page number 4",
   "GalleryCompareReleases": "\uD83D\uDE3B Gallery - Compare releases -",
   "GalleryCompares": "\uD83D\uDE3B Gallery - Compares",
   "ScreenshotsAreAvailableInHighQuality": "Screenshots are available in high quality. It may take a while to load them.",
@@ -72,7 +73,7 @@
 
   "SeeComparesFromTheNewVersions": "See compares from the new versions",
   "ViewCompareFromTheLatestVersions": "View compare from the latest version",
-  "SeeTheComparisonBetween": "See the comparison between",
+  "SeeTheComparisonBetween": "\uD83C\uDF0C See the comparison between...",
   "ThePageYouAreCurrentlyOnDisplaysAComparison": "The page you are currently on displays a comparison of different versions of releases.",
   "OldVersion": "Old version",
   "NewVersion": "New version",
