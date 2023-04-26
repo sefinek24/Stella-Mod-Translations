@@ -1,6 +1,6 @@
 {
-  "FileVersion": "1.1.0",
-  "LastUpdate": "26.02.2023",
+  "FileVersion": "1.2.0",
+  "LastUpdate": "26.04.2023",
   "Contributors": [{
     "Sefinek": {
       "GitHub": "https://github.com/sefinek24",
@@ -10,6 +10,7 @@
 
 
   "And": "i",
+  "In": "w",
   "From": "z",
   "Back": "« Wstecz",
   "Next": "Dalej »",
@@ -51,6 +52,7 @@
 
   "DownloadingData": "Pobieranie danych...",
   "Version": "Wersja",
+  "TheVersionWithoutCaps": "wersji",
   "DownloadCount": "Liczba pobrań",
   "LastDownload": "Ostatnie pobranie",
 
@@ -102,10 +104,11 @@
 
 
   "WatchVideosOnYT": "Obejrzyj filmy na YouTube \uD83C\uDFA5",
-  "SomeVideosCanBeOutdated": "Niektóre z tych filmów mogą być nieaktualne. Przepraszam, ale nie mam obecnie czasu, aby tworzyć nowe.",
   "IfYouWantToRecordNewVideo": "Jeśli chcesz nagrać i przesłać film na YouTube, proszę, wyślij mi wiadomość. Mogę umieścić link tutaj.",
+  "DeprecatedMovies": "Przestarzałe nagrania",
+  "TheMoviesAreFromPreviousVersionsOfStellaMod": "Te filmy pochodzą z poprzednich wersji Stella Mod i są uważane już za przestarzałe.",
   "FirstModRelease": "Pierwsza wersja moda",
-  "Version310": "Wersja v3.1.0",
+  "Gameplay": "Rozgrywka",
 
 
 
