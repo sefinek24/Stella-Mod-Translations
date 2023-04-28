@@ -1,6 +1,6 @@
 {
-  "FileVersion": "1.2.0",
-  "LastUpdate": "26.04.2023",
+  "FileVersion": "1.3.0",
+  "LastUpdate": "28.04.2023",
   "Contributors": [{
     "Sefinek": {
       "GitHub": "https://github.com/sefinek24",
@@ -31,6 +31,14 @@
   "WeCannotFindZipFileOnTheServer": "Nie możemy znaleźć pliku ZIP na serwerze",
   "NewUpdateIsComing": "Nadchodzi nowa aktualizacja? \uD83E\uDD14 Możliwe...<br>W każdym razie spróbuj ponownie później lub zgłoś ten problem na naszym serwerze Discord.",
 
+
+
+
+  "OhNoSomethingWentWrong": "O nie! Coś poszło nie tak...",
+  "WereSorryButWeCouldFindTheCorrectTranslation": "Przepraszamy, ale nie mogliśmy znaleźć prawidłowego tłumaczenia dla Twojego języka - {0}. Aby uzyskać więcej informacji, sprawdź szczegóły konsoli. (≧◡≦) ♡",
+  "IfYouWouldLikeToContributeYourOwnTranslationOrHelpUsFixThisIssue": "Jeśli chcesz przesłać własne tłumaczenie lub pomóc nam rozwiązać ten problem, utwórz nowy <a href=\"https://github.com/sefinek24/Genshin-Stella-Mod_Translations/pulls\">Pull Request</a> na naszym <a href=\"https://github.com/sefinek24/Genshin-Stella-Mod_Translations\">repozytorium GitHub</a>. Dzięki za pomoc! o(>ω<)o",
+  "SwitchLanguageToEnglish": "Zmień język na angielski",
+  "YesClickMe": "Takk, kliknij mnie!",
 
 
 
@@ -71,6 +79,8 @@
   "GalleryCompares": "\uD83D\uDE3B Gallery - Porównania",
   "ScreenshotsAreAvailableInHighQuality": "Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.",
   "WebsiteIsNotSupportedOnMobileDevices": "Ta witryna nie jest obsługiwana na urządzeniach mobilnych.",
+  "SomeImageCanBeOutdated": "Niektóre zdjęcia mogą być nieaktualne.",
+
   "SeeComparesFromTheNewVersions": "Zobacz porównania z nowymi wersjami",
   "ViewCompareFromTheLatestVersions": "Wyświetl porównania z najnowszą wersją",
   "SeeTheComparisonBetween": "\uD83C\uDF0C Zobacz porównanie między...",
@@ -94,9 +104,11 @@
 
 
   "SomeQuestions": "Jakieś pytania? Potrzebujesz pomocy? \uD83E\uDD1D",
-  "HavingTroubleWithTheMod": "Masz problem z modem? Nie wahaj się skorzystać z naszego wsparcia na czacie! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.",
-  "WhetherYouNeedHelpInstallingTheMod": "Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.",
-  "JustClickTheChatIconInTheBottomRightCorner": "Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć. Oczekujemy na kontakt zwrotny!",
+  "DoYouHaveAnyIssuesOrQuestionsAboutMod": "Masz może jakikolwiek problem z modem lub pytanie? Jeśli tak, nie wahaj się z nami skontaktować! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.",
+  "WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures": "Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.",
+  "PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions": "Pamiętaj, że nasza społeczność również jest również gotowa, by odpowiedzieć na Twoje pytania. W tym celu dołącz na nasz serwer Discord lub utwórz nowy Issue na GitHub.",
+  "SimplyClickOnTheChatIconInTheBottomRightCorner": "Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć nową konwersację w języku polskim lub angielskim. Oczekujemy na Twój kontakt!",
+  "StellaModIsNotAffiliatedWithHoyoverse": "Należy pamiętać, że oprogramowanie Stella Mod nie jest powiązane z firmą Hoyoverse (MiHoYo).",
   "JoinToDiscordServer": "\uD83D\uDD35 Dołącz na nasz serwer Discord",
   "CommentMyYTVideo": "\uD83D\uDD34 Skomentuj mój film na YouTube",
 
@@ -114,12 +126,12 @@
 
 
   "ReadMoreInformation": "Przeczytaj więcej informacji \uD83D\uDE3A",
-  "ViewChangelog": "\uD83D\uDCE5 Wyświetl listę zmian",
+  "HowToInstall": "\uD83D\uDCE5 Jak zainstalować?",
+  "ViewChangelog": "\uD83D\uDCDD Wyświetl listę zmian",
+  "PrivacyPolicy": "\uD83D\uDC65 Polityka prywatności",
   "SeeContents": "\uD83D\uDCE6 Zobacz zawartość",
   "GameCompatibility": "\uD83D\uDEE0️ Kompatybilność gry",
-
   "RecommendedGameSettings": "⚙️ Zalecane ustawienia gry",
-
   "PCRequirements": "\uD83D\uDCBB Wymagania sprzętowe",
   "SupportedOperatingSystems": "\uD83D\uDD27 Obsługiwane systemy",
 

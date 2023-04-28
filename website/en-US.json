@@ -1,6 +1,6 @@
 {
-  "FileVersion": "1.2.0",
-  "LastUpdate": "26.04.2023",
+  "FileVersion": "1.3.0",
+  "LastUpdate": "28.04.2023",
   "Contributors": [{
     "Sefinek": {
       "GitHub": "https://github.com/sefinek24",
@@ -34,10 +34,18 @@
 
 
 
+  "OhNoSomethingWentWrong": "Oh no! Something went wrong...",
+  "WereSorryButWeCouldFindTheCorrectTranslation": "Sorry, we couldn't find a correct translation for your language - {0}. For more information, please check the console details. (≧◡≦) ♡",
+  "IfYouWouldLikeToContributeYourOwnTranslationOrHelpUsFixThisIssue": "If you would like to contribute your own translation or help us fix this issue, please create a new <a href=\"https://github.com/sefinek24/Genshin-Stella-Mod_Translations/pulls\">Pull Request</a> on our <a href=\"https://github.com/sefinek24/Genshin-Stella-Mod_Translations\">GitHub repository</a>. Thank you for your help! o(>ω<)o",
+  "SwitchLanguageToEnglish": "Switch language to English",
+  "YesClickMe": "Yes, click me!",
+
+
   "TheBestGIRSModPack": "The best Genshin Impact mod pack with ReShade, custom graphics presets, FPS Unlocker, own launcher and more!",
   "JoinOurDiscordServer": "Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> for the latest updates, features and news.",
 
   "Download": "\uD83D\uDCE5 Download",
+  "DownloadTooltip": "Download the official setup for Windows 10 or 11 with a 64-bit CPU.",
   "Gallery": "\uD83D\uDE3B Gallery",
   "Tutorial": "\uD83E\uDD14 Tutorial",
   "WatchVideos": "\uD83C\uDFA5 Watch videos",
@@ -72,6 +80,7 @@
   "GalleryCompares": "\uD83D\uDE3B Gallery - Compares",
   "ScreenshotsAreAvailableInHighQuality": "Screenshots are available in high quality. It may take a while to load them.",
   "WebsiteIsNotSupportedOnMobileDevices": "This website is not supported on mobile devices.",
+  "SomeImageCanBeOutdated": "Some images can be outdated!",
 
   "SeeComparesFromTheNewVersions": "See compares from the new versions",
   "ViewCompareFromTheLatestVersions": "View compare from the latest version",
@@ -96,9 +105,11 @@
 
 
   "SomeQuestions": "Some questions? You need help? \uD83E\uDD1D",
-  "HavingTroubleWithTheMod": "Having trouble with the mod? Don't hesitate to use our chat support! Our team is available to help you with any questions or concerns you may have.",
-  "WhetherYouNeedHelpInstallingTheMod": "Whether you need help installing the mod or have questions about its features, we're here to assist you.",
-  "JustClickTheChatIconInTheBottomRightCorner": "Just click the chat icon in the bottom right corner to get started. We look forward to hearing from you!",
+  "DoYouHaveAnyIssuesOrQuestionsAboutMod": "Do you have any issues or questions about Stella Mod? If so, don't hesitate to contact us! Our team is at your disposal for any questions or concerns.",
+  "WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures": "Whether you need help with installing Stella or have questions about its features, we are here to assist you.",
+  "PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions": "Please note that our community is also ready to answer your questions. To do so, join our Discord server or create a new Issue on GitHub.",
+  "SimplyClickOnTheChatIconInTheBottomRightCorner": "Just click on the chat icon in the bottom right corner to start a new conversation in Polish or English. We look forward to hearing back from you!",
+  "StellaModIsNotAffiliatedWithHoyoverse": "Please note that Stella Mod is not affiliated with Hoyoverse (MiHoYo).",
   "JoinToDiscordServer": "\uD83D\uDD35 Join to Discord server",
   "CommentMyYTVideo": "\uD83D\uDD34 Comment my video on YouTube",
 
@@ -116,12 +127,12 @@
 
 
   "ReadMoreInformation": "Read more information \uD83D\uDE3A",
-  "ViewChangelog": "\uD83D\uDCE5 View changelog",
+  "HowToInstall": "\uD83D\uDCE5 How to install?",
+  "ViewChangelog": "\uD83D\uDCDD View changelog",
+  "PrivacyPolicy": "\uD83D\uDC65 Privacy policy",
   "SeeContents": "\uD83D\uDCE6 See contents",
   "GameCompatibility": "\uD83D\uDEE0️ Game compatibility",
-
   "RecommendedGameSettings": "⚙️ Recommended game settings",
-
   "PCRequirements": "\uD83D\uDCBB PC requirements",
   "SupportedOperatingSystems": "\uD83D\uDD27 Supported systems",
 

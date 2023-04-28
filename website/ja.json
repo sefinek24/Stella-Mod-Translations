@@ -1,27 +1,49 @@
 {
-  "FileVersion": "1.1.0",
-  "LastUpdate": "01.03.2023",
+  "FileVersion": "1.2.0",
+  "LastUpdate": "28.04.2023",
   "Contributors": [{
     "daydreamer-json": {
       "GitHub": "https://github.com/daydreamer-json"
-    }
+    },
+    "ChatGPT": {}
   }],
+
+
   "And": "と",
   "From": " - ",
+  "In": "in",
   "Back": "« 戻る",
   "Next": "進む »",
   "DiscordServer": "Discordサーバー",
+
+
+
+
   "BadRequest": "❎ Error 400: 不正なリクエストです。",
   "InvalidURL": "URLが不正です。",
   "ReferrerURL": "リファラURL",
   "CorrectRefURL": "正しいURL",
+
   "DeviceIsNotSupported": "❎ デバイスがサポートされていません",
   "SorryYourDeviceIsNotSupported": "あなたのデバイスはサポートされていません。",
   "ViewSupportedOperatingSystems": "サポートされているOSを見る",
+
   "WeCannotFindZipFileOnTheServer": "サーバー上にZIPファイルが見つかりませんでした。",
   "NewUpdateIsComing": "新しいアップデートがありませんか?<br>後でもう一度試してみるか、私たちのDiscordサーバーでこの問題を報告してください。",
+
+
+
+
+  "OhNoSomethingWentWrong": "「あらら、何かがうまくいかなかったようですね...",
+  "WereSorryButWeCouldFindTheCorrectTranslation": "申し訳ありませんが、{0}の正しい翻訳が見つかりませんでした。詳細については、コンソールの詳細を確認してください。(≧◡≦) ♡",
+  "IfYouWouldLikeToContributeYourOwnTranslationOrHelpUsFixThisIssue": "もし独自の翻訳を提供していただくか、問題を修正していただける場合は、弊社の<a href=\"https://github.com/sefinek24/Genshin-Stella-Mod_Translations\">GitHubリポジトリ</a>で新しい<a href=\"https://github.com/sefinek24/Genshin-Stella-Mod_Translations/pulls\">プルリクエスト</a>を作成してください。ご協力いただきありがとうございます！ o(>ω<)o",
+  "SwitchLanguageToEnglish": "言語を英語に切り替える",
+  "YesClickMe": "はい、ここをクリックしてください！",
+
+
   "TheBestGIRSModPack": "ReShade、カスタムグラフィックプリセット、FPSアンロッカー、独自のランチャーなどを備えた最高の原神MODパックです。",
   "JoinOurDiscordServer": "最新のアップデートやニュースなどを入手するには、私たちの<a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Discordサーバーへの招待リンク\">Discordサーバー</a>に参加してください。",
+
   "Download": "\uD83D\uDCE5 ダウンロード",
   "Gallery": "\uD83D\uDE3B ギャラリー",
   "Tutorial": "\uD83E\uDD14 チュートリアル",
@@ -30,52 +52,92 @@
   "Feedback": "\uD83D\uDC99 フィードバック",
   "Support": "\uD83E\uDD1D サポート",
   "MainPage": "« メインページ",
+
   "PleaseSupportMe": "私を支援してください",
   "SupportMyWork": "私を支援してください",
   "SupportMe": "私を支援してください",
-  "DownloadCount": "総ダウンロード回数",
+
+  "DownloadingData": "データをダウンロードしています...",
   "Version": "バージョン",
+  "TheVersionWithoutCaps": "バージョン",
+  "DownloadCount": "ダウンロード数",
+  "LastDownload": "最後のダウンロード",
+
   "Notification": "\uD83D\uDCC4 通知",
   "ThankYouForDownloading": "ダウンロードありがとうございます。最新のアップデートやニュースなどを入手するには、私たちの<a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Discordサーバーへの招待リンク\">Discordサーバー</a>に参加してください。<br>良いテイワットライフを!",
   "TheTotalNumberOfDownloadsNowIs": "現在の総ダウンロード回数は",
   "NoProblem": "閉じる",
+
+
+
+
   "GalleryPage1": "\uD83D\uDE3B ギャラリー - ページ 1",
   "GalleryPage2": "\uD83D\uDE3B ギャラリー - ページ 2",
   "GalleryPage3": "\uD83D\uDE3B ギャラリー - ページ 3",
+  "GalleryPage4": "\uD83D\uDE3B ギャラリー - ページ 4",
   "GalleryCompareReleases": "\uD83D\uDE3B ギャラリー - バージョン間の比較 -",
   "GalleryCompares": "\uD83D\uDE3B ギャラリー - 比較",
   "ScreenshotsAreAvailableInHighQuality": "スクリーンショットは高画質のものを閲覧できます。読み込むまでに少し時間がかかります。",
   "WebsiteIsNotSupportedOnMobileDevices": "このWebサイトはモバイル端末での利用をサポートしていません。",
+  "SomeImageCanBeOutdated": "一部の画像は古くなっている場合があります！",
+
   "SeeComparesFromTheNewVersions": "新しいバージョンとの比較を見る",
   "ViewCompareFromTheLatestVersions": "最新バージョンとの比較を見る",
   "SeeTheComparisonBetween": "\uD83C\uDF0C の比較を見る...",
   "ThePageYouAreCurrentlyOnDisplaysAComparison": "このページでは、異なるバージョンの比較を示しています。",
   "OldVersion": "旧バージョン",
   "NewVersion": "新バージョン",
+
   "WithMod": "MODあり",
   "WithoutMod": "MODなし",
+
   "BonusScreenshot": "\uD83D\uDE40 他のスクリーンショット",
+
+
+
+
   "LeaveYourFeedback": "フィードバックを残す \uD83D\uDD16",
   "IfYouLikeThisProjectSupportMe": "もしこのプロジェクトを気に入っていただけましたら、私の<a href=\"https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1\" target=\"_blank\">YouTubeチャンネル</a>のチャンネル登録をするか、<a href=\"https://github.com/sefinek24/Genshin-Impact-ReShade\" target=\"_blank\">GitHub</a>でStarをつけるか、その他の方法で<a href=\"/support-me\">私を支援</a>していただけると幸いです。",
   "IfYouHaveAnyFeedBackOrSuggestionsUseChat": "また、ご意見やご要望がありましたら、遠慮なくチャットサポートで直接私にお問い合わせください。",
-  "SomeQuestions": "質問や不明な点がありますか? \uD83E\uDD1D",
-  "HavingTroubleWithTheMod": "MODのことでお困りですか? 遠慮なくチャットサポートをご利用ください。MOD関連であなたが持っている疑問や不明な点は私たちがお受けします。",
-  "WhetherYouNeedHelpInstallingTheMod": "MODのインストールでお困りの方も、機能についての質問も、私たちがサポートします。",
-  "JustClickTheChatIconInTheBottomRightCorner": "右下のチャットアイコンをクリックするだけで、すぐに始められます。皆様からのご連絡をお待ちしております。",
-  "JoinToDiscordServer": "\uD83D\uDD35 Discordサーバーへ入る",
-  "CommentMyYTVideo": "\uD83D\uDD34 YouTubeの私の動画にコメントする",
+
+
+
+
+  "SomeQuestions": "何か質問はありますか？お手伝いが必要ですか？ \uD83E\uDD1D",
+  "DoYouHaveAnyIssuesOrQuestionsAboutMod": "Stella Modに関する問題や質問がある場合は、お気軽にお問い合わせください！弊社のチームはどんな質問やご不明点に対しても対応いたします。",
+  "WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures": "Stellaのインストールに関するお問い合わせや、機能についてのご質問がある場合は、お手伝いさせていただきます。",
+  "PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions": "弊社コミュニティの皆様も、質問にお答えする準備ができています。Discordサーバーに参加するか、GitHubで新しいIssueを作成してください。",
+  "SimplyClickOnTheChatIconInTheBottomRightCorner": "ポーランド語または英語で新しい会話を開始するには、右下のチャットアイコンをクリックしてください。あなたからのご連絡をお待ちしています！",
+  "StellaModIsNotAffiliatedWithHoyoverse": "Stella Modは、Hoyoverse（MiHoYo）とは関係ありませんので、ご注意ください。",
+  "JoinToDiscordServer": "\uD83D\uDD35 Discordサーバーに参加する",
+  "CommentMyYTVideo": "\uD83D\uDD34 YouTubeの私のビデオにコメントしてください",
+
+
+
+
   "WatchVideosOnYT": "動画をYouTubeで見る \uD83C\uDFA5",
-  "SomeVideosCanBeOutdated": "一部の動画は古くなっている場合があります。申し訳ありませんが、新しい動画が利用可能になるまでお待ちください。",
   "IfYouWantToRecordNewVideo": "MODによる動画をYouTubeにアップロードしたい場合はお知らせください。ここに動画のリンクを掲載することができます。",
+  "DeprecatedMovies": "非推奨の映画",
+  "TheMoviesAreFromPreviousVersionsOfStellaMod": "これらの映画は、以前のStella Modのバージョンからのものであり、すでに時代遅れと考えられています。",
   "FirstModRelease": "初期リリース",
-  "Version310": "バージョン 3.1.0",
+  "Gameplay": "ゲームプレイ",
+
+
+
+
   "ReadMoreInformation": "詳細を見る \uD83D\uDE3A",
-  "ViewChangelog": "\uD83D\uDCE5 更新履歴を見る",
+  "HowToInstall": "\uD83D\uDCE5 インストール方法は？",
+  "ViewChangelog": "\uD83D\uDCDD 更新履歴を見る",
+  "PrivacyPolicy": "\uD83D\uDC65 プライバシーポリシー",
   "SeeContents": "\uD83D\uDCE6 コンテンツを見る",
   "GameCompatibility": "\uD83D\uDEE0 ゲームへの対応状況",
   "RecommendedGameSettings": "⚙️ 推奨ゲーム内設定",
   "PCRequirements": "\uD83D\uDCBB 必要動作環境",
   "SupportedOperatingSystems": "\uD83D\uDD27 サポートしているシステム",
+
+
+
+
   "AllReposOnGithub": "\uD83D\uDC08 GitHubでリポジトリが利用可能",
   "IfYouWantToBecomeContributor": "もしあなたがコントリビューターになっていただけるのであれば、新しいPull Requestを作成してください。"
 }
