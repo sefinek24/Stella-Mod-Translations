@@ -1,6 +1,6 @@
 {
-  "FileVersion": "1.3.0",
-  "LastUpdate": "28.04.2023",
+  "FileVersion": "1.3.1",
+  "LastUpdate": "04.05.2023",
   "Contributors": [{
     "Sefinek": {
       "GitHub": "https://github.com/sefinek24",
@@ -41,8 +41,8 @@
   "YesClickMe": "Yes, click me!",
 
 
-  "TheBestGIRSModPack": "The best Genshin Impact mod pack with ReShade, custom graphics presets, FPS Unlocker, own launcher and more!",
-  "JoinOurDiscordServer": "Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> for the latest updates, features and news.",
+  "TheBestGIRSModPack": "The best mod for Genshin Impact with ReShade, custom graphics presets, FPS unlock, custom launcher, and more!",
+  "JoinOurDiscordServer": "Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> to receive information about the latest updates, features, and news.",
 
   "Download": "\uD83D\uDCE5 Download",
   "DownloadTooltip": "Download the official setup for Windows 10 or 11 with a 64-bit CPU.",
@@ -65,7 +65,7 @@
   "LastDownload": "Last download",
 
   "Notification": "\uD83D\uDCC4 Notification",
-  "ThankYouForDownloading": "Thank you for downloading. Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> to receive the latest updates, features, and news.<br>Have a nice day or night!",
+  "ThankYouForDownloading": "Thank you for downloading. Join our <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Invitation to our Discord server.\">Discord server</a> to receive the latest updates, features, and news. Have a nice day or night!",
   "TheTotalNumberOfDownloadsNowIs": "The total number of downloads now is",
   "NoProblem": "No problem",
 

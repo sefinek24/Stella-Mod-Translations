@@ -1,6 +1,6 @@
 {
-  "FileVersion": "1.3.0",
-  "LastUpdate": "28.04.2023",
+  "FileVersion": "1.3.1",
+  "LastUpdate": "04.05.2023",
   "Contributors": [{
     "Sefinek": {
       "GitHub": "https://github.com/sefinek24",
@@ -10,8 +10,8 @@
 
 
   "And": "i",
-  "In": "w",
   "From": "z",
+  "In": "w",
   "Back": "« Wstecz",
   "Next": "Dalej »",
   "DiscordServer": "Serwer Discord",
@@ -42,8 +42,8 @@
 
 
 
-  "TheBestGIRSModPack": "Najlepszy pakiet modów do Genshin Impact z ReShade z niestandardowymi ustawieniami graficznymi, FPS Unlockerem, własnym Launcherem i tym podobne!",
-  "JoinOurDiscordServer": "Dołącz na nasz <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Zaproszenie na nasz serwer Discord.\">serwer Discord</a>, aby otrzymywać najnowsze aktualizacje, funkcje i wiadomości.",
+  "TheBestGIRSModPack": "Najlepszy pakiet modów do Genshin Impact z ReShade, niestandardowymi ustawieniami graficznymi, odblokowywaniem FPS, własnym Launcherem i tym podobne!",
+  "JoinOurDiscordServer": "Dołącz na nasz <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Zaproszenie na nasz serwer Discord.\">serwer Discord</a>, aby otrzymywać informacje o najnowszych aktualizacjach, funkcjach i wiadomościach.",
 
   "Download": "\uD83D\uDCE5 Pobierz",
   "Gallery": "\uD83D\uDE3B Galeria",
@@ -65,7 +65,7 @@
   "LastDownload": "Ostatnie pobranie",
 
   "Notification": "\uD83D\uDCC4 Powiadomienie",
-  "ThankYouForDownloading": "Dziękujemy bardzo za pobranie. Dołącz do naszego <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Zaproszenie do naszego serwera Discord.\">serwera Discord</a>, aby otrzymać informacje o najnowszych aktualizacjach, funkcjach i nowościach.<br>Życzymy miłego dnia lub nocy!",
+  "ThankYouForDownloading": "Dziękujemy bardzo za pobranie. Dołącz na nasz <a href=\"https://discord.gg/SVcbaRc7gH\" target=\"_blank\" data-toggle=\"tooltip\" title=\"Zaproszenie do naszego serwera Discord.\">serwer Discord</a>, aby porozmawiać z naszą społecznością.<br>Życzymy miłego dnia lub nocy!",
   "TheTotalNumberOfDownloadsNowIs": "Całkowita liczba pobrań wynosi teraz",
   "NoProblem": "Żaden problem",
 
