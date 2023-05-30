@@ -10,6 +10,7 @@ module.exports.data = {
 	}],
 };
 
+// Main
 module.exports.default = {
 	tooltips: {
 		OfficialDiscordServer: 'Official Discord server',
@@ -24,15 +25,16 @@ module.exports.default = {
 	DiscordServer: 'Discord server',
 };
 
+// Errors
 module.exports.errors = {
 	400: {
-		BadRequest: '❎ Error 400: Bad Request',
+		BadRequest: 'Error 400: Bad Request',
 		InvalidURL: 'The return URL is invalid.',
 		ReferrerURL: 'Your referrer URL',
 		CorrectRefURL: 'Correct URL',
 	},
 
-	deviceNotSupported: {
+	wrongOs: {
 		DeviceIsNotSupported: '❎ Device is not supported',
 		SorryYourDeviceIsNotSupported: 'Sorry. Your device is not supported.',
 		ViewSupportedOperatingSystems: 'View supported operating systems.',
@@ -40,7 +42,7 @@ module.exports.errors = {
 
 	missingZip: {
 		WeCannotFindZipFileOnTheServer: 'We cannot find ZIP file on the server',
-		NewUpdateIsComing: 'New update is coming? Probaby...<br>Anyways, please try again later or report this issue on our Discord server.',
+		NewUpdateIsComing: 'New update is coming? Probaby...\nAnyways, please try again later or report this issue on our Discord server.',
 	},
 
 	missingLang: {
@@ -52,6 +54,7 @@ module.exports.errors = {
 	},
 };
 
+// GET /genshin-impact-reshade
 module.exports.home = {
 	tooltips: {
 		ClickHereToDownloadSetup: 'Click here to download the x64-bit installer for Windows 10 and 11.',
@@ -94,18 +97,16 @@ module.exports.home = {
 	},
 };
 
-
+// GET /genshin-impact-reshade/gallery
 module.exports.gallery = {
 	GalleryPage: 'Gallery - Page number',
 	GalleryCompareReleases: 'Gallery - Compare releases -',
-	GalleryCompares: 'Gallery - Compares',
 	ScreenshotsAreAvailableInHighQuality: 'Screenshots are available in high quality. It may take a while to load them.',
 	WebsiteIsNotSupportedOnMobileDevices: 'This website is not supported on mobile devices.',
 	SomeImageCanBeOutdated: 'Some images can be outdated!',
 
-	SeeComparesFromTheNewVersions: 'See compares from the new versions',
-	ViewCompareFromTheLatestVersions: 'View compare from the latest version',
-	SeeTheComparisonBetween: '\uD83C\uDF0C See the comparison between...',
+	SeeComparesFromTheOtherVersions: 'See compares from the other versions',
+	SeeTheComparisonBetween: 'See the comparison between...',
 	ThePageYouAreCurrentlyOnDisplaysAComparison: 'The page you are currently on displays a comparison of different versions of releases.',
 	OldVersion: 'Old version',
 	NewVersion: 'New version',
@@ -113,17 +114,27 @@ module.exports.gallery = {
 	WithMod: 'With mod',
 	WithoutMod: 'Without mod',
 
-	BonusScreenshot: '\uD83D\uDE40 Bonus screenshot',
+	BonusScreenshot: 'Bonus screenshot',
 };
 
-
+// GET /genshin-impact-reshade/feedback
 module.exports.feedback = {
-	LeaveYourFeedback: 'Leave your feedback \uD83D\uDD16',
-	IfYouLikeThisProjectSupportMe: 'If you enjoy this project, please consider subscribing to my <a href="https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1" target="_blank">YouTube channel</a>, giving it a star <a href="https://github.com/sefinek24/Genshin-Impact-ReShade" target="_blank">on GitHub</a> or <a href="/support-me">supporting me</a> in other ways.',
-	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Additionally, if you have any feedback or suggestions, please don\'t hesitate to use chat feature to send them directly to me.',
+	tooltips: {
+		ClickHereToGoToTheYTPage: 'Click here to go to the YouTube page.',
+		GiveAStarToMyReposOnGitHub: 'Give a star to my repositories on GitHub, the ones you like.',
+	},
+
+	LeaveYourFeedback: 'Share your opinion',
+	IfYouLikeThisProjectSupportMe: 'If you like this project, consider {1}subscribing{/1} to my YouTube channel, giving it a {2}star{/2} on GitHub, or {3}supporting me{/3} in another way.',
+	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Additionally, if you have any comments or suggestions, don\'t hesitate to use the chat feature to send them directly to the creator.',
+
+	btn: {
+		BelowYTVideo: 'Below my YouTube video',
+		OnTheDiscordServer: 'On the Discord server.',
+	},
 };
 
-
+// GET /genshin-impact-reshade/support
 module.exports.support = {
 	tooltips: {
 		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
@@ -141,9 +152,9 @@ module.exports.support = {
 	CommentMyYTVideo: 'Comment my video on YouTube',
 };
 
-
+// GET /genshin-impact-reshade/videos
 module.exports.videos = {
-	WatchVideosOnYT: 'Watch videos on YouTube \uD83C\uDFA5',
+	WatchVideosOnYT: 'Watch videos on YouTube',
 	IfYouWantToRecordNewVideo: 'If you want to record a video and upload it to YouTube, please send me a message. I can include the link here.',
 	DeprecatedMovies: 'Deprecated movies',
 	TheMoviesAreFromPreviousVersionsOfStellaMod: 'The movies are from previous versions of Stella Mod and are already considered outdated.',
@@ -151,21 +162,26 @@ module.exports.videos = {
 	Gameplay: 'Gameplay',
 };
 
-
+// GET /genshin-impact-reshade/read-more
 module.exports.readMore = {
-	ReadMoreInformation: 'Read more information \uD83D\uDE3A',
+	tooltips: {
+		TheBiggestSourceOfKnowledge: 'The biggest source of knowledge and information is hidden right behind this button!',
+	},
+
+	ReadMoreInformation: 'Read more information',
+	MoreInfoIsAvailableOnGHWiki: 'Więcej informacji znajdziesz w repozytorium {1}sefinek24/Genshin-Impact-ReShade{/1} na stronie {2}GitHub Wiki{/2}.',
 	HowToInstall: 'How to install?',
-	ViewChangelog: '\uD83D\uDCDD View changelog',
-	PrivacyPolicy: '\uD83D\uDC65 Privacy policy',
-	SeeContents: '\uD83D\uDCE6 See contents',
-	GameCompatibility: '\uD83D\uDEE0️ Game compatibility',
-	RecommendedGameSettings: '⚙️ Recommended game settings',
-	PCRequirements: '\uD83D\uDCBB PC requirements',
-	SupportedOperatingSystems: '\uD83D\uDD27 Supported systems',
+	ViewChangelog: 'View changelog',
+	PrivacyPolicy: 'Privacy policy',
+	SeeContents: 'See contents',
+	GameCompatibility: 'Game compatibility',
+	RecommendedGameSettings: 'Recommended game settings',
+	PCRequirements: 'PC requirements',
+	SupportedOperatingSystems: 'Supported systems',
 };
 
-
+// GET /genshin-impact-reshade/repositories
 module.exports.github = {
-	AllReposOnGithub: '\uD83D\uDC08 All repositories on GitHub',
+	AllReposOnGithub: 'All repositories on GitHub',
 	IfYouWantToBecomeContributor: 'If you want to become contributor, just create a new Pull Request. Thank you very much and happy coding!',
 };

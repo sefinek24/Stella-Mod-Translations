@@ -10,6 +10,7 @@ module.exports.data = {
 	}],
 };
 
+// Main
 module.exports.default = {
 	tooltips: {
 		OfficialDiscordServer: 'Oficjalny serwer Discord',
@@ -24,15 +25,16 @@ module.exports.default = {
 	DiscordServer: 'Serwer Discord',
 };
 
+// Errors
 module.exports.errors = {
 	400: {
-		BadRequest: '❎ Błąd 400: Zła prośba',
+		BadRequest: 'Błąd 400: Zła prośba',
 		InvalidURL: 'Wsteczny adres URL jest nieprawidłowy.',
 		ReferrerURL: 'Twój adres URL strony odsyłającej',
 		CorrectRefURL: 'Poprawny adres URL strony odsyłającej',
 	},
 
-	deviceNotSupported: {
+	wrongOs: {
 		DeviceIsNotSupported: '❎ Urządzenie nie jest obsługiwane',
 		SorryYourDeviceIsNotSupported: 'Przepraszamy. Twoje urządzenie nie jest wspierane.',
 		ViewSupportedOperatingSystems: 'Wyświetl obsługiwane systemy operacyjne.',
@@ -40,7 +42,7 @@ module.exports.errors = {
 
 	missingZip: {
 		WeCannotFindZipFileOnTheServer: 'Nie możemy znaleźć pliku ZIP na serwerze',
-		NewUpdateIsComing: 'Nadchodzi nowa aktualizacja? Możliwe...<br>W każdym razie spróbuj ponownie później lub zgłoś ten problem na naszym serwerze Discord.',
+		NewUpdateIsComing: 'Nadchodzi nowa aktualizacja? Możliwe...\nW każdym razie spróbuj ponownie później lub zgłoś ten problem na naszym serwerze Discord.',
 	},
 
 	missingLang: {
@@ -52,6 +54,7 @@ module.exports.errors = {
 	},
 };
 
+// GET /genshin-impact-reshade
 module.exports.home = {
 	tooltips: {
 		ClickHereToDownloadSetup: 'Kliknij tutaj, aby pobrać x64 bitowy instalator dla Windows 10 i 11.',
@@ -93,17 +96,16 @@ module.exports.home = {
 	},
 };
 
+// GET /genshin-impact-reshade/gallery
 module.exports.gallery = {
 	GalleryPage: 'Galeria - Numer strony',
 	GalleryCompareReleases: 'Gallery - Porównaj wydania -',
-	GalleryCompares: 'Gallery - Porównania',
 	ScreenshotsAreAvailableInHighQuality: 'Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.',
 	WebsiteIsNotSupportedOnMobileDevices: 'Ta witryna nie jest obsługiwana na urządzeniach mobilnych.',
 	SomeImageCanBeOutdated: 'Niektóre zdjęcia mogą być nieaktualne.',
 
-	SeeComparesFromTheNewVersions: 'Zobacz porównania z nowymi wersjami',
-	ViewCompareFromTheLatestVersions: 'Wyświetl porównania z najnowszą wersją',
-	SeeTheComparisonBetween: '\uD83C\uDF0C Zobacz porównanie między...',
+	SeeComparesFromTheOtherVersions: 'Zobacz porównania z innymi wersjami',
+	SeeTheComparisonBetween: 'Zobacz porównanie między...',
 	ThePageYouAreCurrentlyOnDisplaysAComparison: 'Strona, na której aktualnie się znajdujesz, wyświetla porównanie różnych wersji wydań.',
 	OldVersion: 'Stara wersja',
 	NewVersion: 'Nowa wersja',
@@ -111,15 +113,27 @@ module.exports.gallery = {
 	WithMod: 'Z modem',
 	WithoutMod: 'Bez moda',
 
-	BonusScreenshot: '\uD83D\uDE40 Bonusowy zrzut ekranu',
+	BonusScreenshot: 'Bonusowy zrzut ekranu',
 };
 
+// GET /genshin-impact-reshade/feedback
 module.exports.feedback = {
-	LeaveYourFeedback: 'Zostaw swoją opinię \uD83D\uDD16',
-	IfYouLikeThisProjectSupportMe: 'Jeśli podoba Ci się ten projekt, rozważ subskrypcję <a href="https://www.youtube.com/channel/UClrAIcAzcqIMbvGXZqK7e0A?sub_confirmation=1" target="_blank">mojego kanału na YouTube</a>, dodanie gwiazdki na <a href="https://github.com/sefinek24/Genshin-Impact-ReShade" target="_blank">on GitHubie</a> lub  <a href="/support-me">wsparcie mnie</a> w inny sposób.',
-	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Dodatkowo, jeśli masz jakieś uwagi lub sugestie, nie wahaj się skorzystać z funkcji czatu, aby przesłać je bezpośrednio do mnie.',
+	tooltips: {
+		ClickHereToGoToTheYTPage: 'Kliknij tutaj, aby przejść do strony YouTube.',
+		GiveAStarToMyReposOnGitHub: 'Nadaj gwiazdkę moim repozytoriom na GitHubie, tym, które lubisz.',
+	},
+
+	LeaveYourFeedback: 'Podziel się swoją opinią',
+	IfYouLikeThisProjectSupportMe: 'Jeśli podoba Ci się ten projekt, rozważ {1}subskrypcje{/1} mojego kanału na YouTube, danie {2}gwiazdki{/2} na GitHubie lub {3}wsparcia mnie{/3} w inny sposób.',
+	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Dodatkowo, jeśli masz jakieś uwagi lub sugestie, nie wahaj się skorzystać z funkcji czatu, aby przesłać je bezpośrednio do twórcy.',
+
+	btn: {
+		BelowYTVideo: 'Pod filmem na YouTube',
+		OnTheDiscordServer: 'Na serwerze Discord',
+	},
 };
 
+// GET /genshin-impact-reshade/support
 module.exports.support = {
 	tooltips: {
 		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
@@ -137,8 +151,9 @@ module.exports.support = {
 	CommentMyYTVideo: 'Skomentuj mój film na YouTube',
 };
 
+// GET /genshin-impact-reshade/videos
 module.exports.videos = {
-	WatchVideosOnYT: 'Obejrzyj filmy na YouTube \uD83C\uDFA5',
+	WatchVideosOnYT: 'Obejrzyj filmy na YouTube',
 	IfYouWantToRecordNewVideo: 'Jeśli chcesz nagrać i przesłać film na YouTube, proszę, wyślij mi wiadomość. Mogę umieścić link tutaj.',
 	DeprecatedMovies: 'Przestarzałe nagrania',
 	TheMoviesAreFromPreviousVersionsOfStellaMod: 'Te filmy pochodzą z poprzednich wersji Stella Mod i są uważane już za przestarzałe.',
@@ -146,19 +161,26 @@ module.exports.videos = {
 	Gameplay: 'Rozgrywka',
 };
 
+// GET /genshin-impact-reshade/read-more
 module.exports.readMore = {
-	ReadMoreInformation: 'Przeczytaj więcej informacji \uD83D\uDE3A',
+	tooltips: {
+		TheBiggestSourceOfKnowledge: 'The biggest source of knowledge and information is hidden right behind this button!',
+	},
+
+	ReadMoreInformation: 'Większa dawka informacji',
+	MoreInfoIsAvailableOnGHWiki: 'Więcej informacji znajdziesz w repozytorium {1}sefinek24/Genshin-Impact-ReShade{/1} na stronie {2}GitHub Wiki{/2}.',
 	HowToInstall: 'Jak zainstalować?',
-	ViewChangelog: '\uD83D\uDCDD Wyświetl listę zmian',
-	PrivacyPolicy: '\uD83D\uDC65 Polityka prywatności',
-	SeeContents: '\uD83D\uDCE6 Zobacz zawartość',
-	GameCompatibility: '\uD83D\uDEE0️ Kompatybilność gry',
-	RecommendedGameSettings: '⚙️ Zalecane ustawienia gry',
-	PCRequirements: '\uD83D\uDCBB Wymagania sprzętowe',
-	SupportedOperatingSystems: '\uD83D\uDD27 Obsługiwane systemy',
+	ViewChangelog: 'Wyświetl listę zmian',
+	PrivacyPolicy: 'Polityka prywatności',
+	SeeContents: 'Zobacz zawartość',
+	GameCompatibility: 'Kompatybilność gry',
+	RecommendedGameSettings: 'Zalecane ustawienia gry',
+	PCRequirements: 'Wymagania sprzętowe',
+	SupportedOperatingSystems: 'Obsługiwane systemy',
 };
 
+// GET /genshin-impact-reshade/repositories
 module.exports.github = {
-	AllReposOnGithub: '\uD83D\uDC08 Wszystkie repozytoria na GitHubie',
+	AllReposOnGithub: 'Wszystkie repozytoria na GitHubie',
 	IfYouWantToBecomeContributor: 'Jeśli chcesz zostać współtwórcą, po prostu utwórz nowy Pull Request. Dziękuję bardzo i życzę Ci udanego kodowania!',
 };
