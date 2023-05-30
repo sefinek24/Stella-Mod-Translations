@@ -71,10 +71,7 @@
 
 
 
-  "GalleryPage1": "\uD83D\uDE3B ギャラリー - ページ 1",
-  "GalleryPage2": "\uD83D\uDE3B ギャラリー - ページ 2",
-  "GalleryPage3": "\uD83D\uDE3B ギャラリー - ページ 3",
-  "GalleryPage4": "\uD83D\uDE3B ギャラリー - ページ 4",
+  "GalleryPage": "\uD83D\uDE3B ギャラリー - ページ",
   "GalleryCompareReleases": "\uD83D\uDE3B ギャラリー - バージョン間の比較 -",
   "GalleryCompares": "\uD83D\uDE3B ギャラリー - 比較",
   "ScreenshotsAreAvailableInHighQuality": "スクリーンショットは高画質のものを閲覧できます。読み込むまでに少し時間がかかります。",

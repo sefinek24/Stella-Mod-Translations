@@ -2,9 +2,9 @@
   "FileVersion": "1.0.0",
   "LastUpdate": "29.05.2023",
   "Contributors": [{
-    "Sefinek": {
-      "GitHub": "https://github.com/sefinek24",
-      "Website": "https://sefinek.net"
+    "ShizuKoto": {
+      "GitHub": "https://github.com/ShizuKoto",
+      "Website": null
     }
   }],
 
@@ -72,10 +72,7 @@
 
 
 
-  "GalleryPage1": "\uD83D\uDE3B Galerie - Seite 1",
-  "GalleryPage2": "\uD83D\uDE3B Galerie - Seite 2",
-  "GalleryPage3": "\uD83D\uDE3B Galerie - Seite 3",
-  "GalleryPage4": "\uD83D\uDE3B Galerie - Seite 4",
+  "GalleryPage": "\uD83D\uDE3B Galerie - Seite",
   "GalleryCompareReleases": "\uD83D\uDE3B Galerie - Vergleiche Versionen -",
   "GalleryCompares": "\uD83D\uDE3B Galerie - Vergleiche",
   "ScreenshotsAreAvailableInHighQuality": "Bildschirmaufnahmen stehen in hoher Auflösung zur Verfügung. Es könnte eine Weile dauern, bis sie erscheinen.",

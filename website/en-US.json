@@ -72,10 +72,7 @@
 
 
 
-  "GalleryPage1": "\uD83D\uDE3B Gallery - Page number 1",
-  "GalleryPage2": "\uD83D\uDE3B Gallery - Page number 2",
-  "GalleryPage3": "\uD83D\uDE3B Gallery - Page number 3",
-  "GalleryPage4": "\uD83D\uDE3B Gallery - Page number 4",
+  "GalleryPage": "\uD83D\uDE3B Gallery - Page number",
   "GalleryCompareReleases": "\uD83D\uDE3B Gallery - Compare releases -",
   "GalleryCompares": "\uD83D\uDE3B Gallery - Compares",
   "ScreenshotsAreAvailableInHighQuality": "Screenshots are available in high quality. It may take a while to load them.",

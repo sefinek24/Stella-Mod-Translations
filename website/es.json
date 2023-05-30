@@ -72,10 +72,7 @@
 
 
 
-  "GalleryPage1": "\uD83D\uDE3B Galería - Página número 1",
-  "GalleryPage2": "\uD83D\uDE3B Galería - Página número 2",
-  "GalleryPage3": "\uD83D\uDE3B Galería - Página número 3",
-  "GalleryPage4": "\uD83D\uDE3B Galería - Página número 4",
+  "GalleryPage": "\uD83D\uDE3B Galería - Página número",
   "GalleryCompareReleases": "\uD83D\uDE3B Galería - Comparar lanzamientos -",
   "GalleryCompares": "\uD83D\uDE3B Galería - Comparaciones",
   "ScreenshotsAreAvailableInHighQuality": "Las capturas de pantalla están disponibles en alta calidad, por lo que podrián tardar un poco en cargar.",
