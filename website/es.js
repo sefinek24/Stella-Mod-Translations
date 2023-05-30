@@ -179,6 +179,7 @@ module.exports.readMore = {
 	PCRequirements: 'Requisitos de PC',
 	SupportedOperatingSystems: 'Sistemas compatibles',
 };
+
 // GET /genshin-impact-reshade/repositories
 module.exports.github = {
 	AllReposOnGithub: 'Todos los repositorios de GitHub',
