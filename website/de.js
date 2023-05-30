@@ -121,15 +121,21 @@ module.exports.feedback = {
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Außerdem: Wenn du irgendeine Art von Feedback, Verbesserungsvorschlägen oder sonstiges hast oder loswerden willst, kontaktiere uns gerne auf einem der verfügbaren Wege. Zum Beispiel im Chat.',
 };
 
-module.exports.help = {
-	SomeQuestions: 'Fragen? Brauchst du Hilfe? \uD83E\uDD1D',
+module.exports.support = {
+	tooltips: {
+		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
+		LeaveACommendBelowMyVideo: 'Leave a comment below my video.',
+		ReturnTo: 'Return to: Genshin Stella Mod - Here begins your adventure.',
+	},
+
+	SomeQuestions: 'Fragen? Brauchst du Hilfe?',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Hast du Probleme, oder Fragen zu Stella Mod? Wenn ja, dann zögere nicht uns zu kontaktieren. Unser Team steht für sämtliche Fragen oder Bedenken zur Verfügung.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Ob du Hilfe bei der Installation brauchst, oder einfach Fragen zu den Features hast. Wir sind hier um dich zu unterstützen.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Auch unsere Community steht dir zur Seite und beantwortet deine Fragen gerne. Erstelle einfach ein Ticket auf GitHub, oder tritt unserem Discord Server bei.',
 	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Klicke einfach auf das Chat-Icon unten rechts, um einen neuen Chat auf polnisch oder englisch zu starten. Wir freuen uns von dir zu hören.',
 	StellaModIsNotAffiliatedWithHoyoverse: 'Bitte beachte, dass Stella Mod in keiner Weise in Verbindung mit Hoyoverse (MiHoYo) steht.',
-	JoinToDiscordServer: '\uD83D\uDD35 Tritt unserem Discord Server bei',
-	CommentMyYTVideo: '\uD83D\uDD34 Kommentiere meine Videos auf YouTube',
+	JoinToDiscordServer: 'Tritt unserem Discord Server bei',
+	CommentMyYTVideo: 'Kommentiere meine Videos auf YouTube',
 };
 
 module.exports.videos = {

@@ -19,8 +19,8 @@ module.exports.default = {
 	And: 'i',
 	From: 'z',
 	In: 'w',
-	Back: '« Wstecz',
-	Next: 'Dalej »',
+	Back: 'Wstecz',
+	Next: 'Dalej',
 	DiscordServer: 'Serwer Discord',
 };
 
@@ -120,15 +120,21 @@ module.exports.feedback = {
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Dodatkowo, jeśli masz jakieś uwagi lub sugestie, nie wahaj się skorzystać z funkcji czatu, aby przesłać je bezpośrednio do mnie.',
 };
 
-module.exports.help = {
-	SomeQuestions: 'Jakieś pytania? Potrzebujesz pomocy? \uD83E\uDD1D',
+module.exports.support = {
+	tooltips: {
+		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
+		LeaveACommendBelowMyVideo: 'Leave a comment below my video.',
+		ReturnTo: 'Return to: Genshin Stella Mod - Here begins your adventure.',
+	},
+
+	SomeQuestions: 'Jakieś pytania? Potrzebujesz pomocy?',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Masz może jakikolwiek problem z modem lub pytanie? Jeśli tak, nie wahaj się z nami skontaktować! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Pamiętaj, że nasza społeczność również jest również gotowa, by odpowiedzieć na Twoje pytania. W tym celu dołącz na nasz serwer Discord lub utwórz nowy Issue na GitHub.',
 	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć nową konwersację w języku polskim lub angielskim. Oczekujemy na Twój kontakt!',
 	StellaModIsNotAffiliatedWithHoyoverse: 'Należy pamiętać, że oprogramowanie Stella Mod nie jest powiązane z firmą Hoyoverse (MiHoYo).',
-	JoinToDiscordServer: '\uD83D\uDD35 Dołącz na nasz serwer Discord',
-	CommentMyYTVideo: '\uD83D\uDD34 Skomentuj mój film na YouTube',
+	JoinToDiscordServer: 'Dołącz na nasz serwer Discord',
+	CommentMyYTVideo: 'Skomentuj mój film na YouTube',
 };
 
 module.exports.videos = {
