@@ -191,9 +191,9 @@ module.exports.forPatrons = {
 	FatalError: 'Błąd krytyczny. Spróbuj ponownie lub odśwież tę stronę.',
 
 	// index.ejs
-	Header: 'Odbierz swoje korzyści {0}!',
+	Header: 'Odbierz swoje korzyści {0}',
 
-	1: 'Bardzo dziękuję za wsparcie! Wasza hojność i zachęta są dla mnie bezcenne i naprawdę doceniam wasze zaufanie do mnie.',
+	1: 'Bardzo dziękuję Ci za wsparcie mnie! Wasza hojność i zachęta są dla mnie bezcenne i naprawdę doceniam wasze zaufanie do mnie.',
 	2: 'W dowód mojej wdzięczności zyskujesz dostęp do korzyści.',
 	3: 'Jeśli masz jakiekolwiek pytania, wątpliwości lub uwagi dotyczące mojej pracy, nie wahaj się ze mną skontaktować w dowolnym momencie.',
 
