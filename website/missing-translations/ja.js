@@ -6,7 +6,6 @@ module.exports.data = {
 			GitHub: 'https://github.com/daydreamer-json',
 			Website: null,
 		},
-		ChatGPT: true,
 	}],
 };
 

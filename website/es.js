@@ -6,7 +6,6 @@ module.exports.data = {
 			GitHub: 'https://github.com/sefinek24',
 			Website: 'https://sefinek.net',
 		},
-		ChatGPT: true,
 	}],
 };
 
@@ -83,7 +82,7 @@ module.exports.home = {
 
 	modal: {
 		Notification: 'Notificación',
-		ThankYouForDownloading: 'Gracias por descargar. Forma parte de {a}Discord server{/a} nuestra comunidad en Discord para recibir las últimas actualizaciones, funciones y noticias.<br>¡Que tengas un buen día o noche!',
+		ThankYouForDownloading: 'Gracias por descargar. Forma parte de {a}Discord server{/a} nuestra comunidad en Discord para recibir las últimas actualizaciones, funciones y noticias. ¡Que tengas un buen día o noche!',
 		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads now is',
 		NoProblem: 'No han habido problemas',
 	},

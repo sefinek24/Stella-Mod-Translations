@@ -6,7 +6,6 @@ module.exports.data = {
 			GitHub: 'https://github.com/ShizuKoto',
 			Website: null,
 		},
-		ChatGPT: true,
 	}],
 };
 

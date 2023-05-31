@@ -82,7 +82,7 @@ module.exports.home = {
 
 	modal: {
 		Notification: 'Powiadomienie',
-		ThankYouForDownloading: 'Dziękujemy bardzo za pobranie. Dołącz na nasz {a}serwer Discord{/a}, aby porozmawiać z naszą społecznością.<br>Życzymy miłego dnia lub nocy!',
+		ThankYouForDownloading: 'Dziękujemy bardzo za pobranie. Dołącz na nasz {a}serwer Discord{/a}, aby porozmawiać z naszą społecznością. Życzymy miłego dnia lub nocy!',
 		TheTotalNumberOfDownloadsNowIs: 'Całkowita liczba pobrań wynosi teraz',
 		NoProblem: 'Żaden problem',
 	},
