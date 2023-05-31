@@ -182,12 +182,14 @@ module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Are you a robot?',
 	Status: 'Status',
+	Waiting: 'Waiting...',
 	Success: 'Success',
+	NextPage: 'Next page',
 	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
 	Failed: 'Failed',
 	Expired: 'Session expired. Please refresh this page.',
 	Canceled: 'Session was canceled by the user. Try again.',
-	FatalError: 'Fatal error. Please ty again or refresh this page.',
+	FatalError: 'Fatal error. Please try again or refresh this page.',
 
 	// index.ejs
 	Header: 'Odbierz swoje korzyści {0}!',
@@ -214,7 +216,7 @@ module.exports.forPatrons = {
 	// received.ejs
 	ThisMethodIsNotAllowed: 'This method is not allowed',
 	YourBenefitsHaveAlreadyBeenReceived: 'Your benefits have already been received at {0}, {1}.',
-	Time: 'Time for the country: {0}',
+	Country: 'Country: {0}',
 	ThankUForYourSupport: 'Thank you for your support!',
 
 	// error.ejs

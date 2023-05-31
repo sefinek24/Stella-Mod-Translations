@@ -183,7 +183,9 @@ module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Bist du ein Roboter?',
 	Status: 'Status',
+	Waiting: 'Waiting...',
 	Success: 'Erfolg',
+	NextPage: 'Next page',
 	WrongStatusCode: 'Fehler. Habe falschen Status ({0}) von sefinek.net erhalten.',
 	Failed: 'Fehlgeschlagen',
 	Expired: 'Sitzung abgelaufen. Bitte aktualisiere diese Seite.',
@@ -215,7 +217,7 @@ module.exports.forPatrons = {
 	// received.ejs
 	ThisMethodIsNotAllowed: 'Diese Methode ist nicht erlaubt.',
 	YourBenefitsHaveAlreadyBeenReceived: 'Deine Benefits wurden bereits empfangen {0}, {1}.',
-	Time: 'Zeit für das Land: {0}',
+	Country: 'Zeit für das Land: {0}',
 	ThankUForYourSupport: 'Vielen Dank für deine Unterstützung!',
 
 	// error.ejs

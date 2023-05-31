@@ -179,14 +179,16 @@ module.exports.github = {
 // For patrons
 module.exports.forPatrons = {
 	// captcha.ejs
-	AreUARobot: 'Are you a robot?',
+	AreUARobot: 'Jesteś robotem?',
 	Status: 'Status',
-	Success: 'Success',
-	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
-	Failed: 'Failed',
-	Expired: 'Session expired. Please refresh this page.',
-	Canceled: 'Session was canceled by the user. Try again.',
-	FatalError: 'Fatal error. Please ty again or refresh this page.',
+	Waiting: 'Oczekiwanie...',
+	Success: 'Powodzenie',
+	NextPage: 'Następna strona',
+	WrongStatusCode: 'Błąd. Otrzymano nieprawidłowy kod statusu ({0}) z sefinek.net.',
+	Failed: 'Nie udało się',
+	Expired: 'Sesja wygasła. Odśwież tę stronę.',
+	Canceled: 'Sesja została anulowana przez użytkownika. Spróbuj ponownie.',
+	FatalError: 'Błąd krytyczny. Spróbuj ponownie lub odśwież tę stronę.',
 
 	// index.ejs
 	Header: 'Odbierz swoje korzyści {0}!',
@@ -205,16 +207,16 @@ module.exports.forPatrons = {
 	9: 'Jeśli z jakiegoś powodu musisz ponownie pobrać korzyści, możesz ponownie wywołać polecenie {code};receive{/code} na serwerze Discord. ',
 	10: 'Informuję również, że link automatycznie wygaśnie o godzinie 00:00 czasu polskiego.',
 
-	ThankYouForYourSupport: 'Thank you again for your support!',
+	ThankYouForYourSupport: 'Jeszcze raz dziękuję za wsparcie!',
 	SefinekOwO: '~ Sefinek',
 
-	clickHereToDownload: 'Click here to download',
+	clickHereToDownload: 'Kliknij tutaj, aby pobrać',
 
 	// received.ejs
-	ThisMethodIsNotAllowed: 'This method is not allowed',
-	YourBenefitsHaveAlreadyBeenReceived: 'Your benefits have already been received at {0}, {1}.',
-	Time: 'Time for the country: {0}',
-	ThankUForYourSupport: 'Thank you for your support!',
+	ThisMethodIsNotAllowed: 'Ta metoda jest niedozwolona',
+	YourBenefitsHaveAlreadyBeenReceived: 'Twoje korzyści zostały już odebrane dnia {0}, {1}.',
+	Country: 'Country: {0}',
+	ThankUForYourSupport: 'Dziękuję za Twoje wsparcie!',
 
 	// error.ejs
 	SomethingWentWrong: 'Smutny kot >~~< Coś poszło nie tak...',
