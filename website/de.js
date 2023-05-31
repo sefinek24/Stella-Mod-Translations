@@ -14,7 +14,7 @@ module.exports.data = {
 module.exports.default = {
 	tooltips: {
 		OfficialDiscordServer: 'Offizieller Discord-Server',
-		GitHubRepositories: 'GitHub-Repositories"',
+		GitHubRepositories: 'GitHub-Repositories',
 	},
 
 	And: 'und',
