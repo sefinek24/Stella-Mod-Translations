@@ -189,7 +189,6 @@ module.exports.forPatrons = {
 	Canceled: 'Session was canceled by the user. Try again.',
 	FatalError: 'Fatal error. Please ty again or refresh this page.',
 
-
 	// index.ejs
 	Header: 'Odbierz swoje korzyści {0}!',
 
@@ -212,10 +211,15 @@ module.exports.forPatrons = {
 
 	clickHereToDownload: 'Click here to download',
 
-
 	// received.ejs
 	ThisMethodIsNotAllowed: 'This method is not allowed',
 	YourBenefitsHaveAlreadyBeenReceived: 'Your benefits have already been received at {0}, {1}.',
 	Time: 'Time for the country: {0}',
 	ThankUForYourSupport: 'Thank you for your support!',
+
+	// error.ejs
+	SomethingWentWrong: 'Sad cat >~~< Something went wrong...',
+	InvalidKeyProvided: 'Invalid key provided.',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.',
+	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.',
 };

@@ -176,3 +176,50 @@ module.exports.github = {
 	AllReposOnGithub: 'Todos los repositorios de GitHub',
 	IfYouWantToBecomeContributor: 'Si te gustaria convertirte en un colaborador, solo tienes que crear un nuevo Pull Request en Github. Muchas gracias y ¡Feliz codificación!',
 };
+
+// For patrons
+module.exports.forPatrons = {
+	// captcha.ejs
+	AreUARobot: 'Are you a robot?',
+	Status: 'Status',
+	Success: 'Success',
+	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
+	Failed: 'Failed',
+	Expired: 'Session expired. Please refresh this page.',
+	Canceled: 'Session was canceled by the user. Try again.',
+	FatalError: 'Fatal error. Please ty again or refresh this page.',
+
+	// index.ejs
+	Header: 'Odbierz swoje korzyści {0}!',
+
+	1: 'Bardzo dziękuję za wsparcie! Wasza hojność i zachęta są dla mnie bezcenne i naprawdę doceniam wasze zaufanie do mnie.',
+	2: 'W dowód mojej wdzięczności zyskujesz dostęp do korzyści.',
+	3: 'Jeśli masz jakiekolwiek pytania, wątpliwości lub uwagi dotyczące mojej pracy, nie wahaj się ze mną skontaktować w dowolnym momencie.',
+
+	4: 'Pamiętaj, że korzyści można uzyskać tylko raz z jednego wygenerowanego tokenu (linku).',
+	5: 'Niemniej jednak, jeśli użyjesz odpowiedniej komendy na serwerze Discord i podasz powód dlaczego chcesz odebrać korzyści jeszcze raz, możesz wygenerować nowy klucz.',
+	6: 'Kiedy stracę dostęp do korzyści? O to odpowiedź. Twoja subskrypcja na Patronie musi wygasnąć.',
+
+	7: 'Po pobraniu aplikacji poświęć trochę czasu na zapoznanie się z warunkami licencji.',
+	8: 'Pomoże Ci to zrozumieć, w jaki sposób możesz korzystać z aplikacji oraz związanych z nią praw i obowiązków.',
+
+	9: 'Jeśli z jakiegoś powodu musisz ponownie pobrać korzyści, możesz ponownie wywołać polecenie {code};receive{/code} na serwerze Discord. ',
+	10: 'Informuję również, że link automatycznie wygaśnie o godzinie 00:00 czasu polskiego.',
+
+	ThankYouForYourSupport: 'Thank you again for your support!',
+	SefinekOwO: '~ Sefinek',
+
+	clickHereToDownload: 'Click here to download',
+
+	// received.ejs
+	ThisMethodIsNotAllowed: 'This method is not allowed',
+	YourBenefitsHaveAlreadyBeenReceived: 'Your benefits have already been received at {0}, {1}.',
+	Time: 'Time for the country: {0}',
+	ThankUForYourSupport: 'Thank you for your support!',
+
+	// error.ejs
+	SomethingWentWrong: 'Smutny kot >~~< Coś poszło nie tak...',
+	InvalidKeyProvided: 'Podany klucz jest nieprawidłowy.',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Ten link wygasł i nie będzie już aktywny.',
+	ErrorOccurredPleaseTryAgain: 'Wystąpił błąd. Proszę spróbuj ponownie.',
+};

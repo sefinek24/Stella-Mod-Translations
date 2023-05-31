@@ -190,7 +190,6 @@ module.exports.forPatrons = {
 	Canceled: 'Sitzung wurde vom Nutzer abgebrochen. Bitte erneut versuchen.',
 	FatalError: 'Fehler. Bitte versuche es erneut und aktualisiere diese Seite..',
 
-
 	// index.ejs
 	Header: 'Fordere deine Vorteile {0} an!',
 
@@ -213,10 +212,15 @@ module.exports.forPatrons = {
 
 	clickHereToDownload: 'Zum downloaden hier klicken',
 
-
 	// received.ejs
 	ThisMethodIsNotAllowed: 'Diese Methode ist nicht erlaubt.',
 	YourBenefitsHaveAlreadyBeenReceived: 'Deine Benefits wurden bereits empfangen {0}, {1}.',
 	Time: 'Zeit für das Land: {0}',
 	ThankUForYourSupport: 'Vielen Dank für deine Unterstützung!',
+
+	// error.ejs
+	SomethingWentWrong: 'Smutny kot >~~< Coś poszło nie tak...',
+	InvalidKeyProvided: 'Podany klucz jest nieprawidłowy.',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Ten link wygasł i nie będzie już aktywny.',
+	ErrorOccurredPleaseTryAgain: 'Wystąpił błąd. Proszę spróbuj ponownie.',
 };
