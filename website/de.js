@@ -198,6 +198,7 @@ module.exports.forPatrons = {
 	Canceled: 'Session was canceled by the user. Try again.',
 	FatalError: 'Fatal error. Please ty again or refresh this page.',
 
+
 	// index.ejs
 	Header: 'Odbierz swoje korzyści {0}!',
 
