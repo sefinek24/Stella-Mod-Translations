@@ -192,6 +192,7 @@ module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Are you a robot?',
 	Status: 'Status',
+	Success: 'Success',
 	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
 	Failed: 'Failed',
 	Expired: 'Session expired. Please refresh this page.',
