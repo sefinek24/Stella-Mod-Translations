@@ -6,7 +6,6 @@ module.exports.data = {
 			GitHub: 'https://github.com/sefinek24',
 			Website: 'https://sefinek.net',
 		},
-		ChatGPT: false,
 	}],
 };
 
