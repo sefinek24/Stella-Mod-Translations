@@ -1,6 +1,6 @@
 module.exports.data = {
 	FileVersion: '2.0.0',
-	LastUpdate: '30.05.2023',
+	LastUpdate: '31.05.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',

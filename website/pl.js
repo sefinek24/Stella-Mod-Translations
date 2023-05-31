@@ -48,7 +48,7 @@ module.exports.errors = {
 	missingLang: {
 		OhNoSomethingWentWrong: 'O nie! Coś poszło nie tak...',
 		WereSorryButWeCouldFindTheCorrectTranslation: 'Przepraszamy, ale nie mogliśmy znaleźć prawidłowego tłumaczenia dla Twojego języka - {0}. Aby uzyskać więcej informacji, sprawdź szczegóły konsoli. (≧◡≦) ♡',
-		IfYouWouldLikeToContributeYourOwnTranslationOrHelpUsFixThisIssue: 'Jeśli chcesz przesłać własne tłumaczenie lub pomóc nam rozwiązać ten problem, utwórz nowy <a href="https://github.com/sefinek24/Genshin-Stella-Mod_Translations/pulls">Pull Request</a> na naszym <a href="https://github.com/sefinek24/Genshin-Stella-Mod_Translations">repozytorium GitHub</a>. Dzięki za pomoc! o(>ω<)o',
+		IfYouWouldLikeToContributeYourOwnTranslationOrHelpUsFixThisIssue: 'Jeśli chcesz przesłać własne tłumaczenie lub pomóc nam rozwiązać ten problem, utwórz nowy {0}Pull Request{/0} na naszym {1}repozytorium GitHub{/1}. Dzięki za pomoc! o(>ω<)o',
 		SwitchLanguageToEnglish: 'Zmień język na angielski',
 		YesClickMe: 'Takk, kliknij mnie!',
 	},
