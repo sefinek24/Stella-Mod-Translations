@@ -14,7 +14,7 @@ module.exports.data = {
 module.exports.default = {
 	tooltips: {
 		OfficialDiscordServer: 'Offizieller Discord-Server',
-		GitHubRepositories: 'GitHub-Repositorys"',
+		GitHubRepositories: 'GitHub-Repositories"',
 	},
 
 	And: 'und',
@@ -28,7 +28,7 @@ module.exports.default = {
 // Errors
 module.exports.errors = {
 	400: {
-		BadRequest: 'Error 400: Bad Request',
+		BadRequest: 'Fehler 400: Bad Request',
 		InvalidURL: 'Die Antwort-URL ist ungültig.',
 		ReferrerURL: 'Deine referrer URL',
 		CorrectRefURL: 'Korrekte URL',
@@ -121,8 +121,8 @@ module.exports.gallery = {
 // GET /genshin-impact-reshade/feedback
 module.exports.feedback = {
 	tooltips: {
-		ClickHereToGoToTheYTPage: 'Kliknij tutaj, aby przejść do strony YouTube.',
-		GiveAStarToMyReposOnGitHub: 'Nadaj gwiazdkę moim repozytoriom na GitHubie, tym, które lubisz.',
+		ClickHereToGoToTheYTPage: 'Kick hier, um auf die YouTube Seite zu gelangen.',
+		GiveAStarToMyReposOnGitHub: 'Gib meinem Repo auf GitHub einen Stern.',
 	},
 
 	LeaveYourFeedback: 'Meinung hinterlassen',
@@ -130,17 +130,17 @@ module.exports.feedback = {
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Außerdem: Wenn du irgendeine Art von Feedback, Verbesserungsvorschlägen oder sonstiges hast oder loswerden willst, kontaktiere uns gerne auf einem der verfügbaren Wege. Zum Beispiel im Chat.',
 
 	btn: {
-		BelowYTVideo: 'Pod filmem na YouTube',
-		OnTheDiscordServer: 'Na serwerze Discord',
+		BelowYTVideo: 'Unter dem YouTube Video',
+		OnTheDiscordServer: 'Auf dem Discord Server',
 	},
 };
 
 // GET /genshin-impact-reshade/support
 module.exports.support = {
 	tooltips: {
-		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
-		LeaveACommendBelowMyVideo: 'Leave a comment below my video.',
-		ReturnTo: 'Return to: Genshin Stella Mod - Here begins your adventure.',
+		JoinOurOfficialDiscordServer: 'Trete unserem offiziellen Discord Server bei.',
+		LeaveACommendBelowMyVideo: 'Hinterlasse einen Kommentar unter meinem Video.',
+		ReturnTo: 'Zurück zu: Genshin Stella Mod - Hier beginnt dein Abenteuer.',
 	},
 
 	SomeQuestions: 'Fragen? Brauchst du Hilfe?',
@@ -166,11 +166,11 @@ module.exports.videos = {
 // GET /genshin-impact-reshade/read-more
 module.exports.readMore = {
 	tooltips: {
-		TheBiggestSourceOfKnowledge: 'The biggest source of knowledge and information is hidden right behind this button!',
+		TheBiggestSourceOfKnowledge: 'Die größte Quelle an Infos und Wissen verbirgt sich direkt hinter diesem Button!',
 	},
 
 	ReadMoreInformation: 'Mehr Infos lesen',
-	MoreInfoIsAvailableOnGHWiki: 'Więcej informacji znajdziesz w repozytorium {1}sefinek24/Genshin-Impact-ReShade{/1} na stronie {2}GitHub Wiki{/2}.',
+	MoreInfoIsAvailableOnGHWiki: 'Mehr Infos kannst du im GitHub Repository {1}sefinek24/Genshin-Impact-ReShade{/1} auf der Seite {2}GitHub Wiki{/2} finden.',
 	HowToInstall: 'Wie installieren?',
 	ViewChangelog: 'Änderungshistorie ansehen',
 	PrivacyPolicy: 'Datenschutzrichtlinie',
@@ -190,42 +190,42 @@ module.exports.github = {
 // For patrons
 module.exports.forPatrons = {
 	// captcha.ejs
-	AreUARobot: 'Are you a robot?',
+	AreUARobot: 'Bist du ein Roboter?',
 	Status: 'Status',
-	Success: 'Success',
-	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
-	Failed: 'Failed',
-	Expired: 'Session expired. Please refresh this page.',
-	Canceled: 'Session was canceled by the user. Try again.',
-	FatalError: 'Fatal error. Please ty again or refresh this page.',
+	Success: 'Erfolg',
+	WrongStatusCode: 'Fehler. Habe falschen Status ({0}) von sefinek.net erhalten.',
+	Failed: 'Fehlgeschlagen',
+	Expired: 'Sitzung abgelaufen. Bitte aktualisiere diese Seite.',
+	Canceled: 'Sitzung wurde vom Nutzer abgebrochen. Bitte erneut versuchen.',
+	FatalError: 'Fehler. Bitte versuche es erneut und aktualisiere diese Seite..',
 
 
 	// index.ejs
-	Header: 'Odbierz swoje korzyści {0}!',
+	Header: 'Fordere deine Vorteile {0} an!',
 
-	1: 'Bardzo dziękuję za wsparcie! Wasza hojność i zachęta są dla mnie bezcenne i naprawdę doceniam wasze zaufanie do mnie.',
-	2: 'W dowód mojej wdzięczności zyskujesz dostęp do korzyści.',
-	3: 'Jeśli masz jakiekolwiek pytania, wątpliwości lub uwagi dotyczące mojej pracy, nie wahaj się ze mną skontaktować w dowolnym momencie.',
+	1: 'Vielen Dank für deine Unterstützung! IDeinehre Großzügigkeit und Ermutigung sind für mich von unschätzbarem Wert und ich schätze dein Vertrauen in mich wirklich.',
+	2: 'Als Zeichen meiner Dankbarkeit erhältst du Zugang zu Vorteilen.',
+	3: 'Wenn du Fragen, Bedenken oder Anmerkungen zu meiner Arbeit hast, zögere bitte nicht, mich jederzeit zu kontaktieren.',
 
-	4: 'Pamiętaj, że korzyści można uzyskać tylko raz z jednego wygenerowanego tokenu (linku).',
-	5: 'Niemniej jednak, jeśli użyjesz odpowiedniej komendy na serwerze Discord i podasz powód dlaczego chcesz odebrać korzyści jeszcze raz, możesz wygenerować nowy klucz.',
-	6: 'Kiedy stracę dostęp do korzyści? O to odpowiedź. Twoja subskrypcja na Patronie musi wygasnąć.',
+	4: 'Denk daran, dass Vorteile nur einmal mit einem generierten Token abgeholt werden können (Link).',
+	5: 'Wenn du jedoch den entsprechenden Befehl auf dem Discord-Server verwendest und einen Grund angibst, warum du die Vorteile erneut in Anspruch nehmen möchtest, kannst du einen neuen Schlüssel generieren.',
+	6: 'Wann verliere ich den Zugang zu meinen Vorteilen? Wenn dein Patron-Abonnement abläuft.',
 
-	7: 'Po pobraniu aplikacji poświęć trochę czasu na zapoznanie się z warunkami licencji.',
-	8: 'Pomoże Ci to zrozumieć, w jaki sposób możesz korzystać z aplikacji oraz związanych z nią praw i obowiązków.',
+	7: 'Nachdem du die App heruntergeladen hast, nimm dir bitte etwas Zeit, die Lizenzbedingungen zu lesen.',
+	8: 'Dies hilft dir zu verstehen, wie du die Anwendung nutzen kannst und welche Rechte und Pflichten damit verbunden sind.',
 
-	9: 'Jeśli z jakiegoś powodu musisz ponownie pobrać korzyści, możesz ponownie wywołać polecenie {code};receive{/code} na serwerze Discord. ',
-	10: 'Informuję również, że link automatycznie wygaśnie o godzinie 00:00 czasu polskiego.',
+	9: 'Wenn du deine Vorteile aus irgendeinem Grund erneut anfordern musst, kannst du {code};receive{/code} erneut auf unserem Discord-Server ausführen.',
+	10: 'Ich informiere dich außerdem darüber, dass der Link automatisch um 00:00 Uhr polnischer Zeit abläuft.',
 
-	ThankYouForYourSupport: 'Thank you again for your support!',
+	ThankYouForYourSupport: 'Nochmals! Vielen Dank für deine Unterstützung!',
 	SefinekOwO: '~ Sefinek',
 
-	clickHereToDownload: 'Click here to download',
+	clickHereToDownload: 'Zum downloaden hier klicken',
 
 
 	// received.ejs
-	ThisMethodIsNotAllowed: 'This method is not allowed',
-	YourBenefitsHaveAlreadyBeenReceived: 'Your benefits have already been received at {0}, {1}.',
-	Time: 'Time for the country: {0}',
-	ThankUForYourSupport: 'Thank you for your support!',
+	ThisMethodIsNotAllowed: 'Diese Methode ist nicht erlaubt.',
+	YourBenefitsHaveAlreadyBeenReceived: 'Deine Benefits wurden bereits empfangen {0}, {1}.',
+	Time: 'Zeit für das Land: {0}',
+	ThankUForYourSupport: 'Vielen Dank für deine Unterstützung!',
 };
