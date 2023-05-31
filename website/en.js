@@ -195,7 +195,7 @@ module.exports.forPatrons = {
 	Failed: 'Failed',
 	Expired: 'Session expired. Please refresh this page.',
 	Canceled: 'Session was canceled by the user. Try again.',
-	FatalError: 'Fatal error. Please ty again or reflesh this page.',
+	FatalError: 'Fatal error. Please ty again or refresh this page.',
 
 	// index.ejs
 	Header: 'Odbierz swoje korzyści {0}!',
