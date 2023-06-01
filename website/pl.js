@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.0',
-	LastUpdate: '30.05.2023',
+	FileVersion: '2.0.1',
+	LastUpdate: '01.06.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -34,7 +34,7 @@ module.exports.errors = {
 	},
 
 	wrongOs: {
-		DeviceIsNotSupported: '❎ Urządzenie nie jest obsługiwane',
+		DeviceIsNotSupported: 'Urządzenie nie jest obsługiwane',
 		SorryYourDeviceIsNotSupported: 'Przepraszamy. Twoje urządzenie nie jest wspierane.',
 		ViewSupportedOperatingSystems: 'Wyświetl obsługiwane systemy operacyjne.',
 	},
@@ -127,9 +127,9 @@ module.exports.feedback = {
 // GET /genshin-impact-reshade/support
 module.exports.support = {
 	tooltips: {
-		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
-		LeaveACommendBelowMyVideo: 'Leave a comment below my video.',
-		ReturnTo: 'Return to: Genshin Stella Mod - Here begins your adventure.',
+		JoinOurOfficialDiscordServer: 'Dołącz do naszego oficjalnego serwera Discord."',
+		LeaveACommendBelowMyVideo: 'Zostaw komentarz pod moim filmem.',
+		ReturnTo: 'Wróć do: Genshin Stella Mod - Here begins your adventure.',
 	},
 
 	SomeQuestions: 'Jakieś pytania? Potrzebujesz pomocy?',
@@ -155,7 +155,7 @@ module.exports.videos = {
 // GET /genshin-impact-reshade/read-more
 module.exports.readMore = {
 	tooltips: {
-		TheBiggestSourceOfKnowledge: 'The biggest source of knowledge and information is hidden right behind this button!',
+		TheBiggestSourceOfKnowledge: 'Największe źródło wiedzy i informacji kryje się tuż za tym przyciskiem!',
 	},
 
 	ReadMoreInformation: 'Większa dawka informacji',
@@ -215,7 +215,7 @@ module.exports.forPatrons = {
 	// received.ejs
 	ThisMethodIsNotAllowed: 'Ta metoda jest niedozwolona',
 	YourBenefitsHaveAlreadyBeenReceived: 'Twoje korzyści zostały już odebrane dnia {0}, {1}.',
-	Country: 'Country: {0}',
+	Country: 'Kraj: {0}',
 	ThankUForYourSupport: 'Dziękuję za Twoje wsparcie!',
 
 	// error.ejs

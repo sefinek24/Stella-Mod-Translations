@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.0',
-	LastUpdate: '31.05.2023',
+	FileVersion: '2.0.1',
+	LastUpdate: '01.06.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',
@@ -34,7 +34,7 @@ module.exports.errors = {
 	},
 
 	wrongOs: {
-		DeviceIsNotSupported: '❎ Gerät wird nicht unterstützt.',
+		DeviceIsNotSupported: 'Gerät wird nicht unterstützt.',
 		SorryYourDeviceIsNotSupported: 'Ups. Dein Gerät wird nicht unterstützt.',
 		ViewSupportedOperatingSystems: 'Hier findest du alle unterstützten Geräte.',
 	},
@@ -183,7 +183,7 @@ module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Bist du ein Roboter?',
 	Status: 'Status',
-	Waiting: 'Waiting...',
+	Waiting: 'Waiting...', // TODO
 	Success: 'Erfolg',
 	NextPage: 'Next page',
 	WrongStatusCode: 'Fehler. Habe falschen Status ({0}) von sefinek.net erhalten.',
@@ -221,8 +221,8 @@ module.exports.forPatrons = {
 	ThankUForYourSupport: 'Vielen Dank für deine Unterstützung!',
 
 	// error.ejs
-	SomethingWentWrong: 'Smutny kot >~~< Coś poszło nie tak...',
-	InvalidKeyProvided: 'Podany klucz jest nieprawidłowy.',
-	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Ten link wygasł i nie będzie już aktywny.',
-	ErrorOccurredPleaseTryAgain: 'Wystąpił błąd. Proszę spróbuj ponownie.',
+	SomethingWentWrong: 'Sad cat >~~< Something went wrong...', // TODO
+	InvalidKeyProvided: 'Invalid key provided.', // TODO
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.', // TODO
+	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.', // TODO
 };

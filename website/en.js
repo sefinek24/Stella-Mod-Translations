@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.0',
-	LastUpdate: '31.05.2023',
+	FileVersion: '2.0.1',
+	LastUpdate: '01.06.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -34,7 +34,7 @@ module.exports.errors = {
 	},
 
 	wrongOs: {
-		DeviceIsNotSupported: '❎ Device is not supported',
+		DeviceIsNotSupported: 'Device is not supported',
 		SorryYourDeviceIsNotSupported: 'Sorry. Your device is not supported.',
 		ViewSupportedOperatingSystems: 'View supported operating systems.',
 	},
@@ -160,7 +160,7 @@ module.exports.readMore = {
 	},
 
 	ReadMoreInformation: 'Read more information',
-	MoreInfoIsAvailableOnGHWiki: 'Więcej informacji znajdziesz w repozytorium {1}sefinek24/Genshin-Impact-ReShade{/1} na stronie {2}GitHub Wiki{/2}.',
+	MoreInfoIsAvailableOnGHWiki: 'You can find more information in the repository {1}sefinek24/Genshin-Impact-ReShade{/1} on the {2}GitHub Wiki{/2} page.',
 	HowToInstall: 'How to install?',
 	ViewChangelog: 'View changelog',
 	PrivacyPolicy: 'Privacy policy',
@@ -192,21 +192,21 @@ module.exports.forPatrons = {
 	FatalError: 'Fatal error. Please try again or refresh this page.',
 
 	// index.ejs
-	Header: 'Odbierz swoje korzyści {0}',
+	Header: 'Receive your benefits {0}',
 
-	1: 'Bardzo dziękuję Ci za wsparcie mnie! Wasza hojność i zachęta są dla mnie bezcenne i naprawdę doceniam wasze zaufanie do mnie.',
-	2: 'W dowód mojej wdzięczności zyskujesz dostęp do korzyści.',
-	3: 'Jeśli masz jakiekolwiek pytania, wątpliwości lub uwagi dotyczące mojej pracy, nie wahaj się ze mną skontaktować w dowolnym momencie.',
+	1: 'Thank you so much for supporting me! Your generosity and encouragement are invaluable to me, and I truly appreciate your trust in me.',
+	2: 'As a token of my gratitude, you gain access to benefits.',
+	3: 'If you have any questions, concerns, or feedback regarding my work, please feel free to contact me at any time.',
 
-	4: 'Pamiętaj, że korzyści można uzyskać tylko raz z jednego wygenerowanego tokenu (linku).',
-	5: 'Niemniej jednak, jeśli użyjesz odpowiedniej komendy na serwerze Discord i podasz powód dlaczego chcesz odebrać korzyści jeszcze raz, możesz wygenerować nowy klucz.',
-	6: 'Kiedy stracę dostęp do korzyści? O to odpowiedź. Twoja subskrypcja na Patronie musi wygasnąć.',
+	4: 'Please remember that benefits can only be obtained once from a single generated token (link).',
+	5: 'However, if you use the appropriate command on the Discord server and provide a reason why you want to claim the benefits again, you can generate a new key.',
+	6: 'When will I lose access to the benefits? Here\'s the answer. Your subscription on Patreon must expire.',
 
-	7: 'Po pobraniu aplikacji poświęć trochę czasu na zapoznanie się z warunkami licencji.',
-	8: 'Pomoże Ci to zrozumieć, w jaki sposób możesz korzystać z aplikacji oraz związanych z nią praw i obowiązków.',
+	7: 'After downloading the application, take some time to familiarize yourself with the terms of the license.',
+	8: 'This will help you understand how you can use the application and the rights and responsibilities associated with it.',
 
-	9: 'Jeśli z jakiegoś powodu musisz ponownie pobrać korzyści, możesz ponownie wywołać polecenie {code};receive{/code} na serwerze Discord. ',
-	10: 'Informuję również, że link automatycznie wygaśnie o godzinie 00:00 czasu polskiego.',
+	9: 'If for any reason you need to download the benefits again, you can simply invoke the command {code};receive{/code} on the Discord server.',
+	10: 'I also inform you that the link will automatically expire at 00:00 Polish time.',
 
 	ThankYouForYourSupport: 'Thank you again for your support!',
 	SefinekOwO: '~ Sefinek',

@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.0',
-	LastUpdate: '31.05.2023',
+	FileVersion: '2.0.1',
+	LastUpdate: '01.06.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -9,7 +9,7 @@ module.exports.data = {
 	}],
 };
 
-module.exports.data = {
+module.exports = {
 	OhNoSomethingWentWrong: '¡Vaya! Algo ha salido mal...',
 	WereSorryButWeCouldFindTheCorrectTranslation: 'Lo sentimos, no hemos podido encontrar una traducción acorde a tu idioma - {0}. Para más información, consulta los detalles de la consola (≧◡≦) ♡',
 	IfYouWouldLikeToContributeYourOwnTranslationOrHelpUsFixThisIssue: 'Si te gustaria contribuir con tu propia traducción o ayudarnos a solucionar este problema, por favor, crea un nuevo {0}Pull Request{/0} en nuestro {1}repositorio de Github{/1}. ¡Gracias por tu ayuda! o(>ω<)o',

@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.0',
-	LastUpdate: '31.05.2023',
+	FileVersion: '2.0.1',
+	LastUpdate: '01.06.2023',
 	Contributors: [{
 		'daydreamer-json': {
 			GitHub: 'https://github.com/daydreamer-json',
@@ -34,7 +34,7 @@ module.exports.errors = {
 	},
 
 	wrongOs: {
-		DeviceIsNotSupported: '❎ デバイスがサポートされていません',
+		DeviceIsNotSupported: 'デバイスがサポートされていません',
 		SorryYourDeviceIsNotSupported: 'あなたのデバイスはサポートされていません。',
 		ViewSupportedOperatingSystems: 'サポートされているOSを見る',
 	},
@@ -81,7 +81,7 @@ module.exports.home = {
 
 	modal: {
 		Notification: '通知',
-		ThankYouForDownloading: 'ダウンロードありがとうございます。最新のアップデートやニュースなどを入手するには、私たちの{a}Discordサーバー{/a}に参加してください。<br>良いテイワットライフを!',
+		ThankYouForDownloading: 'ダウンロードありがとうございます。最新のアップデートやニュースなどを入手するには、私たちの{a}Discordサーバー{/a}に参加してください。良いテイワットライフを!', // TODO
 		TheTotalNumberOfDownloadsNowIs: '現在の総ダウンロード回数は',
 		NoProblem: '閉じる',
 	},
@@ -155,11 +155,11 @@ module.exports.videos = {
 // GET /genshin-impact-reshade/read-more
 module.exports.readMore = {
 	tooltips: {
-		TheBiggestSourceOfKnowledge: 'The biggest source of knowledge and information is hidden right behind this button!',
+		TheBiggestSourceOfKnowledge: 'The biggest source of knowledge and information is hidden right behind this button!', // TODO
 	},
 
 	ReadMoreInformation: '詳細を見る',
-	MoreInfoIsAvailableOnGHWiki: 'Więcej informacji znajdziesz w repozytorium {1}sefinek24/Genshin-Impact-ReShade{/1} na stronie {2}GitHub Wiki{/2}.',
+	MoreInfoIsAvailableOnGHWiki: 'You can find more information in the repository {1}sefinek24/Genshin-Impact-ReShade{/1} on the {2}GitHub Wiki{/2} page.', // TODO
 	HowToInstall: 'インストール方法は？',
 	ViewChangelog: '更新履歴を見る',
 	PrivacyPolicy: 'プライバシーポリシー',
@@ -176,12 +176,12 @@ module.exports.github = {
 	IfYouWantToBecomeContributor: 'もしあなたがコントリビューターになっていただけるのであれば、新しいPull Requestを作成してください。',
 };
 
-// For patrons
+// TODO: For patrons
 module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Are you a robot?',
 	Status: 'Status',
-	Waiting: 'Oczekiwanie...',
+	Waiting: 'Waiting...',
 	Success: 'Success',
 	NextPage: 'Next page',
 	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
@@ -191,21 +191,21 @@ module.exports.forPatrons = {
 	FatalError: 'Fatal error. Please try again or refresh this page.',
 
 	// index.ejs
-	Header: 'Odbierz swoje korzyści {0}',
+	Header: 'Receive your benefits {0}',
 
-	1: 'Bardzo dziękuję Ci za wsparcie mnie! Wasza hojność i zachęta są dla mnie bezcenne i naprawdę doceniam wasze zaufanie do mnie.',
-	2: 'W dowód mojej wdzięczności zyskujesz dostęp do korzyści.',
-	3: 'Jeśli masz jakiekolwiek pytania, wątpliwości lub uwagi dotyczące mojej pracy, nie wahaj się ze mną skontaktować w dowolnym momencie.',
+	1: 'Thank you so much for supporting me! Your generosity and encouragement are invaluable to me, and I truly appreciate your trust in me.',
+	2: 'As a token of my gratitude, you gain access to benefits.',
+	3: 'If you have any questions, concerns, or feedback regarding my work, please feel free to contact me at any time.',
 
-	4: 'Pamiętaj, że korzyści można uzyskać tylko raz z jednego wygenerowanego tokenu (linku).',
-	5: 'Niemniej jednak, jeśli użyjesz odpowiedniej komendy na serwerze Discord i podasz powód dlaczego chcesz odebrać korzyści jeszcze raz, możesz wygenerować nowy klucz.',
-	6: 'Kiedy stracę dostęp do korzyści? O to odpowiedź. Twoja subskrypcja na Patronie musi wygasnąć.',
+	4: 'Please remember that benefits can only be obtained once from a single generated token (link).',
+	5: 'However, if you use the appropriate command on the Discord server and provide a reason why you want to claim the benefits again, you can generate a new key.',
+	6: 'When will I lose access to the benefits? Here\'s the answer. Your subscription on Patreon must expire.',
 
-	7: 'Po pobraniu aplikacji poświęć trochę czasu na zapoznanie się z warunkami licencji.',
-	8: 'Pomoże Ci to zrozumieć, w jaki sposób możesz korzystać z aplikacji oraz związanych z nią praw i obowiązków.',
+	7: 'After downloading the application, take some time to familiarize yourself with the terms of the license.',
+	8: 'This will help you understand how you can use the application and the rights and responsibilities associated with it.',
 
-	9: 'Jeśli z jakiegoś powodu musisz ponownie pobrać korzyści, możesz ponownie wywołać polecenie {code};receive{/code} na serwerze Discord. ',
-	10: 'Informuję również, że link automatycznie wygaśnie o godzinie 00:00 czasu polskiego.',
+	9: 'If for any reason you need to download the benefits again, you can simply invoke the command {code};receive{/code} on the Discord server.',
+	10: 'I also inform you that the link will automatically expire at 00:00 Polish time.',
 
 	ThankYouForYourSupport: 'Thank you again for your support!',
 	SefinekOwO: '~ Sefinek',
@@ -219,8 +219,8 @@ module.exports.forPatrons = {
 	ThankUForYourSupport: 'Thank you for your support!',
 
 	// error.ejs
-	SomethingWentWrong: 'Smutny kot >~~< Coś poszło nie tak...',
-	InvalidKeyProvided: 'Podany klucz jest nieprawidłowy.',
-	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Ten link wygasł i nie będzie już aktywny.',
-	ErrorOccurredPleaseTryAgain: 'Wystąpił błąd. Proszę spróbuj ponownie.',
+	SomethingWentWrong: 'Sad cat >~~< Something went wrong...',
+	InvalidKeyProvided: 'Invalid key provided.',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.',
+	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.',
 };
