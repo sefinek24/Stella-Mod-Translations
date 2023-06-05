@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.1',
-	LastUpdate: '01.06.2023',
+	FileVersion: '2.0.2',
+	LastUpdate: '05.06.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -110,8 +110,7 @@ module.exports.gallery = {
 
 // GET /genshin-impact-reshade/feedback
 module.exports.feedback = {
-	// TODO
-	tooltips: {
+	tooltips: { // TODO
 		ClickHereToGoToTheYTPage: 'Click here to go to the YouTube page.',
 		GiveAStarToMyReposOnGitHub: 'Give a star to my repositories on GitHub, the ones you like.',
 	},
@@ -121,15 +120,14 @@ module.exports.feedback = {
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Además, si tienes algún comentario o sugerencia, no dudes en utilizar la función del chat para enviarlos directamente a mi.', // TODO
 
 	btn: {
-		BelowYTVideo: 'Pod filmem na YouTube',
-		OnTheDiscordServer: 'Na serwerze Discord',
+		BelowYTVideo: 'Below my YouTube video', // TODO
+		OnTheDiscordServer: 'On the Discord server', // TODO
 	},
 };
 
 // GET /genshin-impact-reshade/support
 module.exports.support = {
-	// TODO
-	tooltips: {
+	tooltips: { // TODO
 		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
 		LeaveACommendBelowMyVideo: 'Leave a comment below my video.',
 		ReturnTo: 'Return to: Genshin Stella Mod - Here begins your adventure.',

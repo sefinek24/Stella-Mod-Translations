@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.1',
-	LastUpdate: '01.06.2023',
+	FileVersion: '2.0.2',
+	LastUpdate: '05.06.2023',
 	Contributors: [{
 		'daydreamer-json': {
 			GitHub: 'https://github.com/daydreamer-json',
