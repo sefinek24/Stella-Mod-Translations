@@ -184,7 +184,9 @@ module.exports.forPatrons = {
 	AreUARobot: 'Bist du ein Roboter?',
 	Status: 'Status',
 	Waiting: 'Waiting...', // TODO
+	VerifyingSession: 'Verifying session...', // TODO
 	Success: 'Erfolg',
+	ValidateRequest: 'Validate request', // TODO
 	NextPage: 'Next page',
 	WrongStatusCode: 'Fehler. Habe falschen Status ({0}) von sefinek.net erhalten.',
 	Failed: 'Fehlgeschlagen',
