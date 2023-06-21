@@ -181,8 +181,7 @@ module.exports.github = {
 module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Are you a robot?',
-	Status: 'Status',
-	Waiting: 'Waiting...',
+	WaitingForUser: 'Waiting for user interaction...',
 	VerifyingSession: 'Verifying session...',
 	Success: 'Success',
 	ValidateRequest: 'Validate request',

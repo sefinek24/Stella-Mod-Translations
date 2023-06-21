@@ -183,7 +183,7 @@ module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Bist du ein Roboter?',
 	Status: 'Status',
-	Waiting: 'Waiting...', // TODO
+	WaitingForUser: 'Waiting for user interaction...', // TODO
 	VerifyingSession: 'Verifying session...', // TODO
 	Success: 'Erfolg',
 	ValidateRequest: 'Validate request', // TODO
