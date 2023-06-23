@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.3',
-	LastUpdate: '21.06.2023',
+	FileVersion: '2.0.4',
+	LastUpdate: '23.06.2023',
 	Contributors: [{
 		'daydreamer-json': {
 			GitHub: 'https://github.com/daydreamer-json',
@@ -81,7 +81,7 @@ module.exports.home = {
 
 	modal: {
 		Notification: '通知',
-		ThankYouForDownloading: 'ダウンロードありがとうございます。最新のアップデートやニュースなどを入手するには、私たちの{a}Discordサーバー{/a}に参加してください。良いテイワットライフを!', // TODO
+		ThankYouForDownloading: 'Thank you for downloading! Join our Discord server to receive notifications about the latest updates, features, and other announcements. Don\'t hesitate to reach out to the creator if you have any questions or issues. If you enjoy Stella Mod, consider writing a review on {a}trustpilot.com{/a}. This program is free only thanks to your donations. Have a nice day or night!', // TODO
 		TheTotalNumberOfDownloadsNowIs: '現在の総ダウンロード回数は',
 		NoProblem: '閉じる',
 	},

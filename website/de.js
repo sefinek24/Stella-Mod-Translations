@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.3',
-	LastUpdate: '21.06.2023',
+	FileVersion: '2.0.4',
+	LastUpdate: '23.06.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',
@@ -82,7 +82,7 @@ module.exports.home = {
 
 	modal: {
 		Notification: 'Mitteilung',
-		ThankYouForDownloading: 'Vielen Dank fürs herunterladen. Trete uns jetzt auf unserem {a}Discord Server{/a} bei und erhalte Infos zu neuen Updates, Features und Nachrichten. Habe einen schönen Tag oder eine schöne Nacht!',
+		ThankYouForDownloading: 'Thank you for downloading! Join our Discord server to receive notifications about the latest updates, features, and other announcements. Don\'t hesitate to reach out to the creator if you have any questions or issues. If you enjoy Stella Mod, consider writing a review on {a}trustpilot.com{/a}. This program is free only thanks to your donations. Have a nice day or night!', // TODO
 		TheTotalNumberOfDownloadsNowIs: 'Die aktuell gesamte Anzahl an Downloads ist',
 		NoProblem: 'Kein Problem',
 	},

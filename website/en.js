@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.3',
-	LastUpdate: '21.06.2023',
+	FileVersion: '2.0.4',
+	LastUpdate: '23.06.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -82,7 +82,7 @@ module.exports.home = {
 
 	modal: {
 		Notification: 'Notification',
-		ThankYouForDownloading: 'Thank you for downloading. Join our {a}Discord server{/a} to receive the latest updates, features, and news. Have a nice day or night!',
+		ThankYouForDownloading: 'Thank you for downloading! Join our Discord server to receive notifications about the latest updates, features, and other announcements. Don\'t hesitate to reach out to the creator if you have any questions or issues. If you enjoy Stella Mod, consider writing a review on {a}trustpilot.com{/a}. This program is free only thanks to your donations. Have a nice day or night!',
 		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads now is',
 		NoProblem: 'No problem',
 	},
