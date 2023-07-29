@@ -153,7 +153,7 @@ module.exports.videos = {
 };
 
 // GET /genshin-impact-reshade/docs
-module.exports.readMore = {
+module.exports.docs = {
 	TableOfContents: 'Spis treści',
 	1: {
 		Welcome: '{0}. {1} Witaj',
