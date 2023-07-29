@@ -152,7 +152,7 @@ module.exports.videos = {
 	Gameplay: 'Rozgrywka',
 };
 
-// GET /genshin-impact-reshade/read-more
+// GET /genshin-impact-reshade/docs
 module.exports.readMore = {
 	tooltips: {
 		TheBiggestSourceOfKnowledge: 'Największe źródło wiedzy i informacji kryje się tuż za tym przyciskiem!',

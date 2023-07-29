@@ -152,7 +152,7 @@ module.exports.videos = {
 	Gameplay: 'ゲームプレイ',
 };
 
-// GET /genshin-impact-reshade/read-more
+// GET /genshin-impact-reshade/docs
 module.exports.readMore = {
 	tooltips: {
 		TheBiggestSourceOfKnowledge: 'The biggest source of knowledge and information is hidden right behind this button!', // TODO
