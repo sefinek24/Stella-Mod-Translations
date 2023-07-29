@@ -154,20 +154,26 @@ module.exports.videos = {
 
 // GET /genshin-impact-reshade/docs
 module.exports.readMore = {
-	tooltips: {
-		TheBiggestSourceOfKnowledge: 'Największe źródło wiedzy i informacji kryje się tuż za tym przyciskiem!',
+	TableOfContents: 'Spis treści',
+	1: {
+		Welcome: '{0}. {1} Witaj',
+		ReadMe: '{0}. {1} README.md',
+		Introduction: '{0}. {1} Wprowadzenie Stella Mod',
+		Support: '{0}. {1} Pomoc / Wsparcie',
+		FAQ: '{0}. {1} FAQ',
+		ToS: '{0}. {1} ToS',
+		WhatIs: '{0}. {1} Czym jest...',
+		HowToAvoidABan: '{0}. {1} Jak uniknąć bana?',
+		Installation: '{0}. {1} Instalacja',
 	},
 
-	ReadMoreInformation: 'Większa dawka informacji',
-	MoreInfoIsAvailableOnGHWiki: 'Więcej informacji znajdziesz w repozytorium {1}sefinek24/Genshin-Impact-ReShade{/1} na stronie {2}GitHub Wiki{/2}.',
-	HowToInstall: 'Jak zainstalować?',
-	ViewChangelog: 'Wyświetl listę zmian',
-	PrivacyPolicy: 'Polityka prywatności',
-	SeeContents: 'Zobacz zawartość',
-	GameCompatibility: 'Kompatybilność gry',
-	RecommendedGameSettings: 'Zalecane ustawienia gry',
-	PCRequirements: 'Wymagania sprzętowe',
-	SupportedOperatingSystems: 'Obsługiwane systemy',
+	Changelogs: 'Listy zmian',
+	2: {
+		Versions: '{0}. {1} Wersje {2}.x.x',
+	},
+
+	GoToHomePage: 'Przejdź do strony głównej',
+	GoBack: 'Powróć',
 };
 
 // GET /genshin-impact-reshade/repositories
