@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.4',
-	LastUpdate: '23.06.2023',
+	FileVersion: '2.0.5',
+	LastUpdate: '29.07.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -161,9 +161,10 @@ module.exports.docs = {
 		Introduction: '{0}. {1} Wprowadzenie Stella Mod',
 		Support: '{0}. {1} Pomoc / Wsparcie',
 		FAQ: '{0}. {1} FAQ',
-		ToS: '{0}. {1} ToS',
 		WhatIs: '{0}. {1} Czym jest...',
 		HowToAvoidABan: '{0}. {1} Jak uniknąć bana?',
+		ToS: '{0}. {1} ToS',
+		PrivacyPolicy: '{0}. {1} Polityka prywatności',
 		Installation: '{0}. {1} Instalacja',
 	},
 
