@@ -173,6 +173,10 @@ module.exports.docs = {
 		Versions: '{0}. {1} Wersje {2}.x.x',
 	},
 
+	DocumentCreationDate: 'Data utworzenia dokumentu: {0}',
+	LastUpdate: 'Ostatnia aktualizacja: {0}',
+	DocumentSize: 'Rozmiar dokumentu: {0}',
+
 	GoToHomePage: 'Przejdź do strony głównej',
 	GoBack: 'Powróć',
 };
@@ -228,6 +232,7 @@ module.exports.forPatrons = {
 
 	// error.ejs
 	SomethingWentWrong: 'Smutny kot >~~< Coś poszło nie tak...',
+	InvalidUserId: 'Identyfikator użytkownika jest nieprawidłowy.',
 	InvalidKeyProvided: 'Podany klucz jest nieprawidłowy.',
 	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Ten link wygasł i nie będzie już aktywny.',
 	ErrorOccurredPleaseTryAgain: 'Wystąpił błąd. Proszę spróbuj ponownie.',

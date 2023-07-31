@@ -174,6 +174,10 @@ module.exports.docs = {
 		Versions: '{0}. {1} Versions {2}.x.x',
 	},
 
+	DocumentCreationDate: 'Document creation date: {0}',
+	LastUpdate: 'Last update: {0}',
+	DocumentSize: 'Document size: {0}',
+
 	GoToHomePage: 'Go to home page',
 	GoBack: 'Go back',
 };
@@ -230,6 +234,7 @@ module.exports.forPatrons = {
 
 	// error.ejs
 	SomethingWentWrong: 'Sad cat >~~< Something went wrong...',
+	InvalidUserId: 'Invalid user ID provided.',
 	InvalidKeyProvided: 'Invalid key provided.',
 	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.',
 	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.',
