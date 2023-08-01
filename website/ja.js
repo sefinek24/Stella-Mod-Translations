@@ -156,9 +156,8 @@ module.exports.videos = {
 module.exports.docs = {
 	TableOfContents: 'Table of Contents',
 	1: {
-		Welcome: '{0}. {1} Welcome',
-		ReadMe: '{0}. {1} README.md',
 		Introduction: '{0}. {1} Introduction to Stella Mod',
+		ReadMe: '{0}. {1} README.md',
 		Support: '{0}. {1} Support',
 		FAQ: '{0}. {1} FAQ',
 		WhatIs: '{0}. {1} What is...',
