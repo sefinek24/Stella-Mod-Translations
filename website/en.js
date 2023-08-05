@@ -57,8 +57,8 @@ module.exports.home = {
 		InvitationToDiscordServer: 'Invitation to our Discord server.',
 	},
 
-	TheBestGIRSModPack: 'The best mod for Genshin Impact with ReShade, custom graphics presets, FPS unlock, custom launcher, and more!',
-	JoinOurDiscordServer: 'Join our {a}Discord server{/a} to receive information about the latest updates, features, and news.',
+	TheBestGIRSModPack: 'The best mod for Genshin Impact with ReShade, custom graphics presets, FPS unlock, 3DMigoto, custom launcher, and more.',
+	JoinOurDiscordServer: 'Join our {a}Discord server{/a} to receive information about the latest updates, features, and news. Have fun!',
 
 	Download: 'Download',
 	DownloadTooltip: 'Download the official setup for Windows 10 or 11 with a 64-bit CPU.',

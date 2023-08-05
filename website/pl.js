@@ -57,8 +57,8 @@ module.exports.home = {
 		InvitationToDiscordServer: 'Zaproszenie na nasz serwer Discord.',
 	},
 
-	TheBestGIRSModPack: 'Najlepszy pakiet modów do Genshin Impact z ReShade, niestandardowymi ustawieniami graficznymi, odblokowywaniem FPS, własnym Launcherem i tym podobne!',
-	JoinOurDiscordServer: 'Dołącz na nasz {a}serwer Discord{/a}, aby otrzymywać informacje o najnowszych aktualizacjach, funkcjach i wiadomościach.',
+	TheBestGIRSModPack: 'Najlepszy pakiet modów do Genshin Impact z ReShade, niestandardowymi ustawieniami graficznymi, odblokowywaniem FPS, 3DMigoto, launcherem i tym podobne!',
+	JoinOurDiscordServer: 'Dołącz na nasz {a}serwer Discord{/a}, aby otrzymywać informacje o najnowszych aktualizacjach, funkcjach i wiadomościach. Baw się dobrze!',
 
 	Download: 'Pobierz',
 	Gallery: 'Galeria',
