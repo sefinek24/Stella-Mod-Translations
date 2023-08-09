@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.6',
-	LastUpdate: '31.07.2023',
+	FileVersion: '2.0.7',
+	LastUpdate: '09.08.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -164,6 +164,7 @@ module.exports.docs = {
 		HowToAvoidABan: '{0}. {1} Jak uniknąć bana?',
 		ToS: '{0}. {1} ToS',
 		PrivacyPolicy: '{0}. {1} Polityka prywatności',
+		SoftwareLicense: '{0}. {1} Licencja oprogramowania',
 		Installation: '{0}. {1} Instalacja',
 	},
 

@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.6',
-	LastUpdate: '31.07.2023',
+	FileVersion: '2.0.7',
+	LastUpdate: '09.08.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',
@@ -166,6 +166,7 @@ module.exports.docs = {
 		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
 		ToS: '{0}. {1} ToS',
 		PrivacyPolicy: '{0}. {1} Privacy policy',
+		SoftwareLicense: '{0}. {1} Software license',
 		Installation: '{0}. {1} Installation',
 	},
 
