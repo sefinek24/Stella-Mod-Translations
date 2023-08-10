@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.7',
-	LastUpdate: '09.08.2023',
+	FileVersion: '2.0.8',
+	LastUpdate: '10.08.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -21,7 +21,9 @@ module.exports.default = {
 	In: 'en',
 	Back: 'Atrás',
 	Next: 'Siguiente',
+
 	DiscordServer: 'Servidor de Discord',
+	DiscordServerTooltip: 'Invitation to our Discord server.',
 };
 
 // Errors
@@ -47,38 +49,46 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
+	Header: 'Genshin Impact Stella Mod made by Sefinek',
+	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
+	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
+	Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
+	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
+
+	Download: 'Download',
+	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
+
+	Gallery: 'Gallery',
+	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+
+	WatchVideos: 'Watch videos',
+	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
+
+	ReadMore: 'Read more',
+	CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Check the system requirements, recommended game settings, and more!',
+
+	Feedback: 'Feedback',
+	FeedbackTooltip: 'Share your opinion.',
+
+	Support: 'Support',
+	SupportTooltip: 'Click here if you need help.',
+
+	MainPage: 'Main page',
+	MainPageTooltip: 'Home - Sefinek Official Website',
+
+	PleaseSupportMe: 'Please support my work',
+	SupportMyWork: 'Support my work',
+	SupportMe: 'Support me',
+
+	DownloadingData: 'Downloading data...',
+	Version: 'Version',
+	TheVersionWithoutCaps: 'the version',
+	DownloadCount: 'Download count',
+	LastDownload: 'Last download',
+
 	tooltips: {
-		ClickHereToDownloadSetup: 'Haz clic aquí para descargar el instalador de 64 bits para Windows 10 y 11.',
-		ViewScreenshotsFromTheGameWithInjectedReShade: 'Mira las capturas de pantalla del juego con ReShade aplicado.',
-		WatchMyVideosAboutTheModAndLauncher: 'Mira mis videos sobre el mod y el programa de inicio.',
-		CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Comprueba los requisitos del sistema, la configuración recomendada del juego y más.',
-		LeaveYourFeedback: 'Comparte tu opinión.',
-		ClickHereIfYouNeedHelp: 'Haz clic aquí si necesitas ayuda.',
-		InvitationToDiscordServer: 'Invitación a nuestro servidor de Discord.',
+		PageViews: 'Page views',
 	},
-
-	TheBestGIRSModPack: 'El mejor conjunto de mods para Genshin Impact, el cual incluye Reshade con ajustes gráficos totalmente personalizados, desbloqueo de FPS, 3DMigoto, lanzador propio y ¡Mucho mas!',
-	JoinOurDiscordServer: 'Forma parte de {a}nuestra comunidad en Discord{/a} para recibir las últimas actualizaciones, funciones y noticias.',
-
-	Download: 'Descargar',
-	DownloadTooltip: 'Descarga la configuración oficial para Windows 10 o 11 usando una CPU de 64 bits',
-	Gallery: 'Galería',
-	Tutorial: 'Tutorial',
-	WatchVideos: 'Ver videos',
-	ReadMore: 'Leer más',
-	Feedback: 'Sugerencias',
-	Support: 'Soporte',
-	MainPage: 'Página principal',
-
-	PleaseSupportMe: 'Por favor, apoya mi trabajo',
-	SupportMyWork: 'Apoya mi trabajo',
-	SupportMe: 'Apóyame',
-
-	DownloadingData: 'Descargando datos...',
-	Version: 'Versión',
-	TheVersionWithoutCaps: 'la versión',
-	DownloadCount: 'Cantidad de descargas',
-	LastDownload: 'Última descarga',
 
 	modal: {
 		Notification: 'Notificación',

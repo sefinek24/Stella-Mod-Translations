@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.7',
-	LastUpdate: '09.08.2023',
+	FileVersion: '2.0.8',
+	LastUpdate: '10.08.2023',
 	Contributors: [{
 		'daydreamer-json': {
 			GitHub: 'https://github.com/daydreamer-json',
@@ -21,7 +21,9 @@ module.exports.default = {
 	In: 'in',
 	Back: '戻る',
 	Next: '進む',
+
 	DiscordServer: 'Discordサーバー',
+	DiscordServerTooltip: 'Invitation to our Discord server.',
 };
 
 // Errors
@@ -46,38 +48,48 @@ module.exports.errors = {
 };
 
 // GET /genshin-impact-reshade
+// GET /genshin-impact-reshade
 module.exports.home = {
+	Header: 'Genshin Impact Stella Mod made by Sefinek',
+	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
+	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
+	Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
+	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
+
+	Download: 'Download',
+	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
+
+	Gallery: 'Gallery',
+	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+
+	WatchVideos: 'Watch videos',
+	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
+
+	ReadMore: 'Read more',
+	CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Check the system requirements, recommended game settings, and more!',
+
+	Feedback: 'Feedback',
+	FeedbackTooltip: 'Share your opinion.',
+
+	Support: 'Support',
+	SupportTooltip: 'Click here if you need help.',
+
+	MainPage: 'Main page',
+	MainPageTooltip: 'Home - Sefinek Official Website',
+
+	PleaseSupportMe: 'Please support my work',
+	SupportMyWork: 'Support my work',
+	SupportMe: 'Support me',
+
+	DownloadingData: 'Downloading data...',
+	Version: 'Version',
+	TheVersionWithoutCaps: 'the version',
+	DownloadCount: 'Download count',
+	LastDownload: 'Last download',
+
 	tooltips: {
-		ClickHereToDownloadSetup: 'Windows 10および11の64ビットインストーラーをダウンロードするには、ここをクリックしてください。',
-		ViewScreenshotsFromTheGameWithInjectedReShade: 'ReShadeを適用したゲームのスクリーンショットをご覧ください。',
-		WatchMyVideosAboutTheModAndLauncher: '私のファッションと起動プログラムに関する動画をご覧ください。',
-		CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'システム要件、推奨設定、およびその他の情報をチェックしてください！',
-		LeaveYourFeedback: 'あなたの意見を共有してください。',
-		ClickHereIfYouNeedHelp: '助けが必要な場合は、ここをクリックしてください。',
-		InvitationToDiscordServer: '私たちのDiscordサーバーへの招待です。',
+		PageViews: 'Page views',
 	},
-
-	TheBestGIRSModPack: 'ReShade、カスタムグラフィックプリセット、FPSアンロッカー、独自のランチャーなどを備えた最高の原神MODパックです。',
-	JoinOurDiscordServer: '最新のアップデートやニュースなどを入手するには、私たちの{a}Discordサーバー{/a}に参加してください。',
-
-	Download: 'ダウンロード',
-	Gallery: 'ギャラリー',
-	Tutorial: 'チュートリアル',
-	WatchVideos: '動画を見る',
-	ReadMore: '詳細を見る',
-	Feedback: 'フィードバック',
-	Support: 'サポート',
-	MainPage: 'メインページ',
-
-	PleaseSupportMe: '私を支援してください',
-	SupportMyWork: '私を支援してください',
-	SupportMe: '私を支援してください',
-
-	DownloadingData: 'データをダウンロードしています...',
-	Version: 'バージョン',
-	TheVersionWithoutCaps: 'バージョン',
-	DownloadCount: 'ダウンロード数',
-	LastDownload: '最後のダウンロード',
 
 	modal: {
 		Notification: '通知',

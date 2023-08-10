@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.7',
-	LastUpdate: '09.08.2023',
+	FileVersion: '2.0.8',
+	LastUpdate: '10.08.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',

@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.7',
-	LastUpdate: '09.08.2023',
+	FileVersion: '2.0.8',
+	LastUpdate: '10.08.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',
@@ -21,7 +21,9 @@ module.exports.default = {
 	In: 'in',
 	Back: 'Zurück',
 	Next: 'Weiter',
+
 	DiscordServer: 'Discord Server',
+	DiscordServerTooltip: 'Invitation to our Discord server.',
 };
 
 // Errors
@@ -47,38 +49,46 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
-	tooltips: {
-		ClickHereToDownloadSetup: 'Klicken Sie hier, um den x64-Bit-Installer für Windows 10 und 11 herunterzuladen.',
-		ViewScreenshotsFromTheGameWithInjectedReShade: 'Sehen Sie sich Screenshots aus dem Spiel mit injiziertem ReShade an.',
-		WatchMyVideosAboutTheModAndLauncher: 'Schauen Sie sich meine Videos über das Mod und den Launcher an.',
-		CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Überprüfen Sie die Systemanforderungen, empfohlene Einstellungen für das Spiel und mehr!',
-		LeaveYourFeedback: 'Teilen Sie Ihre Meinung mit.',
-		ClickHereIfYouNeedHelp: 'Klicken Sie hier, wenn Sie Hilfe benötigen.',
-		InvitationToDiscordServer: 'Einladung zum Discord-Server.',
-	},
+	Header: 'Genshin Impact Stella Mod made by Sefinek',
+	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
+	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
+	Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
+	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
 
-	TheBestGIRSModPack: 'Der beste Mod für Genshin Impact mit ReShade, eigenen Grafik-Voreinstellungen, FPS unlock, 3DMigoto, eigener Launcher, und mehr!',
-	JoinOurDiscordServer: 'Trete uns auf unserem {a}Discord Server{/a} bei und erhalte Infos zu neuen Updates, Features und Nachrichten.',
+	Download: 'Download',
+	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
 
-	Download: 'Herunterladen',
-	DownloadTooltip: 'Lade die offizielle Installation für Windows 10 or 11 mit 64-bit CPU herunter.',
-	Gallery: 'Galerie',
-	Tutorial: 'Anleitung',
-	WatchVideos: 'Schaue Videos',
-	ReadMore: 'Lese mehr',
+	Gallery: 'Gallery',
+	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+
+	WatchVideos: 'Watch videos',
+	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
+
+	ReadMore: 'Read more',
+	CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Check the system requirements, recommended game settings, and more!',
+
 	Feedback: 'Feedback',
-	Support: 'Unterstützung',
-	MainPage: 'Hauptseite',
+	FeedbackTooltip: 'Share your opinion.',
 
-	PleaseSupportMe: 'Bitte unterstützte meine Arbeit',
-	SupportMyWork: 'Unterstütze meine Arbeit',
-	SupportMe: 'Unterstütze mich',
+	Support: 'Support',
+	SupportTooltip: 'Click here if you need help.',
 
-	DownloadingData: 'Lade Daten herunter...',
+	MainPage: 'Main page',
+	MainPageTooltip: 'Home - Sefinek Official Website',
+
+	PleaseSupportMe: 'Please support my work',
+	SupportMyWork: 'Support my work',
+	SupportMe: 'Support me',
+
+	DownloadingData: 'Downloading data...',
 	Version: 'Version',
-	TheVersionWithoutCaps: 'die Version',
-	DownloadCount: 'Anzahl downloads',
-	LastDownload: 'Letzter Download',
+	TheVersionWithoutCaps: 'the version',
+	DownloadCount: 'Download count',
+	LastDownload: 'Last download',
+
+	tooltips: {
+		PageViews: 'Page views',
+	},
 
 	modal: {
 		Notification: 'Mitteilung',
