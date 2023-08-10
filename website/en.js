@@ -21,7 +21,9 @@ module.exports.default = {
 	In: 'in',
 	Back: 'Back',
 	Next: 'Next',
+
 	DiscordServer: 'Discord server',
+	DiscordServerTooltip: 'Invitation to our Discord server.',
 };
 
 // Errors
@@ -47,28 +49,32 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
-	tooltips: {
-		ClickHereToDownloadSetup: 'Click here to download the x64-bit installer for Windows 10 and 11.',
-		ViewScreenshotsFromTheGameWithInjectedReShade: 'See the screenshots from the game with ReShade injected.',
-		WatchMyVideosAboutTheModAndLauncher: 'Watch my videos about the mod and the launching program.',
-		CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Check the system requirements, recommended game settings, and more!',
-		LeaveYourFeedback: 'Share your opinion.',
-		ClickHereIfYouNeedHelp: 'Click here if you need help.',
-		InvitationToDiscordServer: 'Invitation to our Discord server.',
-	},
-
-	TheBestGIRSModPack: 'The best mod for Genshin Impact with ReShade, custom graphics presets, FPS unlock, 3DMigoto, custom launcher, and more.',
-	JoinOurDiscordServer: 'Join our {a}Discord server{/a} to receive information about the latest updates, features, and news. Have fun!',
+	Header: 'Genshin Impact Stella Mod made by Sefinek',
+	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
+	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
+	Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
+	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
 
 	Download: 'Download',
-	DownloadTooltip: 'Download the official setup for Windows 10 or 11 with a 64-bit CPU.',
+	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
+
 	Gallery: 'Gallery',
-	Tutorial: 'Tutorial',
+	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+
 	WatchVideos: 'Watch videos',
+	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
+
 	ReadMore: 'Read more',
+	CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Check the system requirements, recommended game settings, and more!',
+
 	Feedback: 'Feedback',
+	FeedbackTooltip: 'Share your opinion.',
+
 	Support: 'Support',
+	SupportTooltip: 'Click here if you need help.',
+
 	MainPage: 'Main page',
+	MainPageTooltip: 'Home - Sefinek Official Website',
 
 	PleaseSupportMe: 'Please support my work',
 	SupportMyWork: 'Support my work',
@@ -79,6 +85,10 @@ module.exports.home = {
 	TheVersionWithoutCaps: 'the version',
 	DownloadCount: 'Download count',
 	LastDownload: 'Last download',
+
+	tooltips: {
+		PageViews: 'Page views',
+	},
 
 	modal: {
 		Notification: 'Notification',
