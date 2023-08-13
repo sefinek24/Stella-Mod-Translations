@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.8',
-	LastUpdate: '10.08.2023',
+	FileVersion: '2.0.9',
+	LastUpdate: '13.08.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -203,11 +203,12 @@ module.exports.github = {
 module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Jesteś robotem?',
-	Status: 'Status',
 	WaitingForUser: 'Oczekiwanie na interakcje użytkownika...',
+	VerifyingCaptcha: 'Weryfikowanie captchy...',
 	VerifyingSession: 'Weryfikowanie sesji...',
-	Success: 'Powodzenie',
+	Successfully: 'Z powodzeniem!',
 	ValidateRequest: 'Zwaliduj zapytanie',
+	NextPage: 'Następna strona',
 	WrongStatusCode: 'Błąd. Otrzymano nieprawidłowy kod statusu ({0}) z sefinek.net.',
 	Failed: 'Nie udało się',
 	Expired: 'Sesja wygasła. Odśwież tę stronę.',

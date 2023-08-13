@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.8',
-	LastUpdate: '10.08.2023',
+	FileVersion: '2.0.9',
+	LastUpdate: '13.08.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -203,8 +203,9 @@ module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Are you a robot?',
 	WaitingForUser: 'Waiting for user interaction...',
+	VerifyingCaptcha: 'Verifying captcha...',
 	VerifyingSession: 'Verifying session...',
-	Success: 'Success',
+	Successfully: 'Successfully',
 	ValidateRequest: 'Validate request',
 	NextPage: 'Next page',
 	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',

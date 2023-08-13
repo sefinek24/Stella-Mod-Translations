@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.8',
-	LastUpdate: '10.08.2023',
+	FileVersion: '2.0.9',
+	LastUpdate: '13.08.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',
@@ -203,11 +203,11 @@ module.exports.github = {
 module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Bist du ein Roboter?',
-	Status: 'Status',
-	WaitingForUser: 'Waiting for user interaction...', // TODO
-	VerifyingSession: 'Verifying session...', // TODO
-	Success: 'Erfolg',
-	ValidateRequest: 'Validate request', // TODO
+	WaitingForUser: 'Waiting for user interaction...',
+	VerifyingCaptcha: 'Verifying captcha...',
+	VerifyingSession: 'Verifying session...',
+	Successfully: 'Successfully',
+	ValidateRequest: 'Validate request',
 	NextPage: 'Next page',
 	WrongStatusCode: 'Fehler. Habe falschen Status ({0}) von sefinek.net erhalten.',
 	Failed: 'Fehlgeschlagen',
