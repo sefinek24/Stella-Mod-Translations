@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.0.9',
-	LastUpdate: '13.08.2023',
+	FileVersion: '2.1.0',
+	LastUpdate: '20.08.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -11,11 +11,6 @@ module.exports.data = {
 
 // Main
 module.exports.default = {
-	tooltips: {
-		OfficialDiscordServer: 'Oficjalny serwer Discord',
-		GitHubRepositories: 'Repozytoria GitHub',
-	},
-
 	And: 'i',
 	From: 'z',
 	In: 'w',
@@ -23,7 +18,12 @@ module.exports.default = {
 	Next: 'Dalej',
 
 	DiscordServer: 'Serwer Discord',
-	DiscordServerTooltip: 'Invitation to our Discord server.',
+	DiscordServerTooltip: 'Zaproszenie na nasz serwer Discord',
+
+	tooltips: {
+		OfficialDiscordServer: 'Oficjalny serwer Discord',
+		GitHubRepositories: 'Repozytoria GitHub',
+	},
 };
 
 // Errors
@@ -48,61 +48,63 @@ module.exports.errors = {
 };
 
 // GET /genshin-impact-reshade
-// GET /genshin-impact-reshade
 module.exports.home = {
-	Header: 'Genshin Impact Stella Mod made by Sefinek',
-	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
-	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
-	Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
-	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
+	Header: 'Genshin Impact Stella Mod autorstwa Sefinek uwu baka',
+	Text1: 'Bezpieczne i unikalne funkcje, takie jak usprawnienia ReShade, starannie zaprojektowana niestandardowa grafika oraz imponujące odblokowywanie FPS, oferują graczom najlepsze doświadczenie w grach!',
+	Text2: '3DMigoto jeszcze bardziej podnosi moda na wyższy poziom, zapewniając wciągającą rozgrywkę. Dodatkowo, nasz własny launcher usprawnia cały proces, pomagając graczom szybko przejść do akcji.',
+	// Text3: 'Bądź na bieżąco z najnowszymi wiadomościami i dołącz do {a}serwera Discord{/a}, aby dołączyć do społeczności graczy o podobnych zainteresowaniach, dążących do maksymalizacji przyjemności z gry Genshin Impact.',
+	FinalText: 'Nie czekaj! Zanurz się teraz w ulepszonym świecie Teyvat i spędź niezapomniane chwile!',
 
-	Download: 'Download',
-	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
+	Download: 'Pobierz',
+	DownloadTooltip: 'Kliknij tutaj, aby pobrać instalator x64-bitowy dla systemów Windows 10 i 11.',
 
-	Gallery: 'Gallery',
-	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+	Gallery: 'Galeria',
+	GalleryTooltip: 'Zobacz zrzuty ekranu z gry z dodanym ReShade.',
 
-	WatchVideos: 'Watch videos',
-	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
+	WatchVideos: 'Obejrzyj filmy',
+	WatchVideosTooltip: 'Obejrzyj moje filmy dotyczące moda oraz programu uruchamiającego.',
 
-	ReadMore: 'Read more',
-	CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Check the system requirements, recommended game settings, and more!',
+	ReadMore: 'Czytaj więcej',
+	ReadMoreTooltip: 'Sprawdź wymagania systemowe, zalecane ustawienia gry i więcej!',
 
-	Feedback: 'Feedback',
-	FeedbackTooltip: 'Share your opinion.',
+	Feedback: 'Opinie',
+	FeedbackTooltip: 'Podziel się swoją opinią.',
 
-	Support: 'Support',
-	SupportTooltip: 'Click here if you need help.',
+	Support: 'Wsparcie',
+	SupportTooltip: 'Kliknij tutaj, jeśli potrzebujesz pomocy.',
 
-	MainPage: 'Main page',
-	MainPageTooltip: 'Home - Sefinek Official Website',
+	MainPage: 'Strona główna',
+	MainPageTooltip: 'Strona główna - Oficjalna strona Sefinka',
 
-	PleaseSupportMe: 'Please support my work',
-	SupportMyWork: 'Support my work',
-	SupportMe: 'Support me',
+	PleaseSupportMe: 'Proszę wesprzyj moją pracę',
+	SupportMyWork: 'Wesprzyj moją pracę',
+	SupportMe: 'Wesprzyj mnie',
 
-	DownloadingData: 'Downloading data...',
-	Version: 'Version',
-	TheVersionWithoutCaps: 'the version',
-	DownloadCount: 'Download count',
-	LastDownload: 'Last download',
-
-	tooltips: {
-		PageViews: 'Page views',
-	},
+	DownloadingData: 'Pobieranie danych...',
+	Version: 'Wersja',
+	TheVersionWithoutCaps: 'wersja',
+	DownloadCount: 'Liczba pobrań',
+	LastDownload: 'Ostatnie pobranie',
 
 	modal: {
-		Notification: 'Powiadomienie',
-		ThankYouForDownloading: 'Dzięki za pobranie! Dołącz na nasz serwer Discord, aby otrzymywać powiadomienia o najnowszych aktualizacjach, funkcjach i innych ogłoszeniach. Nie wahaj się skontaktować z twórcą, jeśli masz jakiekolwiek pytania lub problemy. Jeśli podoba Ci się Stella Mod, rozważ napisanie recenzji na {a}trustpilot.com{/a}. Ten program jest dostępny za darmo dzięki Waszym dotacjom.\nŻyczę miłego dnia lub nocki~!',
-		TheTotalNumberOfDownloadsNowIs: 'Całkowita liczba pobrań wynosi teraz',
-		NoProblem: 'Żaden problem',
+		ThankYouForDownloading: 'Dziękujemy za pobranie',
+		BecomeMyPatronToGainMoreBenefits: 'Zostań moim patronem, aby uzyskać więcej korzyści, takich jak możliwość korzystania z 3DMigoto wraz z FPS Unlockerem i ReShade + dużą kolekcje modów bez błędów + kolekcje najnowszych 300 shaderów + dodatek, który zapobiega nakładaniu się filtrów na interfejs użytkownika (UI) + Ray Tracing w grze i wiele więcej!',
+		JoinOurDiscordServerToReceiveNotifications: 'Dołącz do naszego serwera Discord, aby otrzymywać powiadomienia o najnowszych aktualizacjach, funkcjach i innych ogłoszeniach. Śmiało skontaktuj się z twórcą, jeśli masz pytania lub napotkasz jakieś problemy.',
+		IfYouReEnjoyingStellaModConsiderLeavingAReview: 'Zostaw opinię na {a}trustpilot.com{/a} po przetestowaniu oprogramowania!',
+		WishingYouAWonderfulDayOrNight: 'Życzę ci wspaniałego dnia lub nocy! UwU',
+		TheTotalNumberOfDownloadsNowIs: 'Aktualna liczba pobrań wynosi',
+		NoProblem: 'Nie ma problemu',
+	},
+
+	tooltips: {
+		PageViews: 'Odsłony strony',
 	},
 };
 
 // GET /genshin-impact-reshade/gallery
 module.exports.gallery = {
 	GalleryPage: 'Galeria - Numer strony',
-	GalleryCompareReleases: 'Gallery - Porównaj wydania -',
+	GalleryCompareReleases: 'Galeria - Porównaj wydania:',
 	ScreenshotsAreAvailableInHighQuality: 'Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.',
 	WebsiteIsNotSupportedOnMobileDevices: 'Ta witryna nie jest obsługiwana na urządzeniach mobilnych.',
 	SomeImageCanBeOutdated: 'Niektóre zdjęcia mogą być nieaktualne.',
@@ -117,15 +119,14 @@ module.exports.gallery = {
 	WithoutMod: 'Bez moda',
 
 	BonusScreenshot: 'Bonusowy zrzut ekranu',
+
+	tooltips: {
+		GoBackToMainGalleryPage: 'Wróć do strony głównej galerii',
+	},
 };
 
 // GET /genshin-impact-reshade/feedback
 module.exports.feedback = {
-	tooltips: {
-		ClickHereToGoToTheYTPage: 'Kliknij tutaj, aby przejść do strony YouTube.',
-		GiveAStarToMyReposOnGitHub: 'Nadaj gwiazdkę moim repozytoriom na GitHubie, tym, które lubisz.',
-	},
-
 	LeaveYourFeedback: 'Podziel się swoją opinią',
 	IfYouLikeThisProjectSupportMe: 'Jeśli podoba Ci się ten projekt, rozważ {1}subskrypcje{/1} mojego kanału na YouTube, danie {2}gwiazdki{/2} na GitHubie lub {3}wsparcia mnie{/3} w inny sposób.',
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Dodatkowo, jeśli masz jakieś uwagi lub sugestie, nie wahaj się skorzystać z funkcji czatu, aby przesłać je bezpośrednio do twórcy.',
@@ -134,16 +135,15 @@ module.exports.feedback = {
 		BelowYTVideo: 'Pod filmem na YouTube',
 		OnTheDiscordServer: 'Na serwerze Discord',
 	},
+
+	tooltips: {
+		ClickHereToGoToTheYTPage: 'Kliknij tutaj, aby przejść do strony YouTube.',
+		GiveAStarToMyReposOnGitHub: 'Nadaj gwiazdkę moim repozytoriom na GitHubie, tym, które lubisz.',
+	},
 };
 
 // GET /genshin-impact-reshade/support
 module.exports.support = {
-	tooltips: {
-		JoinOurOfficialDiscordServer: 'Dołącz do naszego oficjalnego serwera Discord."',
-		LeaveACommendBelowMyVideo: 'Zostaw komentarz pod moim filmem.',
-		ReturnTo: 'Wróć do: Genshin Stella Mod - Here begins your adventure.',
-	},
-
 	SomeQuestions: 'Jakieś pytania? Potrzebujesz pomocy?',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Masz może jakikolwiek problem z modem lub pytanie? Jeśli tak, nie wahaj się z nami skontaktować! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.',
@@ -152,6 +152,12 @@ module.exports.support = {
 	StellaModIsNotAffiliatedWithHoyoverse: 'Należy pamiętać, że oprogramowanie Stella Mod nie jest powiązane z firmą Hoyoverse (MiHoYo).',
 	JoinToDiscordServer: 'Dołącz na nasz serwer Discord',
 	CommentMyYTVideo: 'Skomentuj mój film na YouTube',
+
+	tooltips: {
+		JoinOurOfficialDiscordServer: 'Dołącz do naszego oficjalnego serwera Discord.',
+		LeaveACommendBelowMyVideo: 'Zostaw komentarz pod moim filmem.',
+		ReturnTo: 'Wróć do: Genshin Stella Mod - Here begins your adventure.',
+	},
 };
 
 // GET /genshin-impact-reshade/videos

@@ -1,21 +1,17 @@
 module.exports.data = {
-	FileVersion: '2.0.9',
-	LastUpdate: '13.08.2023',
+	FileVersion: '2.1.0',
+	LastUpdate: '20.08.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',
 			Website: null,
 		},
+		ChatGPT: {},
 	}],
 };
 
 // Main
 module.exports.default = {
-	tooltips: {
-		OfficialDiscordServer: 'Offizieller Discord-Server',
-		GitHubRepositories: 'GitHub-Repositories',
-	},
-
 	And: 'und',
 	From: 'von',
 	In: 'in',
@@ -23,7 +19,12 @@ module.exports.default = {
 	Next: 'Weiter',
 
 	DiscordServer: 'Discord Server',
-	DiscordServerTooltip: 'Invitation to our Discord server.',
+	DiscordServerTooltip: 'Invitation to our Discord server',
+
+	tooltips: {
+		OfficialDiscordServer: 'Offizieller Discord-Server',
+		GitHubRepositories: 'GitHub-Repositories',
+	},
 };
 
 // Errors
@@ -52,7 +53,7 @@ module.exports.home = {
 	Header: 'Genshin Impact Stella Mod made by Sefinek',
 	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
 	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
-	Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
+	// Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
 	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
 
 	Download: 'Download',
@@ -65,7 +66,7 @@ module.exports.home = {
 	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
 
 	ReadMore: 'Read more',
-	CheckSysRequirementsRecommendedSettingsForTheGameAndMore: 'Check the system requirements, recommended game settings, and more!',
+	ReadMoreTooltip: 'Check the system requirements, recommended game settings, and more!',
 
 	Feedback: 'Feedback',
 	FeedbackTooltip: 'Share your opinion.',
@@ -86,22 +87,25 @@ module.exports.home = {
 	DownloadCount: 'Download count',
 	LastDownload: 'Last download',
 
-	tooltips: {
-		PageViews: 'Page views',
+	modal: {
+		ThankYouForDownloading: 'Thank you for downloading',
+		BecomeMyPatronToGainMoreBenefits: 'Become my patron to gain more benefits such as the ability to use 3DMigoto together with FPS Unlocker & ReShade + a large collection of error-free mods + a collection of the latest 300 shaders + an add-on that prevents filters from overlapping with the user interface (UI) + Ray Tracing preset, and much more!',
+		JoinOurDiscordServerToReceiveNotifications: 'Join our Discord server to receive notifications about the latest updates, features, and other announcements. Feel free to contact the creator if you have any questions or encounter any issues.',
+		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Leave a review on {a}trustpilot.com{/a} after testing the software!',
+		WishingYouAWonderfulDayOrNight:	'Wishing you a wonderful day or night!',
+		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads now is',
+		NoProblem: 'No problem',
 	},
 
-	modal: {
-		Notification: 'Mitteilung',
-		ThankYouForDownloading: 'Thank you for downloading! Join our Discord server to receive notifications about the latest updates, features, and other announcements. Don\'t hesitate to reach out to the creator if you have any questions or issues. If you enjoy Stella Mod, consider writing a review on {a}trustpilot.com{/a}. This program is free only thanks to your donations. Have a nice day or night!', // TODO
-		TheTotalNumberOfDownloadsNowIs: 'Die aktuell gesamte Anzahl an Downloads ist',
-		NoProblem: 'Kein Problem',
+	tooltips: {
+		PageViews: 'Page views',
 	},
 };
 
 // GET /genshin-impact-reshade/gallery
 module.exports.gallery = {
 	GalleryPage: 'Galerie - Seite',
-	GalleryCompareReleases: 'Galerie - Vergleiche Versionen -',
+	GalleryCompareReleases: 'Galerie - Vergleiche Versionen:',
 	GalleryCompares: 'Galerie - Vergleiche',
 	ScreenshotsAreAvailableInHighQuality: 'Bildschirmaufnahmen stehen in hoher Auflösung zur Verfügung. Es könnte eine Weile dauern, bis sie erscheinen.',
 	WebsiteIsNotSupportedOnMobileDevices: 'Diese Website wird nicht auf mobilen Endgeräten unterstützt.',
@@ -121,11 +125,6 @@ module.exports.gallery = {
 
 // GET /genshin-impact-reshade/feedback
 module.exports.feedback = {
-	tooltips: {
-		ClickHereToGoToTheYTPage: 'Kick hier, um auf die YouTube Seite zu gelangen.',
-		GiveAStarToMyReposOnGitHub: 'Gib meinem Repo auf GitHub einen Stern.',
-	},
-
 	LeaveYourFeedback: 'Meinung hinterlassen',
 	IfYouLikeThisProjectSupportMe: 'Wenn dir dieses Projekt zusagt, folge mir bitte auf meinem {1}YouTube Kanal{/1}, gib dem Projekt einen Stern {2}auf GitHub{/2}, oder {3}unterstützte mich{/3} auf anderen Wegen.',
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Außerdem: Wenn du irgendeine Art von Feedback, Verbesserungsvorschlägen oder sonstiges hast oder loswerden willst, kontaktiere uns gerne auf einem der verfügbaren Wege. Zum Beispiel im Chat.',
@@ -134,16 +133,15 @@ module.exports.feedback = {
 		BelowYTVideo: 'Unter dem YouTube Video',
 		OnTheDiscordServer: 'Auf dem Discord Server',
 	},
+
+	tooltips: {
+		ClickHereToGoToTheYTPage: 'Kick hier, um auf die YouTube Seite zu gelangen.',
+		GiveAStarToMyReposOnGitHub: 'Gib meinem Repo auf GitHub einen Stern.',
+	},
 };
 
 // GET /genshin-impact-reshade/support
 module.exports.support = {
-	tooltips: {
-		JoinOurOfficialDiscordServer: 'Trete unserem offiziellen Discord Server bei.',
-		LeaveACommendBelowMyVideo: 'Hinterlasse einen Kommentar unter meinem Video.',
-		ReturnTo: 'Zurück zu: Genshin Stella Mod - Hier beginnt dein Abenteuer.',
-	},
-
 	SomeQuestions: 'Fragen? Brauchst du Hilfe?',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Hast du Probleme, oder Fragen zu Stella Mod? Wenn ja, dann zögere nicht uns zu kontaktieren. Unser Team steht für sämtliche Fragen oder Bedenken zur Verfügung.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Ob du Hilfe bei der Installation brauchst, oder einfach Fragen zu den Features hast. Wir sind hier um dich zu unterstützen.',
@@ -152,6 +150,12 @@ module.exports.support = {
 	StellaModIsNotAffiliatedWithHoyoverse: 'Bitte beachte, dass Stella Mod in keiner Weise in Verbindung mit Hoyoverse (MiHoYo) steht.',
 	JoinToDiscordServer: 'Tritt unserem Discord Server bei',
 	CommentMyYTVideo: 'Kommentiere meine Videos auf YouTube',
+
+	tooltips: {
+		JoinOurOfficialDiscordServer: 'Trete unserem offiziellen Discord Server bei.',
+		LeaveACommendBelowMyVideo: 'Hinterlasse einen Kommentar unter meinem Video.',
+		ReturnTo: 'Zurück zu: Genshin Stella Mod - Hier beginnt dein Abenteuer.',
+	},
 };
 
 // GET /genshin-impact-reshade/videos
@@ -203,12 +207,12 @@ module.exports.github = {
 module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'Bist du ein Roboter?',
-	WaitingForUser: 'Waiting for user interaction...',
-	VerifyingCaptcha: 'Verifying captcha...',
-	VerifyingSession: 'Verifying session...',
-	Successfully: 'Successfully',
-	ValidateRequest: 'Validate request',
-	NextPage: 'Next page',
+	WaitingForUser: 'Warten auf Benutzerinteraktion...',
+	VerifyingCaptcha: 'Überprüfe Captcha...',
+	VerifyingSession: 'Überprüfe Sitzung...',
+	Successfully: 'Erfolgreich',
+	ValidateRequest: 'Anfrage validieren',
+	NextPage: 'Nächste Seite',
 	WrongStatusCode: 'Fehler. Habe falschen Status ({0}) von sefinek.net erhalten.',
 	Failed: 'Fehlgeschlagen',
 	Expired: 'Sitzung abgelaufen. Bitte aktualisiere diese Seite.',
@@ -244,9 +248,9 @@ module.exports.forPatrons = {
 	ThankUForYourSupport: 'Vielen Dank für deine Unterstützung!',
 
 	// error.ejs
-	SomethingWentWrong: 'Sad cat >~~< Something went wrong...', // TODO
-	InvalidUserId: 'Invalid user ID provided.', // TODO
-	InvalidKeyProvided: 'Invalid key provided.', // TODO
-	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.', // TODO
-	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.', // TODO
+	SomethingWentWrong: 'Traurige Katze >~~< Etwas ist schief gelaufen...',
+	InvalidUserId: 'Ungültige Benutzer-ID angegeben.',
+	InvalidKeyProvided: 'Ungültiger Schlüssel angegeben.',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Dieser Link ist abgelaufen und wird nicht mehr aktiv sein.',
+	ErrorOccurredPleaseTryAgain: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.',
 };
