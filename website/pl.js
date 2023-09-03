@@ -1,5 +1,5 @@
 module.exports.data = {
-	FileVersion: '2.1.1',
+	FileVersion: '2.1.2',
 	LastUpdate: '03.09.2023',
 	Contributors: [{
 		Sefinek: {
@@ -53,7 +53,7 @@ module.exports.home = {
 	Text1: 'Bezpieczne i unikalne funkcje, takie jak usprawnienia ReShade, starannie zaprojektowana niestandardowa grafika oraz imponujące odblokowywanie FPS, oferują graczom najlepsze doświadczenie w grze!',
 	Text2: '3DMigoto jeszcze bardziej podnosi moda na wyższy poziom, zapewniając wciągającą zabawę. Dodatkowo, nasz własny launcher usprawnia cały proces, pomagając graczom szybko przejść do akcji.',
 	// Text3: 'Bądź na bieżąco z najnowszymi wiadomościami i dołącz do {a}serwera Discord{/a}, aby dołączyć do społeczności graczy o podobnych zainteresowaniach, dążących do maksymalizacji przyjemności z gry Genshin Impact.',
-	FinalText: 'Nie czekaj! Zanurz się teraz w ulepszonym świecie Teyvat i spędź niezapomniane chwile! Powodzenia.',
+	FinalText: 'Nie czekaj! Zanurz się teraz w ulepszonym świecie Teyvat i spędź niezapomniane chwile! Baw się dobrze!',
 
 	Download: 'Pobierz',
 	DownloadTooltip: 'Kliknij tutaj, aby pobrać instalator x64-bitowy dla systemów Windows 10 i 11.',

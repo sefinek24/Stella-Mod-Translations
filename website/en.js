@@ -1,5 +1,5 @@
 module.exports.data = {
-	FileVersion: '2.1.1',
+	FileVersion: '2.1.2',
 	LastUpdate: '03.09.2023',
 	Contributors: [{
 		Sefinek: {
@@ -53,7 +53,7 @@ module.exports.home = {
 	Text1: 'Safe and unique features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
 	Text2: '3DMigoto takes the mod to an even higher level, providing an immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
 	// Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
-	FinalText: 'Don\'t wait! Dive into the enhanced world of Teyvat now and create unforgettable moments! Good luck.',
+	FinalText: 'Don\'t wait! Dive into the enhanced world of Teyvat now and create unforgettable moments! Have fun!',
 
 	Download: 'Download',
 	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',

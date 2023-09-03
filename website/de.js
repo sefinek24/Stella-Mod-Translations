@@ -1,5 +1,5 @@
 module.exports.data = {
-	FileVersion: '2.1.1',
+	FileVersion: '2.1.2',
 	LastUpdate: '03.09.2023',
 	Contributors: [{
 		ShizuKoto: {
@@ -51,10 +51,10 @@ module.exports.errors = {
 // GET /genshin-impact-reshade
 module.exports.home = {
 	Header: 'Genshin Impact Stella Mod erstellt von Sefinek',
-	Text1: 'Sichere und einzigartige Funktionen wie ReShade-Verbesserungen, sorgfältig gestaltete benutzerdefinierte Grafiken und beeindruckendes FPS-Freischalten bieten den Spielern das beste Spielerlebnis im Spiel!',
-	Text2: '3DMigoto hebt den Mod auf ein noch höheres Niveau und bietet ein immersives Erlebnis. Darüber hinaus vereinfacht unser eigener Launcher den gesamten Prozess und hilft den Spielern, schnell ins Geschehen einzusteigen.',
-	// Text3: 'Bleiben Sie auf dem neuesten Stand mit den neuesten Nachrichten und schließen Sie sich dem {a}Discord-Server{/a} an, um Teil einer Gemeinschaft von gleichgesinnten Spielern zu sein, die ihr Genshin Impact-Erlebnis maximieren möchten.',
-	FinalText: 'Warten Sie nicht! Tauchen Sie jetzt in die verbesserte Welt von Teyvat ein und schaffen Sie unvergessliche Momente! Viel Glück.',
+	Text1: 'Sichere und einzigartige Funktionen wie ReShade-Verbesserungen, sorgfältig gestaltete benutzerdefinierte Grafiken und beeindruckendes Freischalten von FPS bieten Spielern das beste Spielerlebnis!',
+	Text2: '3DMigoto bringt die Mod noch auf ein höheres Level und bietet ein immersives Erlebnis. Zusätzlich optimiert unser eigener Launcher den gesamten Prozess und hilft den Spielern, schnell ins Geschehen einzutauchen.',
+	// Text3: 'Bleiben Sie auf dem neuesten Stand mit den neuesten Nachrichten und schließen Sie sich dem {a}Discord-Server{/a} an, um Teil einer Gemeinschaft gleichgesinnter Spieler zu sein, die ihr Genshin Impact-Erlebnis maximieren möchten.',
+	FinalText: 'Warte nicht! Tauche jetzt in die verbesserte Welt von Teyvat ein und schaffe unvergessliche Momente! Viel Spaß!',
 
 	Download: 'Herunterladen',
 	DownloadTooltip: 'Hier klicken, um den x64-Bit-Installer für Windows 10 und 11 herunterzuladen.',
