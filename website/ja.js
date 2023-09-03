@@ -1,11 +1,12 @@
 module.exports.data = {
-	FileVersion: '2.1.0',
-	LastUpdate: '20.08.2023',
+	FileVersion: '2.1.1',
+	LastUpdate: '03.09.2023',
 	Contributors: [{
 		'daydreamer-json': {
 			GitHub: 'https://github.com/daydreamer-json',
 			Website: null,
 		},
+		ChatGPT: {},
 	}],
 };
 
@@ -49,55 +50,55 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
-	Header: 'Genshin Impact Stella Mod made by Sefinek',
-	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
-	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
-	// Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
-	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
+	Header: 'SefinekによるGenshin Impact Stella Mod',
+	Text1: 'ReShadeの強化、注意深く設計されたカスタムグラフィックス、印象的なFPSのアンロックなど、ゲーマーに最高のゲーム体験を提供する安全でユニークな機能があります！',
+	Text2: '3DMigotoは、Modをさらに高いレベルに引き上げ、没入型の体験を提供します。さらに、私たち自身のランチャーが全プロセスを効率化し、プレイヤーが素早くアクションに参加できるようサポートします。',
+	// Text3: '最新のニュースをチェックし、Genshin Impactの楽しみを最大限に引き出すための共感を持つプレイヤーのコミュニティである{a}Discordサーバー{/a}に参加しましょう。',
+	FinalText: '待つことはありません！今すぐTeyvatの向上した世界に飛び込んで、忘れられない瞬間を創り出しましょう！幸運を祈ります。',
 
-	Download: 'Download',
-	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
+	Download: 'ダウンロード',
+	DownloadTooltip: 'Windows 10および11用のx64ビットインストーラーをダウンロードするにはここをクリックしてください。',
 
-	Gallery: 'Gallery',
-	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+	Gallery: 'ギャラリー',
+	GalleryTooltip: 'ReShadeを注入したゲームのスクリーンショットを見る。',
 
-	WatchVideos: 'Watch videos',
-	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
+	WatchVideos: '動画を見る',
+	WatchVideosTooltip: 'Modと起動プログラムに関する私の動画を見る。',
 
-	ReadMore: 'Read more',
-	ReadMoreTooltip: 'Check the system requirements, recommended game settings, and more!',
+	ReadMore: '詳細を読む',
+	ReadMoreTooltip: 'システム要件、推奨ゲーム設定などを確認してください！',
 
-	Feedback: 'Feedback',
-	FeedbackTooltip: 'Share your opinion.',
+	Feedback: 'フィードバック',
+	FeedbackTooltip: 'ご意見を共有してください。',
 
-	Support: 'Support',
-	SupportTooltip: 'Click here if you need help.',
+	Support: 'サポート',
+	SupportTooltip: 'ヘルプが必要な場合はこちらをクリックしてください。',
 
-	MainPage: 'Main page',
-	MainPageTooltip: 'Home - Sefinek Official Website',
+	MainPage: 'メインページ',
+	MainPageTooltip: 'ホーム - Sefinek公式ウェブサイト',
 
-	PleaseSupportMe: 'Please support my work',
-	SupportMyWork: 'Support my work',
-	SupportMe: 'Support me',
+	PleaseSupportMe: '私の仕事をサポートしてください',
+	SupportMyWork: '私の仕事をサポート',
+	SupportMe: '私をサポート',
 
-	DownloadingData: 'Downloading data...',
-	Version: 'Version',
-	TheVersionWithoutCaps: 'the version',
-	DownloadCount: 'Download count',
-	LastDownload: 'Last download',
+	DownloadingData: 'データをダウンロード中...',
+	Version: 'バージョン',
+	TheVersionWithoutCaps: 'バージョン',
+	DownloadCount: 'ダウンロード回数',
+	LastDownload: '最後のダウンロード',
 
 	modal: {
-		ThankYouForDownloading: 'Thank you for downloading',
-		BecomeMyPatronToGainMoreBenefits: 'Become my patron to gain more benefits such as the ability to use 3DMigoto together with FPS Unlocker & ReShade + a large collection of error-free mods + a collection of the latest 300 shaders + an add-on that prevents filters from overlapping with the user interface (UI) + Ray Tracing preset, and much more!',
-		JoinOurDiscordServerToReceiveNotifications: 'Join our Discord server to receive notifications about the latest updates, features, and other announcements. Feel free to contact the creator if you have any questions or encounter any issues.',
-		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Leave a review on {a}trustpilot.com{/a} after testing the software!',
-		WishingYouAWonderfulDayOrNight:	'Wishing you a wonderful day or night!',
-		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads now is',
-		NoProblem: 'No problem',
+		ThankYouForDownloading: 'ダウンロードしていただきありがとうございます',
+		BecomeMyPatronToGainMoreBenefits: '3DMigotoとFPS Unlocker＆ReShadeと共に使用できる機能や、エラーフリーのModの大規模なコレクション、最新の300のシェーダーのコレクション、フィルターがユーザーインターフェース（UI）と重ならないようにするアドオンなど、さまざまな特典を受けるために、私のパトロンになってください！',
+		JoinOurDiscordServerToReceiveNotifications: '最新のアップデート、機能、その他の発表に関する通知を受けるために、私たちのDiscordサーバーに参加してください。質問や問題がある場合は、どうぞお気軽にクリエーターにお問い合わせください。',
+		IfYouReEnjoyingStellaModConsiderLeavingAReview: 'ソフトウェアを試した後、{a}trustpilot.com{/a}でレビューを残してください！',
+		WishingYouAWonderfulDayOrNight: '素晴らしい一日または夜をお過ごしください！',
+		TheTotalNumberOfDownloadsNowIs: '現在のダウンロード総数は',
+		NoProblem: '問題ありません',
 	},
 
 	tooltips: {
-		PageViews: 'Page views',
+		PageViews: 'ページビュー',
 	},
 };
 
@@ -150,9 +151,9 @@ module.exports.support = {
 	CommentMyYTVideo: 'YouTubeの私のビデオにコメントしてください',
 
 	tooltips: {
-		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
-		LeaveACommendBelowMyVideo: 'Leave a comment below my video.',
-		ReturnTo: 'Return to: Genshin Stella Mod - Here begins your adventure.',
+		JoinOurOfficialDiscordServer: '公式Discordサーバーに参加してください。',
+		LeaveACommendBelowMyVideo: '私の動画の下にコメントを残してください。',
+		ReturnTo: '戻る：原神ステラMod - ここから冒険が始まります。',
 	},
 };
 
@@ -201,54 +202,53 @@ module.exports.github = {
 	IfYouWantToBecomeContributor: 'もしあなたがコントリビューターになっていただけるのであれば、新しいPull Requestを作成してください。',
 };
 
-// TODO: For patrons
 module.exports.forPatrons = {
 	// captcha.ejs
-	AreUARobot: 'Are you a robot?',
-	WaitingForUser: 'Waiting for user interaction...',
-	VerifyingCaptcha: 'Verifying captcha...',
-	VerifyingSession: 'Verifying session...',
-	Successfully: 'Successfully',
-	ValidateRequest: 'Validate request',
-	NextPage: 'Next page',
-	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
-	Failed: 'Failed',
-	Expired: 'Session expired. Please refresh this page.',
-	Canceled: 'Session was canceled by the user. Try again.',
-	FatalError: 'Fatal error. Please try again or refresh this page.',
+	AreUARobot: 'ロボットですか？',
+	WaitingForUser: 'ユーザーの操作を待っています...',
+	VerifyingCaptcha: 'CAPTCHAを検証中...',
+	VerifyingSession: 'セッションを検証中...',
+	Successfully: '成功しました',
+	ValidateRequest: 'リクエストの検証',
+	NextPage: '次のページ',
+	WrongStatusCode: 'エラー。sefinek.netから誤ったステータスコード ({0}) を受信しました。',
+	Failed: '失敗しました',
+	Expired: 'セッションが期限切れです。このページを更新してください。',
+	Canceled: 'ユーザーによってセッションがキャンセルされました。再試行してください。',
+	FatalError: '致命的なエラー。再試行するか、このページを更新してください。',
 
 	// index.ejs
-	Header: 'Receive your benefits {0}',
+	Header: '{0} の特典を受け取る',
 
-	1: 'Thank you so much for supporting me! Your generosity and encouragement are invaluable to me, and I truly appreciate your trust in me.',
-	2: 'As a token of my gratitude, you gain access to benefits.',
-	3: 'If you have any questions, concerns, or feedback regarding my work, please feel free to contact me at any time.',
+	1: 'サポートいただき、本当にありがとうございます！あなたの寛大さと励ましは私にとって非常に貴重で、私は本当にあなたの信頼を感謝しています。',
+	2: '感謝の証として、特典へのアクセス権を獲得します。',
+	3: '私の仕事に関する質問、懸念、またはフィードバックがある場合は、いつでもお気軽にお問い合わせください。',
 
-	4: 'Please remember that benefits can only be obtained once from a single generated token (link).',
-	5: 'However, if you use the appropriate command on the Discord server and provide a reason why you want to claim the benefits again, you can generate a new key.',
-	6: 'When will I lose access to the benefits? Here\'s the answer. Your subscription on Patreon must expire.',
+	4: '特典は、単一の生成されたトークン（リンク）から一度だけ取得できることを覚えておいてください。',
+	5: 'ただし、Discordサーバーで適切なコマンドを使用し、特典をもう一度請求したい理由を提供する場合、新しいキーを生成できます。',
+	6: '特典へのアクセス権は、Patreonのサブスクリプションが期限切れになったときに失われることになります。',
 
-	7: 'After downloading the application, take some time to familiarize yourself with the terms of the license.',
-	8: 'This will help you understand how you can use the application and the rights and responsibilities associated with it.',
+	7: 'アプリケーションをダウンロードした後、ライセンス条項を理解するために少し時間をかけてください。',
+	8: 'これにより、アプリケーションの使用方法とそれに関連する権利と責任を理解できます。',
 
-	9: 'If for any reason you need to download the benefits again, you can simply invoke the command {code};receive{/code} on the Discord server.',
-	10: 'I also inform you that the link will automatically expire at 00:00 Polish time.',
+	9: '何らかの理由で特典を再度ダウンロードする必要がある場合、Discordサーバーで {code};receive{/code} コマンドを単純に呼び出すだけで済みます。',
+	10: 'また、リンクは自動的にポーランド時間の00:00に期限切れになります。',
 
-	ThankYouForYourSupport: 'Thank you again for your support!',
+	ThankYouForYourSupport: '再度、サポートいただきありがとうございます！',
 	SefinekOwO: '~ Sefinek',
 
-	clickHereToDownload: 'Click here to download',
+	clickHereToDownload: 'ダウンロードするにはここをクリック',
 
 	// received.ejs
-	ThisMethodIsNotAllowed: 'This method is not allowed',
-	YourBenefitsHaveAlreadyBeenReceived: 'Your benefits have already been received at {0}, {1}.',
-	Country: 'Country: {0}',
-	ThankUForYourSupport: 'Thank you for your support!',
+	ThisMethodIsNotAllowed: 'この方法は許可されていません',
+	YourBenefitsHaveAlreadyBeenReceived: '特典はすでに {0}、{1} に受け取られました。',
+	Country: '国: {0}',
+	ThankUForYourSupport: 'サポートいただきありがとうございます！',
 
 	// error.ejs
-	SomethingWentWrong: 'Sad cat >~~< Something went wrong...',
-	InvalidUserId: 'Invalid user ID provided.',
-	InvalidKeyProvided: 'Invalid key provided.',
-	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.',
-	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.',
+	SomethingWentWrong: '残念ながら何かがうまくいきませんでした... >~~<',
+	InvalidUserId: '無効なユーザーIDが提供されました。',
+	InvalidKeyProvided: '無効なキーが提供されました。',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'このリンクは期限切れで、もはやアクティブではありません。',
+	ErrorOccurredPleaseTryAgain: 'エラーが発生しました。もう一度お試しください。',
 };

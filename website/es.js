@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.1.0',
-	LastUpdate: '20.08.2023',
+	FileVersion: '2.1.1',
+	LastUpdate: '03.09.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
@@ -19,7 +19,7 @@ module.exports.default = {
 	Next: 'Siguiente',
 
 	DiscordServer: 'Servidor de Discord',
-	DiscordServerTooltip: 'Invitation to our Discord server',
+	DiscordServerTooltip: 'Invitación a nuestro servidor de Discord',
 
 	tooltips: {
 		OfficialDiscordServer: 'Servidor oficial de Discord',
@@ -50,55 +50,55 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
-	Header: 'Genshin Impact Stella Mod made by Sefinek',
-	Text1: 'Safe and unique features like ReShade enhancements, carefully designed custom graphics, and impressive FPS unlocking offer players the best gaming experience!',
-	Text2: 'The 3DMigoto add-on elevates the mod even further, providing immersive gameplay. Plus, the mod\'s custom launcher streamlines the process, helping players jump right into action.',
-	// Text3: 'Stay updated with the latest news and join the {a}Discord server{/a} for a community of like-minded players aiming to maximize their Genshin Impact enjoyment.',
-	FinalText: 'Don\'t wait! Dive into Teyvat\'s enhanced world now and have an unforgettable time!',
+	Header: 'Genshin Impact Stella Mod creado por Sefinek',
+	Text1: 'Funciones seguras y únicas como mejoras de ReShade, gráficos personalizados cuidadosamente elaborados e impresionante desbloqueo de FPS brindan a los jugadores la mejor experiencia en el juego.',
+	Text2: '3DMigoto lleva el mod a un nivel aún más alto, ofreciendo una experiencia inmersiva. Además, nuestro propio lanzador agiliza todo el proceso, ayudando a los jugadores a entrar en acción rápidamente.',
+	// Text3: 'Mantente actualizado con las últimas noticias y únete al {a}servidor de Discord{/a} para formar parte de una comunidad de jugadores con ideas afines que buscan maximizar su disfrute de Genshin Impact.',
+	FinalText: '¡No esperes más! Sumérgete ahora en el mundo mejorado de Teyvat y crea momentos inolvidables. ¡Buena suerte!',
 
-	Download: 'Download',
-	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
+	Download: 'Descargar',
+	DownloadTooltip: 'Haz clic aquí para descargar el instalador de 64 bits para Windows 10 y 11.',
 
-	Gallery: 'Gallery',
-	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+	Gallery: 'Galería',
+	GalleryTooltip: 'Mira las capturas de pantalla del juego con ReShade aplicado.',
 
-	WatchVideos: 'Watch videos',
-	WatchVideosTooltip: 'Watch my videos about the mod and the launching program.',
+	WatchVideos: 'Ver videos',
+	WatchVideosTooltip: 'Mira mis videos sobre el mod y el programa de lanzamiento.',
 
-	ReadMore: 'Read more',
-	ReadMoreTooltip: 'Check the system requirements, recommended game settings, and more!',
+	ReadMore: 'Leer más',
+	ReadMoreTooltip: 'Consulta los requisitos del sistema, las configuraciones recomendadas y más.',
 
-	Feedback: 'Feedback',
-	FeedbackTooltip: 'Share your opinion.',
+	Feedback: 'Comentarios',
+	FeedbackTooltip: 'Comparte tu opinión.',
 
-	Support: 'Support',
-	SupportTooltip: 'Click here if you need help.',
+	Support: 'Soporte',
+	SupportTooltip: 'Haz clic aquí si necesitas ayuda.',
 
-	MainPage: 'Main page',
-	MainPageTooltip: 'Home - Sefinek Official Website',
+	MainPage: 'Página principal',
+	MainPageTooltip: 'Inicio - Sitio web oficial de Sefinek',
 
-	PleaseSupportMe: 'Please support my work',
-	SupportMyWork: 'Support my work',
-	SupportMe: 'Support me',
+	PleaseSupportMe: 'Por favor, apoya mi trabajo',
+	SupportMyWork: 'Apoya mi trabajo',
+	SupportMe: 'Apóyame',
 
-	DownloadingData: 'Downloading data...',
-	Version: 'Version',
-	TheVersionWithoutCaps: 'the version',
-	DownloadCount: 'Download count',
-	LastDownload: 'Last download',
+	DownloadingData: 'Descargando datos...',
+	Version: 'Versión',
+	TheVersionWithoutCaps: 'la versión',
+	DownloadCount: 'Número de descargas',
+	LastDownload: 'Última descarga',
 
 	modal: {
-		ThankYouForDownloading: 'Thank you for downloading',
-		BecomeMyPatronToGainMoreBenefits: 'Become my patron to gain more benefits such as the ability to use 3DMigoto together with FPS Unlocker & ReShade + a large collection of error-free mods + a collection of the latest 300 shaders + an add-on that prevents filters from overlapping with the user interface (UI) + Ray Tracing preset, and much more!',
-		JoinOurDiscordServerToReceiveNotifications: 'Join our Discord server to receive notifications about the latest updates, features, and other announcements. Feel free to contact the creator if you have any questions or encounter any issues.',
-		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Leave a review on {a}trustpilot.com{/a} after testing the software!',
-		WishingYouAWonderfulDayOrNight:	'Wishing you a wonderful day or night!',
-		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads now is',
-		NoProblem: 'No problem',
+		ThankYouForDownloading: 'Gracias por descargar',
+		BecomeMyPatronToGainMoreBenefits: 'Conviértete en mi patrón para obtener más beneficios, como la capacidad de usar 3DMigoto junto con FPS Unlocker & ReShade + una gran colección de mods sin errores + una colección de los últimos 300 shaders + un complemento que evita que los filtros se superpongan con la interfaz de usuario (UI) + una configuración preestablecida de Ray Tracing y mucho más.',
+		JoinOurDiscordServerToReceiveNotifications: 'Únete a nuestro servidor de Discord para recibir notificaciones sobre las últimas actualizaciones, características y otros anuncios. Si tienes alguna pregunta o encuentras algún problema, no dudes en contactar al creador.',
+		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Deja una reseña en {a}trustpilot.com{/a} después de probar el software.',
+		WishingYouAWonderfulDayOrNight:	'¡Te deseo un maravilloso día o noche!',
+		TheTotalNumberOfDownloadsNowIs: 'El número total de descargas ahora es',
+		NoProblem: 'Sin problema',
 	},
 
 	tooltips: {
-		PageViews: 'Page views',
+		PageViews: 'Vistas de página',
 	},
 };
 
@@ -169,31 +169,31 @@ module.exports.videos = {
 
 // GET /genshin-impact-reshade/docs
 module.exports.docs = {
-	TableOfContents: 'Table of Contents',
+	TableOfContents: 'Tabla de Contenidos',
 	1: {
-		Introduction: '{0}. {1} Introduction to Stella Mod',
+		Introduction: '{0}. {1} Introducción al Mod Stella',
 		ReadMe: '{0}. {1} README.md',
-		Support: '{0}. {1} Support',
-		FAQ: '{0}. {1} FAQ',
-		WhatIs: '{0}. {1} What is...',
-		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
-		ToS: '{0}. {1} ToS',
-		PrivacyPolicy: '{0}. {1} Privacy policy',
-		SoftwareLicense: '{0}. {1} Software license',
-		Installation: '{0}. {1} Installation',
+		Support: '{0}. {1} Soporte',
+		FAQ: '{0}. {1} Preguntas Frecuentes',
+		WhatIs: '{0}. {1} ¿Qué es...',
+		HowToAvoidABan: '{0}. {1} Cómo evitar un ban?',
+		ToS: '{0}. {1} Términos de Servicio',
+		PrivacyPolicy: '{0}. {1} Política de Privacidad',
+		SoftwareLicense: '{0}. {1} Licencia de Software',
+		Installation: '{0}. {1} Instalación',
 	},
 
-	Changelogs: 'Changelogs',
+	Changelogs: 'Registro de Cambios',
 	2: {
-		Versions: '{0}. {1} Versions {2}.x.x',
+		Versions: '{0}. {1} Versiones {2}.x.x',
 	},
 
-	DocumentCreationDate: 'Document creation date: {0}',
-	LastUpdate: 'Last update: {0}',
-	DocumentSize: 'Document size: {0}',
+	DocumentCreationDate: 'Fecha de creación del documento: {0}',
+	LastUpdate: 'Última actualización: {0}',
+	DocumentSize: 'Tamaño del documento: {0}',
 
-	GoToHomePage: 'Go to home page',
-	GoBack: 'Go back',
+	GoToHomePage: 'Ir a la página de inicio',
+	GoBack: 'Volver',
 };
 
 // GET /genshin-impact-reshade/repositories
@@ -202,54 +202,53 @@ module.exports.github = {
 	IfYouWantToBecomeContributor: 'Si te gustaria convertirte en un colaborador, solo tienes que crear un nuevo Pull Request en Github. Muchas gracias y ¡Feliz codificación!',
 };
 
-// TODO: For patrons
 module.exports.forPatrons = {
 	// captcha.ejs
-	AreUARobot: 'Are you a robot?',
-	WaitingForUser: 'Waiting for user interaction...',
-	VerifyingCaptcha: 'Verifying captcha...',
-	VerifyingSession: 'Verifying session...',
-	Successfully: 'Successfully',
-	ValidateRequest: 'Validate request',
-	NextPage: 'Next page',
-	WrongStatusCode: 'Error. Received wrong status code ({0}) from sefinek.net.',
-	Failed: 'Failed',
-	Expired: 'Session expired. Please refresh this page.',
-	Canceled: 'Session was canceled by the user. Try again.',
-	FatalError: 'Fatal error. Please try again or refresh this page.',
+	AreUARobot: '¿Eres un robot?',
+	WaitingForUser: 'Esperando interacción del usuario...',
+	VerifyingCaptcha: 'Verificando captcha...',
+	VerifyingSession: 'Verificando sesión...',
+	Successfully: 'Éxito',
+	ValidateRequest: 'Validar solicitud',
+	NextPage: 'Página siguiente',
+	WrongStatusCode: 'Error. Se recibió un código de estado incorrecto ({0}) de sefinek.net.',
+	Failed: 'Falló',
+	Expired: 'La sesión ha caducado. Por favor, actualiza esta página.',
+	Canceled: 'La sesión fue cancelada por el usuario. Inténtalo de nuevo.',
+	FatalError: 'Error fatal. Por favor, inténtalo de nuevo o actualiza esta página.',
 
 	// index.ejs
-	Header: 'Receive your benefits {0}',
+	Header: 'Recibe tus beneficios {0}',
 
-	1: 'Thank you so much for supporting me! Your generosity and encouragement are invaluable to me, and I truly appreciate your trust in me.',
-	2: 'As a token of my gratitude, you gain access to benefits.',
-	3: 'If you have any questions, concerns, or feedback regarding my work, please feel free to contact me at any time.',
+	1: '¡Muchas gracias por tu apoyo! Tu generosidad y ánimo son invaluables para mí, y realmente aprecio tu confianza en mí.',
+	2: 'Como muestra de mi gratitud, obtienes acceso a beneficios.',
+	3: 'Si tienes alguna pregunta, inquietud o comentario sobre mi trabajo, no dudes en contactarme en cualquier momento.',
 
-	4: 'Please remember that benefits can only be obtained once from a single generated token (link).',
-	5: 'However, if you use the appropriate command on the Discord server and provide a reason why you want to claim the benefits again, you can generate a new key.',
-	6: 'When will I lose access to the benefits? Here\'s the answer. Your subscription on Patreon must expire.',
+	4: 'Por favor, recuerda que los beneficios solo se pueden obtener una vez a partir de un solo enlace generado (token).',
+	5: 'Sin embargo, si utilizas el comando apropiado en el servidor de Discord y proporcionas una razón por la que deseas reclamar los beneficios nuevamente, puedes generar una nueva clave.',
+	6: '¿Cuándo perderé el acceso a los beneficios? Aquí tienes la respuesta. Tu suscripción en Patreon debe expirar.',
 
-	7: 'After downloading the application, take some time to familiarize yourself with the terms of the license.',
-	8: 'This will help you understand how you can use the application and the rights and responsibilities associated with it.',
+	7: 'Después de descargar la aplicación, tómate un tiempo para familiarizarte con los términos de la licencia.',
+	8: 'Esto te ayudará a entender cómo puedes utilizar la aplicación y los derechos y responsabilidades asociados con ella.',
 
-	9: 'If for any reason you need to download the benefits again, you can simply invoke the command {code};receive{/code} on the Discord server.',
-	10: 'I also inform you that the link will automatically expire at 00:00 Polish time.',
+	9: 'Si por alguna razón necesitas descargar los beneficios nuevamente, simplemente puedes invocar el comando {code};receive{/code} en el servidor de Discord.',
+	10: 'También te informo que el enlace caducará automáticamente a las 00:00 hora polaca.',
 
-	ThankYouForYourSupport: 'Thank you again for your support!',
+	ThankYouForYourSupport: '¡Gracias de nuevo por tu apoyo!',
 	SefinekOwO: '~ Sefinek',
 
-	clickHereToDownload: 'Click here to download',
+	clickHereToDownload: 'Haz clic aquí para descargar',
 
 	// received.ejs
-	ThisMethodIsNotAllowed: 'This method is not allowed',
-	YourBenefitsHaveAlreadyBeenReceived: 'Your benefits have already been received at {0}, {1}.',
-	Country: 'Country: {0}',
-	ThankUForYourSupport: 'Thank you for your support!',
+	ThisMethodIsNotAllowed: 'Este método no está permitido',
+	YourBenefitsHaveAlreadyBeenReceived: 'Tus beneficios ya se han recibido el {0}, {1}.',
+	Country: 'País: {0}',
+	ThankUForYourSupport: '¡Gracias por tu apoyo!',
 
 	// error.ejs
-	SomethingWentWrong: 'Sad cat >~~< Something went wrong...',
-	InvalidUserId: 'Invalid user ID provided.',
-	InvalidKeyProvided: 'Invalid key provided.',
-	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.',
-	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.',
+	SomethingWentWrong: 'Gatito triste >~~< Algo salió mal...',
+	InvalidUserId: 'Se proporcionó un ID de usuario no válido.',
+	InvalidKeyProvided: 'Se proporcionó una clave no válida.',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Este enlace ha caducado y ya no estará activo.',
+	ErrorOccurredPleaseTryAgain: 'Ocurrió un error. Por favor, inténtalo de nuevo.',
 };
