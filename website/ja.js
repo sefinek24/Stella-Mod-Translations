@@ -224,7 +224,7 @@ module.exports.subscription = {
 		FromAllTiers: 'すべてのティアからのすべて',
 	},
 
-
+	TierName: 'Tier name',
 	benefitsFull: {
 		CompletePostArchive: '完全な投稿アーカイブ（Discordサーバー上）',
 		EarlyAccessToStellaMod: 'Stella Modへの早期アクセス',
@@ -244,6 +244,8 @@ module.exports.subscription = {
 		OptimizationOfYourComputerForBestPerformance: '最高のパフォーマンスのためのコンピューターの最適化（TeamViewer経由）',
 		AssistanceRelatedToPCsOrLaptops: 'PCまたはラップトップに関連するサポート',
 	},
+
+	ComparePlans: 'Compare plans',
 	benefitsShort: {
 		CompletePostArchive: '完全な投稿アーカイブ',
 		EarlyAccessToStellaMod: 'Stella Modへの早期アクセス',

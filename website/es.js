@@ -224,6 +224,7 @@ module.exports.subscription = {
 		FromAllTiers: 'Todo desde todos los Tiers',
 	},
 
+	TierName: 'Tier name',
 	benefitsFull: {
 		CompletePostArchive: 'Archivo completo de publicaciones (en el servidor de Discord)',
 		EarlyAccessToStellaMod: 'Acceso temprano a Stella Mod',
@@ -243,6 +244,8 @@ module.exports.subscription = {
 		OptimizationOfYourComputerForBestPerformance: 'Optimización de tu computadora para un mejor rendimiento a través de TeamViewer',
 		AssistanceRelatedToPCsOrLaptops: 'Asistencia relacionada con PCs o laptops',
 	},
+
+	ComparePlans: 'Compare plans',
 	benefitsShort: {
 		CompletePostArchive: 'Archivo completo de publicaciones',
 		EarlyAccessToStellaMod: 'Acceso temprano a Stella Mod',
