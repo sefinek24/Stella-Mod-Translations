@@ -228,7 +228,7 @@ module.exports.subscription = {
 		FromAllTiers: 'Wszystko z Wszystkich Poziomów',
 	},
 
-
+	TierName: 'Tier name',
 	benefitsFull: {
 		CompletePostArchive: 'Pełne archiwum postów (na serwerze Discord)',
 		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
@@ -263,12 +263,12 @@ module.exports.subscription = {
 		SecuritySystemToAvoidBan: 'System zabezpieczeń przed banem',
 		NewWindowsTerminalAppearance: 'Nowy wygląd Windows Terminal',
 		MorePhotosOfMyCats: 'Więcej zdjęć moich kotów',
-		PrivateDNSInEurope: 'Dużo lepszy system zabezpieczeń (DNS w Polsce)',
+		PrivateDNSInEurope: 'Lepszy system zabezpieczeń (DNS w Polsce)',
 		OptimizationOfYourComputer: 'Optymalizacja twojego komputera',
 		AssistanceRelatedToPCsOrLaptops: 'Pomoc związana z komputerami',
 	},
 
-	SubscribeViaStripe: 'Subskrybuj za pomocą Stripe',
+	SubscribeViaStripe: 'Subskrybuj za pośrednictwem Stripe',
 };
 
 // For patrons
