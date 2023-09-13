@@ -1,11 +1,12 @@
 module.exports.data = {
-	FileVersion: '2.1.2',
-	LastUpdate: '03.09.2023',
+	FileVersion: '2.2.0',
+	LastUpdate: '13.09.2023',
 	Contributors: [{
 		Sefinek: {
 			GitHub: 'https://github.com/sefinek24',
 			Website: 'https://sefinek.net',
 		},
+		ChatGPT: {},
 	}],
 };
 
@@ -203,6 +204,71 @@ module.exports.docs = {
 module.exports.github = {
 	AllReposOnGithub: 'Wszystkie repozytoria na GitHubie',
 	IfYouWantToBecomeContributor: 'Jeśli chcesz zostać współtwórcą, po prostu utwórz nowy Pull Request. Dziękuję bardzo i życzę Ci udanego kodowania!',
+};
+
+// GET /genshin-impact-reshade/subscription
+module.exports.subscription = {
+	AvailableTiers: 'Dostępne poziomy',
+	IfYouAreInterestedInTheBenefits: 'Jeśli jesteś zainteresowany korzyściami, proszę zobacz wszystkie dostępne poziomy, aby wybrać ten, który odpowiada Twoim preferencjom. Mam nadzieję, że znajdziesz taki, który Cię zainteresuje!',
+	IfYouHaveAnyQuestions: 'Jeśli masz jakiekolwiek pytania, nie wahaj się dołączyć do naszego serwera Discord lub skontaktować się drogą mailową. Dane kontaktowe znajdziesz na stronie głównej mojej strony internetowej.',
+	PricesMayVaryForUsersResidingInPoland: 'Ceny mogą się różnić dla użytkowników mieszkających w Polsce.',
+
+	tiers: {
+		1: 'Mały Kociak',
+		2: 'Ulubiony Kociak',
+		3: 'Zaufany Kot',
+		4: 'Bardzo Bezpieczny Kociak',
+		5: 'Kociak Komputerowy',
+	},
+
+	Everything: {
+		FromTier: 'Wszystko z Poziomu {0}',
+		FromTier12: 'Wszystko z Poziomów 1 i 2',
+		FromTier123: 'Wszystko z Poziomów 1, 2 i 3',
+		FromAllTiers: 'Wszystko z Wszystkich Poziomów',
+	},
+
+
+	benefitsFull: {
+		CompletePostArchive: 'Pełne archiwum postów (na serwerze Discord)',
+		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
+		PrivateClipsFromCSGO: 'Prywatne nagrania z CS:GO',
+		RayTracingForGenshin: 'Ray Tracing dla Genshin',
+		BigCollectionOfShadersMods: 'Duża kolekcja shaderów i modów',
+		MigotoInStellaModMoreMods: '3DMigoto w Stella Mod (więcej modów)',
+		GameUIWithoutVisibleShaders: 'Interfejs gry bez widocznych shaderów',
+		HideYourUIDInTheGame: 'Ukryj swój UID w grze',
+		PresetsFromPreviousVersions: 'Ustawienia z poprzednich wersji',
+		PhotosOfMyCats: 'Zdjęcia moich kotów',
+		AnimePicturesGeneratedByAI: 'Obrazy anime generowane przez sztuczną inteligencję',
+		SecuritySystemToAvoidBan: 'System zabezpieczeń przed banem',
+		NewWindowsTerminalAppearance: 'Nowy wygląd Terminala Windows',
+		MorePhotosOfMyCats: 'Więcej zdjęć moich kotów',
+		PrivateDNSInEurope: 'Dużo lepszy system zabezpieczeń (prywatny DNS w Polsce)',
+		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja twojego komputera dla najlepszej wydajności przez TeamViewer',
+		AssistanceRelatedToPCsOrLaptops: 'Pomoc związana z komputerami PC lub laptopami',
+	},
+	benefitsShort: {
+		CompletePostArchive: 'Pełne archiwum postów',
+		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
+		PrivateClipsFromCSGO: 'Prywatne nagrania z CS:GO',
+		RayTracingForGenshin: 'Ray Tracing dla Genshina',
+		BigCollectionOfShadersMods: 'Duża kolekcja shaderów i modów',
+		MigotoInStellaModMoreMods: '3DMigoto w Stella Mod',
+		GameUIWithoutVisibleShaders: 'Interfejs gry bez widocznych shaderów',
+		HideYourUIDInTheGame: 'Ukryj swój UID w grze',
+		PresetsFromPreviousVersions: 'Ustawienia z poprzednich wersji',
+		PhotosOfMyCats: 'Zdjęcia moich kotów',
+		AnimePicturesGeneratedByAI: 'Obrazy anime generowane przez AI',
+		SecuritySystemToAvoidBan: 'System zabezpieczeń przed banem',
+		NewWindowsTerminalAppearance: 'Nowy wygląd Windows Terminal',
+		MorePhotosOfMyCats: 'Więcej zdjęć moich kotów',
+		PrivateDNSInEurope: 'Dużo lepszy system zabezpieczeń (DNS w Polsce)',
+		OptimizationOfYourComputer: 'Optymalizacja twojego komputera',
+		AssistanceRelatedToPCsOrLaptops: 'Pomoc związana z komputerami',
+	},
+
+	SubscribeViaStripe: 'Subskrybuj za pomocą Stripe',
 };
 
 // For patrons

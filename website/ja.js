@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.1.2',
-	LastUpdate: '03.09.2023',
+	FileVersion: '2.2.0',
+	LastUpdate: '13.09.2023',
 	Contributors: [{
 		'daydreamer-json': {
 			GitHub: 'https://github.com/daydreamer-json',
@@ -202,6 +202,72 @@ module.exports.github = {
 	IfYouWantToBecomeContributor: 'もしあなたがコントリビューターになっていただけるのであれば、新しいPull Requestを作成してください。',
 };
 
+// GET /genshin-impact-reshade/subscription
+module.exports.subscription = {
+	AvailableTiers: '利用可能なティア',
+	IfYouAreInterestedInTheBenefits: '利点に興味がある場合は、利用可能なティアをすべて探索して、あなたの好みに合ったものを見つけてください。うまくいけば、あなたの興味を引くものが見つかるでしょう！',
+	IfYouHaveAnyQuestions: '質問がある場合は、どうぞお気軽に私のウェブサイトのホームページで連絡情報を見つけて、Discordサーバーに参加するか、メールでお問い合わせください。',
+	PricesMayVaryForUsersResidingInPoland: 'ポーランド在住のユーザーには価格が異なる場合があります。',
+
+	tiers: {
+		1: '小さな子猫',
+		2: 'お気に入りの子猫',
+		3: '信頼できる猫',
+		4: '非常に安全な子猫',
+		5: 'コンピューター猫',
+	},
+
+	Everything: {
+		FromTier: 'ティア{0}からのすべて',
+		FromTier12: 'ティア1および2からのすべて',
+		FromTier123: 'ティア1、2、および3からのすべて',
+		FromAllTiers: 'すべてのティアからのすべて',
+	},
+
+
+	benefitsFull: {
+		CompletePostArchive: '完全な投稿アーカイブ（Discordサーバー上）',
+		EarlyAccessToStellaMod: 'Stella Modへの早期アクセス',
+		PrivateClipsFromCSGO: 'CS:GOのプライベートクリップ',
+		RayTracingForGenshin: '原神のレイトレーシング',
+		BigCollectionOfShadersMods: 'シェーダー＆モッドの大規模なコレクション',
+		MigotoInStellaModMoreMods: 'Stella Mod内の3DMigoto（さらなるモッド）',
+		GameUIWithoutVisibleShaders: 'シェーダーが表示されないゲームUI',
+		HideYourUIDInTheGame: 'ゲーム内であなたのUIDを非表示にする',
+		PresetsFromPreviousVersions: '以前のバージョンからのプリセット',
+		PhotosOfMyCats: '私の猫の写真',
+		AnimePicturesGeneratedByAI: 'AIによって生成されたアニメの画像',
+		SecuritySystemToAvoidBan: 'バンを回避するためのセキュリティシステム',
+		NewWindowsTerminalAppearance: '新しいWindowsターミナル（WT）の外観',
+		MorePhotosOfMyCats: '私の猫のさらなる写真',
+		PrivateDNSInEurope: 'より優れたセキュリティシステム（ヨーロッパのプライベートDNS）',
+		OptimizationOfYourComputerForBestPerformance: '最高のパフォーマンスのためのコンピューターの最適化（TeamViewer経由）',
+		AssistanceRelatedToPCsOrLaptops: 'PCまたはラップトップに関連するサポート',
+	},
+	benefitsShort: {
+		CompletePostArchive: '完全な投稿アーカイブ',
+		EarlyAccessToStellaMod: 'Stella Modへの早期アクセス',
+		PrivateClipsFromCSGO: 'CS:GOのプライベートクリップ',
+		RayTracingForGenshin: '原神のレイトレーシング',
+		BigCollectionOfShadersMods: 'シェーダー＆モッドの大規模なコレクション',
+		MigotoInStellaModMoreMods: 'Stella Mod内の3DMigoto',
+		GameUIWithoutVisibleShaders: 'シェーダーが表示されないゲームUI',
+		HideYourUIDInTheGame: 'ゲーム内でのUID非表示',
+		PresetsFromPreviousVersions: '以前のバージョンからのプリセット',
+		PhotosOfMyCats: '私の猫の写真',
+		AnimePicturesGeneratedByAI: 'AIによって生成されたアニメの画像',
+		SecuritySystemToAvoidBan: 'バンを回避するためのセキュリティシステム',
+		NewWindowsTerminalAppearance: '新しいWindowsターミナルの外観',
+		MorePhotosOfMyCats: '私の猫のさらなる写真',
+		PrivateDNSInEurope: 'より優れたセキュリティシステム（ヨーロッパのプライベートDNS）',
+		OptimizationOfYourComputer: 'コンピューターの最適化',
+		AssistanceRelatedToPCsOrLaptops: 'PCまたはラップトップに関連するサポート',
+	},
+
+	SubscribeViaStripe: 'Stripe経由で購読',
+};
+
+// For patrons
 module.exports.forPatrons = {
 	// captcha.ejs
 	AreUARobot: 'ロボットですか？',
