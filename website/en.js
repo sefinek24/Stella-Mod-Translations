@@ -244,7 +244,7 @@ module.exports.subscription = {
 		NewWindowsTerminalAppearance: 'New Windows Terminal (WT) appearance',
 		MorePhotosOfMyCats: 'More photos of my cats',
 		PrivateDNSInEurope: 'Much better security system (private DNS in Europe)',
-		OptimizationOfYourComputerForBestPerformance: 'Optimization of your computer for best performance via TeamViewer',
+		OptimizationOfYourComputerForBestPerformance: 'Optimization of your PC for the best performance',
 		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
 	},
 
@@ -264,7 +264,7 @@ module.exports.subscription = {
 		SecuritySystemToAvoidBan: 'Security system to avoid ban',
 		NewWindowsTerminalAppearance: 'New Windows Terminal appearance',
 		MorePhotosOfMyCats: 'More photos of my cats',
-		PrivateDNSInEurope: 'Much better security system (private DNS in Europe)',
+		PrivateDNSInEurope: 'Much better security system (DNS in Europe)',
 		OptimizationOfYourComputer: 'Optimization of your computer',
 		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
 	},
