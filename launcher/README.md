@@ -1,4 +1,4 @@
-## Are you lost?
+# Are you lost?
 
 Translations for Stella Mod and Genshin Stella Mod are available in the official repository. Below, you'll find a link to it. Don't hesitate to create a new pull request!
 
