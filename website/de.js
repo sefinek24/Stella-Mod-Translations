@@ -1,6 +1,6 @@
 module.exports.data = {
-	FileVersion: '2.2.0',
-	LastUpdate: '13.09.2023',
+	FileVersion: '2.3.0',
+	LastUpdate: '25.09.2023',
 	Contributors: [{
 		ShizuKoto: {
 			GitHub: 'https://github.com/ShizuKoto',
@@ -50,55 +50,56 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
-	Header: 'Genshin Impact Stella Mod erstellt von Sefinek',
-	Text1: 'Sichere und einzigartige Funktionen wie ReShade-Verbesserungen, sorgfältig gestaltete benutzerdefinierte Grafiken und beeindruckendes Freischalten von FPS bieten Spielern das beste Spielerlebnis!',
-	Text2: '3DMigoto bringt die Mod noch auf ein höheres Level und bietet ein immersives Erlebnis. Zusätzlich optimiert unser eigener Launcher den gesamten Prozess und hilft den Spielern, schnell ins Geschehen einzutauchen.',
-	// Text3: 'Bleiben Sie auf dem neuesten Stand mit den neuesten Nachrichten und schließen Sie sich dem {a}Discord-Server{/a} an, um Teil einer Gemeinschaft gleichgesinnter Spieler zu sein, die ihr Genshin Impact-Erlebnis maximieren möchten.',
-	FinalText: 'Warte nicht! Tauche jetzt in die verbesserte Welt von Teyvat ein und schaffe unvergessliche Momente! Viel Spaß!',
+	Header: 'Genshin Impact Stella Mod made by Sefinek',
+	Text1: 'Safe and unique features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
+	Text2: '3DMigoto takes the mod to an even higher level, providing an immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
+	FinalText: 'Don\'t wait! Dive into the enhanced world of Teyvat now and create unforgettable moments! Have fun!',
 
-	Download: 'Herunterladen',
-	DownloadTooltip: 'Hier klicken, um den x64-Bit-Installer für Windows 10 und 11 herunterzuladen.',
+	Download: 'Download',
+	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
 
-	Gallery: 'Galerie',
-	GalleryTooltip: 'Sehen Sie sich die Screenshots aus dem Spiel mit ReShade-Einspritzung an.',
+	StelaModPlusTooltip: 'Get access to the paid version of Stella Mod Plus and enjoy numerous benefits and enhanced gaming experiences!',
 
-	WatchVideos: 'Videos ansehen',
-	WatchVideosTooltip: 'Sehen Sie sich meine Videos über den Mod und das Startprogramm an.',
+	Documentation: 'Documentation',
+	DocumentationTooltip: 'Check the system requirements, recommended game settings, and more!',
 
-	ReadMore: 'Mehr lesen',
-	ReadMoreTooltip: 'Überprüfen Sie die Systemanforderungen, empfohlene Spieleinstellungen und mehr!',
+	Gallery: 'Gallery',
+	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+
+	Videos: 'Videos',
+	VideosTooltip: 'Watch our videos about the mod and the launching program.',
 
 	Feedback: 'Feedback',
-	FeedbackTooltip: 'Teilen Sie Ihre Meinung mit.',
+	FeedbackTooltip: 'Share your opinion about my work and Stella Mod.',
 
-	Support: 'Unterstützung',
-	SupportTooltip: 'Hier klicken, wenn Sie Hilfe benötigen.',
+	Support: 'Support',
+	SupportTooltip: 'Click here if you need help.',
 
-	MainPage: 'Hauptseite',
-	MainPageTooltip: 'Startseite - Offizielle Website von Sefinek',
+	MainPage: 'Main page',
+	MainPageTooltip: 'Home - Sefinek Official Website',
 
-	PleaseSupportMe: 'Bitte unterstützen Sie meine Arbeit',
-	SupportMyWork: 'Unterstützen Sie meine Arbeit',
-	SupportMe: 'Unterstützen Sie mich',
+	PleaseSupportMe: 'Please support my work',
+	SupportMyWork: 'Support my work',
+	SupportMe: 'Support me',
 
-	DownloadingData: 'Daten werden heruntergeladen...',
+	DownloadingData: 'Downloading data...',
 	Version: 'Version',
-	TheVersionWithoutCaps: 'die Version',
-	DownloadCount: 'Anzahl der Downloads',
-	LastDownload: 'Letzter Download',
+	TheVersionWithoutCaps: 'the version',
+	DownloadCount: 'Download count',
+	LastDownload: 'Last download',
 
 	modal: {
-		ThankYouForDownloading: 'Vielen Dank fürs Herunterladen',
-		BecomeMyPatronToGainMoreBenefits: 'Werden Sie mein Patron, um weitere Vorteile wie die Möglichkeit zu erhalten, 3DMigoto zusammen mit FPS Unlocker & ReShade zu nutzen + eine große Sammlung von fehlerfreien Mods + eine Sammlung der neuesten 300 Shader + ein Add-On, das verhindert, dass Filter mit der Benutzeroberfläche (UI) überlappen + Ray Tracing Voreinstellung und vieles mehr!',
-		JoinOurDiscordServerToReceiveNotifications: 'Treten Sie unserem Discord-Server bei, um Benachrichtigungen über die neuesten Updates, Funktionen und andere Ankündigungen zu erhalten. Zögern Sie nicht, den Schöpfer zu kontaktieren, wenn Sie Fragen haben oder auf Probleme stoßen.',
-		IfYouReEnjoyingStellaModConsiderLeavingAReview: 'Hinterlassen Sie eine Bewertung auf {a}trustpilot.com{/a}, nachdem Sie die Software getestet haben!',
-		WishingYouAWonderfulDayOrNight: 'Ich wünsche Ihnen einen wundervollen Tag oder eine gute Nacht!',
-		TheTotalNumberOfDownloadsNowIs: 'Die Gesamtzahl der Downloads beträgt jetzt',
-		NoProblem: 'Kein Problem',
+		ThankYouForDownloading: 'Thank you for downloading',
+		BecomeMyPatronToGainMoreBenefits: 'Become my patron to gain more benefits such as the ability to use 3DMigoto together with FPS Unlocker & ReShade + a large collection of error-free mods + a collection of the latest 300 shaders + an add-on that prevents filters from overlapping with the user interface (UI) + Ray Tracing preset, and much more!',
+		JoinOurDiscordServerToReceiveNotifications: 'Join our Discord server to receive notifications about the latest updates, features, and other announcements. Feel free to contact the creator if you have any questions or encounter any issues.',
+		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Leave a review on {a}trustpilot.com{/a} after testing the software!',
+		WishingYouAWonderfulDayOrNight:	'Wishing you a wonderful day or night!',
+		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads now is',
+		NoProblem: 'No problem',
 	},
 
 	tooltips: {
-		PageViews: 'Seitenaufrufe',
+		PageViews: 'Page views',
 	},
 };
 
@@ -147,7 +148,7 @@ module.exports.support = {
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Ob du Hilfe bei der Installation brauchst, oder einfach Fragen zu den Features hast. Wir sind hier um dich zu unterstützen.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Auch unsere Community steht dir zur Seite und beantwortet deine Fragen gerne. Erstelle einfach ein Ticket auf GitHub, oder tritt unserem Discord Server bei.',
 	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Klicke einfach auf das Chat-Icon unten rechts, um einen neuen Chat auf polnisch oder englisch zu starten. Wir freuen uns von dir zu hören.',
-	StellaModIsNotAffiliatedWithHoyoverse: 'Bitte beachte, dass Stella Mod in keiner Weise in Verbindung mit Hoyoverse (MiHoYo) steht.',
+	StellaModIsNotAffiliatedWithHoyoverse: 'Bitte beachte, dass Stella Mod in keiner Weise in Verbindung mit Hoyoverse steht.',
 	JoinToDiscordServer: 'Tritt unserem Discord Server bei',
 	CommentMyYTVideo: 'Kommentiere meine Videos auf YouTube',
 
@@ -205,119 +206,89 @@ module.exports.github = {
 
 // GET /genshin-impact-reshade/subscription
 module.exports.subscription = {
-	AvailableTiers: 'Verfügbare Stufen',
-	IfYouAreInterestedInTheBenefits: 'Wenn Sie an den Vorteilen interessiert sind, erkunden Sie bitte alle verfügbaren Stufen, um herauszufinden, welche Ihren Vorlieben entspricht. Hoffentlich finden Sie eine, die Ihr Interesse weckt!',
-	IfYouHaveAnyQuestions: 'Wenn Sie Fragen haben, zögern Sie nicht, unserem Discord-Server beizutreten oder uns per E-Mail zu kontaktieren. Die Kontaktinformationen finden Sie auf der Homepage meiner Website.',
-	PricesMayVaryForUsersResidingInPoland: 'Die Preise können für Benutzer in Polen variieren.',
+	AvailableTiers: 'Available tiers',
+	IfYouAreInterestedInTheBenefits: 'If you\'re interested in the benefits, please explore all the available tiers to see which one suits your preferences. Hopefully, you\'ll find one that piques your interest!',
+	IfYouHaveAnyQuestions: 'If you have any questions, don\'t hesitate to join our Discord server or reach out via email. You can find the contact information on the homepage of my website.',
+	PricesMayVaryForUsersResidingInPoland: 'Prices may vary for users residing in Poland.',
 
 	tiers: {
-		1: 'Kleines Kätzchen',
-		2: 'Lieblingskätzchen',
-		3: 'Vertrauenswürdige Katze',
-		4: 'Sehr sicheres Kätzchen',
-		5: 'Computer-Katze',
+		1: 'Little Kitten',
+		2: 'Favorite Kitten',
+		3: 'Trusted Cat',
+		4: 'Computer Cat',
+		5: 'Very Safe Kitten',
 	},
 
 	Everything: {
-		FromTier: 'Alles ab Stufe {0}',
-		FromTier12: 'Alles ab Stufe 1 und 2',
-		FromTier123: 'Alles ab Stufe 1, 2 & 3',
-		FromAllTiers: 'Alles aus allen Stufen',
+		FromTier: 'Everything from Tier {0}',
+		FromTier12: 'Everything from Tier 1 and 2',
+		FromTier123: 'Everything from Tier 1, 2 & 3',
+		FromAllTiers: 'Everything from all Tiers',
 	},
 
 	TierName: 'Tier name',
 	benefitsFull: {
-		CompletePostArchive: 'Vollständiges Postarchiv (auf dem Discord-Server)',
-		EarlyAccessToStellaMod: 'Früher Zugriff auf Stella Mod',
-		PrivateClipsFromCSGO: 'Private Clips von CS:GO',
-		RayTracingForGenshin: 'Ray Tracing für Genshin',
-		BigCollectionOfShadersMods: 'Große Sammlung von Shadern & Mods',
-		MigotoInStellaModMoreMods: '3DMigoto in Stella Mod (mehr Mods)',
-		GameUIWithoutVisibleShaders: 'Spiel-Benutzeroberfläche ohne sichtbare Shader',
-		HideYourUIDInTheGame: 'Verstecke deine UID im Spiel',
-		PresetsFromPreviousVersions: 'Presets aus früheren Versionen',
-		PhotosOfMyCats: 'Fotos meiner Katzen',
-		AnimePicturesGeneratedByAI: 'Anime-Bilder generiert von KI',
-		SecuritySystemToAvoidBan: 'Sicherheitssystem zur Vermeidung von Sperrungen',
-		NewWindowsTerminalAppearance: 'Neues Erscheinungsbild des Windows-Terminals (WT)',
-		MorePhotosOfMyCats: 'Mehr Fotos meiner Katzen',
-		PrivateDNSInEurope: 'Deutlich besseres Sicherheitssystem (privates DNS in Europa)',
-		OptimizationOfYourComputerForBestPerformance: 'Optimierung Ihres Computers für beste Leistung via TeamViewer',
-		AssistanceRelatedToPCsOrLaptops: 'Unterstützung im Zusammenhang mit PCs oder Laptops',
+		CompletePostArchive: 'Complete post archive (on the Discord server)',
+		EarlyAccessToStellaMod: 'Early access to Stella Mod',
+		PrivateClipsFromCSGO: 'Private clips from CS:GO',
+		RayTracingForGenshin: 'Ray Tracing for Genshin',
+		BigCollectionOfShadersMods: 'Big collection of shaders & mods',
+		MigotoInStellaModMoreMods: '3DMigoto in Stella Mod (more mods)',
+		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
+		HideYourUIDInTheGame: 'Hide your UID in the game',
+		PresetsFromPreviousVersions: 'Presets from previous versions',
+		PhotosOfMyCats: 'Photos of my cats',
+		AnimePicturesGeneratedByAI: 'Anime pictures generated by AI',
+		SecuritySystemToAvoidBan: 'Security system to avoid ban',
+		NewWindowsTerminalAppearance: 'New Windows Terminal (WT) appearance',
+		MorePhotosOfMyCats: 'More photos of my cats',
+		PrivateDNSInEurope: 'Much better security system (private DNS in Europe)',
+		OptimizationOfYourComputerForBestPerformance: 'Optimization of your PC for the best performance',
+		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
 	},
 
 	ComparePlans: 'Compare plans',
 	benefitsShort: {
-		CompletePostArchive: 'Vollständiges Postarchiv',
-		EarlyAccessToStellaMod: 'Früher Zugriff auf Stella Mod',
-		PrivateClipsFromCSGO: 'Private Clips von CS:GO',
-		RayTracingForGenshin: 'Ray Tracing für Genshin',
-		BigCollectionOfShadersMods: 'Große Sammlung von Shadern & Mods',
+		CompletePostArchive: 'Complete post archive',
+		EarlyAccessToStellaMod: 'Early access to Stella Mod',
+		PrivateClipsFromCSGO: 'Private clips from CS:GO',
+		RayTracingForGenshin: 'Ray Tracing for Genshin',
+		BigCollectionOfShadersMods: 'Big collection of shaders & mods',
 		MigotoInStellaModMoreMods: '3DMigoto in Stella Mod',
-		GameUIWithoutVisibleShaders: 'Spiel-Benutzeroberfläche ohne sichtbare Shader',
-		HideYourUIDInTheGame: 'Verstecke deine UID im Spiel',
-		PresetsFromPreviousVersions: 'Presets aus früheren Versionen',
-		PhotosOfMyCats: 'Fotos meiner Katzen',
-		AnimePicturesGeneratedByAI: 'Anime-Bilder generiert von KI',
-		SecuritySystemToAvoidBan: 'Sicherheitssystem zur Vermeidung von Sperrungen',
-		NewWindowsTerminalAppearance: 'Neues Erscheinungsbild des Windows-Terminals',
-		MorePhotosOfMyCats: 'Mehr Fotos meiner Katzen',
-		PrivateDNSInEurope: 'Deutlich besseres Sicherheitssystem (privates DNS in Europa)',
-		OptimizationOfYourComputer: 'Optimierung Ihres Computers',
-		AssistanceRelatedToPCsOrLaptops: 'Unterstützung im Zusammenhang mit PCs oder Laptops',
+		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
+		HideYourUIDInTheGame: 'Hide your UID in the game',
+		PresetsFromPreviousVersions: 'Presets from previous versions',
+		PhotosOfMyCats: 'Photos of my cats',
+		AnimePicturesGeneratedByAI: 'Anime pictures generated by AI',
+		SecuritySystemToAvoidBan: 'Security system to avoid ban',
+		NewWindowsTerminalAppearance: 'New Windows Terminal appearance',
+		MorePhotosOfMyCats: 'More photos of my cats',
+		PrivateDNSInEurope: 'Better security system (DNS in Europe)',
+		OptimizationOfYourComputer: 'Optimization of your computer',
+		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
 	},
 
-	SubscribeViaStripe: 'Über Stripe abonnieren',
-};
+	SubscribeNow: 'Subscribe now',
 
-// For patrons
-module.exports.forPatrons = {
-	// captcha.ejs
-	AreUARobot: 'Bist du ein Roboter?',
-	WaitingForUser: 'Warten auf Benutzerinteraktion...',
-	VerifyingCaptcha: 'Überprüfe Captcha...',
-	VerifyingSession: 'Überprüfe Sitzung...',
-	Successfully: 'Erfolgreich',
-	ValidateRequest: 'Anfrage validieren',
-	NextPage: 'Nächste Seite',
-	WrongStatusCode: 'Fehler. Habe falschen Status ({0}) von sefinek.net erhalten.',
-	Failed: 'Fehlgeschlagen',
-	Expired: 'Sitzung abgelaufen. Bitte aktualisiere diese Seite.',
-	Canceled: 'Sitzung wurde vom Nutzer abgebrochen. Bitte erneut versuchen.',
-	FatalError: 'Fehler. Bitte versuche es erneut und aktualisiere diese Seite..',
+	PaymentSystem: {
+		Header: 'Payment system',
+		1: 'We are delighted to announce that our secure payment system is powered by {a}Stripe{/a}. With Stripe, you can confidently make payments, knowing that your financial information is handled with the highest level of security.',
+		2: 'Stripe is a well-trusted and globally recognized payment processing platform that guarantees smooth and secure transactions for our customers. Whether you\'re buying products, subscribing to services, or making donations, Stripe\'s robust infrastructure ensures a dependable and trouble-free payment experience.',
+		3: 'Please be assured that your sensitive payment details are encrypted and safeguarded throughout the entire payment process. Your privacy and security are our top priorities.',
+	},
 
-	// index.ejs
-	Header: 'Fordere deine Vorteile {0} an!',
+	RulesForUsingOurBenefitsAndPatronage: {
+		HeaderText1: 'Rules for Using Our Benefits and Patronage',
+		SubText1: 'We would like to thank all our wonderful patrons for their support and trust in us. However, before you join our patronage program, please take a moment to familiarize yourself with some important guidelines.',
 
-	1: 'Vielen Dank für deine Unterstützung! IDeinehre Großzügigkeit und Ermutigung sind für mich von unschätzbarem Wert und ich schätze dein Vertrauen in mich wirklich.',
-	2: 'Als Zeichen meiner Dankbarkeit erhältst du Zugang zu Vorteilen.',
-	3: 'Wenn du Fragen, Bedenken oder Anmerkungen zu meiner Arbeit hast, zögere bitte nicht, mich jederzeit zu kontaktieren.',
+		HeaderText2: 'Benefits are intended exclusively for subscribers:',
+		SubText2: 'Each benefit redemption token is assigned to a subscriber and should be kept confidential. Please do not share your benefits with others or distribute them online. Utilize them solely for your personal use and in accordance with our guidelines.',
 
-	4: 'Denk daran, dass Vorteile nur einmal mit einem generierten Token abgeholt werden können (Link).',
-	5: 'Wenn du jedoch den entsprechenden Befehl auf dem Discord-Server verwendest und einen Grund angibst, warum du die Vorteile erneut in Anspruch nehmen möchtest, kannst du einen neuen Schlüssel generieren.',
-	6: 'Wann verliere ich den Zugang zu meinen Vorteilen? Wenn dein Patron-Abonnement abläuft.',
+		HeaderText3: 'Patronage is not a purchase of 3DMigoto:',
+		SubText3: 'By becoming our patron, you are not acquiring 3DMigoto as a digital product that can be bought. Our benefits are granted solely as a token of gratitude for your support, just like any other benefit. By becoming a patron, you gain access to 3DMigoto within the "Stella Mod Launcher" application.',
 
-	7: 'Nachdem du die App heruntergeladen hast, nimm dir bitte etwas Zeit, die Lizenzbedingungen zu lesen.',
-	8: 'Dies hilft dir zu verstehen, wie du die Anwendung nutzen kannst und welche Rechte und Pflichten damit verbunden sind.',
+		Footer: 'We appreciate your presence in our community and your support for our work. If you have any questions or concerns, please {a}contact us{/a}. Your participation and understanding of these rules are incredibly important to our project.',
+	},
 
-	9: 'Wenn du deine Vorteile aus irgendeinem Grund erneut anfordern musst, kannst du {code};receive{/code} erneut auf unserem Discord-Server ausführen.',
-	10: 'Ich informiere dich außerdem darüber, dass der Link automatisch um 00:00 Uhr polnischer Zeit abläuft.',
-
-	ThankYouForYourSupport: 'Nochmals! Vielen Dank für deine Unterstützung!',
-	SefinekOwO: '~ Sefinek',
-
-	clickHereToDownload: 'Zum downloaden hier klicken',
-
-	// received.ejs
-	ThisMethodIsNotAllowed: 'Diese Methode ist nicht erlaubt.',
-	YourBenefitsHaveAlreadyBeenReceived: 'Deine Benefits wurden bereits empfangen {0}, {1}.',
-	Country: 'Zeit für das Land: {0}',
-	ThankUForYourSupport: 'Vielen Dank für deine Unterstützung!',
-
-	// error.ejs
-	SomethingWentWrong: 'Traurige Katze >~~< Etwas ist schief gelaufen...',
-	InvalidUserId: 'Ungültige Benutzer-ID angegeben.',
-	InvalidKeyProvided: 'Ungültiger Schlüssel angegeben.',
-	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Dieser Link ist abgelaufen und wird nicht mehr aktiv sein.',
-	ErrorOccurredPleaseTryAgain: 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.',
+	SomeTranslationsWereGeneratedByChatGPT: 'Some translations into certain languages were generated by ChatGPT. If you find any errors in the translations, please report them.',
 };
