@@ -221,6 +221,12 @@ module.exports.subscription = {
 		5: 'Very Safe Kitten',
 	},
 
+	prices: {
+		MonthlyPrice: 'Monthly price',
+		Every3Months: 'Every 3 months',
+		YearlyPrice: 'Yearly price',
+	},
+
 	Everything: {
 		FromTier: 'Everything from Tier {0}',
 		FromTier12: 'Everything from Tier 1 and 2',
