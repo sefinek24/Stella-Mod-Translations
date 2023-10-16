@@ -1,12 +1,10 @@
 module.exports.data = {
-	FileVersion: '2.0.1',
+	Version: '2.0.1',
 	LastUpdate: '01.06.2023',
-	Contributors: [{
-		Sefinek: {
-			GitHub: 'https://github.com/sefinek24',
-			Website: 'https://sefinek.net',
-		},
-	}],
+	Contributors: [
+		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
+		'ChatGPT (https://chat.openai.com)',
+	],
 };
 
 module.exports = {

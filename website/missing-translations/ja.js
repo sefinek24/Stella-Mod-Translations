@@ -1,12 +1,11 @@
 module.exports.data = {
-	FileVersion: '2.0.1',
+	Version: '2.0.1',
 	LastUpdate: '01.06.2023',
-	Contributors: [{
-		'daydreamer-json': {
-			GitHub: 'https://github.com/daydreamer-json',
-			Website: null,
-		},
-	}],
+	Contributors: [
+		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
+		'daydreamer-json (https://github.com/daydreamer-json)',
+		'ChatGPT (https://chat.openai.com)',
+	],
 };
 
 module.exports = {

@@ -1,13 +1,10 @@
 module.exports.data = {
-	FileVersion: '2.3.0',
-	LastUpdate: '25.09.2023',
-	Contributors: [{
-		Sefinek: {
-			GitHub: 'https://github.com/sefinek24',
-			Website: 'https://sefinek.net',
-		},
-		ChatGPT: {},
-	}],
+	Version: '2.4.0',
+	LastUpdate: '16.10.2023',
+	Contributors: [
+		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
+		'ChatGPT (https://chat.openai.com)',
+	],
 };
 
 // Main
@@ -327,7 +324,7 @@ module.exports.forPatrons = {
 
 	4: 'Pamiętaj, że korzyści można uzyskać tylko raz z jednego wygenerowanego tokenu (linku).',
 	5: 'Niemniej jednak, jeśli użyjesz odpowiedniej komendy na serwerze Discord i podasz powód dlaczego chcesz odebrać korzyści jeszcze raz, możesz wygenerować nowy klucz.',
-	6: 'Kiedy stracę dostęp do korzyści? O to odpowiedź. Twoja subskrypcja na Patronie musi wygasnąć.',
+	6: 'Kiedy stracę dostęp do korzyści? Oto odpowiedź. Twoja subskrypcja na Patronie musi wygasnąć.',
 
 	7: 'Po pobraniu aplikacji poświęć trochę czasu na zapoznanie się z warunkami licencji.',
 	8: 'Pomoże Ci to zrozumieć, w jaki sposób możesz korzystać z aplikacji oraz związanych z nią praw i obowiązków.',
@@ -338,7 +335,7 @@ module.exports.forPatrons = {
 	ThankYouForYourSupport: 'Jeszcze raz dziękuję za wsparcie!',
 	SefinekOwO: '~ Sefinek',
 
-	clickHereToDownload: 'Kliknij tutaj, aby pobrać',
+	ClickHereToDownload: 'Kliknij tutaj, aby pobrać',
 
 	// received.ejs
 	ThisMethodIsNotAllowed: 'Ta metoda jest niedozwolona',
@@ -347,9 +344,9 @@ module.exports.forPatrons = {
 	ThankUForYourSupport: 'Dziękuję za Twoje wsparcie!',
 
 	// error.ejs
-	SomethingWentWrong: 'Sad cat >~~< Something went wrong...',
-	InvalidUserId: 'Invalid user ID provided.',
-	InvalidKeyProvided: 'Invalid key provided.',
-	ThisLinkHasExpiredAndWillNoLongerBeActive: 'This link has expired and will no longer be active.',
-	ErrorOccurredPleaseTryAgain: 'Error occurred. Please try again.',
+	SomethingWentWrong: 'Smutny kot >~~< Coś poszło nie tak...',
+	InvalidUserId: 'Podano nieprawidłowy identyfikator użytkownika.',
+	InvalidKeyProvided: 'Podano nieprawidłowy klucz.',
+	ThisLinkHasExpiredAndWillNoLongerBeActive: 'Ten link wygasł i nie będzie już aktywny.',
+	ErrorOccurredPleaseTryAgain: 'Wystąpił błąd. Proszę spróbować ponownie.',
 };

@@ -1,12 +1,9 @@
 module.exports.data = {
-	FileVersion: '2.3.0',
-	LastUpdate: '25.09.2023',
-	Contributors: [{
-		Sefinek: {
-			GitHub: 'https://github.com/sefinek24',
-			Website: 'https://sefinek.net',
-		},
-	}],
+	Version: '2.4.0',
+	LastUpdate: '16.10.2023',
+	Contributors: [
+		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
+	],
 };
 
 // Main
@@ -337,7 +334,7 @@ module.exports.forPatrons = {
 	ThankYouForYourSupport: 'Thank you again for your support!',
 	SefinekOwO: '~ Sefinek',
 
-	clickHereToDownload: 'Click here to download',
+	ClickHereToDownload: 'Click here to download',
 
 	// received.ejs
 	ThisMethodIsNotAllowed: 'This method is not allowed',

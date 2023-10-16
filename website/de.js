@@ -1,13 +1,11 @@
 module.exports.data = {
-	FileVersion: '2.3.0',
-	LastUpdate: '25.09.2023',
-	Contributors: [{
-		ShizuKoto: {
-			GitHub: 'https://github.com/ShizuKoto',
-			Website: null,
-		},
-		ChatGPT: {},
-	}],
+	Version: '2.4.0',
+	LastUpdate: '16.10.2023',
+	Contributors: [
+		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
+		'Shizu (https://github.com/ShizuKoto)',
+		'ChatGPT (https://chat.openai.com)',
+	],
 };
 
 // Main
@@ -50,56 +48,56 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
-	Header: 'Genshin Impact Stella Mod made by Sefinek',
-	Text1: 'Safe and unique features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
-	Text2: '3DMigoto takes the mod to an even higher level, providing an immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
-	FinalText: 'Don\'t wait! Dive into the enhanced world of Teyvat now and create unforgettable moments! Have fun!',
+	Header: 'Genshin Impact Stella Mod von Sefinek',
+	Text1: 'Sichere und einzigartige Funktionen wie ReShade-Verbesserungen, sorgfältig erstellte benutzerdefinierte Grafiken und beeindruckendes FPS-Entriegeln bieten Gamern das beste Spielerlebnis!',
+	Text2: '3DMigoto hebt den Mod auf ein noch höheres Niveau und sorgt für ein immersives Erlebnis. Zusätzlich vereinfacht unser eigener Launcher den gesamten Prozess und hilft den Spielern, schnell ins Geschehen einzusteigen.',
+	FinalText: 'Warte nicht! Tauche jetzt in die verbesserte Welt von Teyvat ein und erschaffe unvergessliche Momente! Viel Spaß!',
 
-	Download: 'Download',
-	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
+	Download: 'Herunterladen',
+	DownloadTooltip: 'Hier klicken, um den x64-Bit-Installer für Windows 10 und 11 herunterzuladen.',
 
-	StelaModPlusTooltip: 'Get access to the paid version of Stella Mod Plus and enjoy numerous benefits and enhanced gaming experiences!',
+	StelaModPlusTooltip: 'Erhalte Zugriff auf die kostenpflichtige Version von Stella Mod Plus und genieße zahlreiche Vorteile und verbesserte Spielerlebnisse!',
 
-	Documentation: 'Documentation',
-	DocumentationTooltip: 'Check the system requirements, recommended game settings, and more!',
+	Documentation: 'Dokumentation',
+	DocumentationTooltip: 'Überprüfe die Systemanforderungen, empfohlene Spieleinstellungen und mehr!',
 
-	Gallery: 'Gallery',
-	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
+	Gallery: 'Galerie',
+	GalleryTooltip: 'Sieh dir die Screenshots aus dem Spiel mit injiziertem ReShade an.',
 
 	Videos: 'Videos',
-	VideosTooltip: 'Watch our videos about the mod and the launching program.',
+	VideosTooltip: 'Schau dir unsere Videos über den Mod und das Startprogramm an.',
 
 	Feedback: 'Feedback',
-	FeedbackTooltip: 'Share your opinion about my work and Stella Mod.',
+	FeedbackTooltip: 'Teile deine Meinung über meine Arbeit und Stella Mod mit.',
 
 	Support: 'Support',
-	SupportTooltip: 'Click here if you need help.',
+	SupportTooltip: 'Klicke hier, wenn du Hilfe benötigst.',
 
-	MainPage: 'Main page',
-	MainPageTooltip: 'Home - Sefinek Official Website',
+	MainPage: 'Hauptseite',
+	MainPageTooltip: 'Startseite - Offizielle Website von Sefinek',
 
-	PleaseSupportMe: 'Please support my work',
-	SupportMyWork: 'Support my work',
-	SupportMe: 'Support me',
+	PleaseSupportMe: 'Bitte unterstütze meine Arbeit',
+	SupportMyWork: 'Unterstütze meine Arbeit',
+	SupportMe: 'Unterstütze mich',
 
-	DownloadingData: 'Downloading data...',
+	DownloadingData: 'Daten werden heruntergeladen...',
 	Version: 'Version',
-	TheVersionWithoutCaps: 'the version',
-	DownloadCount: 'Download count',
-	LastDownload: 'Last download',
+	TheVersionWithoutCaps: 'die Version',
+	DownloadCount: 'Download-Zähler',
+	LastDownload: 'Letzter Download',
 
 	modal: {
-		ThankYouForDownloading: 'Thank you for downloading',
-		BecomeMyPatronToGainMoreBenefits: 'Become my patron to gain more benefits such as the ability to use 3DMigoto together with FPS Unlocker & ReShade + a large collection of error-free mods + a collection of the latest 300 shaders + an add-on that prevents filters from overlapping with the user interface (UI) + Ray Tracing preset, and much more!',
-		JoinOurDiscordServerToReceiveNotifications: 'Join our Discord server to receive notifications about the latest updates, features, and other announcements. Feel free to contact the creator if you have any questions or encounter any issues.',
-		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Leave a review on {a}trustpilot.com{/a} after testing the software!',
-		WishingYouAWonderfulDayOrNight:	'Wishing you a wonderful day or night!',
-		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads now is',
-		NoProblem: 'No problem',
+		ThankYouForDownloading: 'Danke fürs Herunterladen',
+		BecomeMyPatronToGainMoreBenefits: 'Werde mein Patron, um weitere Vorteile zu erhalten, wie die Möglichkeit, 3DMigoto zusammen mit FPS Unlocker & ReShade zu verwenden + eine große Sammlung fehlerfreier Mods + eine Sammlung der neuesten 300 Shader + ein Add-On, das Filter daran hindert, sich mit der Benutzeroberfläche (UI) zu überlappen + Ray Tracing-Preset und vieles mehr!',
+		JoinOurDiscordServerToReceiveNotifications: 'Trete unserem Discord-Server bei, um Benachrichtigungen über die neuesten Updates, Funktionen und andere Ankündigungen zu erhalten. Kontaktiere den Schöpfer gerne, wenn du Fragen hast oder auf Probleme stößt.',
+		IfYouReEnjoyingStellaModConsiderLeavingAReview: 'Hinterlasse eine Bewertung auf {a}trustpilot.com{/a}, nachdem du die Software getestet hast!',
+		WishingYouAWonderfulDayOrNight: 'Ich wünsche dir einen wundervollen Tag oder eine gute Nacht!',
+		TheTotalNumberOfDownloadsNowIs: 'Die Gesamtanzahl der Downloads beträgt jetzt',
+		NoProblem: 'Kein Problem',
 	},
 
 	tooltips: {
-		PageViews: 'Page views',
+		PageViews: 'Seitenaufrufe',
 	},
 };
 
@@ -122,6 +120,10 @@ module.exports.gallery = {
 	WithoutMod: 'Ohne mod',
 
 	BonusScreenshot: 'Bonus Bildschirmaufnahme',
+
+	tooltips: {
+		GoBackToMainGalleryPage: 'Go back to main gallery page',
+	},
 };
 
 // GET /genshin-impact-reshade/feedback
@@ -335,7 +337,7 @@ module.exports.forPatrons = {
 	ThankYouForYourSupport: 'Thank you again for your support!',
 	SefinekOwO: '~ Sefinek',
 
-	clickHereToDownload: 'Click here to download',
+	ClickHereToDownload: 'Click here to download',
 
 	// received.ejs
 	ThisMethodIsNotAllowed: 'This method is not allowed',
