@@ -206,7 +206,7 @@ module.exports.github = {
 
 // GET /genshin-impact-reshade/subscription
 module.exports.subscription = {
-	AvailableTiers: 'Available tiers',
+	ChooseYourSubscriptionTier: 'Choose your subscription tier',
 	IfYouAreInterestedInTheBenefits: 'If you\'re interested in the benefits, please explore all the available tiers to see which one suits your preferences. Hopefully, you\'ll find one that piques your interest!',
 	IfYouHaveAnyQuestions: 'If you have any questions, don\'t hesitate to join our Discord server or reach out via email. You can find the contact information on the homepage of my website.',
 	PricesMayVaryForUsersResidingInPoland: 'Prices may vary for users residing in Poland.',
@@ -251,9 +251,10 @@ module.exports.subscription = {
 		PrivateDNSInEurope: 'Much better security system (private DNS in Europe)',
 		OptimizationOfYourComputerForBestPerformance: 'Optimization of your PC for the best performance',
 		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
+		ActivationPossibleOnManyDevices: 'Activation possible on {u}{maxDevices} devices{/u}',
 	},
 
-	ComparePlans: 'Compare plans',
+	CompareAvailablePlans: 'Compare available plans',
 	benefitsShort: {
 		CompletePostArchive: 'Complete post archive',
 		EarlyAccessToStellaMod: 'Early access to Stella Mod',
@@ -272,6 +273,9 @@ module.exports.subscription = {
 		PrivateDNSInEurope: 'Better security system (DNS in Europe)',
 		OptimizationOfYourComputer: 'Optimization of your computer',
 		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
+		ActivationPossibleOn: 'Activation possible on',
+		IntDevice: '{0} device',
+		IntDevices: '{0} devices',
 	},
 
 	SubscribeNow: 'Subscribe now',
