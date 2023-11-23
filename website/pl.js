@@ -76,7 +76,7 @@ module.exports.home = {
 	SupportTooltip: 'Kliknij tutaj, jeśli potrzebujesz pomocy.',
 
 	MainPage: 'Strona główna',
-	MainPageTooltip: 'Strona główna - Oficjalna strona Sefinek',
+	MainPageTooltip: 'Strona główna - Oficjalna strona Sefinka',
 
 	PleaseSupportMe: 'Proszę, wesprzyj moją pracę',
 	SupportMyWork: 'Wesprzyj moją pracę',
