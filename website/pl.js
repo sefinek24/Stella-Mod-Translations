@@ -1,6 +1,6 @@
 module.exports.data = {
-	Version: '2.5.0',
-	LastUpdate: '23.11.2023',
+	Version: '2.5.1',
+	LastUpdate: '10.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 	],
@@ -69,7 +69,7 @@ module.exports.home = {
 	Videos: 'Filmy',
 	VideosTooltip: 'Obejrzyj nasze filmy o modzie i programie uruchamiającym.',
 
-	Feedback: 'Opinia',
+	Feedback: 'Opinie',
 	FeedbackTooltip: 'Podziel się swoją opinią na temat mojej pracy i Stella Mod.',
 
 	Support: 'Wsparcie',
