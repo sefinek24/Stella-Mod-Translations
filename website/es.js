@@ -1,5 +1,5 @@
 module.exports.data = {
-	Version: '2.5.0',
+	Version: '2.5.1',
 	LastUpdate: '23.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
