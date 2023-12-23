@@ -3,7 +3,7 @@ module.exports.data = {
 	LastUpdate: '23.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
-		'ChatGPT (https://chat.openai.com)',
+		'MayiVT (https://github.com/MayiVT)',
 	],
 };
 
