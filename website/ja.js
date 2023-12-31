@@ -1,6 +1,6 @@
 module.exports.data = {
-	Version: '2.5.0',
-	LastUpdate: '23.11.2023',
+	Version: '2.6.0',
+	LastUpdate: '31.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
@@ -211,9 +211,9 @@ module.exports.github = {
 module.exports.subscription = {
 	ChooseYourSubscriptionTier: 'Choose your subscription tier',
 	IfYouAreInterestedInTheBenefits: 'If you\'re interested in the benefits, please explore all the available tiers to see which one suits your preferences. Hopefully, you\'ll find one that piques your interest!',
-	IfYouHaveAnyQuestions: 'If you have any questions, don\'t hesitate to join our Discord server or reach out via email. You can find the contact information on the homepage of my website.',
-	PricesMayVaryForUsersResidingInPoland: 'Prices may vary for users residing in Poland.',
+	IfYouHaveAnyQuestions: 'Do you have any questions? Don\'t hesitate to join our Discord server or contact us via email. You can find the contact information on the main page of this website.',
 
+	Recommended: 'Recommended',
 	tiers: {
 		1: 'Little Kitten',
 		2: 'Favorite Kitten',
@@ -294,6 +294,11 @@ module.exports.subscription = {
 	SubscribeNow: 'Subscribe now',
 	ChangeYourTier: 'Change your tier',
 
+	Crypto: 'Crypto',
+	IfYouWantToMakeAPaymentUsingCrypto: 'If you want to make a payment using cryptocurrency, please contact the developer.',
+	IAcceptPaymentsOnlyOnBinance: 'I accept payments only on Binance.',
+	CloseModal: 'Close modal',
+
 	PaymentSystem: {
 		Header: 'Payment system',
 		1: 'We are delighted to announce that our secure payment system is powered by {0}. With Stripe, you can confidently make payments, knowing that your financial information is handled with the highest level of security.',
@@ -301,16 +306,31 @@ module.exports.subscription = {
 		3: 'Please be assured that your sensitive payment details are encrypted and safeguarded throughout the entire payment process. Your privacy and security are our top priorities.',
 	},
 
+	AcceptedPaymentMethods: 'Accepted payment methods',
+	IfYouWishToMakeAPaymentUsingCryptoOrADirectBankTransfer: 'If you wish to make a payment using cryptocurrencies or a direct bank transfer, please contact the developer.',
+	BankName: 'Bank Name:',
+	AccountNumber: 'Account Number:',
+	SWIFTOrBICCode: 'SWIFT/BIC Code:',
+	IBAN: 'IBAN',
+	AskTheAdministratorForIt: 'Ask the administrator for it',
+	PleaseBeAwareThatTheBuyerIsResponsibleForCoveringAbyBankFees: 'Please be aware that the buyer is responsible for covering any bank fees associated with the transaction.',
+
 	RulesForUsingOurBenefitsAndPatronage: {
-		HeaderText1: 'Rules for Using Our Benefits and Patronage',
-		SubText1: 'We would like to thank all our wonderful patrons for their support and trust in us. However, before you join our patronage program, please take a moment to familiarize yourself with some important guidelines.',
+		HeaderText1: 'Rules for using our benefits and patronage',
+		SubText1: 'We would like to express our heartfelt gratitude to all our subscribers for their support and trust. Before proceeding with the Stella Mod Plus subscription, please take a moment to familiarize yourself with a few important guidelines.',
 
 		HeaderText2: 'Benefits are intended exclusively for subscribers:',
 		SubText2: 'Each benefit redemption token is assigned to a subscriber and should be kept confidential. Please do not share your benefits with others or distribute them online. Utilize them solely for your personal use and in accordance with our guidelines.',
 
-		HeaderText3: 'Patronage is not a purchase of 3DMigoto:',
-		SubText3: 'By becoming our patron, you are not acquiring 3DMigoto as a digital product that can be bought. Our benefits are granted solely as a token of gratitude for your support, just like any other benefit. By becoming a patron, you gain access to 3DMigoto within the "Stella Mod Launcher" application.',
+		HeaderText3: 'Subscribing does not equate to purchasing the 3DMigoto software:',
+		SubText3: 'By becoming a subscriber to Stella Mod Plus, you are not acquiring 3DMigoto as a digital product for purchase. Instead, as our subscriber, you solely gain access to use 3DMigoto within the Stella Mod Launcher application.',
 
 		Footer: 'We appreciate your presence in our community and your support for our work. If you have any questions or concerns, please {a}contact us{/a}. Your participation and understanding of these rules are incredibly important to our project.',
+	},
+
+	request: {
+		WeAreProcessingYourRequest: 'We are processing your request...',
+		SubscribingInProgress: 'We need a little bit of time to get everything ready. Please remain on this page and give us a moment!\nShortly, we will redirect you to a secure payment page where you can safely complete your transaction. ^w^',
+		ChangingTheTierInProgress: 'We need some time to change your tier! Give us a moment, and we promise everything will go smoothly. ^w^',
 	},
 };

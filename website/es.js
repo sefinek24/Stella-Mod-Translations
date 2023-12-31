@@ -1,6 +1,6 @@
 module.exports.data = {
-	Version: '2.5.1',
-	LastUpdate: '23.12.2023',
+	Version: '2.6.0',
+	LastUpdate: '31.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'MayiVT (https://github.com/MayiVT)',
@@ -211,8 +211,8 @@ module.exports.subscription = {
 	ChooseYourSubscriptionTier: 'Elige tu grado de suscripción',
 	IfYouAreInterestedInTheBenefits: 'Si estás interesado en los beneficios, por favor explora todos los grados de suscripción para ver cual se rige más a tus preferencias. Con suerte encontrarás a alguno que sea de tu interés!',
 	IfYouHaveAnyQuestions: 'Si tienes alguna pregunta, no dudes en contactarnos mediante discord o correo electrónico. Puedes encontrar la información de contacto en la pagina principal.',
-	PricesMayVaryForUsersResidingInPoland: 'Los precios pueden variar para los usuarios viviendo en Polonia.',
 
+	Recommended: 'Recommended',
 	tiers: {
 		1: 'Pequeño gato',
 		2: 'Gato favorito',
@@ -293,6 +293,11 @@ module.exports.subscription = {
 	SubscribeNow: 'Subscribete ahora',
 	ChangeYourTier: 'Cambia tu plan',
 
+	Crypto: 'Crypto',
+	IfYouWantToMakeAPaymentUsingCrypto: 'If you want to make a payment using cryptocurrency, please contact the developer.',
+	IAcceptPaymentsOnlyOnBinance: 'I accept payments only on Binance.',
+	CloseModal: 'Close modal',
+
 	PaymentSystem: {
 		Header: 'Sistema de pago',
 		1: 'Nos complace anunciar que nuestro sistema de pago funciona con {0}. Con Stripe, puedes hacer pagos de forma segura, sabiendo que tu información de pago está gestionada de la manera más segura.',
@@ -300,16 +305,31 @@ module.exports.subscription = {
 		3: 'Tenga la seguridad de que sus datos confidenciales de pago están encriptados y protegidos durante todo el proceso de pago. Su privacidad y seguridad son nuestras principales prioridades.',
 	},
 
+	AcceptedPaymentMethods: 'Accepted payment methods',
+	IfYouWishToMakeAPaymentUsingCryptoOrADirectBankTransfer: 'If you wish to make a payment using cryptocurrencies or a direct bank transfer, please contact the developer.',
+	BankName: 'Bank Name:',
+	AccountNumber: 'Account Number:',
+	SWIFTOrBICCode: 'SWIFT/BIC Code:',
+	IBAN: 'IBAN',
+	AskTheAdministratorForIt: 'Ask the administrator for it',
+	PleaseBeAwareThatTheBuyerIsResponsibleForCoveringAbyBankFees: 'Please be aware that the buyer is responsible for covering any bank fees associated with the transaction.',
+
 	RulesForUsingOurBenefitsAndPatronage: {
-		HeaderText1: 'Normas para usar nuestros beneficios y patronage',
-		SubText1: 'Queremos agradecer a todos nuestros maravillosos mecenas su apoyo y confianza en nosotros. Sin embargo, antes de unirse a nuestro programa de mecenazgo, tómese un momento para familiarizarse con algunas directrices importantes.',
+		HeaderText1: 'Rules for using our benefits and patronage',
+		SubText1: 'We would like to express our heartfelt gratitude to all our subscribers for their support and trust. Before proceeding with the Stella Mod Plus subscription, please take a moment to familiarize yourself with a few important guidelines.',
 
-		HeaderText2: 'Las prestaciones están destinadas exclusivamente a los suscriptores:',
-		SubText2: 'Cada ficha de canje de prestaciones se asigna a un suscriptor y debe mantenerse confidencial. No comparta sus ventajas con otras personas ni las distribuya por Internet. Utilícelos exclusivamente para su uso personal y de acuerdo con nuestras directrices.',
+		HeaderText2: 'Benefits are intended exclusively for subscribers:',
+		SubText2: 'Each benefit redemption token is assigned to a subscriber and should be kept confidential. Please do not share your benefits with others or distribute them online. Utilize them solely for your personal use and in accordance with our guidelines.',
 
-		HeaderText3: 'El patrocinio no es una compra de 3DMigoto:',
-		SubText3: 'Al convertirse en nuestro mecenas, no está adquiriendo 3DMigoto como un producto digital que se pueda comprar. Nuestros beneficios se conceden únicamente como muestra de gratitud por tu apoyo, como cualquier otro beneficio. Al convertirte en mecenas, obtienes acceso a 3DMigoto dentro de la aplicación "Stella Mod Launcher".',
+		HeaderText3: 'Subscribing does not equate to purchasing the 3DMigoto software:',
+		SubText3: 'By becoming a subscriber to Stella Mod Plus, you are not acquiring 3DMigoto as a digital product for purchase. Instead, as our subscriber, you solely gain access to use 3DMigoto within the Stella Mod Launcher application.',
 
-		Footer: 'Agradecemos su presencia en nuestra comunidad y su apoyo a nuestro trabajo. Si tienes alguna pregunta o duda, {a}ponte en contacto con nosotros{/a}. Su participación y comprensión de estas normas son increíblemente importantes para nuestro proyecto.',
+		Footer: 'We appreciate your presence in our community and your support for our work. If you have any questions or concerns, please {a}contact us{/a}. Your participation and understanding of these rules are incredibly important to our project.',
+	},
+
+	request: {
+		WeAreProcessingYourRequest: 'We are processing your request...',
+		SubscribingInProgress: 'We need a little bit of time to get everything ready. Please remain on this page and give us a moment!\nShortly, we will redirect you to a secure payment page where you can safely complete your transaction. ^w^',
+		ChangingTheTierInProgress: 'We need some time to change your tier! Give us a moment, and we promise everything will go smoothly. ^w^',
 	},
 };
