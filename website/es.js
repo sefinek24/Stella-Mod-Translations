@@ -81,7 +81,6 @@ module.exports.home = {
 
 	PleaseSupportMe: 'Por favor, apoya mi trabajo',
 	SupportMyWork: 'Apoya mi trabajo',
-	SupportMe: 'Apóyame',
 
 	DownloadingData: 'Descargando datos...',
 	Version: 'Versión',
@@ -91,7 +90,7 @@ module.exports.home = {
 
 	modal: {
 		ThankYouForDownloading: 'Gracias por descargar',
-		BecomeMyPatronToGainMoreBenefits: '¡Conviértete en mi patrón para obtener más beneficios, como la capacidad de usar 3DMigoto junto con FPS Unlocker & ReShade + una gran colección de mods sin errores + una colección de los últimos 300 shaders + un complemento que evita que los filtros se superpongan a la interfaz de usuario (UI) + preset de trazado de rayos y mucho más!',
+		BecomeAStellaModSubscriber: 'Become a Stella Mod Plus subscriber to gain access to additional benefits such as: the ability to use 3DMigoto, FPS Unlocker, and ReShade simultaneously & a large collection of error-free mods & enhanced security (blocking telemetry and analytics) & a pack of the latest shaders & an add-on to prevent filter overlays on the user interface (UI) & Ray Tracing presets, and much more!',
 		JoinOurDiscordServerToReceiveNotifications: 'Únete a nuestro servidor de Discord para recibir notificaciones sobre las últimas actualizaciones, características y otros anuncios. No dudes en ponerte en contacto con el creador si tienes alguna pregunta o te encuentras con algún problema.',
 		IfYouReEnjoyingStellaModConsiderLeavingAReview: '¡Deja una reseña en {a}trustpilot.com{/a} después de probar el software!',
 		WishingYouAWonderfulDayOrNight: '¡Te deseamos un maravilloso día o noche!',
