@@ -1,6 +1,6 @@
 module.exports.data = {
-	Version: '2.6.0',
-	LastUpdate: '31.12.2023',
+	Version: '2.7.0',
+	LastUpdate: '14.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'Shizu (https://github.com/ShizuKoto)',
@@ -52,10 +52,10 @@ module.exports.errors = {
 
 // GET /genshin-impact-reshade
 module.exports.home = {
-	Header: 'Genshin Impact Stella Mod von Sefinek',
-	Text1: 'Sichere und einzigartige Funktionen wie ReShade-Verbesserungen, sorgfältig erstellte benutzerdefinierte Grafiken und beeindruckendes FPS-Entriegeln bieten Gamern das beste Spielerlebnis!',
-	Text2: '3DMigoto hebt den Mod auf ein noch höheres Niveau und sorgt für ein immersives Erlebnis. Zusätzlich vereinfacht unser eigener Launcher den gesamten Prozess und hilft den Spielern, schnell ins Geschehen einzusteigen.',
-	FinalText: 'Warte nicht! Tauche jetzt in die verbesserte Welt von Teyvat ein und erschaffe unvergessliche Momente! Viel Spaß!',
+	Header: 'Genshin Impact Stella Mod made by Sefinek',
+	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
+	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
+	FinalText: 'Don\'t hesitate! Immerse yourself in the upgraded world of Teyvat today and craft unforgettable experiences. Enjoy!',
 
 	Download: 'Herunterladen',
 	DownloadTooltip: 'Hier klicken, um den x64-Bit-Installer für Windows 10 und 11 herunterzuladen.',
