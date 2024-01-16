@@ -1,6 +1,6 @@
 module.exports.data = {
 	Version: '2.7.0',
-	LastUpdate: '14.12.2023',
+	LastUpdate: '16.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
