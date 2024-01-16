@@ -210,7 +210,7 @@ module.exports.subscription = {
 	IfYouAreInterestedInTheBenefits: 'Jeśli jesteś zainteresowany korzyściami, proszę przejrzyj wszystkie dostępne taryfy, aby zobaczyć, która z nich odpowiada Twoim preferencjom. Mam nadzieję, że znajdziesz tę, która Cię zainteresuje!',
 	IfYouHaveAnyQuestions: 'Masz jakieś pytania? Nie krępuj się dołączyć do naszego Discord serwer lub skontaktować się z nami za pomocą e-maila. Dane kontaktowe znajdziesz na stronie głównej.',
 
-	Recommended: 'Rekomendowane',
+	Recommended: 'Najlepsze',
 	tiers: {
 		1: 'Mały Kociak',
 		2: 'Ulubiony Kociak',
@@ -218,6 +218,7 @@ module.exports.subscription = {
 		4: 'Komputerowy Kot',
 		5: 'Bardzo Bezpieczny Kociak',
 	},
+	UnknownBenefit: 'Nieznany benefit',
 
 	prices: {
 		MonthlyPrice: 'Cena miesięczna',
@@ -256,13 +257,13 @@ module.exports.subscription = {
 		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja komputera dla najlepszej wydajności',
 		AssistanceRelatedToPCsOrLaptops: 'Pomoc związana z komputerami lub laptopami',
 
-		ActivationPossibleOnManyDevices: 'Aktywacja możliwa na {u}{maxDevices} urządzeniach{/u}',
+		ActivationPossibleOn: 'Aktywacja możliwa na {u}{0} urządzeniach{/u}',
 	},
 
 	CompareAvailablePlans: 'Porównaj dostępne taryfy',
 	benefitsShort: {
-		IntDevice: '{0} urządzenie',
-		IntDevices: '{0} urządzeń',
+		IntDevice: '{0} urządzeniu',
+		IntDevices: '{0} urządzeniach',
 
 		PrivateClipsFromCSGO: 'Prywatne klipy z CS:GO i CS2',
 		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
@@ -283,13 +284,13 @@ module.exports.subscription = {
 		MorePhotosOfMyCats: 'Więcej zdjęć moich kotów',
 
 		PrivateDNSInEurope: 'Lepszy system zabezpieczeń (DNS w Europie)',
-		OptimizationOfYourComputer: 'Optymalizacja twojego komputera',
+		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja twojego komputera',
 		AssistanceRelatedToPCsOrLaptops: 'Pomoc związana z komputerami lub laptopami',
 		ActivationPossibleOn: 'Aktywacja możliwa na',
 	},
 
-	SubscribeNow: 'Zapisz się teraz',
-	ChangeYourTier: 'Zmień swoją taryfę',
+	SubscribeNow: 'Zasubskrybuj teraz',
+	ChangeYourTier: 'Zmień swój tier',
 
 	Crypto: 'Krypto',
 	IfYouWantToMakeAPaymentUsingCrypto: 'Jeśli chcesz dokonać płatności za pomocą kryptowaluty, skontaktuj się z deweloperem.',

@@ -218,6 +218,7 @@ module.exports.subscription = {
 		4: 'Computer Cat',
 		5: 'Very Safe Kitten',
 	},
+	UnknownBenefit: 'Unknown benefit',
 
 	prices: {
 		MonthlyPrice: 'Monthly price',
@@ -256,7 +257,7 @@ module.exports.subscription = {
 		OptimizationOfYourComputerForBestPerformance: 'Optimization of your PC for the best performance',
 		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
 
-		ActivationPossibleOnManyDevices: 'Activation possible on {u}{maxDevices} devices{/u}',
+		ActivationPossibleOn: 'Activation possible on {u}{0} devices{/u}',
 	},
 
 	CompareAvailablePlans: 'Compare available plans',
@@ -283,7 +284,7 @@ module.exports.subscription = {
 		MorePhotosOfMyCats: 'More photos of my cats',
 
 		PrivateDNSInEurope: 'Better security system (DNS in Europe)',
-		OptimizationOfYourComputer: 'Optimization of your computer',
+		OptimizationOfYourComputerForBestPerformance: 'Optimization of your computer',
 		AssistanceRelatedToPCsOrLaptops: 'Assistance related to PCs or laptops',
 		ActivationPossibleOn: 'Activation possible on',
 	},
