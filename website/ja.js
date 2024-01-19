@@ -1,6 +1,6 @@
-module.exports.data = {
+exports.data = {
 	Version: '2.7.0',
-	LastUpdate: '16.12.2023',
+	LastUpdate: '19.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
@@ -9,7 +9,7 @@ module.exports.data = {
 };
 
 // Main
-module.exports.default = {
+exports.default = {
 	And: 'と',
 	From: ' - ',
 	In: '中',
@@ -30,7 +30,7 @@ module.exports.default = {
 };
 
 // Errors
-module.exports.errors = {
+exports.errors = {
 	400: {
 		BadRequest: 'Error 400: 不正なリクエストです。',
 		InvalidURL: 'URLが不正です。',
@@ -51,7 +51,7 @@ module.exports.errors = {
 };
 
 // GET /genshin-impact-reshade
-module.exports.home = {
+exports.home = {
 	Header: 'Genshin Impact Stella Mod made by Sefinek',
 	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
 	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
@@ -105,7 +105,7 @@ module.exports.home = {
 };
 
 // GET /genshin-impact-reshade/gallery
-module.exports.gallery = {
+exports.gallery = {
 	GalleryPage: 'ギャラリー - ページ',
 	GalleryCompareReleases: 'ギャラリー - バージョン間の比較:',
 	ScreenshotsAreAvailableInHighQuality: 'スクリーンショットは高画質のものを閲覧できます。読み込むまでに少し時間がかかります。',
@@ -129,7 +129,7 @@ module.exports.gallery = {
 };
 
 // GET /genshin-impact-reshade/feedback
-module.exports.feedback = {
+exports.feedback = {
 	LeaveYourFeedback: 'フィードバックを残す',
 	IfYouLikeThisProjectSupportMe: 'もしこのプロジェクトを気に入っていただけましたら、私の{1}YouTubeチャンネル{/1}のチャンネル登録をするか、{2}GitHub{/2}でStarをつけるか、その他の方法で{3}私を支援{/3}していただけると幸いです。',
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'また、ご意見やご要望がありましたら、遠慮なくチャットサポートで直接私にお問い合わせください。',
@@ -146,7 +146,7 @@ module.exports.feedback = {
 };
 
 // GET /genshin-impact-reshade/support
-module.exports.support = {
+exports.support = {
 	SomeQuestions: '何か質問はありますか？お手伝いが必要ですか？',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Stella Modに関する問題や質問がある場合は、お気軽にお問い合わせください！弊社のチームはどんな質問やご不明点に対しても対応いたします。',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Stellaのインストールに関するお問い合わせや、機能についてのご質問がある場合は、お手伝いさせていただきます。',
@@ -164,7 +164,7 @@ module.exports.support = {
 };
 
 // GET /genshin-impact-reshade/videos
-module.exports.videos = {
+exports.videos = {
 	WatchVideosOnYT: '動画をYouTubeで見る',
 	IfYouWantToRecordNewVideo: 'MODによる動画をYouTubeにアップロードしたい場合はお知らせください。ここに動画のリンクを掲載することができます。',
 	DeprecatedMovies: '非推奨の映画',
@@ -174,7 +174,7 @@ module.exports.videos = {
 };
 
 // GET /genshin-impact-reshade/docs
-module.exports.docs = {
+exports.docs = {
 	TableOfContents: '目次',
 	1: {
 		Introduction: '{0}. {1} Stella Modへの紹介',
@@ -201,13 +201,21 @@ module.exports.docs = {
 };
 
 // GET /genshin-impact-reshade/repositories
-module.exports.github = {
-	AllReposOnGithub: 'GitHubでリポジトリが利用可能',
-	IfYouWantToBecomeContributor: 'もしあなたがコントリビューターになっていただけるのであれば、新しいPull Requestを作成してください。',
+exports.github = {
+	AllReposOnGithub: 'All repositories on GitHub',
+	IfYouWantToBecomeContributor: 'If you want to become contributor, just create a new {a}Pull Request{/a}. Thank you very much and happy coding!',
+
+	Translations: 'Translations',
+	Resources: 'Resources',
+
+	Deprecated: 'Deprecated',
+
+	InstallationWizard: 'Installation wizard',
+	UnlockedReShade: 'Unlocked ReShade',
 };
 
 // GET /genshin-impact-reshade/subscription
-module.exports.subscription = {
+exports.subscription = {
 	ChooseYourSubscriptionTier: 'Choose your subscription tier',
 	IfYouAreInterestedInTheBenefits: 'If you\'re interested in the benefits, please explore all the available tiers to see which one suits your preferences. Hopefully, you\'ll find one that piques your interest!',
 	IfYouHaveAnyQuestions: 'Do you have any questions? Don\'t hesitate to join our Discord server or contact us via email. You can find the contact information on the main page of this website.',

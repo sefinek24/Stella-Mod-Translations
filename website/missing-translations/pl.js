@@ -1,4 +1,4 @@
-module.exports.data = {
+exports.data = {
 	Version: '2.0.1',
 	LastUpdate: '01.06.2023',
 	Contributors: [

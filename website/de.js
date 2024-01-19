@@ -1,6 +1,6 @@
-module.exports.data = {
+exports.data = {
 	Version: '2.7.0',
-	LastUpdate: '16.12.2023',
+	LastUpdate: '19.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'Shizu (https://github.com/ShizuKoto)',
@@ -9,7 +9,7 @@ module.exports.data = {
 };
 
 // Main
-module.exports.default = {
+exports.default = {
 	And: 'und',
 	From: 'von',
 	In: 'in',
@@ -30,7 +30,7 @@ module.exports.default = {
 };
 
 // Errors
-module.exports.errors = {
+exports.errors = {
 	400: {
 		BadRequest: 'Fehler 400: Bad Request',
 		InvalidURL: 'Die Antwort-URL ist ungültig.',
@@ -51,7 +51,7 @@ module.exports.errors = {
 };
 
 // GET /genshin-impact-reshade
-module.exports.home = {
+exports.home = {
 	Header: 'Genshin Impact Stella Mod made by Sefinek',
 	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
 	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
@@ -105,7 +105,7 @@ module.exports.home = {
 };
 
 // GET /genshin-impact-reshade/gallery
-module.exports.gallery = {
+exports.gallery = {
 	GalleryPage: 'Galerie - Seite',
 	GalleryCompareReleases: 'Galerie - Vergleiche Versionen:',
 	GalleryCompares: 'Galerie - Vergleiche',
@@ -130,7 +130,7 @@ module.exports.gallery = {
 };
 
 // GET /genshin-impact-reshade/feedback
-module.exports.feedback = {
+exports.feedback = {
 	LeaveYourFeedback: 'Meinung hinterlassen',
 	IfYouLikeThisProjectSupportMe: 'Wenn dir dieses Projekt zusagt, folge mir bitte auf meinem {1}YouTube Kanal{/1}, gib dem Projekt einen Stern {2}auf GitHub{/2}, oder {3}unterstützte mich{/3} auf anderen Wegen.',
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Außerdem: Wenn du irgendeine Art von Feedback, Verbesserungsvorschlägen oder sonstiges hast oder loswerden willst, kontaktiere uns gerne auf einem der verfügbaren Wege. Zum Beispiel im Chat.',
@@ -147,7 +147,7 @@ module.exports.feedback = {
 };
 
 // GET /genshin-impact-reshade/support
-module.exports.support = {
+exports.support = {
 	SomeQuestions: 'Fragen? Brauchst du Hilfe?',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Hast du Probleme, oder Fragen zu Stella Mod? Wenn ja, dann zögere nicht uns zu kontaktieren. Unser Team steht für sämtliche Fragen oder Bedenken zur Verfügung.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Ob du Hilfe bei der Installation brauchst, oder einfach Fragen zu den Features hast. Wir sind hier um dich zu unterstützen.',
@@ -165,7 +165,7 @@ module.exports.support = {
 };
 
 // GET /genshin-impact-reshade/videos
-module.exports.videos = {
+exports.videos = {
 	WatchVideosOnYT: 'Schaue Videos auf YouTube',
 	IfYouWantToRecordNewVideo: 'Wenn du ein Video aufnehmen und hier veröffentlichen möchtest, lade es auf YouTube hoch und sende mir eine Nachricht.',
 	DeprecatedMovies: 'Veraltete Filme',
@@ -175,7 +175,7 @@ module.exports.videos = {
 };
 
 // GET /genshin-impact-reshade/docs
-module.exports.docs = {
+exports.docs = {
 	TableOfContents: 'Inhaltsverzeichnis',
 	1: {
 		Introduction: '{0}. {1} Einführung in den Stella Mod',
@@ -202,13 +202,21 @@ module.exports.docs = {
 };
 
 // GET /genshin-impact-reshade/repositories
-module.exports.github = {
-	AllReposOnGithub: 'Alle Repositories auf GitHub',
-	IfYouWantToBecomeContributor: 'Wenn du zu dem Projekt beitragen möchtest, erstelle gerne einen Pull-Request. Vielen Dank und happy coding!',
+exports.github = {
+	AllReposOnGithub: 'All repositories on GitHub',
+	IfYouWantToBecomeContributor: 'If you want to become contributor, just create a new {a}Pull Request{/a}. Thank you very much and happy coding!',
+
+	Translations: 'Translations',
+	Resources: 'Resources',
+
+	Deprecated: 'Deprecated',
+
+	InstallationWizard: 'Installation wizard',
+	UnlockedReShade: 'Unlocked ReShade',
 };
 
 // GET /genshin-impact-reshade/subscription
-module.exports.subscription = {
+exports.subscription = {
 	ChooseYourSubscriptionTier: 'Choose your subscription tier',
 	IfYouAreInterestedInTheBenefits: 'If you\'re interested in the benefits, please explore all the available tiers to see which one suits your preferences. Hopefully, you\'ll find one that piques your interest!',
 	IfYouHaveAnyQuestions: 'Do you have any questions? Don\'t hesitate to join our Discord server or contact us via email. You can find the contact information on the main page of this website.',

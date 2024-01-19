@@ -1,6 +1,6 @@
-module.exports.data = {
+exports.data = {
 	Version: '2.7.0',
-	LastUpdate: '16.12.2023',
+	LastUpdate: '19.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'MayiVT (https://github.com/MayiVT)',
@@ -8,7 +8,7 @@ module.exports.data = {
 };
 
 // Main
-module.exports.default = {
+exports.default = {
 	And: 'y',
 	From: 'desde',
 	In: 'en',
@@ -29,7 +29,7 @@ module.exports.default = {
 };
 
 // Errors
-module.exports.errors = {
+exports.errors = {
 	400: {
 		BadRequest: 'Error 400: Petición Inválida',
 		InvalidURL: 'La URL de retorno es inválida.',
@@ -50,7 +50,7 @@ module.exports.errors = {
 };
 
 // GET /genshin-impact-reshade
-module.exports.home = {
+exports.home = {
 	Header: 'Genshin Impact Stella Mod made by Sefinek',
 	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
 	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
@@ -104,7 +104,7 @@ module.exports.home = {
 };
 
 // GET /genshin-impact-reshade/gallery
-module.exports.gallery = {
+exports.gallery = {
 	GalleryPage: 'Galería - Página número',
 	GalleryCompareReleases: 'Galería - Comparar lanzamientos:',
 	ScreenshotsAreAvailableInHighQuality: 'Las capturas de pantalla están disponibles en alta calidad, por lo que podrián tardar un poco en cargar.',
@@ -128,7 +128,7 @@ module.exports.gallery = {
 };
 
 // GET /genshin-impact-reshade/feedback
-module.exports.feedback = {
+exports.feedback = {
 	LeaveYourFeedback: 'Deja tus comentarios',
 	IfYouLikeThisProjectSupportMe: 'Si te ha gustado el proyecto, considera suscribirte a mi {1}canal de Youtube{/1}, dándole una estrella {2}en GitHub{/2} o {3}ayudándome{/3} de otras maneras.',
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Además, si tienes algún comentario o sugerencia, no dudes en utilizar la función de chat para enviarlos directamente.',
@@ -145,7 +145,7 @@ module.exports.feedback = {
 };
 
 // GET /genshin-impact-reshade/support
-module.exports.support = {
+exports.support = {
 	SomeQuestions: '¿Tienes preguntas? ¿Necesitas ayuda?',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: '¿Tienes algún problema o alguna pregunta sobre Stella Mod? Si es así, ¡no dudes en contactarnos! Nuestro equipo está a tu disposición para cualquier pregunta.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Tanto si necesitas ayuda para instalar Stella, como si tienes preguntas acerca de sus características, estamos aqui para asistirte.',
@@ -163,7 +163,7 @@ module.exports.support = {
 };
 
 // GET /genshin-impact-reshade/videos
-module.exports.videos = {
+exports.videos = {
 	WatchVideosOnYT: 'Ver videos en YouTube',
 	IfYouWantToRecordNewVideo: 'Si te gustaria grabar un video y subirlo a YouTube, envíame un mensaje. ¡Puedo incluir el enlace aqui!',
 	DeprecatedMovies: 'Videos obsoletos',
@@ -173,7 +173,7 @@ module.exports.videos = {
 };
 
 // GET /genshin-impact-reshade/docs
-module.exports.docs = {
+exports.docs = {
 	TableOfContents: 'Tabla de Contenidos',
 	1: {
 		Introduction: '{0}. {1} Introducción al Mod Stella',
@@ -200,13 +200,21 @@ module.exports.docs = {
 };
 
 // GET /genshin-impact-reshade/repositories
-module.exports.github = {
-	AllReposOnGithub: 'Todos los repositorios de GitHub',
-	IfYouWantToBecomeContributor: 'Si te gustaria convertirte en un colaborador, solo tienes que crear un nuevo Pull Request en Github. Muchas gracias y ¡Feliz codificación!',
+exports.github = {
+	AllReposOnGithub: 'All repositories on GitHub',
+	IfYouWantToBecomeContributor: 'If you want to become contributor, just create a new {a}Pull Request{/a}. Thank you very much and happy coding!',
+
+	Translations: 'Translations',
+	Resources: 'Resources',
+
+	Deprecated: 'Deprecated',
+
+	InstallationWizard: 'Installation wizard',
+	UnlockedReShade: 'Unlocked ReShade',
 };
 
 // GET /genshin-impact-reshade/subscription
-module.exports.subscription = {
+exports.subscription = {
 	ChooseYourSubscriptionTier: 'Elige tu grado de suscripción',
 	IfYouAreInterestedInTheBenefits: 'Si estás interesado en los beneficios, por favor explora todos los grados de suscripción para ver cual se rige más a tus preferencias. Con suerte encontrarás a alguno que sea de tu interés!',
 	IfYouHaveAnyQuestions: 'Si tienes alguna pregunta, no dudes en contactarnos mediante discord o correo electrónico. Puedes encontrar la información de contacto en la pagina principal.',

@@ -1,13 +1,13 @@
-module.exports.data = {
+exports.data = {
 	Version: '2.7.0',
-	LastUpdate: '16.12.2023',
+	LastUpdate: '19.12.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 	],
 };
 
 // Main
-module.exports.default = {
+exports.default = {
 	And: 'and',
 	From: 'from',
 	In: 'in',
@@ -28,7 +28,7 @@ module.exports.default = {
 };
 
 // Errors
-module.exports.errors = {
+exports.errors = {
 	400: {
 		BadRequest: 'Error 400: Bad Request',
 		InvalidURL: 'The return URL is invalid.',
@@ -49,7 +49,7 @@ module.exports.errors = {
 };
 
 // GET /genshin-impact-reshade
-module.exports.home = {
+exports.home = {
 	Header: 'Genshin Impact Stella Mod made by Sefinek',
 	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
 	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
@@ -103,7 +103,7 @@ module.exports.home = {
 };
 
 // GET /genshin-impact-reshade/gallery
-module.exports.gallery = {
+exports.gallery = {
 	GalleryPage: 'Gallery - Page number',
 	GalleryCompareReleases: 'Gallery - Compare releases:',
 	ScreenshotsAreAvailableInHighQuality: 'Screenshots are available in high quality. It may take a while to load them.',
@@ -127,7 +127,7 @@ module.exports.gallery = {
 };
 
 // GET /genshin-impact-reshade/feedback
-module.exports.feedback = {
+exports.feedback = {
 	LeaveYourFeedback: 'Share your opinion',
 	IfYouLikeThisProjectSupportMe: 'If you like this project, consider {1}subscribing{/1} to my YouTube channel, giving it a {2}star{/2} on GitHub, or {3}supporting me{/3} in another way.',
 	IfYouHaveAnyFeedBackOrSuggestionsUseChat: 'Additionally, if you have any comments or suggestions, don\'t hesitate to use the chat feature to send them directly to the creator.',
@@ -144,7 +144,7 @@ module.exports.feedback = {
 };
 
 // GET /genshin-impact-reshade/support
-module.exports.support = {
+exports.support = {
 	SomeQuestions: 'Some questions? You need help?',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Do you have any issues or questions about Stella Mod? If so, don\'t hesitate to contact us! Our team is at your disposal for any questions or concerns.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Whether you need help with installing Stella or have questions about its features, we are here to assist you.',
@@ -162,7 +162,7 @@ module.exports.support = {
 };
 
 // GET /genshin-impact-reshade/videos
-module.exports.videos = {
+exports.videos = {
 	WatchVideosOnYT: 'Watch videos on YouTube',
 	IfYouWantToRecordNewVideo: 'If you want to record a video and upload it to YouTube, please send me a message. I can include the link here.',
 	DeprecatedMovies: 'Deprecated movies',
@@ -172,7 +172,7 @@ module.exports.videos = {
 };
 
 // GET /genshin-impact-reshade/docs
-module.exports.docs = {
+exports.docs = {
 	TableOfContents: 'Table of Contents',
 	1: {
 		Introduction: '{0}. {1} Introduction to Stella Mod',
@@ -199,13 +199,21 @@ module.exports.docs = {
 };
 
 // GET /genshin-impact-reshade/repositories
-module.exports.github = {
+exports.github = {
 	AllReposOnGithub: 'All repositories on GitHub',
-	IfYouWantToBecomeContributor: 'If you want to become contributor, just create a new Pull Request. Thank you very much and happy coding!',
+	IfYouWantToBecomeContributor: 'If you want to become contributor, just create a new {a}Pull Request{/a}. Thank you very much and happy coding!',
+
+	Translations: 'Translations',
+	Resources: 'Resources',
+
+	Deprecated: 'Deprecated',
+
+	InstallationWizard: 'Installation wizard',
+	UnlockedReShade: 'Unlocked ReShade',
 };
 
 // GET /genshin-impact-reshade/subscription
-module.exports.subscription = {
+exports.subscription = {
 	ChooseYourSubscriptionTier: 'Choose your subscription tier',
 	IfYouAreInterestedInTheBenefits: 'If you\'re interested in the benefits, please explore all the available tiers to see which one suits your preferences. Hopefully, you\'ll find one that piques your interest!',
 	IfYouHaveAnyQuestions: 'Do you have any questions? Don\'t hesitate to join our Discord server or contact us via email. You can find the contact information on the main page of this website.',
