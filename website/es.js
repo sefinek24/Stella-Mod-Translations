@@ -99,7 +99,7 @@ exports.home = {
 	},
 
 	tooltips: {
-		PageViews: 'Vistas de página',
+		PageViews: 'Page views. Statistics have been collected since January 19, 2024.',
 	},
 };
 

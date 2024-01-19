@@ -100,7 +100,7 @@ exports.home = {
 	},
 
 	tooltips: {
-		PageViews: 'ページビュー',
+		PageViews: 'Page views. Statistics have been collected since January 19, 2024.',
 	},
 };
 
