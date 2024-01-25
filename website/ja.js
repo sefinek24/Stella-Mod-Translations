@@ -185,8 +185,8 @@ exports.docs = {
 		TermsOfUse: '{0}. {1} Terms of Use',
 		PrivacyPolicy: '{0}. {1} Privacy policy',
 		HowToInstall: '{0}. {1} How to install?',
+		Compilation: '{0}. {1} Compilation',
 		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
-
 	},
 
 	Changelogs: 'Changelogs',
@@ -196,7 +196,10 @@ exports.docs = {
 
 	LicensesAndCredits: 'Licenses & Credits',
 	3: {
-		SoftwareLicense: '{0}. {1} Software license',
+		StellaModLicense: '{0}. {1} Stella Mod license',
+		ReShadeLicense: '{0}. {1} ReShade license',
+		FPSUnlockerLicense: '{0}. {1} FPS Unlocker license',
+		MigotoLicense: '{0}. {1} 3DMigoto license',
 		Credits: '{0}. {1} Credits',
 		Contributors: '{0}. {1} Contributors',
 	},
