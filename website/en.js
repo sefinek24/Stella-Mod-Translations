@@ -190,6 +190,7 @@ exports.docs = {
 	Changelogs: 'Changelogs',
 	2: {
 		Versions: '{0}. {1} Versions {2}.x.x',
+		DeprecatedReleases: '{0}. {1} Deprecated releases',
 	},
 
 	LicensesAndCredits: 'Licenses & Credits',
