@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.7.0',
-	LastUpdate: '19.12.2023',
+	Version: '2.7.1',
+	LastUpdate: '25.01.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 	],
@@ -175,21 +175,28 @@ exports.videos = {
 exports.docs = {
 	TableOfContents: 'Table of Contents',
 	1: {
-		Introduction: '{0}. {1} Introduction to Stella Mod',
-		ReadMe: '{0}. {1} README.md',
-		Support: '{0}. {1} Support',
-		FAQ: '{0}. {1} FAQ',
+		Introduction: '{0}. {1} Introduction',
+		AboutStellaMod: '{0}. {1} About Stella Mod',
 		WhatIs: '{0}. {1} What is...',
-		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
-		ToS: '{0}. {1} ToS',
+		FAQ: '{0}. {1} FAQ',
+		Support: '{0}. {1} Support',
+		TermsOfUse: '{0}. {1} Terms of Use',
 		PrivacyPolicy: '{0}. {1} Privacy policy',
-		SoftwareLicense: '{0}. {1} Software license',
-		Installation: '{0}. {1} Installation',
+		HowToInstall: '{0}. {1} How to install?',
+		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
+
 	},
 
 	Changelogs: 'Changelogs',
 	2: {
 		Versions: '{0}. {1} Versions {2}.x.x',
+	},
+
+	LicensesAndCredits: 'Licenses & Credits',
+	3: {
+		SoftwareLicense: '{0}. {1} Software license',
+		Credits: '{0}. {1} Credits',
+		Contributors: '{0}. {1} Contributors',
 	},
 
 	DocumentCreationDate: 'Document creation date: {0}',

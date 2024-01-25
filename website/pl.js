@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.7.0',
-	LastUpdate: '19.12.2023',
+	Version: '2.7.1',
+	LastUpdate: '25.01.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 	],
@@ -173,23 +173,30 @@ exports.videos = {
 
 // GET /genshin-impact-reshade/docs
 exports.docs = {
-	TableOfContents: 'Spis treści',
+	TableOfContents: 'Table of Contents',
 	1: {
-		Introduction: '{0}. {1} Wprowadzenie Stella Mod',
-		ReadMe: '{0}. {1} README.md',
-		Support: '{0}. {1} Pomoc / Wsparcie',
+		Introduction: '{0}. {1} Introduction',
+		AboutStellaMod: '{0}. {1} About Stella Mod',
+		WhatIs: '{0}. {1} What is...',
 		FAQ: '{0}. {1} FAQ',
-		WhatIs: '{0}. {1} Czym jest...',
-		HowToAvoidABan: '{0}. {1} Jak uniknąć bana?',
-		ToS: '{0}. {1} ToS',
-		PrivacyPolicy: '{0}. {1} Polityka prywatności',
-		SoftwareLicense: '{0}. {1} Licencja oprogramowania',
-		Installation: '{0}. {1} Instalacja',
+		Support: '{0}. {1} Support',
+		TermsOfUse: '{0}. {1} Terms of Use',
+		PrivacyPolicy: '{0}. {1} Privacy policy',
+		HowToInstall: '{0}. {1} How to install?',
+		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
+
 	},
 
-	Changelogs: 'Listy zmian',
+	Changelogs: 'Changelogs',
 	2: {
-		Versions: '{0}. {1} Wersje {2}.x.x',
+		Versions: '{0}. {1} Versions {2}.x.x',
+	},
+
+	LicensesAndCredits: 'Licenses & Credits',
+	3: {
+		SoftwareLicense: '{0}. {1} Software license',
+		Credits: '{0}. {1} Credits',
+		Contributors: '{0}. {1} Contributors',
 	},
 
 	DocumentCreationDate: 'Utworzenie dokumentu: {0}',

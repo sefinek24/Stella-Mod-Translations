@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.7.0',
-	LastUpdate: '19.12.2023',
+	Version: '2.7.1',
+	LastUpdate: '25.01.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
@@ -175,28 +175,35 @@ exports.videos = {
 
 // GET /genshin-impact-reshade/docs
 exports.docs = {
-	TableOfContents: '目次',
+	TableOfContents: 'Table of Contents',
 	1: {
-		Introduction: '{0}. {1} Stella Modへの紹介',
-		ReadMe: '{0}. {1} README.md',
-		Support: '{0}. {1} サポート',
-		FAQ: '{0}. {1} よくある質問',
-		WhatIs: '{0}. {1} 何ですか...',
-		HowToAvoidABan: '{0}. {1} バンを避ける方法',
-		ToS: '{0}. {1} 利用規約',
-		PrivacyPolicy: '{0}. {1} プライバシーポリシー',
-		SoftwareLicense: '{0}. {1} ソフトウェアライセンス',
-		Installation: '{0}. {1} インストール',
+		Introduction: '{0}. {1} Introduction',
+		AboutStellaMod: '{0}. {1} About Stella Mod',
+		WhatIs: '{0}. {1} What is...',
+		FAQ: '{0}. {1} FAQ',
+		Support: '{0}. {1} Support',
+		TermsOfUse: '{0}. {1} Terms of Use',
+		PrivacyPolicy: '{0}. {1} Privacy policy',
+		HowToInstall: '{0}. {1} How to install?',
+		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
+
 	},
 
-	Changelogs: '変更履歴',
+	Changelogs: 'Changelogs',
 	2: {
-		Versions: '{0}. {1} バージョン {2}.x.x',
+		Versions: '{0}. {1} Versions {2}.x.x',
 	},
 
-	DocumentCreationDate: 'ドキュメント作成日: {0}',
-	LastUpdate: '最終更新日: {0}',
-	DocumentSize: 'ドキュメントサイズ: {0}',
+	LicensesAndCredits: 'Licenses & Credits',
+	3: {
+		SoftwareLicense: '{0}. {1} Software license',
+		Credits: '{0}. {1} Credits',
+		Contributors: '{0}. {1} Contributors',
+	},
+
+	DocumentCreationDate: 'Document creation date: {0}',
+	LastUpdate: 'Last update: {0}',
+	DocumentSize: 'File size: {0}',
 	bytes: 'bytes',
 };
 

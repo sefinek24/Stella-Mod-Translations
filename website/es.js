@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.7.0',
-	LastUpdate: '19.12.2023',
+	Version: '2.7.1',
+	LastUpdate: '25.01.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'MayiVT (https://github.com/MayiVT)',
@@ -174,28 +174,35 @@ exports.videos = {
 
 // GET /genshin-impact-reshade/docs
 exports.docs = {
-	TableOfContents: 'Tabla de Contenidos',
+	TableOfContents: 'Table of Contents',
 	1: {
-		Introduction: '{0}. {1} Introducción al Mod Stella',
-		ReadMe: '{0}. {1} README.md',
-		Support: '{0}. {1} Soporte',
-		FAQ: '{0}. {1} Preguntas Frecuentes',
-		WhatIs: '{0}. {1} ¿Qué es...',
-		HowToAvoidABan: '{0}. {1} Cómo evitar un ban?',
-		ToS: '{0}. {1} Términos de Servicio',
-		PrivacyPolicy: '{0}. {1} Política de Privacidad',
-		SoftwareLicense: '{0}. {1} Licencia de Software',
-		Installation: '{0}. {1} Instalación',
+		Introduction: '{0}. {1} Introduction',
+		AboutStellaMod: '{0}. {1} About Stella Mod',
+		WhatIs: '{0}. {1} What is...',
+		FAQ: '{0}. {1} FAQ',
+		Support: '{0}. {1} Support',
+		TermsOfUse: '{0}. {1} Terms of Use',
+		PrivacyPolicy: '{0}. {1} Privacy policy',
+		HowToInstall: '{0}. {1} How to install?',
+		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
+
 	},
 
-	Changelogs: 'Registro de Cambios',
+	Changelogs: 'Changelogs',
 	2: {
-		Versions: '{0}. {1} Versiones {2}.x.x',
+		Versions: '{0}. {1} Versions {2}.x.x',
 	},
 
-	DocumentCreationDate: 'Fecha de creación del documento: {0}',
-	LastUpdate: 'Última actualización: {0}',
-	DocumentSize: 'Tamaño del documento: {0}',
+	LicensesAndCredits: 'Licenses & Credits',
+	3: {
+		SoftwareLicense: '{0}. {1} Software license',
+		Credits: '{0}. {1} Credits',
+		Contributors: '{0}. {1} Contributors',
+	},
+
+	DocumentCreationDate: 'Document creation date: {0}',
+	LastUpdate: 'Last update: {0}',
+	DocumentSize: 'File size: {0}',
 	bytes: 'bytes',
 };
 
