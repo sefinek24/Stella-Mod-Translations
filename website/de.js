@@ -1,6 +1,6 @@
 exports.data = {
 	Version: '2.7.1',
-	LastUpdate: '25.01.2023',
+	LastUpdate: '27.01.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
 		'Shizu (https://github.com/ShizuKoto)',
@@ -183,9 +183,9 @@ exports.docs = {
 		WhatIs: '{0}. {1} What is...',
 		FAQ: '{0}. {1} FAQ',
 		Support: '{0}. {1} Support',
-		TermsOfUse: '{0}. {1} Terms of Use',
+		TermsOfUse: '{0}. {1} Terms of use',
 		PrivacyPolicy: '{0}. {1} Privacy policy',
-		HowToInstall: '{0}. {1} How to install?',
+		Installation: '{0}. {1} Installation',
 		Compilation: '{0}. {1} Compilation',
 		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
 	},
