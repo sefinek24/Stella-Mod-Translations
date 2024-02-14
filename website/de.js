@@ -331,7 +331,7 @@ exports.subscription = {
 	BankName: 'Bank Name:',
 	AccountNumber: 'Account Number:',
 	SWIFTOrBICCode: 'SWIFT/BIC Code:',
-	IBAN: 'IBAN',
+	IBAN: 'IBAN:',
 	AskTheAdministratorForIt: 'Ask the administrator for it',
 	PleaseBeAwareThatTheBuyerIsResponsibleForCoveringAbyBankFees: 'Please be aware that the buyer is responsible for covering any bank fees associated with the transaction.',
 
