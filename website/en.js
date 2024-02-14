@@ -53,7 +53,7 @@ exports.home = {
 	Header: 'Genshin Impact Stella Mod made by Sefinek',
 	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
 	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
-	FinalText: 'Don\'t hesitate! Immerse yourself in the upgraded world of Teyvat today and craft unforgettable experiences. Enjoy!',
+	FinalText: 'Don\'t hesitate and download now! Immerse yourself in the enhanced world of Teyvat today and create unforgettable moments. Enjoy!',
 
 	Download: 'Download',
 	DownloadTooltip: 'Click here to download the x64-bit installer for Windows 10 and 11.',
@@ -67,7 +67,7 @@ exports.home = {
 	GalleryTooltip: 'See the screenshots from the game with ReShade injected.',
 
 	Videos: 'Videos',
-	VideosTooltip: 'Watch our videos about the mod and the launching program.',
+	VideosTooltip: 'Watch our videos showcasing the mod and the launcher.',
 
 	Feedback: 'Feedback',
 	FeedbackTooltip: 'Share your opinion about my work and Stella Mod.',

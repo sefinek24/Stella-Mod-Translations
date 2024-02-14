@@ -50,15 +50,15 @@ exports.errors = {
 
 // GET /genshin-impact-reshade
 exports.home = {
-	Header: 'Genshin Impact Stella Mod made by Sefinek',
-	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
-	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
-	FinalText: 'Don\'t hesitate! Immerse yourself in the upgraded world of Teyvat today and craft unforgettable experiences. Enjoy!',
+	Header: 'Genshin Impact Stella Mod autorstwa Sefinek',
+	Text1: 'Bezpieczne funkcje takie jak ulepszenia ReShade, starannie opracowane shadery i imponujące odblokowanie FPS zapewniają graczom najlepsze wrażenia z gry!',
+	Text2: '3DMigoto wzmacnia moda dla bardziej wciągającego doświadczenia. Dodatkowo, nasz własny program uruchamiający usprawnia cały proces, pomagając graczom szybko włączyć się do akcji.',
+	FinalText: 'Nie wahaj się i pobierz już teraz! Zanurz się dziś w ulepszonym świecie Teyvat i stwórz niezapomniane chwile. Miłej zabawy!',
 
 	Download: 'Pobierz',
-	DownloadTooltip: 'Kliknij tutaj, aby pobrać x64-bitowy instalator dla systemów Windows 10 i 11.',
+	DownloadTooltip: 'Kliknij tutaj, aby pobrać instalator 64-bitowy dla systemów Windows 10 i 11.',
 
-	StelaModPlusTooltip: 'Uzyskaj dostęp do płatnej wersji Stella Mod Plus i ciesz się licznymi korzyściami oraz lepszym doświadczeniem wizualnym w Genshin!',
+	StelaModPlusTooltip: 'Uzyskaj dostęp do wersji płatnej Stella Mod Plus i ciesz się wieloma korzyściami oraz lepszym wrażeniem wizualnym w Genshin!',
 
 	Documentation: 'Dokumentacja',
 	DocumentationTooltip: 'Sprawdź wymagania systemowe, zalecane ustawienia gry i więcej!',
@@ -67,7 +67,7 @@ exports.home = {
 	GalleryTooltip: 'Zobacz zrzuty ekranu z gry z wstrzykniętym ReShade.',
 
 	Videos: 'Filmy',
-	VideosTooltip: 'Obejrzyj nasze filmy o modzie i programie uruchamiającym.',
+	VideosTooltip: 'Oglądaj nasze filmy prezentujące moda i program uruchamiający.',
 
 	Feedback: 'Opinie',
 	FeedbackTooltip: 'Podziel się swoją opinią na temat mojej pracy i Stella Mod.',
@@ -89,7 +89,7 @@ exports.home = {
 
 	modal: {
 		ThankYouForDownloading: 'Dziękujemy za pobranie',
-		BecomeAStellaModSubscriber: 'Zostań subskrybentem Stella Mod Plus, aby uzyskać dostęp do dodatkowych korzyści, takich jak: możliwość jednoczesnego używania 3DMigoto, FPS Unlocker i ReShade, dużą kolekcję modów bez błędów, zwiększone bezpieczeństwo (blokowanie telemetrii i analityki), pakiet najnowszych shaderów, dodatek zapobiegający nakładaniu filtrów na interfejs użytkownika (UI), presety do Ray Tracing i wiele więcej!',
+		BecomeAStellaModSubscriber: 'Zostań subskrybentem Stella Mod Plus, aby uzyskać dostęp do dodatkowych korzyści, takich jak: możliwość jednoczesnego używania 3DMigoto, FPS Unlocker i ReShade, dużą kolekcję modów bez błędów, zwiększone bezpieczeństwo (blokowanie telemetrii i analityki), pakiet najnowszych shaderów, dodatek zapobiegający nakładaniu filtrów na interfejs użytkownika (UI), presety do śledzenia promieni (Ray Tracing) i wiele więcej!',
 		JoinOurDiscordServerToReceiveNotifications: 'Dołącz do naszego serwera Discord, aby otrzymywać powiadomienia o najnowszych aktualizacjach, funkcjach i innych ogłoszeniach. Skontaktuj się z twórcą, jeśli masz jakieś pytania lub napotkasz jakieś problemy.',
 		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Zostaw opinię na stronie {a}trustpilot.com{/a} po przetestowaniu oprogramowania!',
 		WishingYouAWonderfulDayOrNight:	'Życzę ci wspaniałego dnia lub nocy!',
@@ -98,7 +98,7 @@ exports.home = {
 	},
 
 	tooltips: {
-		PageViews: 'Page views. Statistics have been collected since January 19, 2024.',
+		PageViews: 'Wyświetlenia strony. Statystyki są zbierane od 19 stycznia 2024.',
 	},
 };
 
@@ -173,40 +173,40 @@ exports.videos = {
 
 // GET /genshin-impact-reshade/docs
 exports.docs = {
-	TableOfContents: 'Table of Contents',
+	TableOfContents: 'Spis treści',
 	1: {
-		Introduction: '{0}. {1} Introduction',
-		Requirements: '{0}. {1} Requirements',
-		WhatIs: '{0}. {1} What is...',
-		FAQ: '{0}. {1} FAQ',
-		Support: '{0}. {1} Support',
-		TermsOfUse: '{0}. {1} Terms of use',
-		PrivacyPolicy: '{0}. {1} Privacy policy',
-		Installation: '{0}. {1} Installation',
-		Compilation: '{0}. {1} Compilation',
-		HowToAvoidABan: '{0}. {1} How to avoid a ban?',
+		Introduction: '{0}. {1} Wprowadzenie',
+		Requirements: '{0}. {1} Wymagania',
+		WhatIs: '{0}. {1} Co to jest...',
+		FAQ: '{0}. {1} Najczęściej zadawane pytania',
+		Support: '{0}. {1} Wsparcie',
+		TermsOfUse: '{0}. {1} Warunki użytkowania',
+		PrivacyPolicy: '{0}. {1} Polityka prywatności',
+		Installation: '{0}. {1} Instalacja',
+		Compilation: '{0}. {1} Kompilacja',
+		HowToAvoidABan: '{0}. {1} Jak unikać bana?',
 	},
 
-	Changelogs: 'Changelogs',
+	Changelogs: 'Dzienniki zmian',
 	2: {
-		Versions: '{0}. {1} Versions {2}.x.x',
-		DeprecatedReleases: '{0}. {1} Deprecated releases',
+		Versions: '{0}. {1} Wersje {2}.x.x',
+		DeprecatedReleases: '{0}. {1} Wycofane wersje',
 	},
 
-	LicensesAndCredits: 'Licenses & Credits',
+	LicensesAndCredits: 'Licencje itp.',
 	3: {
-		StellaModLicense: '{0}. {1} Stella Mod license',
-		ReShadeLicense: '{0}. {1} ReShade license',
-		FPSUnlockerLicense: '{0}. {1} FPS Unlocker license',
-		MigotoLicense: '{0}. {1} 3DMigoto license',
-		Credits: '{0}. {1} Credits',
-		Contributors: '{0}. {1} Contributors',
+		StellaModLicense: '{0}. {1} Licencja Stella Mod',
+		ReShadeLicense: '{0}. {1} Licencja ReShade',
+		FPSUnlockerLicense: '{0}. {1} Licencja FPS Unlocker',
+		MigotoLicense: '{0}. {1} Licencja 3DMigoto',
+		Credits: '{0}. {1} Podziękowania',
+		Contributors: '{0}. {1} Współpracownicy',
 	},
 
-	DocumentCreationDate: 'Utworzenie dokumentu: {0}',
-	LastUpdate: 'Aktualizacja: {0}',
-	DocumentSize: 'Rozmiar: {0}',
-	bytes: 'bitów',
+	DocumentCreationDate: 'Data utworzenia dokumentu: {0}',
+	LastUpdate: 'Ostatnia aktualizacja: {0}',
+	DocumentSize: 'Rozmiar pliku: {0}',
+	bytes: 'bajtów',
 };
 
 // GET /genshin-impact-reshade/repositories
