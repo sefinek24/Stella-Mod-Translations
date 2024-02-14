@@ -177,7 +177,7 @@ exports.docs = {
 	TableOfContents: 'Table of Contents',
 	1: {
 		Introduction: '{0}. {1} Introduction',
-		AboutStellaMod: '{0}. {1} About Stella Mod',
+		Requirements: '{0}. {1} Requirements',
 		WhatIs: '{0}. {1} What is...',
 		FAQ: '{0}. {1} FAQ',
 		Support: '{0}. {1} Support',
