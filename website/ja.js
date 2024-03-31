@@ -2,7 +2,7 @@ exports.data = {
 	Version: '2.7.2',
 	LastUpdate: '14.02.2024',
 	Contributors: [
-		'Sefinek <contact@sefinek.net> (https://github.com/sefinek24)',
+		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
 		'ChatGPT (https://chat.openai.com)',
 	],
