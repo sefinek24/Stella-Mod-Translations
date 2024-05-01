@@ -89,6 +89,8 @@ exports.home = {
 
 	FeedbackOnTrustpilot: 'Feedback on Trustpilot',
 
+	AreYouARobot: 'Are you a robot?',
+
 	modal: {
 		ThankYouForDownloading: 'Thank you for downloading',
 		BecomeAStellaModSubscriber: 'Become a Stella Mod Plus subscriber to gain access to additional benefits such as the ability to use 3DMigoto, FPS Unlocker, and ReShade simultaneously, a large collection of error-free mods, enhanced security (blocking telemetry and analytics), a package of the latest shaders, an add-on to prevent filter overlays on the user interface (UI), Ray Tracing presets, and much more!',
@@ -235,12 +237,28 @@ exports.subscription = {
 
 	Recommended: 'Recommended',
 	tiers: {
-		1: 'Little Kitten',
-		2: 'Favorite Cat',
-		3: 'Safe Kitten',
-		4: 'Keyboard Cat',
-		5: 'Cute Kitty',
+		1: {
+			name: 'Little Kitten',
+			description: 'Basic tier for those who just want to support the project. This is a good solution, for example, if you stopped playing Genshin Impact and no longer need the benefits from the game, but still want to support the project voluntarily.',
+		},
+		2: {
+			name: 'Favorite Cat',
+			description: 'Medium tier that offers most of the basic benefits associated with the game Genshin Impact. Ideal for players who want to enjoy additional modifications and enhancements in the game.',
+		},
+		3: {
+			name: 'Safe Kitten',
+			description: 'Advanced tier for trusted users, which offers special benefits such as systems to protect against bans, giveaways for Genshin Impact accounts, and a custom appearance for the Windows Terminal interface.',
+		},
+		4: {
+			name: 'Keyboard Cat',
+			description: 'For technology enthusiasts and gamers who want to maximize the potential of their devices and enjoy the game. This tier offers computer optimization services, technical support, and the ability to use batch files.',
+		},
+		5: {
+			name: 'Cute Kitty',
+			description: 'Provides access to all the benefits offered in lower tiers, and also allows activation on the most devices. Ideal for players who appreciate the work of Stella Mod creator and want to support further development and the project’s server infrastructure.',
+		},
 	},
+
 	UnknownBenefit: 'Unknown benefit',
 
 	prices: {

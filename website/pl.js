@@ -89,6 +89,8 @@ exports.home = {
 
 	FeedbackOnTrustpilot: 'Opinie na Trustpilot',
 
+	AreYouARobot: 'Jesteś robotem?',
+
 	modal: {
 		ThankYouForDownloading: 'Dziękujemy za pobranie',
 		BecomeAStellaModSubscriber: 'Zostań subskrybentem Stella Mod Plus, aby uzyskać dostęp do dodatkowych korzyści, takich jak: możliwość jednoczesnego używania 3DMigoto, FPS Unlocker i ReShade, dużą kolekcję modów bez błędów, zwiększone bezpieczeństwo (blokowanie telemetrii i analityki), pakiet najnowszych shaderów, dodatek zapobiegający nakładaniu filtrów na interfejs użytkownika (UI), presety do śledzenia promieni (Ray Tracing) i wiele więcej!',
