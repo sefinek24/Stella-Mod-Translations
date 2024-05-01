@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.7.2',
-	LastUpdate: '14.02.2024',
+	Version: '2.8.0',
+	LastUpdate: '01.05.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 	],
@@ -51,8 +51,8 @@ exports.errors = {
 // GET /genshin-impact-reshade
 exports.home = {
 	Header: 'Genshin Impact Stella Mod autorstwa Sefinek',
-	Text1: 'Bezpieczne funkcje takie jak ulepszenia ReShade, starannie opracowane shadery i imponujące odblokowanie FPS zapewniają graczom najlepsze wrażenia z gry!',
-	Text2: '3DMigoto wzmacnia moda dla bardziej wciągającego doświadczenia. Dodatkowo, nasz własny program uruchamiający usprawnia cały proces, pomagając graczom szybko włączyć się do akcji.',
+	Text1: 'Bezpieczne funkcje takie jak ulepszenia ReShade, starannie opracowane shadery i imponujące odblokowanie FPS zapewniające graczom najlepsze wrażenia z gry!',
+	Text2: '3DMigoto wzmacnia moda dla bardziej wciągającego doświadczenia. Dodatkowo, nasz własny program uruchamiający usprawnia cały proces, pomagając graczom szybko włączyć do akcji.',
 	FinalText: 'Nie wahaj się i pobierz już teraz! Zanurz się dziś w ulepszonym świecie Teyvat i stwórz niezapomniane chwile. Miłej zabawy!',
 
 	Download: 'Pobierz',
@@ -87,18 +87,20 @@ exports.home = {
 	DownloadCount: 'Liczba pobrań',
 	LastDownload: 'Ostatnie pobranie',
 
+	FeedbackOnTrustpilot: 'Opinie na Trustpilot',
+
 	modal: {
 		ThankYouForDownloading: 'Dziękujemy za pobranie',
 		BecomeAStellaModSubscriber: 'Zostań subskrybentem Stella Mod Plus, aby uzyskać dostęp do dodatkowych korzyści, takich jak: możliwość jednoczesnego używania 3DMigoto, FPS Unlocker i ReShade, dużą kolekcję modów bez błędów, zwiększone bezpieczeństwo (blokowanie telemetrii i analityki), pakiet najnowszych shaderów, dodatek zapobiegający nakładaniu filtrów na interfejs użytkownika (UI), presety do śledzenia promieni (Ray Tracing) i wiele więcej!',
-		JoinOurDiscordServerToReceiveNotifications: 'Dołącz do naszego serwera Discord, aby otrzymywać powiadomienia o najnowszych aktualizacjach, funkcjach i innych ogłoszeniach. Skontaktuj się z twórcą, jeśli masz jakieś pytania lub napotkasz jakieś problemy.',
+		JoinOurDiscordServerToReceiveNotifications: 'Dołącz do naszego serwera Discord, aby otrzymywać powiadomienia o najnowszych aktualizacjach, funkcjach i innych ogłoszeniach. Skontaktuj się z twórcą, jeśli masz jakieś pytania lub napotkasz jakieś problemy. Zawsze jesteśmy gotowi pomóc. Życzę ci wspaniałego dnia lub nocy!',
 		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Zostaw opinię na stronie {a}trustpilot.com{/a} po przetestowaniu oprogramowania!',
-		WishingYouAWonderfulDayOrNight:	'Życzę ci wspaniałego dnia lub nocy!',
 		TheTotalNumberOfDownloadsNowIs: 'Całkowita liczba pobrań wynosi obecnie',
 		NoProblem: 'Nie ma problemu',
 	},
 
 	tooltips: {
-		PageViews: 'Wyświetlenia strony. Statystyki są zbierane od 19 stycznia 2024.',
+		PageViews: 'Wyświetlenia tej strony. Statystyki są zbierane od 19 stycznia 2024.',
+		ShareYourFeedbackOnTrustpilot: 'Podziel się z nami swoją opinią w serwisie Trustpilot! Będziemy za to bardzi wdzięczni.',
 	},
 };
 
@@ -151,12 +153,12 @@ exports.support = {
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Pamiętaj, że nasza społeczność również jest również gotowa, by odpowiedzieć na Twoje pytania. W tym celu dołącz na nasz serwer Discord lub utwórz nowy Issue na GitHub.',
 	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć nową konwersację w języku polskim lub angielskim. Oczekujemy na Twój kontakt!',
 	StellaModIsNotAffiliatedWithHoyoverse: 'Należy pamiętać, że oprogramowanie Stella Mod nie jest powiązane z firmą Hoyoverse.',
-	JoinToDiscordServer: 'Dołącz na nasz serwer Discord',
-	CommentMyYTVideo: 'Skomentuj mój film na YouTube',
+	JoinToDiscordServer: 'Dołącz na Discord',
+	SendAnEmail: 'Wyślij e-mail',
 
 	tooltips: {
 		JoinOurOfficialDiscordServer: 'Dołącz do naszego oficjalnego serwera Discord.',
-		LeaveACommendBelowMyVideo: 'Zostaw komentarz pod moim filmem.',
+		SendAnEmailToTheDeveloper: 'Wyślij wiadomość e-mail do dewelopera, jeśli oczekujesz bardziej merytorycznej odpowiedzi.',
 		ReturnTo: 'Wróć do: Genshin Stella Mod - Here begins your adventure.',
 	},
 };
@@ -164,7 +166,7 @@ exports.support = {
 // GET /genshin-impact-reshade/videos
 exports.videos = {
 	WatchVideosOnYT: 'Obejrzyj filmy na YouTube',
-	IfYouWantToRecordNewVideo: 'Jeśli chcesz nagrać i przesłać film na YouTube, proszę, wyślij mi wiadomość. Mogę umieścić link tutaj.',
+	IfYouWantToRecordNewVideo: 'Jeśli chcesz nagrać i przesłać film na YouTube o Stella Modzie, skontaktuj się ze mną. Link do Twojego filmu zostanie dodany do tej strony.',
 	DeprecatedMovies: 'Przestarzałe nagrania',
 	TheMoviesAreFromPreviousVersionsOfStellaMod: 'Te filmy pochodzą z poprzednich wersji Stella Mod i są uważane już za przestarzałe.',
 	FirstModRelease: 'Pierwsza wersja moda',
@@ -216,6 +218,8 @@ exports.github = {
 
 	Translations: 'Tłumaczenia',
 	Resources: 'Zasoby',
+	Documentation: 'Dokumentacja',
+	More: 'Więcej »',
 
 	Deprecated: 'Przestarzałe',
 
@@ -227,17 +231,32 @@ exports.github = {
 exports.subscription = {
 	ChooseYourSubscriptionTier: 'Wybierz swój tier subskrypcji',
 	IfYouAreInterestedInTheBenefits: 'Jeśli jesteś zainteresowany korzyściami, proszę przejrzyj wszystkie dostępne taryfy, aby zobaczyć, która z nich odpowiada Twoim preferencjom. Mam nadzieję, że znajdziesz tę, która Cię zainteresuje!',
-	IfYouHaveAnyQuestions: 'Masz jakieś pytania? Nie krępuj się dołączyć do naszego Discord serwer lub skontaktować się z nami za pomocą e-maila. Dane kontaktowe znajdziesz na stronie głównej.',
+	IfYouHaveAnyQuestions: 'Masz jakieś pytania? Nie krępuj się dołączyć do naszego Discord serwer lub skontaktować się z nami za pomocą e-maila.',
 
-	Recommended: 'Najlepsze',
+	Recommended: 'Polecane',
 	tiers: {
-		1: 'Mały Kociak',
-		2: 'Ulubiony Kociak',
-		3: 'Zaufany Kot',
-		4: 'Komputerowy Kot',
-		5: 'Bardzo Bezpieczny Kociak',
+		1: {
+			name: 'Mały Kociak',
+			description: 'Podstawowy tier dla osób, które chcą wyłącznie wesprzeć projekt. Jest to dobre rozwiązanie, na przykład jeśli przestałeś grać w Genshin Impact i korzyści z gry już Ci nie są potrzebne, lecz nadal chcesz dobrowolnie wspierać projekt.',
+		},
+		2: {
+			name: 'Ulubiony Kot',
+			description: 'Średni tier, który oferuje większość podstawowych korzyści związanych z grą Genshin Impact. Idealne dla graczy, którzy chcą korzystać z dodatkowych modyfikacji i ulepszeń w grze.',
+		},
+		3: {
+			name: 'Bezpieczny Kotek',
+			description: 'Zaawansowany tier dla zaufanych użytkowników, który oferuje specjalne korzyści, takie jak systemy zabezpieczeń przed banem, giveaways na konta Genshin Impact, a także niestandardowy wygląd interfejsu Windows Terminal.',
+		},
+		4: {
+			name: 'Klawiatury Kot',
+			description: 'Dla entuzjastów technologii i graczy, którzy chcą maksymalnie wykorzystać swoje urządzenia i cieszyć się z gry. Ten tier oferuje usługi optymalizacji komputera, pomoc techniczną oraz możliwość korzystania z plików wsadowych.',
+		},
+		5: {
+			name: 'Śliczna Kotka',
+			description: 'Zapewnia dostęp do wszystkich korzyści oferowanych w niższych tierach, a także umożliwia aktywację na największej liczbie urządzeń. Idealny dla graczy, którzy doceniają pracę twórcy Stella Mod i chcą wspierać dalszy rozwój oraz serwerownię projektu.',
+		},
 	},
-	UnknownBenefit: 'Nieznany benefit',
+	UnknownBenefit: 'Nieznana korzyść',
 
 	prices: {
 		MonthlyPrice: 'Cena miesięczna',
@@ -249,30 +268,31 @@ exports.subscription = {
 		FromTier: 'Wszystko z Tier {0}',
 		FromTier12: 'Wszystko z Tier 1 i 2',
 		FromTier123: 'Wszystko z Tier 1, 2 i 3',
-		FromAllTiers: 'Wszystko z wszystkich Tierów',
+		FromAllTiers: 'Korzyści ze wszystkich tierów',
 	},
 
 	TierName: 'Nazwa Tieru',
 	benefitsFull: {
 		PrivateClipsFromCSGO: 'Prywatne klipy z CS:GO i CS2',
+		RoleOnTheDiscordServer: 'Rola na serwerze Discord',
 		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
-		CompletePostArchive: 'Kompletny archiwum postów (na serwerze Discord)',
+		CompletePostArchive: 'Kompletne archiwum postów',
 
-		RayTracingForGenshin: 'Śledzenie promieni dla Genshin',
+		RayTracingForGenshin: 'Śledzenie promieni dla Genshina',
 		MigotoInStellaModMoreMods: '3DMigoto w Stella Mod (więcej modyfikacji i zabawy)',
 		BigCollectionOfShadersMods: 'Duża kolekcja shaderów i modyfikacji',
 		GameUIWithoutVisibleShaders: 'Interfejs gry bez widocznych shaderów',
 		HideYourUIDInTheGame: 'Ukryj swój UID w grze',
 		PresetsFromPreviousVersions: 'Ustawienia z poprzednich wersji',
 		PhotosOfMyCats: 'Zdjęcia moich kotów',
-		AnimePicturesGeneratedByAI: 'Obrazy anime generowane przez AI',
+		AnimePicturesGeneratedByAI: 'Obrazy anime wygenerowane przez AI',
 
 		SecuritySystemToAvoidBan: 'System zabezpieczeń przed banem (plik hosts)',
 		VariousGenshinImpactAccountGiveaways: 'Różne konkursy na konta w Genshin Impact',
-		NewWindowsTerminalAppearance: 'Nowy wygląd Windows Terminal (WT)',
+		NewWindowsTerminalAppearance: 'Nowy wygląd Terminala Windows (WT)',
 		MorePhotosOfMyCats: 'Więcej zdjęć moich kotów',
 
-		PrivateDNSInEurope: 'Lepszy system zabezpieczeń (DNS w Europie)',
+		AbilityToUseBatchFiles: 'Możliwość korzystania z plików wsadowych',
 		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja komputera dla najlepszej wydajności',
 		AssistanceRelatedToPCsOrLaptops: 'Pomoc związana z komputerami lub laptopami',
 
@@ -285,30 +305,31 @@ exports.subscription = {
 		IntDevices: '{0} urządzeniach',
 
 		PrivateClipsFromCSGO: 'Prywatne klipy z CS:GO i CS2',
+		RoleOnTheDiscordServer: 'Rola na serwerze Discord',
 		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
-		CompletePostArchive: 'Kompletny archiwum postów',
+		CompletePostArchive: 'Kompletne archiwum postów',
 
-		RayTracingForGenshin: 'Śledzenie promieni dla Genshin',
+		RayTracingForGenshin: 'Śledzenie promieni dla gry',
 		BigCollectionOfShadersMods: 'Duża kolekcja shaderów i modyfikacji',
 		MigotoInStellaModMoreMods: '3DMigoto w Stella Mod',
 		GameUIWithoutVisibleShaders: 'Interfejs gry bez widocznych shaderów',
 		HideYourUIDInTheGame: 'Ukryj swój UID w grze',
 		PresetsFromPreviousVersions: 'Ustawienia z poprzednich wersji',
 		PhotosOfMyCats: 'Zdjęcia moich kotów',
-		AnimePicturesGeneratedByAI: 'Obrazy anime generowane przez AI',
+		AnimePicturesGeneratedByAI: 'Obrazy anime wygenerowane przez AI',
 
 		SecuritySystemToAvoidBan: 'System zabezpieczeń przed banem',
 		VariousGenshinImpactAccountGiveaways: 'Konkursy na konta w Genshin Impact',
 		NewWindowsTerminalAppearance: 'Nowy wygląd Windows Terminal',
 		MorePhotosOfMyCats: 'Więcej zdjęć moich kotów',
 
-		PrivateDNSInEurope: 'Lepszy system zabezpieczeń (DNS w Europie)',
+		AbilityToUseBatchFiles: 'Korzystanie z plików wsadowych',
 		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja twojego komputera',
 		AssistanceRelatedToPCsOrLaptops: 'Pomoc związana z komputerami lub laptopami',
 		ActivationPossibleOn: 'Aktywacja możliwa na',
 	},
 
-	SubscribeNow: 'Zasubskrybuj teraz',
+	SubscribeNow: 'Subskrybuj teraz',
 	ChangeYourTier: 'Zmień swój tier',
 
 	Crypto: 'Krypto',
@@ -318,19 +339,18 @@ exports.subscription = {
 
 	PaymentSystem: {
 		Header: 'System płatności',
-		1: 'Z radością ogłaszamy, że nasz bezpieczny system płatności działa dzięki {0}. Dzięki Stripe możesz śmiało dokonywać płatności, wiedząc, że Twoje dane finansowe są traktowane z najwyższym poziomem bezpieczeństwa.',
-		2: 'Stripe to dobrze zaufana i globalnie rozpoznawana platforma do przetwarzania płatności, która gwarantuje płynne i bezpieczne transakcje dla naszych klientów. Bez względu na to, czy kupujesz produkty, subskrybujesz usługi czy dokonujesz darowizn, solidna infrastruktura Stripe zapewnia niezawodne i bezproblemowe doświadczenie płatności.',
-		3: 'Prosimy, miej pewność, że Twoje wrażliwe dane płatnicze są szyfrowane i chronione przez cały proces płatności. Twoja prywatność i bezpieczeństwo są naszymi najważniejszymi priorytetami.',
+		1: 'Nasz bezpieczny system płatności jest napędzany dzięki {0}. To właśnie dzięki tej bramce płatności możesz śmiało dokonywać płatności, wiedząc, że Twoje dane finansowe są traktowane z najwyższym poziomem bezpieczeństwa.',
+		2: 'Stripe to dobrze zaufana i globalnie rozpoznawana platforma do przetwarzania płatności, która gwarantuje płynne i bezpieczne transakcje dla naszej społeczności. Bez względu na to, czy kupujesz produkty, subskrybujesz usługi czy dokonujesz darowizn, solidna infrastruktura Stripe zapewnia niezawodne i bezproblemowe doświadczenie płatności.',
 	},
 
 	AcceptedPaymentMethods: 'Akceptowane metody płatności',
-	IfYouWishToMakeAPaymentUsingCryptoOrADirectBankTransfer: 'Jeśli chcesz dokonać płatności za pomocą kryptowaluty lub przelewu bankowego, skontaktuj się z deweloperem.',
+	IfYouWishToMakeAPaymentUsingCryptoOrADirectBankTransfer: 'Jeśli chcesz dokonać płatności za pomocą kryptowalut lub przelewu bankowego, skontaktuj się z deweloperem.',
 	BankName: 'Nazwa banku:',
 	AccountNumber: 'Numer konta:',
 	SWIFTOrBICCode: 'Kod SWIFT/BIC:',
 	IBAN: 'IBAN:',
 	AskTheAdministratorForIt: 'Zapytaj administratora o to',
-	PleaseBeAwareThatTheBuyerIsResponsibleForCoveringAbyBankFees: 'Prosimy pamiętać, że kupujący ponosi odpowiedzialność za pokrycie wszelkich opłat bankowych związanych z transakcją.',
+	PleaseNoteThatTheBuyerIsResponsibleForCoveringAnyBankFees: 'Prosimy pamiętać, że kupujący ponosi odpowiedzialność za pokrycie wszelkich opłat bankowych związanych z jakąkolwiek transakcją.',
 
 	RulesForUsingOurBenefitsAndPatronage: {
 		HeaderText1: 'Zasady korzystania z naszych korzyści i patronatu',

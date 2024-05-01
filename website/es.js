@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.7.2',
-	LastUpdate: '14.02.2024',
+	Version: '2.8.0',
+	LastUpdate: '01.05.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'MayiVT (https://github.com/MayiVT)',
@@ -51,10 +51,10 @@ exports.errors = {
 
 // GET /genshin-impact-reshade
 exports.home = {
-	Header: 'Genshin Impact Stella Mod made by Sefinek',
-	Text1: 'Safe features such as ReShade enhancements, carefully crafted custom graphics, and impressive FPS unlocking provide gamers with the best in-game experience!',
-	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players get into the action quickly.',
-	FinalText: 'Don\'t hesitate and download now! Immerse yourself in the enhanced world of Teyvat today and create unforgettable moments. Enjoy!',
+	Header: 'Genshin Impact Stella Mod by Sefinek',
+	Text1: 'Safe features such as ReShade enhancements, carefully crafted shaders, and impressive FPS unlocking ensure the best gaming experience for players!',
+	Text2: '3DMigoto enhances the mod for a more immersive experience. Additionally, our own launcher streamlines the entire process, helping players quickly jump into action.',
+	FinalText: 'Don\'t hesitate and download now! Dive into the enhanced world of Teyvat today and create unforgettable moments. Have fun!',
 
 	Download: 'Descargar',
 	DownloadTooltip: 'Haz clic aquí para descargar el instalador de 64 bits para Windows 10 y 11.',
@@ -88,18 +88,20 @@ exports.home = {
 	DownloadCount: 'Recuento de descargas',
 	LastDownload: 'Última descarga',
 
+	FeedbackOnTrustpilot: 'Feedback on Trustpilot',
+
 	modal: {
-		ThankYouForDownloading: 'Gracias por descargar',
-		BecomeAStellaModSubscriber: 'Become a Stella Mod Plus subscriber to gain access to additional benefits such as: the ability to use 3DMigoto, FPS Unlocker, and ReShade simultaneously & a large collection of error-free mods & enhanced security (blocking telemetry and analytics) & a pack of the latest shaders & an add-on to prevent filter overlays on the user interface (UI) & Ray Tracing presets, and much more!',
-		JoinOurDiscordServerToReceiveNotifications: 'Únete a nuestro servidor de Discord para recibir notificaciones sobre las últimas actualizaciones, características y otros anuncios. No dudes en ponerte en contacto con el creador si tienes alguna pregunta o te encuentras con algún problema.',
-		IfYouReEnjoyingStellaModConsiderLeavingAReview: '¡Deja una reseña en {a}trustpilot.com{/a} después de probar el software!',
-		WishingYouAWonderfulDayOrNight: '¡Te deseamos un maravilloso día o noche!',
-		TheTotalNumberOfDownloadsNowIs: 'El número total de descargas ahora es',
-		NoProblem: 'Sin problema',
+		ThankYouForDownloading: 'Thank you for downloading',
+		BecomeAStellaModSubscriber: 'Become a Stella Mod Plus subscriber to gain access to additional benefits such as the ability to use 3DMigoto, FPS Unlocker, and ReShade simultaneously, a large collection of error-free mods, enhanced security (blocking telemetry and analytics), a package of the latest shaders, an add-on to prevent filter overlays on the user interface (UI), Ray Tracing presets, and much more!',
+		JoinOurDiscordServerToReceiveNotifications: 'Join our Discord server to receive notifications about the latest updates, features, and other announcements. Contact the creator if you have any questions or encounter any issues. We are always ready to help. Wishing you a great day or night!',
+		IfYouReEnjoyingStellaModConsiderLeavingAReview: 'Leave a review at {a}trustpilot.com{/a} after testing the software!',
+		TheTotalNumberOfDownloadsNowIs: 'The total number of downloads is now',
+		NoProblem: 'No problem',
 	},
 
 	tooltips: {
 		PageViews: 'Page views. Statistics have been collected since January 19, 2024.',
+		ShareYourFeedbackOnTrustpilot: 'Share your feedback on Trustpilot! We would greatly appreciate it.',
 	},
 };
 
@@ -153,11 +155,11 @@ exports.support = {
 	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Simplemente haz clic en el ícono del chat en la esquina inferior derecha para iniciar una nueva conversación, tanto en polaco como en inglés. ¡Esperamos tus comentarios!',
 	StellaModIsNotAffiliatedWithHoyoverse: 'Por favor, ten en cuenta que Stella Mod no está afiliado con Hoyoverse de ninguna manera.',
 	JoinToDiscordServer: 'Únete al servidor de Discord',
-	CommentMyYTVideo: 'Comenta mi video en YouTube',
+	SendAnEmail: 'Send an email',
 
 	tooltips: {
 		JoinOurOfficialDiscordServer: 'Únete a nuestro servidor oficial de Discord.',
-		LeaveACommendBelowMyVideo: 'Deja un comentario debajo de mi video.',
+		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response',
 		ReturnTo: 'Volver a: Genshin Stella Mod - Aquí comienza tu aventura.',
 	},
 };
@@ -165,7 +167,7 @@ exports.support = {
 // GET /genshin-impact-reshade/videos
 exports.videos = {
 	WatchVideosOnYT: 'Ver videos en YouTube',
-	IfYouWantToRecordNewVideo: 'Si te gustaria grabar un video y subirlo a YouTube, envíame un mensaje. ¡Puedo incluir el enlace aqui!',
+	IfYouWantToRecordNewVideo: 'If you want to record and upload a video about Stella Mod to YouTube, please contact me. The link to your video will be added to this page.',
 	DeprecatedMovies: 'Videos obsoletos',
 	TheMoviesAreFromPreviousVersionsOfStellaMod: 'Estos videos pertenecen a versiones anteriores de Stella Mod y se consideran obsoletos.',
 	FirstModRelease: 'Primer lanzamiento del mod',
@@ -217,6 +219,8 @@ exports.github = {
 
 	Translations: 'Translations',
 	Resources: 'Resources',
+	Documentation: 'Documentation',
+	More: 'More »',
 
 	Deprecated: 'Deprecated',
 
@@ -232,11 +236,11 @@ exports.subscription = {
 
 	Recommended: 'Recommended',
 	tiers: {
-		1: 'Pequeño gato',
-		2: 'Gato favorito',
-		3: 'Gato de confianza',
-		4: 'Gato ordenador',
-		5: 'Gato muy seguro',
+		1: 'Little Kitten',
+		2: 'Favorite Kitten',
+		3: 'Trusted Cat',
+		4: 'Keyboard Cat',
+		5: 'Cute Kitty',
 	},
 	UnknownBenefit: 'Unknown benefit',
 
@@ -257,7 +261,7 @@ exports.subscription = {
 	benefitsFull: {
 		PrivateClipsFromCSGO: 'Clips privados de CS:GO y CS2',
 		EarlyAccessToStellaMod: 'Acceso anticipado a Stella Mod',
-		CompletePostArchive: 'Archivo completo de post (en el servidor de discord)',
+		CompletePostArchive: 'Archivo completo de post',
 
 		RayTracingForGenshin: 'Trazado de Rayos para Genshin',
 		MigotoInStellaModMoreMods: '3DMigoto en Stella Mod (más mods y más diversión)',
@@ -303,7 +307,7 @@ exports.subscription = {
 		NewWindowsTerminalAppearance: 'Nueva apariencia en la Terminal de Windows',
 		MorePhotosOfMyCats: 'Más fotos de mis gatos',
 
-		PrivateDNSInEurope: 'Mejor sistema de seguridad (DNS en Europa)',
+		AbilityToUseBatchFiles: 'Usage of batch files',
 		OptimizationOfYourComputerForBestPerformance: 'Optimización de tu ordenador',
 		AssistanceRelatedToPCsOrLaptops: 'Asistencia relacionada a ordenadores y portatiles',
 		ActivationPossibleOn: 'Activación possible en',
@@ -331,7 +335,7 @@ exports.subscription = {
 	SWIFTOrBICCode: 'SWIFT/BIC Code:',
 	IBAN: 'IBAN:',
 	AskTheAdministratorForIt: 'Ask the administrator for it',
-	PleaseBeAwareThatTheBuyerIsResponsibleForCoveringAbyBankFees: 'Please be aware that the buyer is responsible for covering any bank fees associated with the transaction.',
+	PleaseNoteThatTheBuyerIsResponsibleForCoveringAnyBankFees: 'Please note that the buyer is responsible for covering any bank fees associated with any transaction.',
 
 	RulesForUsingOurBenefitsAndPatronage: {
 		HeaderText1: 'Rules for using our benefits and patronage',
