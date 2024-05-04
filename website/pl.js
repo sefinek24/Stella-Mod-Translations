@@ -254,7 +254,7 @@ exports.subscription = {
 		},
 		4: {
 			name: 'Klawiatury Kot',
-			description: 'Dla entuzjastów technologii i graczy, którzy chcą maksymalnie wykorzystać swoje urządzenia i cieszyć się z gry. Ten tier oferuje usługi optymalizacji komputera, pomoc techniczną oraz możliwość korzystania z plików wsadowych.',
+			description: 'Dla graczy, którzy chcą maksymalnie wykorzystać możliwości swoich urządzeń i cieszyć się grą bez jakichkolwiek zakłóceń. Ta opcja oferuje usługi optymalizacji komputera (poprzez TeamViewer lub AnyDesk), wsparcie techniczne oraz możliwość używania plików wsadowych w Stella Mod Launcher.',
 		},
 		5: {
 			name: 'Śliczna Kotka',
@@ -270,10 +270,10 @@ exports.subscription = {
 	},
 
 	Everything: {
-		FromTier: 'Wszystko z Tier {0}',
-		FromTier12: 'Wszystko z Tier 1 i 2',
-		FromTier123: 'Wszystko z Tier 1, 2 i 3',
-		FromAllTiers: 'Korzyści ze wszystkich tierów',
+		FromTheTier: 'Wszystko z Tier {0}',
+		FromTheTier12: 'Wszystko z Tier 1 i 2',
+		FromTheTier12And3: 'Wszystko z Tier 1, 2 i 3',
+		FromAllTheTiers: 'Korzyści ze wszystkich tierów',
 	},
 
 	TierName: 'Nazwa Tieru',
@@ -285,7 +285,7 @@ exports.subscription = {
 
 		RayTracingForGenshin: 'Śledzenie promieni dla Genshina',
 		MigotoInStellaModMoreMods: '3DMigoto w Stella Mod (więcej modyfikacji i zabawy)',
-		BigCollectionOfShadersMods: 'Duża kolekcja shaderów i modyfikacji',
+		BigCollectionOfShadersMods: 'Duża kolekcja shaderów i modyfikacji bez bugów',
 		GameUIWithoutVisibleShaders: 'Interfejs gry bez widocznych shaderów',
 		HideYourUIDInTheGame: 'Ukryj swój UID w grze',
 		PresetsFromPreviousVersions: 'Ustawienia z poprzednich wersji',

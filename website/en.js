@@ -249,12 +249,12 @@ exports.subscription = {
 			description: 'Medium tier that offers most of the basic benefits associated with the game Genshin Impact. Ideal for players who want to enjoy additional modifications and enhancements in the game.',
 		},
 		3: {
-			name: 'Safe Kitten',
+			name: 'Safety Kitten',
 			description: 'Advanced tier for trusted users, which offers special benefits such as systems to protect against bans, giveaways for Genshin Impact accounts, and a custom appearance for the Windows Terminal interface.',
 		},
 		4: {
 			name: 'Keyboard Cat',
-			description: 'For technology enthusiasts and gamers who want to maximize the potential of their devices and enjoy the game. This tier offers computer optimization services, technical support, and the ability to use batch files.',
+			description: 'For players who want to maximize the capabilities of their devices and enjoy the game without any disruptions. This option offers computer optimization services (via TeamViewer or AnyDesk), technical support, and the ability to use batch files in Stella Mod Launcher.',
 		},
 		5: {
 			name: 'Cute Kitty',
@@ -271,10 +271,10 @@ exports.subscription = {
 	},
 
 	Everything: {
-		FromTier: 'Everything from Tier {0}',
-		FromTier12: 'Everything from Tier 1 and 2',
-		FromTier123: 'Everything from Tier 1, 2 & 3',
-		FromAllTiers: 'Everything from all Tiers',
+		FromTheTier: 'Everything from Tier {0}',
+		FromTheTier12: 'Everything from Tier 1 and 2',
+		FromTheTier12And3: 'Everything from Tier 1, 2 & 3',
+		FromAllTheTiers: 'Everything from all Tiers',
 	},
 
 	TierName: 'Tier name',
@@ -286,7 +286,7 @@ exports.subscription = {
 
 		RayTracingForGenshin: 'Ray Tracing for Genshin',
 		MigotoInStellaModMoreMods: '3DMigoto in Stella Mod (more mods & more fun)',
-		BigCollectionOfShadersMods: 'Big collection of shaders & mods',
+		BigCollectionOfShadersMods: 'Big collection of shaders & mods without any bugs',
 		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
 		HideYourUIDInTheGame: 'Hide your UID in the game',
 		PresetsFromPreviousVersions: 'Presets from previous versions',

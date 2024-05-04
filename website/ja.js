@@ -257,10 +257,10 @@ exports.subscription = {
 	},
 
 	Everything: {
-		FromTier: 'Everything from Tier {0}',
-		FromTier12: 'Everything from Tier 1 and 2',
-		FromTier123: 'Everything from Tier 1, 2 & 3',
-		FromAllTiers: 'Everything from all Tiers',
+		FromTheTier: 'Everything from Tier {0}',
+		FromTheTier12: 'Everything from Tier 1 and 2',
+		FromTheTier12And3: 'Everything from Tier 1, 2 & 3',
+		FromAllTheTiers: 'Everything from all Tiers',
 	},
 
 	TierName: 'Tier name',
@@ -271,7 +271,7 @@ exports.subscription = {
 
 		RayTracingForGenshin: 'Ray Tracing for Genshin',
 		MigotoInStellaModMoreMods: '3DMigoto in Stella Mod (more mods & more fun)',
-		BigCollectionOfShadersMods: 'Big collection of shaders & mods',
+		BigCollectionOfShadersMods: 'Big collection of shaders & mods without any bugs',
 		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
 		HideYourUIDInTheGame: 'Hide your UID in the game',
 		PresetsFromPreviousVersions: 'Presets from previous versions',

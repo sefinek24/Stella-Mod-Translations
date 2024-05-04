@@ -256,10 +256,10 @@ exports.subscription = {
 	},
 
 	Everything: {
-		FromTier: 'Todo sobre el grado {0}',
-		FromTier12: 'Todo sobre los grados 1 y 2',
-		FromTier123: 'Todo sobre los grados 1, 2 y 3',
-		FromAllTiers: 'Todo sobre todos los grados',
+		FromTheTier: 'Todo sobre el grado {0}',
+		FromTheTier12: 'Todo sobre los grados 1 y 2',
+		FromTheTier12And3: 'Todo sobre los grados 1, 2 y 3',
+		FromAllTheTiers: 'Todo sobre todos los grados',
 	},
 
 	TierName: 'Nombre del grado',
@@ -270,7 +270,7 @@ exports.subscription = {
 
 		RayTracingForGenshin: 'Trazado de Rayos para Genshin',
 		MigotoInStellaModMoreMods: '3DMigoto en Stella Mod (más mods y más diversión)',
-		BigCollectionOfShadersMods: 'Gran colección de shaders y mods',
+		BigCollectionOfShadersMods: 'Big collection of shaders & mods without any bugs',
 		GameUIWithoutVisibleShaders: 'Interfaz del juego sin shaders visibles',
 		HideYourUIDInTheGame: 'Esconder tu UID en el juego',
 		PresetsFromPreviousVersions: 'Presets de versiones anteriores',
