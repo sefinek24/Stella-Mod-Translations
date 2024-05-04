@@ -69,6 +69,9 @@ exports.home = {
 	Videos: 'Videos',
 	VideosTooltip: 'Watch our videos showcasing the mod and the launcher.',
 
+	Statistics: 'Statistics',
+	StatisticsTooltip: 'Check how many people are currently playing Genshin Impact with the Stella mod activated.',
+
 	Feedback: 'Feedback',
 	FeedbackTooltip: 'Share your opinion about my work and Stella Mod.',
 
