@@ -69,7 +69,7 @@ exports.home = {
 	Videos: 'Filmy',
 	VideosTooltip: 'Oglądaj nasze filmy prezentujące moda i program uruchamiający.',
 
-	Statistics: 'Statistics',
+	Statistics: 'Statystyki',
 	StatisticsTooltip: 'Sprawdź, ile obecnie osób gra w Genshin Impact z uruchomionym modem Stella.',
 
 	Feedback: 'Opinie',
