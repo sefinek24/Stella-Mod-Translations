@@ -343,6 +343,9 @@ exports.subscription = {
 	SubscribeNow: 'Subscribete ahora',
 	ChangeYourTier: 'Cambia tu plan',
 
+	SubscriptionIsTreatedAsVoluntarySupport: 'Subscription is treated as voluntary support, not as a purchase of a service or product. The benefits you receive are solely as a token of appreciation.',
+	IfYouWishYouCanContinueToUseTheFreeVersionAtNoCost: 'If you wish, you can continue to use the free version at no cost. The decision is entirely up to you.',
+
 	Crypto: 'Crypto',
 	IfYouWantToMakeAPaymentUsingCrypto: 'If you want to make a payment using cryptocurrency, please contact the developer.',
 	IAcceptPaymentsOnlyOnBinance: 'I accept payments only on Binance.',
