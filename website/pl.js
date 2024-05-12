@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.8.0',
-	LastUpdate: '01.05.2024',
+	Version: '2.8.1',
+	LastUpdate: '12.05.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 	],
@@ -52,7 +52,7 @@ exports.errors = {
 exports.home = {
 	Header: 'Genshin Impact Stella Mod autorstwa Sefinek',
 	Text1: 'Bezpieczne funkcje takie jak ulepszenia ReShade, starannie opracowane shadery i imponujące odblokowanie FPS zapewniające graczom najlepsze wrażenia z gry!',
-	Text2: '3DMigoto wzmacnia moda dla bardziej wciągającego doświadczenia. Dodatkowo, nasz własny program uruchamiający usprawnia cały proces, pomagając graczom szybko włączyć do akcji.',
+	Text2: '3DMigoto wzmacnia moda dla jeszcze bardziej wciągającej rozgrywki. Dodatkowo, nasz własny program uruchamiający usprawnia cały proces, pomagając graczom szybko włączyć do akcji.',
 	FinalText: 'Nie wahaj się i pobierz już teraz! Zanurz się dziś w ulepszonym świecie Teyvat i stwórz niezapomniane chwile. Miłej zabawy!',
 
 	Download: 'Pobierz',
@@ -113,7 +113,7 @@ exports.home = {
 exports.gallery = {
 	GalleryPage: 'Galeria - Numer strony',
 	GalleryCompareReleases: 'Galeria - Porównaj wydania:',
-	ScreenshotsAreAvailableInHighQuality: 'Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może trochę potrwać.',
+	ScreenshotsAreAvailableInHighQuality: 'Zrzuty ekranu są dostępne w wysokiej jakości. Wczytanie ich może zająć trochę czasu.',
 	WebsiteIsNotSupportedOnMobileDevices: 'Ta witryna nie jest obsługiwana na urządzeniach mobilnych.',
 	SomeImageCanBeOutdated: 'Niektóre zdjęcia mogą być nieaktualne.',
 
@@ -152,8 +152,8 @@ exports.feedback = {
 
 // GET /genshin-impact-reshade/support
 exports.support = {
-	SomeQuestions: 'Jakieś pytania? Potrzebujesz pomocy?',
-	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Masz może jakikolwiek problem z modem lub pytanie? Jeśli tak, nie wahaj się z nami skontaktować! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.',
+	SomeQuestions: 'Masz jakieś pytania? Czy potrzebujesz wsparcia?',
+	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Czy masz jakieś problemy ze Stella Mod lub po prostu pytanie? Jeśli tak, nie wahaj się skontaktować z nami! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Pamiętaj, że nasza społeczność również jest również gotowa, by odpowiedzieć na Twoje pytania. W tym celu dołącz na nasz serwer Discord lub utwórz nowy Issue na GitHub.',
 	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć nową konwersację w języku polskim lub angielskim. Oczekujemy na Twój kontakt!',
@@ -183,9 +183,9 @@ exports.docs = {
 	TableOfContents: 'Spis treści',
 	1: {
 		Introduction: '{0}. {1} Wprowadzenie',
-		Requirements: '{0}. {1} Wymagania',
-		WhatIs: '{0}. {1} Co to jest...',
-		FAQ: '{0}. {1} Najczęściej zadawane pytania',
+		Requirements: '{0}. {1} Wymagania sprzętowe',
+		WhatIs: '{0}. {1} Czym jest...',
+		FAQ: '{0}. {1} FAQ: Pytania i odpowiedzi',
 		Support: '{0}. {1} Wsparcie',
 		TermsOfUse: '{0}. {1} Warunki użytkowania',
 		PrivacyPolicy: '{0}. {1} Polityka prywatności',
@@ -194,10 +194,10 @@ exports.docs = {
 		HowToAvoidABan: '{0}. {1} Jak unikać bana?',
 	},
 
-	Changelogs: 'Dzienniki zmian',
+	Changelogs: 'Lista zmian',
 	2: {
 		Versions: '{0}. {1} Wersje {2}.x.x',
-		DeprecatedReleases: '{0}. {1} Wycofane wersje',
+		DeprecatedReleases: '{0}. {1} Przestarzałe wersje',
 	},
 
 	LicensesAndCredits: 'Licencje itp.',
@@ -206,7 +206,7 @@ exports.docs = {
 		ReShadeLicense: '{0}. {1} Licencja ReShade',
 		FPSUnlockerLicense: '{0}. {1} Licencja FPS Unlocker',
 		MigotoLicense: '{0}. {1} Licencja 3DMigoto',
-		Credits: '{0}. {1} Podziękowania',
+		Credits: '{0}. {1} Uznania autorskie',
 		Contributors: '{0}. {1} Współpracownicy',
 	},
 
@@ -270,9 +270,9 @@ exports.subscription = {
 	},
 
 	Everything: {
-		FromTheTier: 'Wszystko z Tier {0}',
-		FromTheTier12: 'Wszystko z Tier 1 i 2',
-		FromTheTier12And3: 'Wszystko z Tier 1, 2 i 3',
+		FromTheTier: 'Wszystko z poziomu {0}',
+		FromTheTier12: 'Wszystko z Tieru 1 i 2',
+		FromTheTier12And3: 'Wszystko z Tieru 1, 2 i 3',
 		FromAllTheTiers: 'Korzyści ze wszystkich tierów',
 	},
 
@@ -280,7 +280,7 @@ exports.subscription = {
 	benefitsFull: {
 		RoleOnTheDiscordServer: 'Rola na serwerze Discord',
 		VisibilityOnTheSubscriberList: 'Widoczność na liście subskrybentów',
-		NoAdsOnTheWebsiteForPatrons: 'Brak reklam na stronie dla patronów',
+		NoAdsOnTheWebsiteForPatrons: 'Brak reklam na stronie dla patronów (SPC)',
 		PrivateClipsFromCSGO: 'Prywatne klipy z CS:GO i CS2',
 		AnimePicturesGeneratedByAI: 'Obrazy anime wygenerowane przez AI',
 		CompletePostArchive: 'Pełne archiwum postów',
@@ -295,13 +295,13 @@ exports.subscription = {
 
 		CarefullyDesignedSecuritySystem: 'Starannie zaprojektowany system bezpieczeństwa',
 		MuchGreaterPrivacy: 'Znacznie większa prywatność',
-		VariousGenshinImpactAccountGiveaways: 'Różne rozdania kont Genshin Impact',
+		VariousGenshinImpactAccountGiveaways: 'Różne eventy na konta do Genshin Impact',
 		NewWindowsTerminalAppearance: 'Nowy wygląd Windows Terminal (WT)',
 		PhotosAndInterestingVideosOfTheDevsCats: 'Zdjęcia i ciekawe filmy z kotami dewelopera',
 
 		AbilityToUseBatchFiles: 'Możliwość używania plików wsadowych w Stella',
-		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja Twojego komputera dla najlepszej wydajności',
-		AssistanceRelatedToPCsOrLaptops: 'Pomoc dotycząca komputerów stacjonarnych lub laptopów',
+		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja Twojego komputera lub laptopa',
+		AssistanceRelatedToPCsOrLaptops: 'Pomoc dotycząca komputerów PC lub laptopów',
 
 		ActivationPossibleOn: 'Aktywacja możliwa na {u}{0} urządzeniach{/u}',
 	},
@@ -326,15 +326,15 @@ exports.subscription = {
 		PresetsFromPreviousVersions: 'Presety z poprzednich wersji',
 		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
 
-		CarefullyDesignedSecuritySystem: 'Starannie zaprojektowany system bezpieczeństwa',
+		CarefullyDesignedSecuritySystem: 'Lepszy system bezpieczeństwa',
 		MuchGreaterPrivacy: 'Znacznie większa prywatność',
 		VariousGenshinImpactAccountGiveaways: 'Różne rozdania kont Genshin Impact',
 		NewWindowsTerminalAppearance: 'Nowy wygląd Windows Terminal (WT)',
 		PhotosAndInterestingVideosOfTheDevsCats: 'Zdjęcia i ciekawe filmy z kotami deweloperów',
 
-		AbilityToUseBatchFiles: 'Użycie plików wsadowych',
+		AbilityToUseBatchFiles: 'Możliwość użycia plików wsadowych',
 		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja Twojego komputera',
-		AssistanceRelatedToPCsOrLaptops: 'Pomoc dotycząca komputerów stacjonarnych lub laptopów',
+		AssistanceRelatedToPCsOrLaptops: 'Pomoc dotycząca komputerów PC lub laptopów',
 		ActivationPossibleOn: 'Aktywacja możliwa na',
 	},
 
@@ -362,7 +362,7 @@ exports.subscription = {
 	SWIFTOrBICCode: 'Kod SWIFT/BIC:',
 	IBAN: 'IBAN:',
 	AskTheAdministratorForIt: 'Zapytaj administratora o to',
-	PleaseNoteThatTheBuyerIsResponsibleForCoveringAnyBankFees: 'Prosimy pamiętać, że kupujący ponosi odpowiedzialność za pokrycie wszelkich opłat bankowych związanych z jakąkolwiek transakcją.',
+	PleaseNoteThatTheBuyerIsResponsibleForCoveringAnyBankFees: 'Prosimy pamiętać, że to kupujący ponosi odpowiedzialność za pokrycie wszelkich opłat bankowych związanych z jakąkolwiek transakcją.',
 
 	RulesForUsingOurBenefitsAndPatronage: {
 		HeaderText1: 'Zasady korzystania z naszych korzyści i patronatu',
