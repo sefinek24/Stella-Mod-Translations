@@ -2,8 +2,8 @@ exports.data = {
 	Version: '2.8.1',
 	LastUpdate: '12.05.2024',
 	Contributors: [
-		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
-	],
+		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
+	]
 };
 
 // Main
@@ -23,8 +23,8 @@ exports.default = {
 
 	tooltips: {
 		OfficialDiscordServer: 'Oficjalny serwer Discord',
-		GitHubRepositories: 'Repozytoria GitHub',
-	},
+		GitHubRepositories: 'Repozytoria GitHub'
+	}
 };
 
 // Errors
@@ -33,19 +33,19 @@ exports.errors = {
 		BadRequest: 'Błąd 400: Zła prośba',
 		InvalidURL: 'Wsteczny adres URL jest nieprawidłowy.',
 		ReferrerURL: 'Twój adres URL strony odsyłającej',
-		CorrectRefURL: 'Poprawny adres URL strony odsyłającej',
+		CorrectRefURL: 'Poprawny adres URL strony odsyłającej'
 	},
 
 	wrongOs: {
 		DeviceIsNotSupported: 'Urządzenie nie jest obsługiwane',
 		SorryYourDeviceIsNotSupported: 'Przepraszamy. Twoje urządzenie nie jest wspierane.',
-		ViewSupportedOperatingSystems: 'Wyświetl obsługiwane systemy operacyjne.',
+		ViewSupportedOperatingSystems: 'Wyświetl obsługiwane systemy operacyjne.'
 	},
 
 	missingZip: {
 		WeCannotFindZipFileOnTheServer: 'Nie możemy znaleźć pliku ZIP na serwerze',
-		NewUpdateIsComing: 'Nadchodzi nowa aktualizacja? Możliwe...\nW każdym razie spróbuj ponownie później lub zgłoś ten problem na naszym serwerze Discord.',
-	},
+		NewUpdateIsComing: 'Nadchodzi nowa aktualizacja? Możliwe...\nW każdym razie spróbuj ponownie później lub zgłoś ten problem na naszym serwerze Discord.'
+	}
 };
 
 // GET /genshin-impact-reshade
@@ -100,13 +100,13 @@ exports.home = {
 		JoinOurDiscordServerToReceiveNotifications: 'Dołącz do naszego serwera Discord, aby otrzymywać powiadomienia o najnowszych aktualizacjach, funkcjach i innych ogłoszeniach. Skontaktuj się z twórcą, jeśli masz jakieś pytania lub napotkasz jakieś problemy. Zawsze jesteśmy gotowi pomóc. Życzę ci wspaniałego dnia lub nocy!',
 		IfYouReEnjoyingStellaModConsiderLeavingAReview:	'Zostaw opinię na stronie {a}trustpilot.com{/a} po przetestowaniu oprogramowania!',
 		TheTotalNumberOfDownloadsNowIs: 'Całkowita liczba pobrań wynosi obecnie',
-		NoProblem: 'Nie ma problemu',
+		NoProblem: 'Nie ma problemu'
 	},
 
 	tooltips: {
 		PageViews: 'Wyświetlenia tej strony. Statystyki są zbierane od 19 stycznia 2024.',
-		ShareYourFeedbackOnTrustpilot: 'Podziel się z nami swoją opinią w serwisie Trustpilot! Będziemy za to bardzi wdzięczni.',
-	},
+		ShareYourFeedbackOnTrustpilot: 'Podziel się z nami swoją opinią w serwisie Trustpilot! Będziemy za to bardzi wdzięczni.'
+	}
 };
 
 // GET /genshin-impact-reshade/gallery
@@ -129,8 +129,8 @@ exports.gallery = {
 	BonusScreenshot: 'Bonusowe zrzuty ekranu',
 
 	tooltips: {
-		GoBackToMainGalleryPage: 'Wróć do strony głównej galerii',
-	},
+		GoBackToMainGalleryPage: 'Wróć do strony głównej galerii'
+	}
 };
 
 // GET /genshin-impact-reshade/feedback
@@ -141,13 +141,13 @@ exports.feedback = {
 
 	btn: {
 		BelowYTVideo: 'Pod filmem na YouTube',
-		OnTheDiscordServer: 'Na serwerze Discord',
+		OnTheDiscordServer: 'Na serwerze Discord'
 	},
 
 	tooltips: {
 		ClickHereToGoToTheYTPage: 'Kliknij tutaj, aby przejść do strony YouTube.',
-		GiveAStarToMyReposOnGitHub: 'Nadaj gwiazdkę moim repozytoriom na GitHubie, tym, które lubisz.',
-	},
+		GiveAStarToMyReposOnGitHub: 'Nadaj gwiazdkę moim repozytoriom na GitHubie, tym, które lubisz.'
+	}
 };
 
 // GET /genshin-impact-reshade/support
@@ -164,8 +164,8 @@ exports.support = {
 	tooltips: {
 		JoinOurOfficialDiscordServer: 'Dołącz do naszego oficjalnego serwera Discord.',
 		SendAnEmailToTheDeveloper: 'Wyślij wiadomość e-mail do dewelopera, jeśli oczekujesz bardziej merytorycznej odpowiedzi.',
-		ReturnTo: 'Wróć do: Genshin Stella Mod - Here begins your adventure.',
-	},
+		ReturnTo: 'Wróć do: Genshin Stella Mod - Here begins your adventure.'
+	}
 };
 
 // GET /genshin-impact-reshade/videos
@@ -175,7 +175,7 @@ exports.videos = {
 	DeprecatedMovies: 'Przestarzałe nagrania',
 	TheMoviesAreFromPreviousVersionsOfStellaMod: 'Te filmy pochodzą z poprzednich wersji Stella Mod i są uważane już za przestarzałe.',
 	FirstModRelease: 'Pierwsza wersja moda',
-	Gameplay: 'Rozgrywka',
+	Gameplay: 'Rozgrywka'
 };
 
 // GET /genshin-impact-reshade/docs
@@ -191,13 +191,13 @@ exports.docs = {
 		PrivacyPolicy: '{0}. {1} Polityka prywatności',
 		Installation: '{0}. {1} Instalacja',
 		Compilation: '{0}. {1} Kompilacja',
-		HowToAvoidABan: '{0}. {1} Jak unikać bana?',
+		HowToAvoidABan: '{0}. {1} Jak unikać bana?'
 	},
 
 	Changelogs: 'Lista zmian',
 	2: {
 		Versions: '{0}. {1} Wersje {2}.x.x',
-		DeprecatedReleases: '{0}. {1} Przestarzałe wersje',
+		DeprecatedReleases: '{0}. {1} Przestarzałe wersje'
 	},
 
 	LicensesAndCredits: 'Licencje itp.',
@@ -207,13 +207,13 @@ exports.docs = {
 		FPSUnlockerLicense: '{0}. {1} Licencja FPS Unlocker',
 		MigotoLicense: '{0}. {1} Licencja 3DMigoto',
 		Credits: '{0}. {1} Uznania autorskie',
-		Contributors: '{0}. {1} Współpracownicy',
+		Contributors: '{0}. {1} Współpracownicy'
 	},
 
 	DocumentCreationDate: 'Data utworzenia dokumentu: {0}',
 	LastUpdate: 'Ostatnia aktualizacja: {0}',
 	DocumentSize: 'Rozmiar pliku: {0}',
-	bytes: 'bajtów',
+	bytes: 'bajtów'
 };
 
 // GET /genshin-impact-reshade/repositories
@@ -229,7 +229,7 @@ exports.github = {
 	Deprecated: 'Przestarzałe',
 
 	InstallationWizard: 'Kreator instalacji',
-	UnlockedReShade: 'Odblokowany ReShade',
+	UnlockedReShade: 'Odblokowany ReShade'
 };
 
 // GET /genshin-impact-reshade/subscription
@@ -242,38 +242,38 @@ exports.subscription = {
 	tiers: {
 		1: {
 			name: 'Mały Kociak',
-			description: 'Podstawowy tier dla osób, które chcą wyłącznie wesprzeć projekt. Jest to dobre rozwiązanie, na przykład jeśli przestałeś grać w Genshin Impact i korzyści z gry już Ci nie są potrzebne, lecz nadal chcesz dobrowolnie wspierać projekt.',
+			description: 'Podstawowy tier dla osób, które chcą wyłącznie wesprzeć projekt. Jest to dobre rozwiązanie, na przykład jeśli przestałeś grać w Genshin Impact i korzyści z gry już Ci nie są potrzebne, lecz nadal chcesz dobrowolnie wspierać projekt.'
 		},
 		2: {
 			name: 'Ulubiony Kot',
-			description: 'Średni tier, który oferuje większość podstawowych korzyści związanych z grą Genshin Impact. Idealne dla graczy, którzy chcą korzystać z dodatkowych modyfikacji i ulepszeń w grze.',
+			description: 'Średni tier, który oferuje większość podstawowych korzyści związanych z grą Genshin Impact. Idealne dla graczy, którzy chcą korzystać z dodatkowych modyfikacji i ulepszeń w grze.'
 		},
 		3: {
 			name: 'Bezpieczny Kotek',
-			description: 'Zaawansowany tier dla zaufanych użytkowników, który oferuje specjalne korzyści, takie jak systemy zabezpieczeń przed banem, giveaways na konta Genshin Impact, a także niestandardowy wygląd interfejsu Windows Terminal.',
+			description: 'Zaawansowany tier dla zaufanych użytkowników, który oferuje specjalne korzyści, takie jak systemy zabezpieczeń przed banem, giveaways na konta Genshin Impact, a także niestandardowy wygląd interfejsu Windows Terminal.'
 		},
 		4: {
 			name: 'Klawiatury Kot',
-			description: 'Dla graczy, którzy chcą maksymalnie wykorzystać możliwości swoich urządzeń i cieszyć się grą bez jakichkolwiek zakłóceń. Ta opcja oferuje usługi optymalizacji komputera (poprzez TeamViewer lub AnyDesk), wsparcie techniczne oraz możliwość używania plików wsadowych w Stella Mod Launcher.',
+			description: 'Dla graczy, którzy chcą maksymalnie wykorzystać możliwości swoich urządzeń i cieszyć się grą bez jakichkolwiek zakłóceń. Ta opcja oferuje usługi optymalizacji komputera (poprzez TeamViewer lub AnyDesk), wsparcie techniczne oraz możliwość używania plików wsadowych w Stella Mod Launcher.'
 		},
 		5: {
 			name: 'Śliczna Kotka',
-			description: 'Zapewnia dostęp do wszystkich korzyści oferowanych w niższych tierach, a także umożliwia aktywację na największej liczbie urządzeń. Idealny dla graczy, którzy doceniają pracę twórcy Stella Mod i chcą wspierać dalszy rozwój oraz serwerownię projektu.',
-		},
+			description: 'Zapewnia dostęp do wszystkich korzyści oferowanych w niższych tierach, a także umożliwia aktywację na największej liczbie urządzeń. Idealny dla graczy, którzy doceniają pracę twórcy Stella Mod i chcą wspierać dalszy rozwój oraz serwerownię projektu.'
+		}
 	},
 	UnknownBenefit: 'Nieznana korzyść',
 
 	prices: {
 		MonthlyPrice: 'Rozliczenie miesięczne',
 		Every3Months: 'Co 3 miesiące',
-		YearlyPrice: 'Rozliczenie coroczne',
+		YearlyPrice: 'Rozliczenie coroczne'
 	},
 
 	Everything: {
 		FromTheTier: 'Wszystko z poziomu {0}',
 		FromTheTier12: 'Wszystko z Tieru 1 i 2',
 		FromTheTier12And3: 'Wszystko z Tieru 1, 2 i 3',
-		FromAllTheTiers: 'Korzyści ze wszystkich tierów',
+		FromAllTheTiers: 'Korzyści ze wszystkich tierów'
 	},
 
 	TierName: 'Nazwa tieru',
@@ -303,7 +303,7 @@ exports.subscription = {
 		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja Twojego komputera lub laptopa',
 		AssistanceRelatedToPCsOrLaptops: 'Pomoc dotycząca komputerów PC lub laptopów',
 
-		ActivationPossibleOn: 'Aktywacja możliwa na {u}{0} urządzeniach{/u}',
+		ActivationPossibleOn: 'Aktywacja możliwa na {u}{0} urządzeniach{/u}'
 	},
 
 	CompareAvailablePlans: 'Porównaj dostępne plany',
@@ -335,7 +335,7 @@ exports.subscription = {
 		AbilityToUseBatchFiles: 'Możliwość użycia plików wsadowych',
 		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja Twojego komputera',
 		AssistanceRelatedToPCsOrLaptops: 'Pomoc dotycząca komputerów PC lub laptopów',
-		ActivationPossibleOn: 'Aktywacja możliwa na',
+		ActivationPossibleOn: 'Aktywacja możliwa na'
 	},
 
 	SubscribeNow: 'Subskrybuj teraz',
@@ -352,7 +352,7 @@ exports.subscription = {
 	PaymentSystem: {
 		Header: 'System płatności',
 		1: 'Nasz bezpieczny system płatności jest napędzany dzięki {0}. To właśnie dzięki tej bramce płatności możesz śmiało dokonywać płatności, wiedząc, że Twoje dane finansowe są traktowane z najwyższym poziomem bezpieczeństwa.',
-		2: 'Stripe to dobrze zaufana i globalnie rozpoznawana platforma do przetwarzania płatności, która gwarantuje płynne i bezpieczne transakcje dla naszej społeczności. Bez względu na to, czy kupujesz produkty, subskrybujesz usługi czy dokonujesz darowizn, solidna infrastruktura Stripe zapewnia niezawodne i bezproblemowe doświadczenie płatności.',
+		2: 'Stripe to dobrze zaufana i globalnie rozpoznawana platforma do przetwarzania płatności, która gwarantuje płynne i bezpieczne transakcje dla naszej społeczności. Bez względu na to, czy kupujesz produkty, subskrybujesz usługi czy dokonujesz darowizn, solidna infrastruktura Stripe zapewnia niezawodne i bezproblemowe doświadczenie płatności.'
 	},
 
 	AcceptedPaymentMethods: 'Akceptowane metody płatności',
@@ -374,12 +374,12 @@ exports.subscription = {
 		HeaderText3: 'Subskrypcja nie pokrywa się z zakupem oprogramowania 3DMigoto:',
 		SubText3: 'Stając się subskrybentem Stella Mod Plus, nie nabywasz 3DMigoto jako produkt cyfrowy. Jako subskrybent, zyskujesz wyłącznie dostęp do korzystania z 3DMigoto w aplikacji Stella Mod Launcher.',
 
-		Footer: 'Cenimy Twoją obecność w naszej społeczności i Twoje wsparcie dla naszej pracy. Jeśli masz jakieś pytania lub obawy, {a}skontaktuj się z nami{/a}. Twoje uczestnictwo i zrozumienie tych zasad są niezwykle ważne dla naszego projektu.',
+		Footer: 'Cenimy Twoją obecność w naszej społeczności i Twoje wsparcie dla naszej pracy. Jeśli masz jakieś pytania lub obawy, {a}skontaktuj się z nami{/a}. Twoje uczestnictwo i zrozumienie tych zasad są niezwykle ważne dla naszego projektu.'
 	},
 
 	request: {
 		WeAreProcessingYourRequest: 'Przetwarzamy Twoje zgłoszenie...',
 		SubscribingInProgress: 'Potrzebujemy chwili, aby wszystko przygotować. Proszę pozostań na tej stronie i daj nam chwilę!\nWkrótce przekierujemy Cię na bezpieczną stronę płatności, gdzie możesz bezpiecznie dokonać transakcji. ^w^',
-		ChangingTheTierInProgress: 'Potrzebujemy trochę czasu, aby zmienić Twoją taryfę! Daj nam chwilę, a obiecujemy, że wszystko pójdzie gładko. ^w^',
-	},
+		ChangingTheTierInProgress: 'Potrzebujemy trochę czasu, aby zmienić Twoją taryfę! Daj nam chwilę, a obiecujemy, że wszystko pójdzie gładko. ^w^'
+	}
 };

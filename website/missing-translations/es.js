@@ -3,8 +3,8 @@ exports.data = {
 	LastUpdate: '01.06.2023',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
-		'ChatGPT (https://chat.openai.com)',
-	],
+		'ChatGPT (https://chat.openai.com)'
+	]
 };
 
 module.exports = {
@@ -12,5 +12,5 @@ module.exports = {
 	WereSorryButWeCouldFindTheCorrectTranslation: 'Lo sentimos, no hemos podido encontrar una traducción acorde a tu idioma - {0}. Para más información, consulta los detalles de la consola (≧◡≦) ♡',
 	IfYouWouldLikeToContributeYourOwnTranslationOrHelpUsFixThisIssue: 'Si te gustaria contribuir con tu propia traducción o ayudarnos a solucionar este problema, por favor, crea un nuevo {0}Pull Request{/0} en nuestro {1}repositorio de Github{/1}. ¡Gracias por tu ayuda! o(>ω<)o',
 	SwitchLanguageToEnglish: 'Cambiar el idioma a inglés',
-	YesClickMe: '¡Sí, clicame!',
+	YesClickMe: '¡Sí, clicame!'
 };
