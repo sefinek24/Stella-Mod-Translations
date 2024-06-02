@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.8.1',
-	LastUpdate: '12.05.2024',
+	Version: '2.9.0',
+	LastUpdate: '02.06.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'Shizu (https://github.com/ShizuKoto)',
@@ -179,6 +179,79 @@ exports.videos = {
 	TheMoviesAreFromPreviousVersionsOfStellaMod: 'Die Filme sind von älteren Versionen von Stella Mod und werden als veraltet angesehen.',
 	FirstModRelease: 'Erster Mod release',
 	Gameplay: 'Spiel'
+};
+
+// GET /genshin-impact-reshade/stats
+exports.stats = {
+	ToggleBlur: 'Toggle blur',
+	ToggleShadows: 'Toggle shadows',
+	ToggleBorder: 'Toggle border',
+	ToggleBackground: 'Toggle background',
+
+	PerCountry: 'Per country',
+	PerHour: 'Per hour',
+	PerDay: 'Per day',
+	PerMonth: 'Per month',
+	PerYear: 'Per year',
+
+	All: 'All',
+	Unique: 'Unique',
+	Peak: 'Peak',
+
+	Version: 'Wersja',
+	NumerOfDownloads: 'Liczba pobrań',
+
+	DownloadsPerCountry: 'Downloads per country',
+	DownloadsPerCountryAll: 'Downloads per country [All]',
+	DownloadsPerVersionAll: 'Downloads per version [All]',
+	DownloadsPerVersionUnique: 'Downloads per version [Unique]',
+	DownloadsPerDayAll: 'Downloads per day [All]',
+	DownloadsPerDayUnique: 'Downloads per day [Unique]',
+	DownloadsPerMonthAll: 'Downloads per month [All]',
+	DownloadsPerMonthUnique: 'Downloads per month [Unique]',
+	DownloadsPerYearAll: 'Downloads per year [All]',
+	DownloadsPerYearUnique: 'Downloads per year [Unique]',
+
+	StellaModDownloadsHeader: '📥 Stella Mod downloads',
+	StellaModDownloadsText: 'Here are the download statistics for Stella Mod directly from our official website. The history of some data may be incomplete, as the collection of statistics was introduced a significant time after the global release of Stella Mod.<br>Always ensure that you download Stella Mod from a trusted source such as <a href=\'https://sefinek.net\'>sefinek.net</a>.',
+	TotalDownloads: '🔢 Total downloads',
+	LastDownload: '⏰ Last download',
+	YourTimezone: '🪐 Your timezone',
+
+	StellaModLauncherStatsHeader: '😻 Stella Mod Launcher stats',
+	StellaModLauncherStatsText: 'In this category, we present detailed statistics related to the number of times the Stella Mod Launcher program has been initiated. This includes data on how frequently the application is opened, and any notable patterns in user engagement with the launcher.',
+	AllStellaLauncherOpens: 'All Stella Launcher opens',
+	UniqueStellaLauncherOpens: 'Unique Stella Launcher opens',
+	OpensPerCountry: 'Opens per country',
+	OpensPerVersion: 'Opens per version',
+	OpensPerSysVersion: 'Opens per system version',
+	OpensPerSysBuild: 'Opens per system build',
+
+	OnlineUsersWSHeader: '🌍 Online users - WebSocket',
+	OnlineUsersWSText: 'This section provides a comprehensive overview of user connectivity through our WebSocket server, offering real-time insights into active users. Explore dynamic statistics that reveal the current online user count, peak concurrency levels, and geographical distribution of users. Additionally, temporal patterns of usage are visualized, showcasing trends in daily, hourly, monthly, and yearly online activity.',
+	Online: '🔑 Online',
+	Peak1: '🍭 Peak',
+	OnlinePerCountry: 'Online per country',
+	OnlinePerHour: 'Online per hour',
+	OnlinePerDay: 'Online per day',
+	OnlinePerMonth: 'Online per month',
+	OnlinePerYear: 'Online per year',
+
+	PlayersInTheGameHeader: '🎮 Players in the game',
+	PlayersInTheGameText: 'Discover how many individuals are currently engaged in the game with the Stella Mod activated. Rest assured, the Stella Mod Launcher operates transparently, performing no undesired actions in the background without your knowledge. This feature ensures a seamless gaming experience, enhancing your play with added functionalities while maintaining a high standard of privacy and security. With Stella Mod, players gain access to a suite of enhancements that elevate the gaming experience. This real-time statistic reflects the popularity and trust in Stella Mod within our community, showcasing the number of active users who have chosen to bring this additional layer of innovation into their gaming sessions.',
+	PlayingNow: '💙 Playing now',
+	Peak2: '⬆️ Peak',
+
+	WsConnectionsHeader: '🌍 WebSocket connections and operations',
+	WsConnectionsText: 'Familiarize yourself with WebSocket metrics in this section, which includes charts displaying the frequency of messages and heartbeats on an hourly, daily, monthly, and yearly basis.',
+	Broadcast: 'Broadcast',
+	Heartbeats: 'Heartbeats',
+
+	CryptographicOperationsHeader: '🔠 Cryptographic operations',
+	CryptographicOperationsText: 'This section offers a comprehensive overview of cryptographic activities in our systems, presenting statistical data related to encryption and decryption processes. Visitors can view charts that display the frequency and success of cryptographic operations across various timeframes. Cryptography is essential in applications and communication for ensuring data confidentiality, integrity, and authenticity, thereby protecting against unauthorized access and cyber threats. It is pivotal in securing digital transactions and maintaining the privacy of sensitive information.',
+	Encryption: '🧶 Encryption',
+	Decryption: '🔧 Decryption',
+	Misc: '🧵 Misc'
 };
 
 // GET /genshin-impact-reshade/docs
