@@ -211,7 +211,7 @@ exports.stats = {
 
 	StellaModDownloadsHeader: '📥 Pobrania Stella Mod',
 	StellaModDownloadsText: 'Oto statystyki pobrań Stella Mod bezpośrednio z naszej oficjalnej strony. Historia niektórych danych może być niekompletna, ponieważ zbieranie statystyk zostało wprowadzone znaczący czas po globalnym wydaniu Stella Mod.<br>Zawsze upewnij się, że pobierasz oprogramowanie Stella Mod ze zaufanego źródła, takiego jak <a href=\'https://sefinek.net\'>sefinek.net</a>.',
-	TotalDownloads: '🔢 Łączna liczba pobrań',
+	TotalDownloads: '🔢 Wszystkie',
 	LastDownload: '⏰ Ostatnie pobranie',
 	YourTimezone: '🪐 Twoja strefa czasowa',
 
@@ -248,7 +248,14 @@ exports.stats = {
 	CryptographicOperationsText: 'Ta sekcja oferuje kompleksowy przegląd działań kryptograficznych w naszych systemach, prezentując dane statystyczne dotyczące procesów szyfrowania i deszyfrowania. Odwiedzający mogą zobaczyć wykresy przedstawiające częstotliwość i sukces operacji kryptograficznych w różnych okresach. Kryptografia jest kluczowa w aplikacjach i komunikacji, zapewniając poufność danych, integralność i autentyczność, chroniąc tym samym przed nieautoryzowanym dostępem i zagrożeniami cybernetycznymi. Jest niezbędna w zabezpieczaniu transakcji cyfrowych i utrzymaniu prywatności wrażliwych informacji.',
 	Encryption: '🧶 Szyfrowanie',
 	Decryption: '🔧 Deszyfrowanie',
-	Misc: '🧵 Różne'
+	Misc: '🧵 Różne',
+
+	PerOneHour: 'Na godzinę',
+	PerOneDay: 'Na dzień',
+	PerOneMonth: 'Na miesiąc',
+	PerOneYear: 'Na rok',
+
+	ErrorRatePerDay: 'Wskaźnik błędów na dzień'
 };
 
 // GET /genshin-impact-reshade/docs

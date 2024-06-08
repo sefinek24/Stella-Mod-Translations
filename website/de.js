@@ -251,7 +251,14 @@ exports.stats = {
 	CryptographicOperationsText: 'This section offers a comprehensive overview of cryptographic activities in our systems, presenting statistical data related to encryption and decryption processes. Visitors can view charts that display the frequency and success of cryptographic operations across various timeframes. Cryptography is essential in applications and communication for ensuring data confidentiality, integrity, and authenticity, thereby protecting against unauthorized access and cyber threats. It is pivotal in securing digital transactions and maintaining the privacy of sensitive information.',
 	Encryption: '🧶 Encryption',
 	Decryption: '🔧 Decryption',
-	Misc: '🧵 Misc'
+	Misc: '🧵 Misc',
+
+	PerOneHour: 'Per hour',
+	PerOneDay: 'Per day',
+	PerOneMonth: 'Per month',
+	PerOneYear: 'Per year',
+
+	ErrorRatePerDay: 'Error rate per day'
 };
 
 // GET /genshin-impact-reshade/docs
