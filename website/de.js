@@ -40,8 +40,8 @@ exports.errors = {
 
 	wrongOs: {
 		DeviceIsNotSupported: 'Gerät wird nicht unterstützt.',
-		SorryYourDeviceIsNotSupported: 'Ups. Dein Gerät wird nicht unterstützt.',
-		ViewSupportedOperatingSystems: 'Hier findest du alle unterstützten Geräte.'
+		OperatingSysIsNotSupported: 'We\'re sorry. Your operating system: {0}, is not yet supported.',
+		ViewSupportedSystems: 'View supported systems »'
 	},
 
 	missingZip: {

@@ -39,8 +39,8 @@ exports.errors = {
 
 	wrongOs: {
 		DeviceIsNotSupported: 'El dispositivo no es compatible',
-		SorryYourDeviceIsNotSupported: 'Lo sentimos. Tu dispositivo no es compatible.',
-		ViewSupportedOperatingSystems: 'Ver los sistemas operativos soportados compatibles.'
+		OperatingSysIsNotSupported: 'We\'re sorry. Your operating system: {0}, is not yet supported.',
+		ViewSupportedSystems: 'View supported systems »'
 	},
 
 	missingZip: {
