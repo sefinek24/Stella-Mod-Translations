@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.0',
-	LastUpdate: '02.06.2024',
+	Version: '2.9.1',
+	LastUpdate: '21.06.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -184,6 +184,15 @@ exports.stats = {
 	ToggleShadows: 'Przełącz cienie',
 	ToggleBorder: 'Przełącz obramowanie',
 	ToggleBackground: 'Przełącz tło',
+
+	LiveStats: 'Statystyki na żywo',
+	OnlineNow: 'Online teraz',
+	InTheGame: 'W grze',
+	AllDownloadsNow: 'Wszystkich pobrań teraz',
+	Player: 'gracz',
+	Players: 'graczy',
+
+	BelowYouFindTheStatsForStellaMod: 'Poniżej znajdują się statystyki dla Stella Mod. Miłego przeglądania jak i dnia!',
 
 	PerCountry: 'Na kraj',
 	PerHour: 'Na godzinę',
