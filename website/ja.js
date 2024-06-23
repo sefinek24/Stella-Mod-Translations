@@ -1,6 +1,6 @@
 exports.data = {
 	Version: '2.9.1',
-	LastUpdate: '21.06.2024',
+	LastUpdate: '23.06.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
@@ -204,10 +204,11 @@ exports.stats = {
 
 	All: 'All',
 	Unique: 'Unique',
+	FirstOpens: 'First opens',
 	Peak: 'Peak',
 
-	Version: 'Wersja',
-	NumerOfDownloads: 'Liczba pobrań',
+	Version: 'Version',
+	NumerOfDownloads: 'Number of downloads',
 
 	DownloadsPerCountry: 'Downloads per country',
 	DownloadsPerCountryAll: 'Downloads per country [All]',

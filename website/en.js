@@ -1,6 +1,6 @@
 exports.data = {
 	Version: '2.9.1',
-	LastUpdate: '21.06.2024',
+	LastUpdate: '23.06.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -202,6 +202,7 @@ exports.stats = {
 
 	All: 'All',
 	Unique: 'Unique',
+	FirstOpens: 'First opens',
 	Peak: 'Peak',
 
 	Version: 'Version',
