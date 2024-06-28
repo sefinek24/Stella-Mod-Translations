@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.1',
-	LastUpdate: '23.06.2024',
+	Version: '2.9.2',
+	LastUpdate: '28.06.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
@@ -299,7 +299,8 @@ exports.docs = {
 		FPSUnlockerLicense: '{0}. {1} FPS Unlocker license',
 		MigotoLicense: '{0}. {1} 3DMigoto license',
 		Credits: '{0}. {1} Credits',
-		Contributors: '{0}. {1} Contributors'
+		Contributors: '{0}. {1} Contributors',
+		Attributions: '{0}. {1} Attributions'
 	},
 
 	DocumentCreationDate: 'Document creation date: {0}',

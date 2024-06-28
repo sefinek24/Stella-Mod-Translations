@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.1',
-	LastUpdate: '23.06.2024',
+	Version: '2.9.2',
+	LastUpdate: '28.06.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -297,7 +297,8 @@ exports.docs = {
 		FPSUnlockerLicense: '{0}. {1} Licencja FPS Unlocker',
 		MigotoLicense: '{0}. {1} Licencja 3DMigoto',
 		Credits: '{0}. {1} Uznania autorskie',
-		Contributors: '{0}. {1} Współpracownicy'
+		Contributors: '{0}. {1} Współpracownicy',
+		Attributions: '{0}. {1} Przypisania'
 	},
 
 	DocumentCreationDate: 'Data utworzenia dokumentu: {0}',
