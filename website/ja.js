@@ -23,6 +23,9 @@ exports.default = {
 	DiscordServer: 'Discordサーバー',
 	DiscordServerTooltip: 'Discordサーバーへの招待',
 
+	YourBrowserDoesNotSupportVideoTag: 'Your browser does not support the video tag.',
+	YourBrowserDoesNotSupportAudioTag: 'Your browser does not support the audio tag.',
+
 	tooltips: {
 		OfficialDiscordServer: '公式Discordサーバー',
 		GitHubRepositories: 'GitHubリポジトリ'
@@ -94,9 +97,23 @@ exports.home = {
 
 	FeedbackOnTrustpilot: 'Feedback on Trustpilot',
 
-	AreYouARobot: 'Are you a robot?',
+	captchaModal: {
+		AreYouARobot: 'Are you a robot?',
+		FailedToVerifyCaptcha: 'Failed to verify captcha: {0}',
+		FailedToVerifyCaptchaStatusCode: 'Failed to verify captcha (status code: {0}). Reload the website and try again.'
+	},
 
-	modal: {
+	mirrorModal: {
+		SelectDownloadServer: 'Select download server',
+		Companies: 'Companies',
+		Countries: 'Countries',
+		LauncherVersion: 'Launcher version:',
+		MirrorsAreCurrentlyUnavailable: 'Mirrors are currently unavailable for this category.',
+		HashHasBeenSuccessfullyCopied: 'The {0} hash has been successfully copied to the clipboard!',
+		FailedToCopyHashTryAgain: 'Failed to copy {0} hash to clipboard. Please try again.'
+	},
+
+	finalModal: {
 		ThankYouForDownloading: 'Thank you for downloading',
 		BecomeAStellaModSubscriber: 'Become a Stella Mod Plus subscriber to gain access to additional benefits such as the ability to use 3DMigoto, FPS Unlocker, and ReShade simultaneously, a large collection of error-free mods, enhanced security (blocking telemetry and analytics), a package of the latest shaders, an add-on to prevent filter overlays on the user interface (UI), Ray Tracing presets, and much more!',
 		JoinOurDiscordServerToReceiveNotifications: 'Join our Discord server to receive notifications about the latest updates, features, and other announcements. Contact the creator if you have any questions or encounter any issues. We are always ready to help. Wishing you a great day or night!',

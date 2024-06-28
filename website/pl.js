@@ -21,6 +21,9 @@ exports.default = {
 	DiscordServer: 'Serwer Discord',
 	DiscordServerTooltip: 'Zaproszenie na nasz serwer Discord',
 
+	YourBrowserDoesNotSupportVideoTag: 'Twoja przeglądarka nie obsługuje tagu video.',
+	YourBrowserDoesNotSupportAudioTag: 'Twoja przeglądarka nie obsługuje tagu audio.',
+
 	tooltips: {
 		OfficialDiscordServer: 'Oficjalny serwer Discord',
 		GitHubRepositories: 'Repozytoria GitHub'
@@ -92,9 +95,23 @@ exports.home = {
 
 	FeedbackOnTrustpilot: 'Opinie na Trustpilot',
 
-	AreYouARobot: 'Jesteś robotem?',
+	captchaModal: {
+		AreYouARobot: 'Jesteś robotem?',
+		FailedToVerifyCaptcha: 'Wystąpił problem podczas weryfikacji captchy: {0}',
+		FailedToVerifyCaptchaStatusCode: 'Coś poszło nie tak podczas weryfikacji captchy (kod statusu: {0}). Odśwież tę stronę i spróbuj ponownie.'
+	},
 
-	modal: {
+	mirrorModal: {
+		SelectDownloadServer: 'Wybierz serwer pobierania',
+		Companies: 'Firmy',
+		Countries: 'Kraje',
+		LauncherVersion: 'Wersja launchera:',
+		MirrorsAreCurrentlyUnavailable: 'Serwery lustrzane są obecnie niedostępne dla tej kategorii.',
+		HashHasBeenSuccessfullyCopied: 'Hash {0} został pomyślnie skopiowany do schowka!',
+		FailedToCopyHashTryAgain: 'Coś poszło nie tak podczas kopiowania hasha {0} do schowka. Spróbuj ponownie.'
+	},
+
+	finalModal: {
 		ThankYouForDownloading: 'Dziękujemy za pobranie',
 		BecomeAStellaModSubscriber: 'Zostań subskrybentem Stella Mod Plus, aby uzyskać dostęp do dodatkowych korzyści, takich jak: możliwość jednoczesnego używania 3DMigoto, FPS Unlocker i ReShade, dużą kolekcję modów bez błędów, zwiększone bezpieczeństwo (blokowanie telemetrii i analityki), pakiet najnowszych shaderów, dodatek zapobiegający nakładaniu filtrów na interfejs użytkownika (UI), presety do śledzenia promieni (Ray Tracing) i wiele więcej!',
 		JoinOurDiscordServerToReceiveNotifications: 'Dołącz do naszego serwera Discord, aby otrzymywać powiadomienia o najnowszych aktualizacjach, funkcjach i innych ogłoszeniach. Skontaktuj się z twórcą, jeśli masz jakieś pytania lub napotkasz jakieś problemy. Zawsze jesteśmy gotowi pomóc. Życzę ci wspaniałego dnia lub nocy!',
@@ -104,8 +121,8 @@ exports.home = {
 	},
 
 	tooltips: {
-		PageViews: 'Wyświetlenia tej strony. Statystyki są zbierane od 19 stycznia 2024.',
-		ShareYourFeedbackOnTrustpilot: 'Podziel się z nami swoją opinią w serwisie Trustpilot! Będziemy za to bardzi wdzięczni.'
+		PageViews: 'Wyświetlenia tej strony. Statystyki są zbierane począwszy od 19 stycznia 2024.',
+		ShareYourFeedbackOnTrustpilot: 'Podziel się z nami swoją opinią w serwisie Trustpilot! Będziemy za to bardzo wdzięczni.'
 	}
 };
 
