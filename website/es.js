@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.2',
-	LastUpdate: '28.06.2024',
+	Version: '2.9.3',
+	LastUpdate: '05.07.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'MayiVT (https://github.com/MayiVT)'
@@ -108,8 +108,8 @@ exports.home = {
 		Countries: 'Countries',
 		LauncherVersion: 'Launcher version:',
 		MirrorsAreCurrentlyUnavailable: 'Mirrors are currently unavailable for this category.',
-		HashHasBeenSuccessfullyCopied: 'The {0} hash has been successfully copied to the clipboard!',
-		FailedToCopyHashTryAgain: 'Failed to copy {0} hash to clipboard. Please try again.'
+		ChecksumHasBeenSuccessfullyCopied: 'The {0} checksum has been successfully copied to the clipboard!',
+		FailedToCopyChecksumTryAgain: 'Failed to copy the {0} checksum to the clipboard. Please try again.'
 	},
 
 	finalModal: {

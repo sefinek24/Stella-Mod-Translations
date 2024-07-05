@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.2',
-	LastUpdate: '28.06.2024',
+	Version: '2.9.3',
+	LastUpdate: '05.07.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -107,8 +107,8 @@ exports.home = {
 		Countries: 'Kraje',
 		LauncherVersion: 'Wersja launchera:',
 		MirrorsAreCurrentlyUnavailable: 'Serwery lustrzane są obecnie niedostępne dla tej kategorii.',
-		HashHasBeenSuccessfullyCopied: 'Hash {0} został pomyślnie skopiowany do schowka!',
-		FailedToCopyHashTryAgain: 'Coś poszło nie tak podczas kopiowania hasha {0} do schowka. Spróbuj ponownie.'
+		ChecksumHasBeenSuccessfullyCopied: 'Suma kontrolna {0} została pomyślnie skopiowana do schowka!',
+		FailedToCopyChecksumTryAgain: 'Coś poszło nie tak podczas kopiowania sumy kontrolnej {0} do schowka. Spróbuj ponownie.'
 	},
 
 	finalModal: {
