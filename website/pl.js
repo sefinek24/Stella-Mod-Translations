@@ -209,7 +209,7 @@ exports.stats = {
 	Player: 'gracz',
 	Players: 'graczy',
 
-	BelowYouFindTheStatsForStellaMod: 'Poniżej znajdują się statystyki dla Stella Mod. Miłego przeglądania jak i dnia!',
+	BelowYouFindTheStatsForStellaMod: 'Poniżej znajdują się statystyki dla Stella Mod. Miłego przeglądania ich jak i oczywiście dnia!',
 
 	PerCountry: 'Na kraj',
 	PerHour: 'Na godzinę',
