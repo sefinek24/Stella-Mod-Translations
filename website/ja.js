@@ -53,7 +53,7 @@ exports.errors = {
 	}
 };
 
-// GET /genshin-impact-reshade
+// GET /genshin-stella-mod
 exports.home = {
 	Header: 'Genshin Impact Stella Mod by Sefinek',
 	Text1: 'Safe features such as ReShade enhancements, carefully crafted shaders, and impressive FPS unlocking ensure the best gaming experience for players!',
@@ -128,7 +128,7 @@ exports.home = {
 	}
 };
 
-// GET /genshin-impact-reshade/gallery
+// GET /genshin-stella-mod/gallery
 exports.gallery = {
 	GalleryPage: 'ギャラリー - ページ',
 	GalleryCompareReleases: 'ギャラリー - バージョン間の比較:',
@@ -152,7 +152,7 @@ exports.gallery = {
 	}
 };
 
-// GET /genshin-impact-reshade/feedback
+// GET /genshin-stella-mod/feedback
 exports.feedback = {
 	LeaveYourFeedback: 'フィードバックを残す',
 	IfYouLikeThisProjectSupportMe: 'もしこのプロジェクトを気に入っていただけましたら、私の{1}YouTubeチャンネル{/1}のチャンネル登録をするか、{2}GitHub{/2}でStarをつけるか、その他の方法で{3}私を支援{/3}していただけると幸いです。',
@@ -169,7 +169,7 @@ exports.feedback = {
 	}
 };
 
-// GET /genshin-impact-reshade/support
+// GET /genshin-stella-mod/support
 exports.support = {
 	SomeQuestions: '何か質問はありますか？お手伝いが必要ですか？',
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Do you have any issues with Stella Mod or simply a question? If so, please do not hesitate to contact us! Our team is at your disposal for any inquiries or concerns.',
@@ -187,7 +187,7 @@ exports.support = {
 	}
 };
 
-// GET /genshin-impact-reshade/videos
+// GET /genshin-stella-mod/videos
 exports.videos = {
 	WatchVideosOnYT: '動画をYouTubeで見る',
 	IfYouWantToRecordNewVideo: 'If you want to record and upload a video about Stella Mod to YouTube, please contact me. The link to your video will be added to this page.',
@@ -197,7 +197,7 @@ exports.videos = {
 	Gameplay: 'ゲームプレイ'
 };
 
-// GET /genshin-impact-reshade/stats
+// GET /genshin-stella-mod/stats
 exports.stats = {
 	ToggleBlur: 'Toggle blur',
 	ToggleShadows: 'Toggle shadows',
@@ -287,7 +287,7 @@ exports.stats = {
 	ErrorRatePerDay: 'Error rate per day'
 };
 
-// GET /genshin-impact-reshade/docs
+// GET /genshin-stella-mod/docs
 exports.docs = {
 	TableOfContents: 'Table of Contents',
 	1: {
@@ -326,7 +326,7 @@ exports.docs = {
 	bytes: 'bytes'
 };
 
-// GET /genshin-impact-reshade/repositories
+// GET /genshin-stella-mod/repositories
 exports.github = {
 	AllReposOnGithub: 'All repositories on GitHub',
 	IfYouWantToBecomeContributor: 'If you want to become contributor, just create a new {a}Pull Request{/a}. Thank you very much and happy coding!',
@@ -342,7 +342,7 @@ exports.github = {
 	UnlockedReShade: 'Unlocked ReShade'
 };
 
-// GET /genshin-impact-reshade/subscription
+// GET /genshin-stella-mod/subscription
 exports.subscription = {
 	ChooseYourSubscriptionTier: 'Choose your subscription tier',
 	IfYouAreInterestedInTheBenefits: 'If you\'re interested in the benefits, please explore all the available tiers to see which one suits your preferences. Hopefully, you\'ll find one that piques your interest!',
