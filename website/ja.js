@@ -175,14 +175,13 @@ exports.support = {
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Do you have any issues with Stella Mod or simply a question? If so, please do not hesitate to contact us! Our team is at your disposal for any inquiries or concerns.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Stellaのインストールに関するお問い合わせや、機能についてのご質問がある場合は、お手伝いさせていただきます。',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: '弊社コミュニティの皆様も、質問にお答えする準備ができています。Discordサーバーに参加するか、GitHubで新しいIssueを作成してください。',
-	SimplyClickOnTheChatIconInTheBottomRightCorner: 'ポーランド語または英語で新しい会話を開始するには、右下のチャットアイコンをクリックしてください。あなたからのご連絡をお待ちしています！',
-	StellaModIsNotAffiliatedWithHoyoverse: 'Stella Modは、Hoyoverse（MiHoYo）とは関係ありませんので、ご注意ください。',
+	SimplyClickOnTheChatIconInTheBottomRightCorner: 'ポーランド語または英語で新しい会話を開始するには、右下のチャットアイコンをクリックしてください。あなたからのご連絡をお待ちしています！ Stella Modは、Hoyoverse（MiHoYo）とは関係ありませんので、ご注意ください。',
 	JoinToDiscordServer: 'Discordサーバーに参加する',
 	SendAnEmail: 'Send an email',
 
 	tooltips: {
 		JoinOurOfficialDiscordServer: '公式Discordサーバーに参加してください。',
-		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response',
+		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response.',
 		ReturnTo: '戻る：原神ステラMod - ここから冒険が始まります。'
 	}
 };

@@ -176,14 +176,13 @@ exports.support = {
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Do you have any issues with Stella Mod or simply a question? If so, please do not hesitate to contact us! Our team is at your disposal for any inquiries or concerns.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Ob du Hilfe bei der Installation brauchst, oder einfach Fragen zu den Features hast. Wir sind hier um dich zu unterstützen.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Auch unsere Community steht dir zur Seite und beantwortet deine Fragen gerne. Erstelle einfach ein Ticket auf GitHub, oder tritt unserem Discord Server bei.',
-	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Klicke einfach auf das Chat-Icon unten rechts, um einen neuen Chat auf polnisch oder englisch zu starten. Wir freuen uns von dir zu hören.',
-	StellaModIsNotAffiliatedWithHoyoverse: 'Bitte beachte, dass Stella Mod in keiner Weise in Verbindung mit Hoyoverse steht.',
+	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Klicke einfach auf das Chat-Icon unten rechts, um einen neuen Chat auf polnisch oder englisch zu starten. Bitte beachte, dass Stella Mod in keiner Weise in Verbindung mit Hoyoverse steht.',
 	JoinToDiscordServer: 'Tritt unserem Discord Server bei',
 	SendAnEmail: 'Send an email',
 
 	tooltips: {
 		JoinOurOfficialDiscordServer: 'Trete unserem offiziellen Discord Server bei.',
-		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response',
+		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response.',
 		ReturnTo: 'Zurück zu: Genshin Stella Mod - Hier beginnt dein Abenteuer.'
 	}
 };

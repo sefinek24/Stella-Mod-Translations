@@ -73,7 +73,7 @@ exports.home = {
 	VideosTooltip: 'Oglądaj nasze filmy prezentujące moda i program uruchamiający.',
 
 	Statistics: 'Statystyki',
-	StatisticsTooltip: 'Sprawdź, ile obecnie osób gra w Genshin Impact z uruchomionym modem Stella.',
+	StatisticsTooltip: 'Sprawdź, ile osób gra obecnie w Genshin Impact z użytym Stella Modem. Przeglądaj także inne statystyki.',
 
 	Feedback: 'Opinie',
 	FeedbackTooltip: 'Podziel się swoją opinią na temat mojej pracy i Stella Mod.',
@@ -173,8 +173,7 @@ exports.support = {
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Czy masz jakieś problemy ze Stella Mod lub po prostu pytanie? Jeśli tak, nie wahaj się skontaktować z nami! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Pamiętaj, że nasza społeczność również jest również gotowa, by odpowiedzieć na Twoje pytania. W tym celu dołącz na nasz serwer Discord lub utwórz nowy Issue na GitHub.',
-	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć nową konwersację w języku polskim lub angielskim. Oczekujemy na Twój kontakt!',
-	StellaModIsNotAffiliatedWithHoyoverse: 'Należy pamiętać, że oprogramowanie Stella Mod nie jest powiązane z firmą Hoyoverse.',
+	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć nową konwersację w języku polskim lub angielskim. Należy pamiętać, że Stella Mod nie jest powiązany z firmą Hoyoverse.',
 	JoinToDiscordServer: 'Dołącz na Discord',
 	SendAnEmail: 'Wyślij e-mail',
 

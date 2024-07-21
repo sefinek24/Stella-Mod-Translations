@@ -73,7 +73,7 @@ exports.home = {
 	VideosTooltip: 'Watch our videos showcasing the mod and the launcher.',
 
 	Statistics: 'Statistics',
-	StatisticsTooltip: 'Check how many people are currently playing Genshin Impact with the Stella mod activated.',
+	StatisticsTooltip: 'Check how many people are currently playing Genshin Impact using the Stella Mod. Also browse various other statistics.',
 
 	Feedback: 'Feedback',
 	FeedbackTooltip: 'Share your opinion about my work and Stella Mod.',
@@ -173,14 +173,13 @@ exports.support = {
 	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Do you have any issues with Stella Mod or simply a question? If so, please do not hesitate to contact us! Our team is at your disposal for any inquiries or concerns.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Whether you need help with installing Stella or have questions about its features, we are here to assist you.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Please note that our community is also ready to answer your questions. To do so, join our Discord server or create a new Issue on GitHub.',
-	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Just click on the chat icon in the bottom right corner to start a new conversation in Polish or English. We look forward to hearing back from you!',
-	StellaModIsNotAffiliatedWithHoyoverse: 'Please note that Stella Mod is not affiliated with Hoyoverse.',
+	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Just click on the chat icon in the bottom right corner to start a new conversation in Polish or English. Please note that Stella Mod is NOT affiliated with Hoyoverse.',
 	JoinToDiscordServer: 'Join to Discord server',
 	SendAnEmail: 'Send an email',
 
 	tooltips: {
 		JoinOurOfficialDiscordServer: 'Join our official Discord server.',
-		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response',
+		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response.',
 		ReturnTo: 'Return to: Genshin Stella Mod - Here begins your adventure.'
 	}
 };
