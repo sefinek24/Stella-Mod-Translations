@@ -416,8 +416,8 @@ exports.subscription = {
 
 	CompareAvailablePlans: 'Porównaj dostępne plany',
 	benefitsShort: {
-		IntDevice: '{0} urządzenie',
-		IntDevices: '{0} urządzenia',
+		IntDevice: '{0} urządzeniu',
+		IntDevices: '{0} urządzeniach',
 
 		RoleOnTheDiscordServer: 'Rola na serwerze Discord',
 		VisibilityOnTheSubscriberList: 'Widoczność na liście subskrybentów',
