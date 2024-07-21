@@ -43,7 +43,7 @@ exports.errors = {
 
 	wrongOs: {
 		DeviceIsNotSupported: 'Gerät wird nicht unterstützt.',
-		OperatingSysIsNotSupported: 'We\'re sorry. Your operating system: {0}, is not yet supported.',
+		OperatingSysIsNotSupported: 'We\'re sorry! Your operating system {0}, is not yet supported.',
 		ViewSupportedSystems: 'View supported systems »'
 	},
 
