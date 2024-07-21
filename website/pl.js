@@ -220,6 +220,9 @@ exports.stats = {
 	Unique: 'Unikalne',
 	FirstOpens: 'Pierwsze uruchomienia',
 	Peak: 'Szczyt',
+	Connections: 'Połączenia',
+	NumberOfGameLaunches: 'Uruchomienia gry',
+	FullDate: 'Pełna data',
 
 	Version: 'Wersja',
 	NumerOfDownloads: 'Liczba pobrań',

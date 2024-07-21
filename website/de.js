@@ -223,6 +223,9 @@ exports.stats = {
 	Unique: 'Unique',
 	FirstOpens: 'First opens',
 	Peak: 'Peak',
+	Connections: 'Connections',
+	NumberOfGameLaunches: 'Number of game launches',
+	FullDate: 'Full date',
 
 	Version: 'Version',
 	NumerOfDownloads: 'Number of downloads',
