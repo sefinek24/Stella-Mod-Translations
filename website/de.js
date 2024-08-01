@@ -406,6 +406,7 @@ exports.subscription = {
 		HideYourUIDInTheGame: 'Hide your UID in the game',
 		PresetsFromPreviousVersions: 'Presets from previous versions',
 		EarlyAccessToStellaMod: 'Early access to Stella Mod',
+		FasterDownloadServers: 'Faster download servers',
 
 		CarefullyDesignedSecuritySystem: 'Carefully designed security system',
 		MuchGreaterPrivacy: 'Much greater privacy',
@@ -439,6 +440,7 @@ exports.subscription = {
 		HideYourUIDInTheGame: 'Hide your UID in the game',
 		PresetsFromPreviousVersions: 'Presets from previous versions',
 		EarlyAccessToStellaMod: 'Early access to Stella Mod',
+		FasterDownloadServers: 'Faster download servers',
 
 		CarefullyDesignedSecuritySystem: 'Carefully designed security system',
 		MuchGreaterPrivacy: 'Much greater privacy',

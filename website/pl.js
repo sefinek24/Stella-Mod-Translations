@@ -402,6 +402,7 @@ exports.subscription = {
 		HideYourUIDInTheGame: 'Ukryj swoje UID w grze',
 		PresetsFromPreviousVersions: 'Presety z poprzednich wersji',
 		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
+		FasterDownloadServers: 'Szybsze serwery pobierania',
 
 		CarefullyDesignedSecuritySystem: 'Starannie zaprojektowany system bezpieczeństwa',
 		MuchGreaterPrivacy: 'Znacznie większa prywatność',
@@ -435,6 +436,7 @@ exports.subscription = {
 		HideYourUIDInTheGame: 'Ukryj swoje UID w grze',
 		PresetsFromPreviousVersions: 'Presety z poprzednich wersji',
 		EarlyAccessToStellaMod: 'Wczesny dostęp do Stella Mod',
+		FasterDownloadServers: 'Szybsze serwery pobierania',
 
 		CarefullyDesignedSecuritySystem: 'Lepszy system bezpieczeństwa',
 		MuchGreaterPrivacy: 'Znacznie większa prywatność',
@@ -444,7 +446,7 @@ exports.subscription = {
 
 		AbilityToUseBatchFiles: 'Możliwość użycia plików wsadowych',
 		OptimizationOfYourComputerForBestPerformance: 'Optymalizacja Twojego komputera',
-		AssistanceRelatedToPCsOrLaptops: 'Pomoc dotycząca komputerów PC lub laptopów',
+		AssistanceRelatedToPCsOrLaptops: 'Pomoc dot. komputerów PC lub laptopów',
 		ActivationPossibleOn: 'Aktywacja możliwa na'
 	},
 
