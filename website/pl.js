@@ -54,7 +54,7 @@ exports.errors = {
 // GET /genshin-stella-mod
 exports.home = {
 	Header: 'Genshin Stella Mod - Wprowadź się w nowy świat',
-	Text1: 'Ulepszona grafika, starannie opracowane shadery, imponujące odblokowanie FPS oraz mody, które zapewniają graczom jeszcze lepsze wrażenia z gry niż dotychczas.',
+	Text1: 'Ulepszona grafika, starannie opracowane shadery, imponujące odblokowanie FPS oraz mody, zapewniające graczom jeszcze lepsze wrażenia z gry niż dotychczas!',
 	Text2: 'Odkryj świat Teyvat na nowo dzięki nowej grafice, która uczyni Twoją rozgrywkę bardziej realistyczną. Dedykowany launcher usprawnia cały proces, umożliwiając graczom szybkie i łatwe włączenie się do akcji.',
 	FinalText: 'Nie zwlekaj i pobierz już teraz! Przenieś swoją rozgrywkę na wyższy poziom. Zanurz się w ulepszonym świecie Teyvat i twórz niezapomniane chwile. Miłej zabawy!',
 
