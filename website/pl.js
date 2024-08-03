@@ -431,7 +431,7 @@ exports.subscription = {
 
 		RayTracingForGenshin: 'Ray Tracing dla Genshina',
 		BigCollectionOfShadersMods: 'Duża kolekcja shaderów i modów',
-		MigotoInStellaModMoreMods: '3DMigoto w Stella Mod',
+		MigotoInStellaModMoreMods: 'Możliwość używania modów',
 		GameUIWithoutVisibleShaders: 'Interfejs gry bez widocznych shaderów',
 		HideYourUIDInTheGame: 'Ukryj swoje UID w grze',
 		PresetsFromPreviousVersions: 'Presety z poprzednich wersji',
