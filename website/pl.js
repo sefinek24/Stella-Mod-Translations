@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.3',
-	LastUpdate: '05.07.2024',
+	Version: '2.9.4',
+	LastUpdate: '03.08.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -53,10 +53,10 @@ exports.errors = {
 
 // GET /genshin-stella-mod
 exports.home = {
-	Header: 'Genshin Impact Stella Mod autorstwa Sefinek',
-	Text1: 'Bezpieczne funkcje takie jak ulepszenia ReShade, starannie opracowane shadery i imponujące odblokowanie FPS zapewniające graczom najlepsze wrażenia z gry!',
-	Text2: '3DMigoto wzmacnia moda dla jeszcze bardziej wciągającej rozgrywki. Dodatkowo, nasz własny program uruchamiający usprawnia cały proces, pomagając graczom szybko włączyć do akcji.',
-	FinalText: 'Nie wahaj się i pobierz już teraz! Zanurz się dziś w ulepszonym świecie Teyvat i stwórz niezapomniane chwile. Miłej zabawy!',
+	Header: 'Genshin Stella Mod - Wprowadź się w nowy świat',
+	Text1: 'Ulepszona grafika, starannie opracowane shadery, imponujące odblokowanie FPS oraz mody, które zapewniają graczom jeszcze lepsze wrażenia z gry niż dotychczas.',
+	Text2: 'Odkryj świat Teyvat na nowo dzięki nowej grafice, która uczyni Twoją rozgrywkę bardziej realistyczną. Dedykowany launcher usprawnia cały proces, umożliwiając graczom szybkie i łatwe włączenie się do akcji.',
+	FinalText: 'Nie zwlekaj i pobierz już teraz! Przenieś swoją rozgrywkę na wyższy poziom. Zanurz się w ulepszonym świecie Teyvat i twórz niezapomniane chwile. Miłej zabawy!',
 
 	Download: 'Pobierz',
 	DownloadTooltip: 'Kliknij tutaj, aby pobrać instalator 64-bitowy dla systemów Windows 10 i 11.',
@@ -352,7 +352,7 @@ exports.subscription = {
 	tiers: {
 		1: {
 			name: 'Mały Kociak',
-			description: 'Podstawowy tier dla osób, które chcą wyłącznie wesprzeć projekt. Jest to dobre rozwiązanie, na przykład jeśli przestałeś grać w Genshin Impact i korzyści z gry już Ci nie są potrzebne, lecz nadal chcesz dobrowolnie wspierać projekt.'
+			description: 'Podstawowy poziom dla osób, które chcą wyłącznie wesprzeć projekt. Jest to dobre rozwiązanie, na przykład jeśli przestałeś grać w Genshin Impact i korzyści z gry już nie są Ci potrzebne, lecz nadal chcesz dobrowolnie wspierać projekt.'
 		},
 		2: {
 			name: 'Ulubiony Kot',

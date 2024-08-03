@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.3',
-	LastUpdate: '05.07.2024',
+	Version: '2.9.4',
+	LastUpdate: '03.08.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'MayiVT (https://github.com/MayiVT)'
@@ -54,10 +54,10 @@ exports.errors = {
 
 // GET /genshin-stella-mod
 exports.home = {
-	Header: 'Genshin Impact Stella Mod by Sefinek',
-	Text1: 'Safe features such as ReShade enhancements, carefully crafted shaders, and impressive FPS unlocking ensure the best gaming experience for players!',
-	Text2: '3DMigoto enhances the mod for an even more engaging gameplay. Additionally, our own launcher streamlines the whole process, helping players quickly jump into action.',
-	FinalText: 'Don\'t hesitate and download now! Dive into the enhanced world of Teyvat today and create unforgettable moments. Have fun!',
+	Header: 'Genshin Stella Mod - Step into a New World',
+	Text1: 'Enhanced graphics, meticulously crafted shaders, impressive FPS unlocks, and mods that provide players with an even better gaming experience than ever before.',
+	Text2: 'Rediscover the world of Teyvat with new graphics that make your gameplay more realistic. A dedicated launcher streamlines the entire process, allowing players to jump into the action quickly and easily.',
+	FinalText: 'Don\'t wait, download it now! Take your gameplay to the next level. Immerse yourself in the enhanced world of Teyvat and create unforgettable moments. Have fun!',
 
 	Download: 'Descargar',
 	DownloadTooltip: 'Haz clic aquí para descargar el instalador de 64 bits para Windows 10 y 11.',
@@ -398,7 +398,7 @@ exports.subscription = {
 		CompletePostArchive: 'Complete post archive',
 
 		RayTracingForGenshin: 'Ray Tracing for Genshin',
-		MigotoInStellaModMoreMods: '3DMigoto in Stella Mod (more mods & more fun)',
+		MigotoInStellaModMoreMods: 'Ability to use mods in the game (enhances fun)',
 		BigCollectionOfShadersMods: 'Big collection of shaders & mods without any bugs',
 		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
 		HideYourUIDInTheGame: 'Hide your UID in the game',
