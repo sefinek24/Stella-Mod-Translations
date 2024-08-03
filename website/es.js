@@ -398,7 +398,7 @@ exports.subscription = {
 		CompletePostArchive: 'Complete post archive',
 
 		RayTracingForGenshin: 'Ray Tracing for Genshin',
-		MigotoInStellaModMoreMods: 'Ability to use mods in the game (enhances fun)',
+		AbilityToUseMods: 'Ability to use mods in the game (enhances fun)',
 		BigCollectionOfShadersMods: 'Big collection of shaders & mods without any bugs',
 		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
 		HideYourUIDInTheGame: 'Hide your UID in the game',
@@ -433,7 +433,7 @@ exports.subscription = {
 
 		RayTracingForGenshin: 'Ray Tracing for Genshin',
 		BigCollectionOfShadersMods: 'Big collection of shaders & mods',
-		MigotoInStellaModMoreMods: 'Ability to use mods',
+		AbilityToUseMods: 'Ability to use mods',
 		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
 		HideYourUIDInTheGame: 'Hide your UID in the game',
 		PresetsFromPreviousVersions: 'Presets from previous versions',
