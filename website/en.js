@@ -397,7 +397,7 @@ exports.subscription = {
 		CompletePostArchive: 'Complete post archive',
 
 		RayTracingForGenshin: 'Ray Tracing for Genshin',
-		MigotoInStellaModMoreMods: 'Możliwość korzystania z modów w grze (więcej zabawy)',
+		MigotoInStellaModMoreMods: 'Ability to use mods in the game (enhances fun)',
 		BigCollectionOfShadersMods: 'Big collection of shaders & mods without any bugs',
 		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
 		HideYourUIDInTheGame: 'Hide your UID in the game',
