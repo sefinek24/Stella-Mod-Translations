@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.4',
-	LastUpdate: '03.08.2024',
+	Version: '2.9.5',
+	LastUpdate: '31.08.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
@@ -171,18 +171,21 @@ exports.feedback = {
 
 // GET /genshin-stella-mod/support
 exports.support = {
-	SomeQuestions: '何か質問はありますか？お手伝いが必要ですか？',
-	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Do you have any issues with Stella Mod or simply a question? If so, please do not hesitate to contact us! Our team is at your disposal for any inquiries or concerns.',
-	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Stellaのインストールに関するお問い合わせや、機能についてのご質問がある場合は、お手伝いさせていただきます。',
-	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: '弊社コミュニティの皆様も、質問にお答えする準備ができています。Discordサーバーに参加するか、GitHubで新しいIssueを作成してください。',
-	SimplyClickOnTheChatIconInTheBottomRightCorner: 'ポーランド語または英語で新しい会話を開始するには、右下のチャットアイコンをクリックしてください。あなたからのご連絡をお待ちしています！ Stella Modは、Hoyoverse（MiHoYo）とは関係ありませんので、ご注意ください。',
-	JoinToDiscordServer: 'Discordサーバーに参加する',
-	SendAnEmail: 'Send an email',
+	SomeQuestions: '何か質問がありますか？サポートが必要ですか？',
+	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Stella Modに関する問題や質問がありますか？もしそうなら、ためらわずにご連絡ください！チームはどんな質問や懸念にも対応する準備ができています。',
+	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Stella Modのインストールに関するサポートが必要な場合や、機能についての質問がある場合、私たちはお手伝いします。',
+	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: '私たちのコミュニティも質問にお答えする準備ができていますのでご注意ください。Discordサーバーに参加するか、GitHubで新しいissueを作成してください。',
+	SimplyClickOnTheChatIconInTheBottomRightCorner: 'アカウントを作成するか、Sefinek Patron Centerにログインし、{a}チケットを提出{/a}してください。ポーランド語または英語でお受けします。なお、Stella ModはHoyoverseと提携していないことにご注意ください。',
+
+	CreatANewTicket: '新しいチケットを作成',
+	JoinToDiscordServer: 'Discordサーバーに参加',
+	SendAnEmail: 'メールを送信',
 
 	tooltips: {
-		JoinOurOfficialDiscordServer: '公式Discordサーバーに参加してください。',
-		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response.',
-		ReturnTo: '戻る：原神ステラMod - ここから冒険が始まります。'
+		CreateANewTicket: 'ここをクリックしてSPCウェブサイトで新しいチケットを作成します。',
+		JoinOurOfficialDiscordServer: '公式Discordサーバーに参加します。',
+		SendAnEmailToTheDeveloper: 'より詳細な回答を希望する場合は、開発者にメールを送信してください。',
+		ReturnTo: '戻る: Genshin Stella Mod - ここからあなたの冒険が始まります。'
 	}
 };
 

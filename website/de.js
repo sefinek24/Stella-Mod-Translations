@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.4',
-	LastUpdate: '03.08.2024',
+	Version: '2.9.5',
+	LastUpdate: '31.08.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'Shizu (https://github.com/ShizuKoto)',
@@ -172,18 +172,21 @@ exports.feedback = {
 
 // GET /genshin-stella-mod/support
 exports.support = {
-	SomeQuestions: 'Fragen? Brauchst du Hilfe?',
-	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Do you have any issues with Stella Mod or simply a question? If so, please do not hesitate to contact us! Our team is at your disposal for any inquiries or concerns.',
-	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Ob du Hilfe bei der Installation brauchst, oder einfach Fragen zu den Features hast. Wir sind hier um dich zu unterstützen.',
-	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Auch unsere Community steht dir zur Seite und beantwortet deine Fragen gerne. Erstelle einfach ein Ticket auf GitHub, oder tritt unserem Discord Server bei.',
-	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Klicke einfach auf das Chat-Icon unten rechts, um einen neuen Chat auf polnisch oder englisch zu starten. Bitte beachte, dass Stella Mod in keiner Weise in Verbindung mit Hoyoverse steht.',
-	JoinToDiscordServer: 'Tritt unserem Discord Server bei',
-	SendAnEmail: 'Send an email',
+	SomeQuestions: 'Haben Sie Fragen? Benötigen Sie Unterstützung?',
+	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Haben Sie Probleme mit dem Stella Mod oder einfach eine Frage? Zögern Sie nicht, uns zu kontaktieren! Das Team steht Ihnen bei allen Fragen oder Bedenken zur Verfügung.',
+	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Egal, ob Sie Hilfe bei der Installation des Mods benötigen oder Fragen zu seinen Funktionen haben, wir sind hier, um Ihnen zu helfen.',
+	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Bitte beachten Sie, dass unsere Community auch bereit ist, Ihre Fragen zu beantworten. Treten Sie dazu unserem Discord-Server bei oder erstellen Sie ein neues Issue auf GitHub.',
+	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Erstellen Sie einfach ein Konto oder melden Sie sich im Sefinek Patron Center an und {a}reichen Sie ein Ticket ein{/a} auf Polnisch oder Englisch. Bitte beachten Sie, dass Stella Mod nicht mit Hoyoverse verbunden ist.',
+
+	CreatANewTicket: 'Ein neues Ticket erstellen',
+	JoinToDiscordServer: 'Dem Discord-Server beitreten',
+	SendAnEmail: 'Eine E-Mail senden',
 
 	tooltips: {
-		JoinOurOfficialDiscordServer: 'Trete unserem offiziellen Discord Server bei.',
-		SendAnEmailToTheDeveloper: 'Send an email to the developer if you are expecting a more substantive response.',
-		ReturnTo: 'Zurück zu: Genshin Stella Mod - Hier beginnt dein Abenteuer.'
+		CreateANewTicket: 'Klicken Sie hier, um ein neues Ticket auf der SPC-Website zu erstellen.',
+		JoinOurOfficialDiscordServer: 'Treten Sie unserem offiziellen Discord-Server bei.',
+		SendAnEmailToTheDeveloper: 'Senden Sie dem Entwickler eine E-Mail, wenn Sie eine ausführlichere Antwort erwarten.',
+		ReturnTo: 'Zurück zu: Genshin Stella Mod - Hier beginnt Ihr Abenteuer.'
 	}
 };
 

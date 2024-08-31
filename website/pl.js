@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.4',
-	LastUpdate: '03.08.2024',
+	Version: '2.9.5',
+	LastUpdate: '31.08.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -170,14 +170,17 @@ exports.feedback = {
 // GET /genshin-stella-mod/support
 exports.support = {
 	SomeQuestions: 'Masz jakieś pytania? Czy potrzebujesz wsparcia?',
-	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Czy masz jakieś problemy ze Stella Mod lub po prostu pytanie? Jeśli tak, nie wahaj się skontaktować z nami! Nasz zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.',
+	DoYouHaveAnyIssuesOrQuestionsAboutMod: 'Czy masz jakieś problemy ze Stella Mod lub po prostu pytanie? Jeśli tak, nie wahaj się skontaktować z nami! Zespół jest do Państwa dyspozycji w przypadku jakichkolwiek pytań lub wątpliwości.',
 	WhetherYouNeedHelpWithInstallingStellaOrHaveQuestionsAboutItsFeatures: 'Niezależnie od tego, czy potrzebujesz pomocy w instalacji moda, czy masz pytania dotyczące jego funkcji, jesteśmy tutaj, aby Ci pomóc.',
 	PleaseNoteThatOurCommunityIsAlsoReadyToAnswerYourQuestions: 'Pamiętaj, że nasza społeczność również jest również gotowa, by odpowiedzieć na Twoje pytania. W tym celu dołącz na nasz serwer Discord lub utwórz nowy Issue na GitHub.',
-	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Po prostu kliknij ikonę czatu w prawym dolnym rogu, aby rozpocząć nową konwersację w języku polskim lub angielskim. Należy pamiętać, że Stella Mod nie jest powiązany z firmą Hoyoverse.',
+	SimplyClickOnTheChatIconInTheBottomRightCorner: 'Po prostu załóż konto lub zaloguj się w Sefinek Patron Center i {a}napisz ticket{/a} w języku polskim lub angielskim. Należy pamiętać, że Stella Mod nie jest powiązany z firmą Hoyoverse.',
+
+	CreatANewTicket: 'Stwórz nowy ticket',
 	JoinToDiscordServer: 'Dołącz na Discord',
 	SendAnEmail: 'Wyślij e-mail',
 
 	tooltips: {
+		CreatANewTicket: 'Kliknij tutaj, aby utworzyć nowe zgłoszenie na stronie SPC.',
 		JoinOurOfficialDiscordServer: 'Dołącz do naszego oficjalnego serwera Discord.',
 		SendAnEmailToTheDeveloper: 'Wyślij wiadomość e-mail do dewelopera, jeśli oczekujesz bardziej merytorycznej odpowiedzi.',
 		ReturnTo: 'Wróć do: Genshin Stella Mod - Here begins your adventure.'
