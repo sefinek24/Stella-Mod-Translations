@@ -102,7 +102,7 @@ exports.home = {
 	},
 
 	mirrorModal: {
-		SelectDownloadServer: 'Select download server',
+		SelectDownloadServer: 'Select the download server',
 		Companies: 'Companies',
 		Countries: 'Countries',
 		LauncherVersion: 'Launcher version:',
