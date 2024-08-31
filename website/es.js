@@ -3,6 +3,7 @@ exports.data = {
 	LastUpdate: '31.08.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
+		'ChatGPT (https://chat.openai.com)',
 		'MayiVT (https://github.com/MayiVT)'
 	]
 };
