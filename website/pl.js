@@ -228,7 +228,7 @@ exports.stats = {
 	FullDate: 'Pełna data',
 
 	Version: 'Wersja',
-	NumerOfDownloads: 'Liczba pobrań',
+	NumberOfDownloads: 'Liczba pobrań',
 
 	DownloadsPerCountry: 'Pobrania na kraj',
 	DownloadsPerCountryAll: 'Pobrania na kraj [Wszystkie]',

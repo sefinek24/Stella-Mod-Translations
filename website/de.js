@@ -231,7 +231,7 @@ exports.stats = {
 	FullDate: 'Full date',
 
 	Version: 'Version',
-	NumerOfDownloads: 'Number of downloads',
+	NumberOfDownloads: 'Number of downloads',
 
 	DownloadsPerCountry: 'Downloads per country',
 	DownloadsPerCountryAll: 'Downloads per country [All]',
