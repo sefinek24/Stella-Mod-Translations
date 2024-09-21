@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.5',
-	LastUpdate: '31.08.2024',
+	Version: '2.9.6',
+	LastUpdate: '21.09.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'daydreamer-json (https://github.com/daydreamer-json)',
@@ -213,7 +213,7 @@ exports.stats = {
 	Player: 'player',
 	Players: 'players',
 
-	BelowYouFindTheStatsForStellaMod: 'Below you will find the statistics for Stella Mod. Enjoy reviewing them! Have a nice day.',
+	BelowYouFindTheStatsOfStellaMod: 'Below you will find the statistics of Stella Mod. Timezone: Europe/Warsaw GMT+01:00 (Poland). Have a nice day!',
 
 	PerCountry: 'Per country',
 	PerHour: 'Per hour',

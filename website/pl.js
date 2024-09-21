@@ -1,6 +1,6 @@
 exports.data = {
-	Version: '2.9.5',
-	LastUpdate: '31.08.2024',
+	Version: '2.9.6',
+	LastUpdate: '21.09.2024',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -211,7 +211,7 @@ exports.stats = {
 	Player: 'gracz',
 	Players: 'graczy',
 
-	BelowYouFindTheStatsForStellaMod: 'Poniżej znajdują się statystyki dla Stella Mod. Miłego przeglądania ich jak i oczywiście dnia!',
+	BelowYouFindTheStatsOfStellaMod: 'Poniżej znajdują się statystyki dla Stella Mod. Miłego przeglądania ich jak i oczywiście dnia!',
 
 	PerCountry: 'Na kraj',
 	PerHour: 'Na godzinę',
