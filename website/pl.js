@@ -1,6 +1,5 @@
 exports.data = {
-	Version: '2.9.6',
-	LastUpdate: '21.09.2024',
+	Version: '2.9.7',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -348,7 +347,7 @@ exports.github = {
 // GET /genshin-stella-mod/subscription
 exports.subscription = {
 	ChooseYourSubscriptionTier: 'Wybierz swój tier subskrypcji',
-	IfYouAreInterestedInTheBenefits: 'Jeśli jesteś zainteresowany korzyściami, proszę przejrzyj wszystkie dostępne taryfy, aby zobaczyć, która z nich odpowiada Twoim preferencjom. Mam nadzieję, że znajdziesz tę, która Cię zainteresuje!',
+	IfYouAreInterestedInTheBenefits: 'Jeśli jesteś zainteresowany korzyściami, proszę przejrzyj wszystkie dostępne poziomy, aby zobaczyć, która z nich odpowiada Twoim preferencjom najbardziej. Mam nadzieję, że znajdziesz tę, która Cię zainteresuje!',
 	IfYouHaveAnyQuestions: 'Masz jakieś pytania? Nie krępuj się dołączyć do naszego Discord serwer lub skontaktować się z nami za pomocą e-maila.',
 
 	Recommended: 'Polecane',
@@ -495,6 +494,6 @@ exports.subscription = {
 	request: {
 		WeAreProcessingYourRequest: 'Przetwarzamy Twoje zgłoszenie...',
 		SubscribingInProgress: 'Potrzebujemy chwili, aby wszystko przygotować. Proszę pozostań na tej stronie i daj nam chwilę!\nWkrótce przekierujemy Cię na bezpieczną stronę płatności, gdzie możesz bezpiecznie dokonać transakcji. ^w^',
-		ChangingTheTierInProgress: 'Potrzebujemy trochę czasu, aby zmienić Twoją taryfę! Daj nam chwilę, a obiecujemy, że wszystko pójdzie gładko. ^w^'
+		ChangingTheTierInProgress: 'Potrzebujemy trochę czasu, aby zmienić Twój Tier subskrypcji! Daj nam chwilę, a obiecujemy, że wszystko pójdzie gładko. ^w^'
 	}
 };
