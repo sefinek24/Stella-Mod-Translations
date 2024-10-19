@@ -205,7 +205,7 @@ exports.stats = {
 
 	LiveStats: 'Statystyki na żywo',
 	OnlineNow: 'Online teraz',
-	InTheGame: 'W grze',
+	Playing: 'W grze',
 	AllDownloadsNow: 'Wszystkich pobrań teraz',
 	Player: 'gracz',
 	Players: 'graczy',

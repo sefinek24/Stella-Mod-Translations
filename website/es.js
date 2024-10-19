@@ -1,5 +1,5 @@
 exports.data = {
-	Version: '2.9.6',
+	Version: '2.9.7',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'ChatGPT (https://chat.openai.com)',
@@ -207,7 +207,7 @@ exports.stats = {
 
 	LiveStats: 'Live stats',
 	OnlineNow: 'Online now',
-	InTheGame: 'In the game',
+	Playing: 'Playing',
 	AllDownloadsNow: 'All downloads now',
 	Player: 'player',
 	Players: 'players',
