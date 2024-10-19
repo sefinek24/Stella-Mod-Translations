@@ -244,13 +244,13 @@ exports.stats = {
 	DownloadsPerYearUnique: 'Downloads per year [Unique]',
 
 	StellaModDownloadsHeader: '📥 Stella Mod downloads',
-	StellaModDownloadsText: 'Here are the download statistics for Stella Mod directly from our official website. The history of some data may be incomplete, as the collection of statistics was introduced a significant time after the global release of Stella Mod.<br>Always ensure that you download Stella Mod from a trusted source such as <a href=\'https://sefinek.net\'>sefinek.net</a>.',
+	StellaModDownloadsText: 'Here are the download statistics for Stella Mod directly from our official website. Please note that some historical data may be incomplete, as we began collecting statistics a significant time after the global release of Stella Mod.<br>Always ensure that you download Stella Mod from a trusted source, such as <a href="https://sefinek.net">sefinek.net</a>.',
 	TotalDownloads: '🔢 Total downloads',
 	LastDownload: '⏰ Last download',
 	YourTimezone: '🪐 Your timezone',
 
 	StellaModLauncherStatsHeader: '😻 Stella Mod Launcher stats',
-	StellaModLauncherStatsText: 'In this category, we present detailed statistics related to the number of times the Stella Mod Launcher program has been initiated. This includes data on how frequently the application is opened, and any notable patterns in user engagement with the launcher.',
+	StellaModLauncherStatsText: 'In this category, we present detailed statistics on how many times the Stella Mod Launcher program has been initiated. This includes data on how often the application is launched.',
 	AllStellaLauncherOpens: 'All Stella Launcher opens',
 	UniqueStellaLauncherOpens: 'Unique Stella Launcher opens',
 	OpensPerCountry: 'Opens per country',
@@ -259,7 +259,7 @@ exports.stats = {
 	OpensPerSysBuild: 'Opens per system build',
 
 	OnlineUsersWSHeader: '🌍 Online users - WebSocket',
-	OnlineUsersWSText: 'This section provides a comprehensive overview of user connectivity through our WebSocket server, offering real-time insights into active users. Explore dynamic statistics that reveal the current online user count, peak concurrency levels, and geographical distribution of users. Additionally, temporal patterns of usage are visualized, showcasing trends in daily, hourly, monthly, and yearly online activity.',
+	OnlineUsersWSText: 'This section provides a comprehensive overview of user connectivity through our WebSocket server, offering real-time insights into active users. Explore dynamic statistics that reveal the current online user count, peak concurrency levels, and the geographical distribution of users.',
 	Online: '🔑 Online',
 	Peak1: '🍭 Peak',
 	OnlinePerCountry: 'Online per country',
@@ -269,17 +269,17 @@ exports.stats = {
 	OnlinePerYear: 'Online per year',
 
 	PlayersInTheGameHeader: '🎮 Players in the game',
-	PlayersInTheGameText: 'Discover how many individuals are currently engaged in the game with the Stella Mod activated. Rest assured, the Stella Mod Launcher operates transparently, performing no undesired actions in the background without your knowledge. This feature ensures a seamless gaming experience, enhancing your play with added functionalities while maintaining a high standard of privacy and security. With Stella Mod, players gain access to a suite of enhancements that elevate the gaming experience. This real-time statistic reflects the popularity and trust in Stella Mod within our community, showcasing the number of active users who have chosen to bring this additional layer of innovation into their gaming sessions.',
+	PlayersInTheGameText: 'See how many players are currently using Stella Mod in Genshin Impact. The Stella Mod Launcher runs transparently, with no background actions happening without your knowledge, ensuring a smooth experience that enhances Genshin Impact with added features, all while upholding high standards of privacy and security. Stella Mod provides players with a range of improvements that elevate gameplay. These real-time statistics highlight the mod’s popularity and the trust it has earned in the community, showing how many active users have chosen to enhance their Genshin Impact sessions with this innovative tool.',
 	PlayingNow: '💙 Playing now',
 	Peak2: '⬆️ Peak',
 
 	WsConnectionsHeader: '🌍 WebSocket connections and operations',
-	WsConnectionsText: 'Familiarize yourself with WebSocket metrics in this section, which includes charts displaying the frequency of messages and heartbeats on an hourly, daily, monthly, and yearly basis.',
+	WsConnectionsText: 'In this section, familiarize yourself with WebSocket metrics, including charts that display the frequency of messages and heartbeats on an hourly, daily, monthly, and yearly basis.',
 	Broadcast: 'Broadcast',
 	Heartbeats: 'Heartbeats',
 
 	CryptographicOperationsHeader: '🔠 Cryptographic operations',
-	CryptographicOperationsText: 'This section offers a comprehensive overview of cryptographic activities in our systems, presenting statistical data related to encryption and decryption processes. Visitors can view charts that display the frequency and success of cryptographic operations across various timeframes. Cryptography is essential in applications and communication for ensuring data confidentiality, integrity, and authenticity, thereby protecting against unauthorized access and cyber threats. It is pivotal in securing digital transactions and maintaining the privacy of sensitive information.',
+	CryptographicOperationsText: 'This section provides a comprehensive overview of cryptographic activities in our systems, presenting statistical data on encryption and decryption processes. Visitors can explore charts displaying the frequency and success rates of cryptographic operations over various timeframes. Cryptography plays a crucial role in securing applications and communications by ensuring data confidentiality, integrity, and authenticity, thus protecting against unauthorized access and cyber threats. It is vital for safeguarding digital transactions and maintaining the privacy of sensitive information.',
 	Encryption: '🧶 Encryption',
 	Decryption: '🔧 Decryption',
 	Misc: '🧵 Misc',
