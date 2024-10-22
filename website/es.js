@@ -1,5 +1,5 @@
 exports.data = {
-	Version: '2.9.7',
+	Version: '2.9.8',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
 		'ChatGPT (https://chat.openai.com)',
@@ -401,7 +401,7 @@ exports.subscription = {
 		CompletePostArchive: 'Complete post archive',
 
 		RayTracingForGenshin: 'Ray Tracing for Genshin',
-		AbilityToUseMods: 'Ability to use mods in the game (enhances fun)',
+		AbilityToUseMods: 'Ability to use mods in the game (more fun)',
 		BigCollectionOfShadersMods: 'Big collection of shaders & mods without any bugs',
 		GameUIWithoutVisibleShaders: 'Game UI without visible shaders',
 		HideYourUIDInTheGame: 'Hide your UID in the game',
