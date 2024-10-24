@@ -1,9 +1,7 @@
 exports.data = {
-	Version: '2.0.1',
-	LastUpdate: '01.06.2023',
+	Version: '2.0.2',
 	Contributors: [
-		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
-		'ChatGPT (https://chat.openai.com)'
+		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
 };
 

@@ -1,9 +1,8 @@
 exports.data = {
-	Version: '2.9.8',
+	Version: '2.9.9',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)',
-		'daydreamer-json (https://github.com/daydreamer-json)',
-		'ChatGPT (https://chat.openai.com)'
+		'daydreamer-json (https://github.com/daydreamer-json)'
 	]
 };
 
@@ -324,9 +323,8 @@ exports.docs = {
 		Attributions: '{0}. {1} Attributions'
 	},
 
-	DocumentCreationDate: 'Document creation date: {0}',
-	LastUpdate: 'Last update: {0}',
-	DocumentSize: 'File size: {0}',
+	CreationDate: 'Creation date: {0}',
+	FileSize: 'File size: {0}',
 	bytes: 'bytes'
 };
 

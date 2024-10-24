@@ -1,5 +1,5 @@
 exports.data = {
-	Version: '2.9.8',
+	Version: '2.9.9',
 	Contributors: [
 		'Sefinek <contact@sefinek.net> (https://sefinek.net)'
 	]
@@ -322,9 +322,9 @@ exports.docs = {
 		Attributions: '{0}. {1} Przypisania'
 	},
 
-	DocumentCreationDate: 'Data utworzenia dokumentu: {0}',
+	CreationDate: 'Data utworzenia dokumentu: {0}',
 	LastUpdate: 'Ostatnia aktualizacja: {0}',
-	DocumentSize: 'Rozmiar pliku: {0}',
+	FileSize: 'Rozmiar pliku: {0}',
 	bytes: 'bajtów'
 };
 
